@@ -3,8 +3,8 @@
 
 @import 'backroom/font-helpers';
 
-BODY#medea-tpl, BODY.medea-tpl, #medea-tpl__layer, .medea-tpl__layer,
-BODY#mda-stratio-tpl, BODY.mda-stratio-tpl, #mda-stratio-tpl__layer, .mda-stratio-tpl__layer {
+*#medea-tpl, *.medea-tpl, *#medea-tpl__layer, *.medea-tpl__layer,
+*#mda-stratio-tpl, *.mda-stratio-tpl, *#mda-stratio-tpl__layer, *.mda-stratio-tpl__layer {
   font-size: 16px;
 
   * {

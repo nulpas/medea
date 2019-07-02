@@ -1,6 +1,6 @@
 {
   "name": "@lunaeme/medea",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Medea template system.",
   "main": "index.js",
   "scripts": {
