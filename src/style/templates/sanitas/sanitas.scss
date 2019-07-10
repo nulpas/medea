@@ -4,7 +4,7 @@
 
 @import 'backroom/font-helpers';
 
-:root {
+:host {
   &#mda-sanitas-tpl, &.mda-sanitas-tpl, *#mda-sanitas-tpl__layer, *.mda-sanitas-tpl__layer {
     @extend %mda-font__default;
 

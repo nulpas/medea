@@ -3,7 +3,7 @@
 
 @import 'backroom/font-helpers';
 
-:root {
+:host {
   #medea-tpl, .medea-tpl, #medea-tpl__layer, .medea-tpl__layer,
   #mda-stratio-tpl, .mda-stratio-tpl, #mda-stratio-tpl__layer, .mda-stratio-tpl__layer {
     @extend %mda-font__default;
