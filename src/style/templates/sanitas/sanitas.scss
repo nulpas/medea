@@ -4,9 +4,9 @@
 
 @import 'backroom/font-helpers';
 
-BODY {
+:root {
   &#mda-sanitas-tpl, &.mda-sanitas-tpl, *#mda-sanitas-tpl__layer, *.mda-sanitas-tpl__layer {
-    font-size: 16px;
+    @extend %mda-font__default;
 
     * {
       font-family: Arial, sans-serif;
