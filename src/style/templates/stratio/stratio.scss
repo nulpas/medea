@@ -3,39 +3,37 @@
 
 @import 'backroom/font-helpers';
 
-:host {
-  #medea-tpl, .medea-tpl, #medea-tpl__layer, .medea-tpl__layer,
-  #mda-stratio-tpl, .mda-stratio-tpl, #mda-stratio-tpl__layer, .mda-stratio-tpl__layer {
+*#medea-tpl, *.medea-tpl, *#medea-tpl__layer, *.medea-tpl__layer,
+*#mda-stratio-tpl, *.mda-stratio-tpl, *#mda-stratio-tpl__layer, *.mda-stratio-tpl__layer {
+  @extend %mda-font__default;
+
+  * {
+    font-family: Nunito, sans-serif;
     @extend %mda-font__default;
+    outline: none;
+  }
 
-    * {
-      font-family: Nunito, sans-serif;
-      @extend %mda-font__default;
-      outline: none;
-    }
+  @extend %mda-typography__base;
+  @extend %mda-font-sizes__base;
 
-    @extend %mda-typography__base;
-    @extend %mda-font-sizes__base;
+  @extend %mda-font__headers;
 
-    @extend %mda-font__headers;
+  .mda-italic {
+    font-style: italic;
+  }
+  .mda-bold {
+    font-weight: bold;
+  }
+  .mda-italic-bold {
+    @extend .mda-italic;
+    @extend .mda-bold;
+  }
 
-    .mda-italic {
-      font-style: italic;
-    }
-    .mda-bold {
-      font-weight: bold;
-    }
-    .mda-italic-bold {
-      @extend .mda-italic;
-      @extend .mda-bold;
-    }
+  .mda-icon {
+    @extend %mda-icon__definition;
+  }
 
-    .mda-icon {
-      @extend %mda-icon__definition;
-    }
-
-    .mda-font__default {
-      @extend %mda-font__default;
-    }
+  .mda-font__default {
+    @extend %mda-font__default;
   }
 }
