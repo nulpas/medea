@@ -1,0 +1,38 @@
+@import '../../global/fonts/Poppins';
+@import '../../global/fonts/Stratio-Icon';
+
+@import 'backroom/font-helpers';
+
+*#mda-ey-tpl, *.mda-ey-tpl, *#mda-ey-tpl__layer, *.mda-ey-tpl__layer {
+  @extend %mda-font__default;
+
+  * {
+    font-family: Poppins, sans-serif;
+    @extend %mda-font__default;
+    outline: none;
+  }
+
+  @extend %mda-typography__base;
+  @extend %mda-font-sizes__base;
+
+  @extend %mda-font__headers;
+
+  .mda-italic {
+    font-style: italic;
+  }
+  .mda-bold {
+    font-weight: bold;
+  }
+  .mda-italic-bold {
+    @extend .mda-italic;
+    @extend .mda-bold;
+  }
+
+  .mda-icon {
+    @extend %mda-icon__definition;
+  }
+
+  .mda-font__default {
+    @extend %mda-font__default;
+  }
+}

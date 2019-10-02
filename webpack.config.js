@@ -6,7 +6,8 @@ module.exports = {
   mode: 'development',
   entry: {
     stratio: path.resolve(__dirname, 'src/style/templates/stratio/stratio.scss'),
-    sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss')
+    sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss'),
+    ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

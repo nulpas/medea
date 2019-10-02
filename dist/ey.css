@@ -1,0 +1,1029 @@
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/poppins-v8-latin-300.eot);
+  src: local("Poppins Light"), local(Poppins-Light), url(fonts/poppins-v8-latin-300.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-300.woff2) format("woff2"), url(fonts/poppins-v8-latin-300.woff) format("woff"), url(fonts/poppins-v8-latin-300.ttf) format("truetype"), url(fonts/poppins-v8-latin-300.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 300;
+  src: url(fonts/poppins-v8-latin-300italic.eot);
+  src: local("Poppins Light Italic"), local(Poppins-LightItalic), url(fonts/poppins-v8-latin-300italic.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-300italic.woff2) format("woff2"), url(fonts/poppins-v8-latin-300italic.woff) format("woff"), url(fonts/poppins-v8-latin-300italic.ttf) format("truetype"), url(fonts/poppins-v8-latin-300italic.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/poppins-v8-latin-regular.eot);
+  src: local("Poppins Regular"), local(Poppins-Regular), url(fonts/poppins-v8-latin-regular.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-regular.woff2) format("woff2"), url(fonts/poppins-v8-latin-regular.woff) format("woff"), url(fonts/poppins-v8-latin-regular.ttf) format("truetype"), url(fonts/poppins-v8-latin-regular.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: normal;
+  src: url(fonts/poppins-v8-latin-italic.eot);
+  src: local("Poppins Italic"), local(Poppins-Italic), url(fonts/poppins-v8-latin-italic.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-italic.woff2) format("woff2"), url(fonts/poppins-v8-latin-italic.woff) format("woff"), url(fonts/poppins-v8-latin-italic.ttf) format("truetype"), url(fonts/poppins-v8-latin-italic.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  src: url(fonts/poppins-v8-latin-600.eot);
+  src: local("Poppins SemiBold"), local(Poppins-SemiBold), url(fonts/poppins-v8-latin-600.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-600.woff2) format("woff2"), url(fonts/poppins-v8-latin-600.woff) format("woff"), url(fonts/poppins-v8-latin-600.ttf) format("truetype"), url(fonts/poppins-v8-latin-600.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 600;
+  src: url(fonts/poppins-v8-latin-600italic.eot);
+  src: local("Poppins SemiBold Italic"), local(Poppins-SemiBoldItalic), url(fonts/poppins-v8-latin-600italic.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-600italic.woff2) format("woff2"), url(fonts/poppins-v8-latin-600italic.woff) format("woff"), url(fonts/poppins-v8-latin-600italic.ttf) format("truetype"), url(fonts/poppins-v8-latin-600italic.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  src: url(fonts/poppins-v8-latin-700.eot);
+  src: local("Poppins Bold"), local(Poppins-Bold), url(fonts/poppins-v8-latin-700.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-700.woff2) format("woff2"), url(fonts/poppins-v8-latin-700.woff) format("woff"), url(fonts/poppins-v8-latin-700.ttf) format("truetype"), url(fonts/poppins-v8-latin-700.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: bold;
+  src: url(fonts/poppins-v8-latin-700italic.eot);
+  src: local("Poppins Bold Italic"), local(Poppins-BoldItalic), url(fonts/poppins-v8-latin-700italic.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-700italic.woff2) format("woff2"), url(fonts/poppins-v8-latin-700italic.woff) format("woff"), url(fonts/poppins-v8-latin-700italic.ttf) format("truetype"), url(fonts/poppins-v8-latin-700italic.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  src: url(fonts/poppins-v8-latin-800.eot);
+  src: local("Poppins ExtraBold"), local(Poppins-ExtraBold), url(fonts/poppins-v8-latin-800.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-800.woff2) format("woff2"), url(fonts/poppins-v8-latin-800.woff) format("woff"), url(fonts/poppins-v8-latin-800.ttf) format("truetype"), url(fonts/poppins-v8-latin-800.svg#Nunito) format("svg"); }
+
+@font-face {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 800;
+  src: url(fonts/poppins-v8-latin-800italic.eot);
+  src: local("Poppins ExtraBold Italic"), local(Poppins-ExtraBoldItalic), url(fonts/poppins-v8-latin-800italic.eot?#iefix) format("embedded-opentype"), url(fonts/poppins-v8-latin-800italic.woff2) format("woff2"), url(fonts/poppins-v8-latin-800italic.woff) format("woff"), url(fonts/poppins-v8-latin-800italic.ttf) format("truetype"), url(fonts/poppins-v8-latin-800italic.svg#Nunito) format("svg"); }
+
+*#mda-ey-tpl .mda-typo__light, *.mda-ey-tpl .mda-typo__light, *#mda-ey-tpl__layer .mda-typo__light, *.mda-ey-tpl__layer .mda-typo__light {
+  font-weight: 300;
+  font-style: normal; }
+
+*#mda-ey-tpl .mda-typo__lightItalic, *.mda-ey-tpl .mda-typo__lightItalic, *#mda-ey-tpl__layer .mda-typo__lightItalic, *.mda-ey-tpl__layer .mda-typo__lightItalic {
+  font-weight: 300;
+  font-style: italic; }
+
+*#mda-ey-tpl .mda-typo__regular, *.mda-ey-tpl .mda-typo__regular, *#mda-ey-tpl__layer .mda-typo__regular, *.mda-ey-tpl__layer .mda-typo__regular {
+  font-weight: normal;
+  font-style: normal; }
+
+*#mda-ey-tpl .mda-typo__regularItalic, *.mda-ey-tpl .mda-typo__regularItalic, *#mda-ey-tpl__layer .mda-typo__regularItalic, *.mda-ey-tpl__layer .mda-typo__regularItalic {
+  font-weight: normal;
+  font-style: italic; }
+
+*#mda-ey-tpl .mda-typo__semiBold, *.mda-ey-tpl .mda-typo__semiBold, *#mda-ey-tpl__layer .mda-typo__semiBold, *.mda-ey-tpl__layer .mda-typo__semiBold {
+  font-weight: 600;
+  font-style: normal; }
+
+*#mda-ey-tpl .mda-typo__semiBoldItalic, *.mda-ey-tpl .mda-typo__semiBoldItalic, *#mda-ey-tpl__layer .mda-typo__semiBoldItalic, *.mda-ey-tpl__layer .mda-typo__semiBoldItalic {
+  font-weight: 600;
+  font-style: italic; }
+
+*#mda-ey-tpl .mda-typo__bold, *.mda-ey-tpl .mda-typo__bold, *#mda-ey-tpl__layer .mda-typo__bold, *.mda-ey-tpl__layer .mda-typo__bold {
+  font-weight: bold;
+  font-style: normal; }
+
+*#mda-ey-tpl .mda-typo__boldItalic, *.mda-ey-tpl .mda-typo__boldItalic, *#mda-ey-tpl__layer .mda-typo__boldItalic, *.mda-ey-tpl__layer .mda-typo__boldItalic {
+  font-weight: bold;
+  font-style: italic; }
+
+*#mda-ey-tpl .mda-typo__extraBold, *.mda-ey-tpl .mda-typo__extraBold, *#mda-ey-tpl__layer .mda-typo__extraBold, *.mda-ey-tpl__layer .mda-typo__extraBold {
+  font-weight: 800;
+  font-style: normal; }
+
+*#mda-ey-tpl .mda-typo__extraBoldItalic, *.mda-ey-tpl .mda-typo__extraBoldItalic, *#mda-ey-tpl__layer .mda-typo__extraBoldItalic, *.mda-ey-tpl__layer .mda-typo__extraBoldItalic {
+  font-weight: 800;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Stratio Icon";
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/ico_stratio.eot);
+  src:   url(fonts/ico_stratio.eot?#iefix) format("embedded-opentype"), url(fonts/ico_stratio.woff2) format("woff2"), url(fonts/ico_stratio.woff) format("woff"), url(fonts/ico_stratio.ttf) format("truetype"), url(fonts/ico_stratio.svg#Nunito) format("svg"); }
+
+*#mda-ey-tpl .mda-icon, *.mda-ey-tpl .mda-icon, *#mda-ey-tpl__layer .mda-icon, *.mda-ey-tpl__layer .mda-icon {
+  font-family: "Stratio Icon", Symbol, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga'; }
+  *#mda-ey-tpl .icon-view.mda-icon:before, *.mda-ey-tpl .icon-view.mda-icon:before, *#mda-ey-tpl__layer .icon-view.mda-icon:before, *.mda-ey-tpl__layer .icon-view.mda-icon:before {
+    content: "\e000"; }
+  *#mda-ey-tpl .icon-eye.mda-icon:before, *.mda-ey-tpl .icon-eye.mda-icon:before, *#mda-ey-tpl__layer .icon-eye.mda-icon:before, *.mda-ey-tpl__layer .icon-eye.mda-icon:before {
+    content: "\e000"; }
+  *#mda-ey-tpl .icon-eye2.mda-icon:before, *.mda-ey-tpl .icon-eye2.mda-icon:before, *#mda-ey-tpl__layer .icon-eye2.mda-icon:before, *.mda-ey-tpl__layer .icon-eye2.mda-icon:before {
+    content: "\e000"; }
+  *#mda-ey-tpl .icon-eye-off.mda-icon:before, *.mda-ey-tpl .icon-eye-off.mda-icon:before, *#mda-ey-tpl__layer .icon-eye-off.mda-icon:before, *.mda-ey-tpl__layer .icon-eye-off.mda-icon:before {
+    content: "\e91e"; }
+  *#mda-ey-tpl .icon-bell.mda-icon:before, *.mda-ey-tpl .icon-bell.mda-icon:before, *#mda-ey-tpl__layer .icon-bell.mda-icon:before, *.mda-ey-tpl__layer .icon-bell.mda-icon:before {
+    content: "\e604"; }
+  *#mda-ey-tpl .icon-bell-off.mda-icon:before, *.mda-ey-tpl .icon-bell-off.mda-icon:before, *#mda-ey-tpl__layer .icon-bell-off.mda-icon:before, *.mda-ey-tpl__layer .icon-bell-off.mda-icon:before {
+    content: "\e907"; }
+  *#mda-ey-tpl .icon-camera.mda-icon:before, *.mda-ey-tpl .icon-camera.mda-icon:before, *#mda-ey-tpl__layer .icon-camera.mda-icon:before, *.mda-ey-tpl__layer .icon-camera.mda-icon:before {
+    content: "\e017"; }
+  *#mda-ey-tpl .icon-camera-off.mda-icon:before, *.mda-ey-tpl .icon-camera-off.mda-icon:before, *#mda-ey-tpl__layer .icon-camera-off.mda-icon:before, *.mda-ey-tpl__layer .icon-camera-off.mda-icon:before {
+    content: "\e909"; }
+  *#mda-ey-tpl .icon-mic-off.mda-icon:before, *.mda-ey-tpl .icon-mic-off.mda-icon:before, *#mda-ey-tpl__layer .icon-mic-off.mda-icon:before, *.mda-ey-tpl__layer .icon-mic-off.mda-icon:before {
+    content: "\e929"; }
+  *#mda-ey-tpl .icon-volume.mda-icon:before, *.mda-ey-tpl .icon-volume.mda-icon:before, *#mda-ey-tpl__layer .icon-volume.mda-icon:before, *.mda-ey-tpl__layer .icon-volume.mda-icon:before {
+    content: "\e098"; }
+  *#mda-ey-tpl .icon-mute.mda-icon:before, *.mda-ey-tpl .icon-mute.mda-icon:before, *#mda-ey-tpl__layer .icon-mute.mda-icon:before, *.mda-ey-tpl__layer .icon-mute.mda-icon:before {
+    content: "\e099"; }
+  *#mda-ey-tpl .icon-video.mda-icon:before, *.mda-ey-tpl .icon-video.mda-icon:before, *#mda-ey-tpl__layer .icon-video.mda-icon:before, *.mda-ey-tpl__layer .icon-video.mda-icon:before {
+    content: "\e018"; }
+  *#mda-ey-tpl .icon-sun.mda-icon:before, *.mda-ey-tpl .icon-sun.mda-icon:before, *#mda-ey-tpl__layer .icon-sun.mda-icon:before, *.mda-ey-tpl__layer .icon-sun.mda-icon:before {
+    content: "\e064"; }
+  *#mda-ey-tpl .icon-loader.mda-icon:before, *.mda-ey-tpl .icon-loader.mda-icon:before, *#mda-ey-tpl__layer .icon-loader.mda-icon:before, *.mda-ey-tpl__layer .icon-loader.mda-icon:before {
+    content: "\e105"; }
+  *#mda-ey-tpl .icon-battery.mda-icon:before, *.mda-ey-tpl .icon-battery.mda-icon:before, *#mda-ey-tpl__layer .icon-battery.mda-icon:before, *.mda-ey-tpl__layer .icon-battery.mda-icon:before {
+    content: "\e073"; }
+  *#mda-ey-tpl .icon-transmission.mda-icon:before, *.mda-ey-tpl .icon-transmission.mda-icon:before, *#mda-ey-tpl__layer .icon-transmission.mda-icon:before, *.mda-ey-tpl__layer .icon-transmission.mda-icon:before {
+    content: "\e940"; }
+  *#mda-ey-tpl .icon-signal.mda-icon:before, *.mda-ey-tpl .icon-signal.mda-icon:before, *#mda-ey-tpl__layer .icon-signal.mda-icon:before, *.mda-ey-tpl__layer .icon-signal.mda-icon:before {
+    content: "\e011"; }
+  *#mda-ey-tpl .icon-image.mda-icon:before, *.mda-ey-tpl .icon-image.mda-icon:before, *#mda-ey-tpl__layer .icon-image.mda-icon:before, *.mda-ey-tpl__layer .icon-image.mda-icon:before {
+    content: "\e010"; }
+  *#mda-ey-tpl .icon-target.mda-icon:before, *.mda-ey-tpl .icon-target.mda-icon:before, *#mda-ey-tpl__layer .icon-target.mda-icon:before, *.mda-ey-tpl__layer .icon-target.mda-icon:before {
+    content: "\e012"; }
+  *#mda-ey-tpl .icon-clock.mda-icon:before, *.mda-ey-tpl .icon-clock.mda-icon:before, *#mda-ey-tpl__layer .icon-clock.mda-icon:before, *.mda-ey-tpl__layer .icon-clock.mda-icon:before {
+    content: "\e014"; }
+  *#mda-ey-tpl .icon-timer.mda-icon:before, *.mda-ey-tpl .icon-timer.mda-icon:before, *#mda-ey-tpl__layer .icon-timer.mda-icon:before, *.mda-ey-tpl__layer .icon-timer.mda-icon:before {
+    content: "\e61e"; }
+  *#mda-ey-tpl .icon-alarm.mda-icon:before, *.mda-ey-tpl .icon-alarm.mda-icon:before, *#mda-ey-tpl__layer .icon-alarm.mda-icon:before, *.mda-ey-tpl__layer .icon-alarm.mda-icon:before {
+    content: "\e99b"; }
+  *#mda-ey-tpl .icon-watch.mda-icon:before, *.mda-ey-tpl .icon-watch.mda-icon:before, *#mda-ey-tpl__layer .icon-watch.mda-icon:before, *.mda-ey-tpl__layer .icon-watch.mda-icon:before {
+    content: "\e015"; }
+  *#mda-ey-tpl .icon-sand-clock.mda-icon:before, *.mda-ey-tpl .icon-sand-clock.mda-icon:before, *#mda-ey-tpl__layer .icon-sand-clock.mda-icon:before, *.mda-ey-tpl__layer .icon-sand-clock.mda-icon:before {
+    content: "\e617"; }
+  *#mda-ey-tpl .icon-calendar.mda-icon:before, *.mda-ey-tpl .icon-calendar.mda-icon:before, *#mda-ey-tpl__layer .icon-calendar.mda-icon:before, *.mda-ey-tpl__layer .icon-calendar.mda-icon:before {
+    content: "\e639"; }
+  *#mda-ey-tpl .icon-calendar2.mda-icon:before, *.mda-ey-tpl .icon-calendar2.mda-icon:before, *#mda-ey-tpl__layer .icon-calendar2.mda-icon:before, *.mda-ey-tpl__layer .icon-calendar2.mda-icon:before {
+    content: "\e639"; }
+  *#mda-ey-tpl .icon-printer.mda-icon:before, *.mda-ey-tpl .icon-printer.mda-icon:before, *#mda-ey-tpl__layer .icon-printer.mda-icon:before, *.mda-ey-tpl__layer .icon-printer.mda-icon:before {
+    content: "\e020"; }
+  *#mda-ey-tpl .icon-air-play.mda-icon:before, *.mda-ey-tpl .icon-air-play.mda-icon:before, *#mda-ey-tpl__layer .icon-air-play.mda-icon:before, *.mda-ey-tpl__layer .icon-air-play.mda-icon:before {
+    content: "\e016"; }
+  *#mda-ey-tpl .icon-monitor.mda-icon:before, *.mda-ey-tpl .icon-monitor.mda-icon:before, *#mda-ey-tpl__layer .icon-monitor.mda-icon:before, *.mda-ey-tpl__layer .icon-monitor.mda-icon:before {
+    content: "\e021"; }
+  *#mda-ey-tpl .icon-desktop.mda-icon:before, *.mda-ey-tpl .icon-desktop.mda-icon:before, *#mda-ey-tpl__layer .icon-desktop.mda-icon:before, *.mda-ey-tpl__layer .icon-desktop.mda-icon:before {
+    content: "\e021"; }
+  *#mda-ey-tpl .icon-laptop.mda-icon:before, *.mda-ey-tpl .icon-laptop.mda-icon:before, *#mda-ey-tpl__layer .icon-laptop.mda-icon:before, *.mda-ey-tpl__layer .icon-laptop.mda-icon:before {
+    content: "\e973"; }
+  *#mda-ey-tpl .icon-book2.mda-icon:before, *.mda-ey-tpl .icon-book2.mda-icon:before, *#mda-ey-tpl__layer .icon-book2.mda-icon:before, *.mda-ey-tpl__layer .icon-book2.mda-icon:before {
+    content: "\e030"; }
+  *#mda-ey-tpl .icon-book1.mda-icon:before, *.mda-ey-tpl .icon-book1.mda-icon:before, *#mda-ey-tpl__layer .icon-book1.mda-icon:before, *.mda-ey-tpl__layer .icon-book1.mda-icon:before {
+    content: "\e611"; }
+  *#mda-ey-tpl .icon-xml.mda-icon:before, *.mda-ey-tpl .icon-xml.mda-icon:before, *#mda-ey-tpl__layer .icon-xml.mda-icon:before, *.mda-ey-tpl__layer .icon-xml.mda-icon:before {
+    content: "\e969"; }
+  *#mda-ey-tpl .icon-code.mda-icon:before, *.mda-ey-tpl .icon-code.mda-icon:before, *#mda-ey-tpl__layer .icon-code.mda-icon:before, *.mda-ey-tpl__layer .icon-code.mda-icon:before {
+    content: "\e949"; }
+  *#mda-ey-tpl .icon-json.mda-icon:before, *.mda-ey-tpl .icon-json.mda-icon:before, *#mda-ey-tpl__layer .icon-json.mda-icon:before, *.mda-ey-tpl__layer .icon-json.mda-icon:before {
+    content: "\e96a"; }
+  *#mda-ey-tpl .icon-jsonPath.mda-icon:before, *.mda-ey-tpl .icon-jsonPath.mda-icon:before, *#mda-ey-tpl__layer .icon-jsonPath.mda-icon:before, *.mda-ey-tpl__layer .icon-jsonPath.mda-icon:before {
+    content: "\e9b1"; }
+  *#mda-ey-tpl .icon-solid-folder.mda-icon:before, *.mda-ey-tpl .icon-solid-folder.mda-icon:before, *#mda-ey-tpl__layer .icon-solid-folder.mda-icon:before, *.mda-ey-tpl__layer .icon-solid-folder.mda-icon:before {
+    content: "\e925"; }
+  *#mda-ey-tpl .icon-folder.mda-icon:before, *.mda-ey-tpl .icon-folder.mda-icon:before, *#mda-ey-tpl__layer .icon-folder.mda-icon:before, *.mda-ey-tpl__layer .icon-folder.mda-icon:before {
+    content: "\e059"; }
+  *#mda-ey-tpl .icon-move-to-folder.mda-icon:before, *.mda-ey-tpl .icon-move-to-folder.mda-icon:before, *#mda-ey-tpl__layer .icon-move-to-folder.mda-icon:before, *.mda-ey-tpl__layer .icon-move-to-folder.mda-icon:before {
+    content: "\e9b0"; }
+  *#mda-ey-tpl .icon-file.mda-icon:before, *.mda-ey-tpl .icon-file.mda-icon:before, *#mda-ey-tpl__layer .icon-file.mda-icon:before, *.mda-ey-tpl__layer .icon-file.mda-icon:before {
+    content: "\e124"; }
+  *#mda-ey-tpl .icon-filesystem.mda-icon:before, *.mda-ey-tpl .icon-filesystem.mda-icon:before, *#mda-ey-tpl__layer .icon-filesystem.mda-icon:before, *.mda-ey-tpl__layer .icon-filesystem.mda-icon:before {
+    content: "\e95e"; }
+  *#mda-ey-tpl .icon-csv.mda-icon:before, *.mda-ey-tpl .icon-csv.mda-icon:before, *#mda-ey-tpl__layer .icon-csv.mda-icon:before, *.mda-ey-tpl__layer .icon-csv.mda-icon:before {
+    content: "\e9af"; }
+  *#mda-ey-tpl .icon-csv2.mda-icon:before, *.mda-ey-tpl .icon-csv2.mda-icon:before, *#mda-ey-tpl__layer .icon-csv2.mda-icon:before, *.mda-ey-tpl__layer .icon-csv2.mda-icon:before {
+    content: "\e647"; }
+  *#mda-ey-tpl .icon-print.mda-icon:before, *.mda-ey-tpl .icon-print.mda-icon:before, *#mda-ey-tpl__layer .icon-print.mda-icon:before, *.mda-ey-tpl__layer .icon-print.mda-icon:before {
+    content: "\e64a"; }
+  *#mda-ey-tpl .icon-file-add.mda-icon:before, *.mda-ey-tpl .icon-file-add.mda-icon:before, *#mda-ey-tpl__layer .icon-file-add.mda-icon:before, *.mda-ey-tpl__layer .icon-file-add.mda-icon:before {
+    content: "\e125"; }
+  *#mda-ey-tpl .icon-file-subtract.mda-icon:before, *.mda-ey-tpl .icon-file-subtract.mda-icon:before, *#mda-ey-tpl__layer .icon-file-subtract.mda-icon:before, *.mda-ey-tpl__layer .icon-file-subtract.mda-icon:before {
+    content: "\e126"; }
+  *#mda-ey-tpl .icon-stack.mda-icon:before, *.mda-ey-tpl .icon-stack.mda-icon:before, *#mda-ey-tpl__layer .icon-stack.mda-icon:before, *.mda-ey-tpl__layer .icon-stack.mda-icon:before {
+    content: "\e032"; }
+  *#mda-ey-tpl .icon-stack-2.mda-icon:before, *.mda-ey-tpl .icon-stack-2.mda-icon:before, *#mda-ey-tpl__layer .icon-stack-2.mda-icon:before, *.mda-ey-tpl__layer .icon-stack-2.mda-icon:before {
+    content: "\e033"; }
+  *#mda-ey-tpl .icon-copy.mda-icon:before, *.mda-ey-tpl .icon-copy.mda-icon:before, *#mda-ey-tpl__layer .icon-copy.mda-icon:before, *.mda-ey-tpl__layer .icon-copy.mda-icon:before {
+    content: "\e910"; }
+  *#mda-ey-tpl .icon-drop-duplicates.mda-icon:before, *.mda-ey-tpl .icon-drop-duplicates.mda-icon:before, *#mda-ey-tpl__layer .icon-drop-duplicates.mda-icon:before, *.mda-ey-tpl__layer .icon-drop-duplicates.mda-icon:before {
+    content: "\e908"; }
+  *#mda-ey-tpl .icon-union.mda-icon:before, *.mda-ey-tpl .icon-union.mda-icon:before, *#mda-ey-tpl__layer .icon-union.mda-icon:before, *.mda-ey-tpl__layer .icon-union.mda-icon:before {
+    content: "\e9b4"; }
+  *#mda-ey-tpl .icon-join.mda-icon:before, *.mda-ey-tpl .icon-join.mda-icon:before, *#mda-ey-tpl__layer .icon-join.mda-icon:before, *.mda-ey-tpl__layer .icon-join.mda-icon:before {
+    content: "\e9b4"; }
+  *#mda-ey-tpl .icon-intersection.mda-icon:before, *.mda-ey-tpl .icon-intersection.mda-icon:before, *#mda-ey-tpl__layer .icon-intersection.mda-icon:before, *.mda-ey-tpl__layer .icon-intersection.mda-icon:before {
+    content: "\e9ae"; }
+  *#mda-ey-tpl .icon-copy2.mda-icon:before, *.mda-ey-tpl .icon-copy2.mda-icon:before, *#mda-ey-tpl__layer .icon-copy2.mda-icon:before, *.mda-ey-tpl__layer .icon-copy2.mda-icon:before {
+    content: "\e61c"; }
+  *#mda-ey-tpl .icon-paper.mda-icon:before, *.mda-ey-tpl .icon-paper.mda-icon:before, *#mda-ey-tpl__layer .icon-paper.mda-icon:before, *.mda-ey-tpl__layer .icon-paper.mda-icon:before {
+    content: "\e034"; }
+  *#mda-ey-tpl .icon-paper-stack.mda-icon:before, *.mda-ey-tpl .icon-paper-stack.mda-icon:before, *#mda-ey-tpl__layer .icon-paper-stack.mda-icon:before, *.mda-ey-tpl__layer .icon-paper-stack.mda-icon:before {
+    content: "\e035"; }
+  *#mda-ey-tpl .icon-clipboard.mda-icon:before, *.mda-ey-tpl .icon-clipboard.mda-icon:before, *#mda-ey-tpl__layer .icon-clipboard.mda-icon:before, *.mda-ey-tpl__layer .icon-clipboard.mda-icon:before {
+    content: "\e013"; }
+  *#mda-ey-tpl .icon-report.mda-icon:before, *.mda-ey-tpl .icon-report.mda-icon:before, *#mda-ey-tpl__layer .icon-report.mda-icon:before, *.mda-ey-tpl__layer .icon-report.mda-icon:before {
+    content: "\e618"; }
+  *#mda-ey-tpl .icon-policy2.mda-icon:before, *.mda-ey-tpl .icon-policy2.mda-icon:before, *#mda-ey-tpl__layer .icon-policy2.mda-icon:before, *.mda-ey-tpl__layer .icon-policy2.mda-icon:before {
+    content: "\e961"; }
+  *#mda-ey-tpl .icon-edit.mda-icon:before, *.mda-ey-tpl .icon-edit.mda-icon:before, *#mda-ey-tpl__layer .icon-edit.mda-icon:before, *.mda-ey-tpl__layer .icon-edit.mda-icon:before {
+    content: "\e63c"; }
+  *#mda-ey-tpl .icon-edit-2.mda-icon:before, *.mda-ey-tpl .icon-edit-2.mda-icon:before, *#mda-ey-tpl__layer .icon-edit-2.mda-icon:before, *.mda-ey-tpl__layer .icon-edit-2.mda-icon:before {
+    content: "\e91c"; }
+  *#mda-ey-tpl .icon-edit-3.mda-icon:before, *.mda-ey-tpl .icon-edit-3.mda-icon:before, *#mda-ey-tpl__layer .icon-edit-3.mda-icon:before, *.mda-ey-tpl__layer .icon-edit-3.mda-icon:before {
+    content: "\e91d"; }
+  *#mda-ey-tpl .icon-search.mda-icon:before, *.mda-ey-tpl .icon-search.mda-icon:before, *#mda-ey-tpl__layer .icon-search.mda-icon:before, *.mda-ey-tpl__layer .icon-search.mda-icon:before {
+    content: "\e036"; }
+  *#mda-ey-tpl .icon-zoom-in.mda-icon:before, *.mda-ey-tpl .icon-zoom-in.mda-icon:before, *#mda-ey-tpl__layer .icon-zoom-in.mda-icon:before, *.mda-ey-tpl__layer .icon-zoom-in.mda-icon:before {
+    content: "\e037"; }
+  *#mda-ey-tpl .icon-zoom-out.mda-icon:before, *.mda-ey-tpl .icon-zoom-out.mda-icon:before, *#mda-ey-tpl__layer .icon-zoom-out.mda-icon:before, *.mda-ey-tpl__layer .icon-zoom-out.mda-icon:before {
+    content: "\e038"; }
+  *#mda-ey-tpl .icon-circle-plus.mda-icon:before, *.mda-ey-tpl .icon-circle-plus.mda-icon:before, *#mda-ey-tpl__layer .icon-circle-plus.mda-icon:before, *.mda-ey-tpl__layer .icon-circle-plus.mda-icon:before {
+    content: "\e040"; }
+  *#mda-ey-tpl .icon-circle-minus.mda-icon:before, *.mda-ey-tpl .icon-circle-minus.mda-icon:before, *#mda-ey-tpl__layer .icon-circle-minus.mda-icon:before, *.mda-ey-tpl__layer .icon-circle-minus.mda-icon:before {
+    content: "\e041"; }
+  *#mda-ey-tpl .icon-circle-check2.mda-icon:before, *.mda-ey-tpl .icon-circle-check2.mda-icon:before, *#mda-ey-tpl__layer .icon-circle-check2.mda-icon:before, *.mda-ey-tpl__layer .icon-circle-check2.mda-icon:before {
+    content: "\e042"; }
+  *#mda-ey-tpl .icon-circle-check.mda-icon:before, *.mda-ey-tpl .icon-circle-check.mda-icon:before, *#mda-ey-tpl__layer .icon-circle-check.mda-icon:before, *.mda-ey-tpl__layer .icon-circle-check.mda-icon:before {
+    content: "\e048"; }
+  *#mda-ey-tpl .icon-circle-cross.mda-icon:before, *.mda-ey-tpl .icon-circle-cross.mda-icon:before, *#mda-ey-tpl__layer .icon-circle-cross.mda-icon:before, *.mda-ey-tpl__layer .icon-circle-cross.mda-icon:before {
+    content: "\e043"; }
+  *#mda-ey-tpl .icon-check-circle.mda-icon:before, *.mda-ey-tpl .icon-check-circle.mda-icon:before, *#mda-ey-tpl__layer .icon-check-circle.mda-icon:before, *.mda-ey-tpl__layer .icon-check-circle.mda-icon:before {
+    content: "\e90a"; }
+  *#mda-ey-tpl .icon-check-square.mda-icon:before, *.mda-ey-tpl .icon-check-square.mda-icon:before, *#mda-ey-tpl__layer .icon-check-square.mda-icon:before, *.mda-ey-tpl__layer .icon-check-square.mda-icon:before {
+    content: "\e90b"; }
+  *#mda-ey-tpl .icon-marquee.mda-icon:before, *.mda-ey-tpl .icon-marquee.mda-icon:before, *#mda-ey-tpl__layer .icon-marquee.mda-icon:before, *.mda-ey-tpl__layer .icon-marquee.mda-icon:before {
+    content: "\e082"; }
+  *#mda-ey-tpl .icon-marquee-plus.mda-icon:before, *.mda-ey-tpl .icon-marquee-plus.mda-icon:before, *#mda-ey-tpl__layer .icon-marquee-plus.mda-icon:before, *.mda-ey-tpl__layer .icon-marquee-plus.mda-icon:before {
+    content: "\e083"; }
+  *#mda-ey-tpl .icon-marquee-minus.mda-icon:before, *.mda-ey-tpl .icon-marquee-minus.mda-icon:before, *#mda-ey-tpl__layer .icon-marquee-minus.mda-icon:before, *.mda-ey-tpl__layer .icon-marquee-minus.mda-icon:before {
+    content: "\e084"; }
+  *#mda-ey-tpl .icon-square-plus.mda-icon:before, *.mda-ey-tpl .icon-square-plus.mda-icon:before, *#mda-ey-tpl__layer .icon-square-plus.mda-icon:before, *.mda-ey-tpl__layer .icon-square-plus.mda-icon:before {
+    content: "\e044"; }
+  *#mda-ey-tpl .icon-square-minus.mda-icon:before, *.mda-ey-tpl .icon-square-minus.mda-icon:before, *#mda-ey-tpl__layer .icon-square-minus.mda-icon:before, *.mda-ey-tpl__layer .icon-square-minus.mda-icon:before {
+    content: "\e045"; }
+  *#mda-ey-tpl .icon-square-check.mda-icon:before, *.mda-ey-tpl .icon-square-check.mda-icon:before, *#mda-ey-tpl__layer .icon-square-check.mda-icon:before, *.mda-ey-tpl__layer .icon-square-check.mda-icon:before {
+    content: "\e9bf"; }
+  *#mda-ey-tpl .icon-square-cross.mda-icon:before, *.mda-ey-tpl .icon-square-cross.mda-icon:before, *#mda-ey-tpl__layer .icon-square-cross.mda-icon:before, *.mda-ey-tpl__layer .icon-square-cross.mda-icon:before {
+    content: "\e047"; }
+  *#mda-ey-tpl .icon-check2.mda-icon:before, *.mda-ey-tpl .icon-check2.mda-icon:before, *#mda-ey-tpl__layer .icon-check2.mda-icon:before, *.mda-ey-tpl__layer .icon-check2.mda-icon:before {
+    content: "\e64c"; }
+  *#mda-ey-tpl .icon-check.mda-icon:before, *.mda-ey-tpl .icon-check.mda-icon:before, *#mda-ey-tpl__layer .icon-check.mda-icon:before, *.mda-ey-tpl__layer .icon-check.mda-icon:before {
+    content: "\e116"; }
+  *#mda-ey-tpl .icon-cross.mda-icon:before, *.mda-ey-tpl .icon-cross.mda-icon:before, *#mda-ey-tpl__layer .icon-cross.mda-icon:before, *.mda-ey-tpl__layer .icon-cross.mda-icon:before {
+    content: "\e117"; }
+  *#mda-ey-tpl .icon-plus.mda-icon:before, *.mda-ey-tpl .icon-plus.mda-icon:before, *#mda-ey-tpl__layer .icon-plus.mda-icon:before, *.mda-ey-tpl__layer .icon-plus.mda-icon:before {
+    content: "\e114"; }
+  *#mda-ey-tpl .icon-minus.mda-icon:before, *.mda-ey-tpl .icon-minus.mda-icon:before, *#mda-ey-tpl__layer .icon-minus.mda-icon:before, *.mda-ey-tpl__layer .icon-minus.mda-icon:before {
+    content: "\e115"; }
+  *#mda-ey-tpl .icon-percent.mda-icon:before, *.mda-ey-tpl .icon-percent.mda-icon:before, *#mda-ey-tpl__layer .icon-percent.mda-icon:before, *.mda-ey-tpl__layer .icon-percent.mda-icon:before {
+    content: "\e92b"; }
+  *#mda-ey-tpl .icon-init-nulls.mda-icon:before, *.mda-ey-tpl .icon-init-nulls.mda-icon:before, *#mda-ey-tpl__layer .icon-init-nulls.mda-icon:before, *.mda-ey-tpl__layer .icon-init-nulls.mda-icon:before {
+    content: "\e919"; }
+  *#mda-ey-tpl .icon-clear-nulls.mda-icon:before, *.mda-ey-tpl .icon-clear-nulls.mda-icon:before, *#mda-ey-tpl__layer .icon-clear-nulls.mda-icon:before, *.mda-ey-tpl__layer .icon-clear-nulls.mda-icon:before {
+    content: "\e922"; }
+  *#mda-ey-tpl .icon-sql-builder.mda-icon:before, *.mda-ey-tpl .icon-sql-builder.mda-icon:before, *#mda-ey-tpl__layer .icon-sql-builder.mda-icon:before, *.mda-ey-tpl__layer .icon-sql-builder.mda-icon:before {
+    content: "\e932"; }
+  *#mda-ey-tpl .icon-inner-join.mda-icon:before, *.mda-ey-tpl .icon-inner-join.mda-icon:before, *#mda-ey-tpl__layer .icon-inner-join.mda-icon:before, *.mda-ey-tpl__layer .icon-inner-join.mda-icon:before {
+    content: "\e935"; }
+  *#mda-ey-tpl .icon-left-join.mda-icon:before, *.mda-ey-tpl .icon-left-join.mda-icon:before, *#mda-ey-tpl__layer .icon-left-join.mda-icon:before, *.mda-ey-tpl__layer .icon-left-join.mda-icon:before {
+    content: "\e93f"; }
+  *#mda-ey-tpl .icon-left-only-join.mda-icon:before, *.mda-ey-tpl .icon-left-only-join.mda-icon:before, *#mda-ey-tpl__layer .icon-left-only-join.mda-icon:before, *.mda-ey-tpl__layer .icon-left-only-join.mda-icon:before {
+    content: "\e965"; }
+  *#mda-ey-tpl .icon-right-join.mda-icon:before, *.mda-ey-tpl .icon-right-join.mda-icon:before, *#mda-ey-tpl__layer .icon-right-join.mda-icon:before, *.mda-ey-tpl__layer .icon-right-join.mda-icon:before {
+    content: "\e991"; }
+  *#mda-ey-tpl .icon-right-only-join.mda-icon:before, *.mda-ey-tpl .icon-right-only-join.mda-icon:before, *#mda-ey-tpl__layer .icon-right-only-join.mda-icon:before, *.mda-ey-tpl__layer .icon-right-only-join.mda-icon:before {
+    content: "\e9b8"; }
+  *#mda-ey-tpl .icon-full-join.mda-icon:before, *.mda-ey-tpl .icon-full-join.mda-icon:before, *#mda-ey-tpl__layer .icon-full-join.mda-icon:before, *.mda-ey-tpl__layer .icon-full-join.mda-icon:before {
+    content: "\e9b9"; }
+  *#mda-ey-tpl .icon-rewind.mda-icon:before, *.mda-ey-tpl .icon-rewind.mda-icon:before, *#mda-ey-tpl__layer .icon-rewind.mda-icon:before, *.mda-ey-tpl__layer .icon-rewind.mda-icon:before {
+    content: "\e92f"; }
+  *#mda-ey-tpl .icon-checkbox.mda-icon:before, *.mda-ey-tpl .icon-checkbox.mda-icon:before, *#mda-ey-tpl__layer .icon-checkbox.mda-icon:before, *.mda-ey-tpl__layer .icon-checkbox.mda-icon:before {
+    content: "\e9a8"; }
+  *#mda-ey-tpl .icon-pause.mda-icon:before, *.mda-ey-tpl .icon-pause.mda-icon:before, *#mda-ey-tpl__layer .icon-pause.mda-icon:before, *.mda-ey-tpl__layer .icon-pause.mda-icon:before {
+    content: "\e053"; }
+  *#mda-ey-tpl .icon-fast-forward.mda-icon:before, *.mda-ey-tpl .icon-fast-forward.mda-icon:before, *#mda-ey-tpl__layer .icon-fast-forward.mda-icon:before, *.mda-ey-tpl__layer .icon-fast-forward.mda-icon:before {
+    content: "\e91f"; }
+  *#mda-ey-tpl .icon-record.mda-icon:before, *.mda-ey-tpl .icon-record.mda-icon:before, *#mda-ey-tpl__layer .icon-record.mda-icon:before, *.mda-ey-tpl__layer .icon-record.mda-icon:before {
+    content: "\e049"; }
+  *#mda-ey-tpl .icon-skip-back.mda-icon:before, *.mda-ey-tpl .icon-skip-back.mda-icon:before, *#mda-ey-tpl__layer .icon-skip-back.mda-icon:before, *.mda-ey-tpl__layer .icon-skip-back.mda-icon:before {
+    content: "\e050"; }
+  *#mda-ey-tpl .icon-rewind2.mda-icon:before, *.mda-ey-tpl .icon-rewind2.mda-icon:before, *#mda-ey-tpl__layer .icon-rewind2.mda-icon:before, *.mda-ey-tpl__layer .icon-rewind2.mda-icon:before {
+    content: "\e051"; }
+  *#mda-ey-tpl .icon-play.mda-icon:before, *.mda-ey-tpl .icon-play.mda-icon:before, *#mda-ey-tpl__layer .icon-play.mda-icon:before, *.mda-ey-tpl__layer .icon-play.mda-icon:before {
+    content: "\e052"; }
+  *#mda-ey-tpl .icon-fast-forward2.mda-icon:before, *.mda-ey-tpl .icon-fast-forward2.mda-icon:before, *#mda-ey-tpl__layer .icon-fast-forward2.mda-icon:before, *.mda-ey-tpl__layer .icon-fast-forward2.mda-icon:before {
+    content: "\e055"; }
+  *#mda-ey-tpl .icon-skip-forward.mda-icon:before, *.mda-ey-tpl .icon-skip-forward.mda-icon:before, *#mda-ey-tpl__layer .icon-skip-forward.mda-icon:before, *.mda-ey-tpl__layer .icon-skip-forward.mda-icon:before {
+    content: "\e056"; }
+  *#mda-ey-tpl .icon-stop.mda-icon:before, *.mda-ey-tpl .icon-stop.mda-icon:before, *#mda-ey-tpl__layer .icon-stop.mda-icon:before, *.mda-ey-tpl__layer .icon-stop.mda-icon:before {
+    content: "\e054"; }
+  *#mda-ey-tpl .icon-cloud.mda-icon:before, *.mda-ey-tpl .icon-cloud.mda-icon:before, *#mda-ey-tpl__layer .icon-cloud.mda-icon:before, *.mda-ey-tpl__layer .icon-cloud.mda-icon:before {
+    content: "\e065"; }
+  *#mda-ey-tpl .icon-cloud-updown.mda-icon:before, *.mda-ey-tpl .icon-cloud-updown.mda-icon:before, *#mda-ey-tpl__layer .icon-cloud-updown.mda-icon:before, *.mda-ey-tpl__layer .icon-cloud-updown.mda-icon:before {
+    content: "\e97e"; }
+  *#mda-ey-tpl .icon-cloud-upload.mda-icon:before, *.mda-ey-tpl .icon-cloud-upload.mda-icon:before, *#mda-ey-tpl__layer .icon-cloud-upload.mda-icon:before, *.mda-ey-tpl__layer .icon-cloud-upload.mda-icon:before {
+    content: "\e066"; }
+  *#mda-ey-tpl .icon-cloud-download.mda-icon:before, *.mda-ey-tpl .icon-cloud-download.mda-icon:before, *#mda-ey-tpl__layer .icon-cloud-download.mda-icon:before, *.mda-ey-tpl__layer .icon-cloud-download.mda-icon:before {
+    content: "\e067"; }
+  *#mda-ey-tpl .icon-upload.mda-icon:before, *.mda-ey-tpl .icon-upload.mda-icon:before, *#mda-ey-tpl__layer .icon-upload.mda-icon:before, *.mda-ey-tpl__layer .icon-upload.mda-icon:before {
+    content: "\e068"; }
+  *#mda-ey-tpl .icon-download.mda-icon:before, *.mda-ey-tpl .icon-download.mda-icon:before, *#mda-ey-tpl__layer .icon-download.mda-icon:before, *.mda-ey-tpl__layer .icon-download.mda-icon:before {
+    content: "\e069"; }
+  *#mda-ey-tpl .icon-export.mda-icon:before, *.mda-ey-tpl .icon-export.mda-icon:before, *#mda-ey-tpl__layer .icon-export.mda-icon:before, *.mda-ey-tpl__layer .icon-export.mda-icon:before {
+    content: "\e128"; }
+  *#mda-ey-tpl .icon-import.mda-icon:before, *.mda-ey-tpl .icon-import.mda-icon:before, *#mda-ey-tpl__layer .icon-import.mda-icon:before, *.mda-ey-tpl__layer .icon-import.mda-icon:before {
+    content: "\e61f"; }
+  *#mda-ey-tpl .icon-persist.mda-icon:before, *.mda-ey-tpl .icon-persist.mda-icon:before, *#mda-ey-tpl__layer .icon-persist.mda-icon:before, *.mda-ey-tpl__layer .icon-persist.mda-icon:before {
+    content: "\e9b2"; }
+  *#mda-ey-tpl .icon-install.mda-icon:before, *.mda-ey-tpl .icon-install.mda-icon:before, *#mda-ey-tpl__layer .icon-install.mda-icon:before, *.mda-ey-tpl__layer .icon-install.mda-icon:before {
+    content: "\e972"; }
+  *#mda-ey-tpl .icon-inbox2.mda-icon:before, *.mda-ey-tpl .icon-inbox2.mda-icon:before, *#mda-ey-tpl__layer .icon-inbox2.mda-icon:before, *.mda-ey-tpl__layer .icon-inbox2.mda-icon:before {
+    content: "\e122"; }
+  *#mda-ey-tpl .icon-outbox.mda-icon:before, *.mda-ey-tpl .icon-outbox.mda-icon:before, *#mda-ey-tpl__layer .icon-outbox.mda-icon:before, *.mda-ey-tpl__layer .icon-outbox.mda-icon:before {
+    content: "\e123"; }
+  *#mda-ey-tpl .icon-exit.mda-icon:before, *.mda-ey-tpl .icon-exit.mda-icon:before, *#mda-ey-tpl__layer .icon-exit.mda-icon:before, *.mda-ey-tpl__layer .icon-exit.mda-icon:before {
+    content: "\e962"; }
+  *#mda-ey-tpl .icon-logout.mda-icon:before, *.mda-ey-tpl .icon-logout.mda-icon:before, *#mda-ey-tpl__layer .icon-logout.mda-icon:before, *.mda-ey-tpl__layer .icon-logout.mda-icon:before {
+    content: "\e62e"; }
+  *#mda-ey-tpl .icon-login.mda-icon:before, *.mda-ey-tpl .icon-login.mda-icon:before, *#mda-ey-tpl__layer .icon-login.mda-icon:before, *.mda-ey-tpl__layer .icon-login.mda-icon:before {
+    content: "\e630"; }
+  *#mda-ey-tpl .icon-esc.mda-icon:before, *.mda-ey-tpl .icon-esc.mda-icon:before, *#mda-ey-tpl__layer .icon-esc.mda-icon:before, *.mda-ey-tpl__layer .icon-esc.mda-icon:before {
+    content: "\e089"; }
+  *#mda-ey-tpl .icon-exit2.mda-icon:before, *.mda-ey-tpl .icon-exit2.mda-icon:before, *#mda-ey-tpl__layer .icon-exit2.mda-icon:before, *.mda-ey-tpl__layer .icon-exit2.mda-icon:before {
+    content: "\e95a"; }
+  *#mda-ey-tpl .icon-switch.mda-icon:before, *.mda-ey-tpl .icon-switch.mda-icon:before, *#mda-ey-tpl__layer .icon-switch.mda-icon:before, *.mda-ey-tpl__layer .icon-switch.mda-icon:before {
+    content: "\e994"; }
+  *#mda-ey-tpl .icon-position.mda-icon:before, *.mda-ey-tpl .icon-position.mda-icon:before, *#mda-ey-tpl__layer .icon-position.mda-icon:before, *.mda-ey-tpl__layer .icon-position.mda-icon:before {
+    content: "\e61b"; }
+  *#mda-ey-tpl .icon-map.mda-icon:before, *.mda-ey-tpl .icon-map.mda-icon:before, *#mda-ey-tpl__layer .icon-map.mda-icon:before, *.mda-ey-tpl__layer .icon-map.mda-icon:before {
+    content: "\e072"; }
+  *#mda-ey-tpl .icon-layout.mda-icon:before, *.mda-ey-tpl .icon-layout.mda-icon:before, *#mda-ey-tpl__layer .icon-layout.mda-icon:before, *.mda-ey-tpl__layer .icon-layout.mda-icon:before {
+    content: "\e004"; }
+  *#mda-ey-tpl .icon-content-right.mda-icon:before, *.mda-ey-tpl .icon-content-right.mda-icon:before, *#mda-ey-tpl__layer .icon-content-right.mda-icon:before, *.mda-ey-tpl__layer .icon-content-right.mda-icon:before {
+    content: "\e100"; }
+  *#mda-ey-tpl .icon-content-left.mda-icon:before, *.mda-ey-tpl .icon-content-left.mda-icon:before, *#mda-ey-tpl__layer .icon-content-left.mda-icon:before, *.mda-ey-tpl__layer .icon-content-left.mda-icon:before {
+    content: "\e101"; }
+  *#mda-ey-tpl .icon-grid.mda-icon:before, *.mda-ey-tpl .icon-grid.mda-icon:before, *#mda-ey-tpl__layer .icon-grid.mda-icon:before, *.mda-ey-tpl__layer .icon-grid.mda-icon:before {
+    content: "\e102"; }
+  *#mda-ey-tpl .icon-grid4.mda-icon:before, *.mda-ey-tpl .icon-grid4.mda-icon:before, *#mda-ey-tpl__layer .icon-grid4.mda-icon:before, *.mda-ey-tpl__layer .icon-grid4.mda-icon:before {
+    content: "\e103"; }
+  *#mda-ey-tpl .icon-columns.mda-icon:before, *.mda-ey-tpl .icon-columns.mda-icon:before, *#mda-ey-tpl__layer .icon-columns.mda-icon:before, *.mda-ey-tpl__layer .icon-columns.mda-icon:before {
+    content: "\e104"; }
+  *#mda-ey-tpl .icon-rename-column.mda-icon:before, *.mda-ey-tpl .icon-rename-column.mda-icon:before, *#mda-ey-tpl__layer .icon-rename-column.mda-icon:before, *.mda-ey-tpl__layer .icon-rename-column.mda-icon:before {
+    content: "\e923"; }
+  *#mda-ey-tpl .icon-ban.mda-icon:before, *.mda-ey-tpl .icon-ban.mda-icon:before, *#mda-ey-tpl__layer .icon-ban.mda-icon:before, *.mda-ey-tpl__layer .icon-ban.mda-icon:before {
+    content: "\e107"; }
+  *#mda-ey-tpl .icon-delete.mda-icon:before, *.mda-ey-tpl .icon-delete.mda-icon:before, *#mda-ey-tpl__layer .icon-delete.mda-icon:before, *.mda-ey-tpl__layer .icon-delete.mda-icon:before {
+    content: "\e119"; }
+  *#mda-ey-tpl .icon-trash.mda-icon:before, *.mda-ey-tpl .icon-trash.mda-icon:before, *#mda-ey-tpl__layer .icon-trash.mda-icon:before, *.mda-ey-tpl__layer .icon-trash.mda-icon:before {
+    content: "\e945"; }
+  *#mda-ey-tpl .icon-share.mda-icon:before, *.mda-ey-tpl .icon-share.mda-icon:before, *#mda-ey-tpl__layer .icon-share.mda-icon:before, *.mda-ey-tpl__layer .icon-share.mda-icon:before {
+    content: "\e081"; }
+  *#mda-ey-tpl .icon-plane.mda-icon:before, *.mda-ey-tpl .icon-plane.mda-icon:before, *#mda-ey-tpl__layer .icon-plane.mda-icon:before, *.mda-ey-tpl__layer .icon-plane.mda-icon:before {
+    content: "\e609"; }
+  *#mda-ey-tpl .icon-location.mda-icon:before, *.mda-ey-tpl .icon-location.mda-icon:before, *#mda-ey-tpl__layer .icon-location.mda-icon:before, *.mda-ey-tpl__layer .icon-location.mda-icon:before {
+    content: "\e070"; }
+  *#mda-ey-tpl .icon-box2.mda-icon:before, *.mda-ey-tpl .icon-box2.mda-icon:before, *#mda-ey-tpl__layer .icon-box2.mda-icon:before, *.mda-ey-tpl__layer .icon-box2.mda-icon:before {
+    content: "\e995"; }
+  *#mda-ey-tpl .icon-inbox.mda-icon:before, *.mda-ey-tpl .icon-inbox.mda-icon:before, *#mda-ey-tpl__layer .icon-inbox.mda-icon:before, *.mda-ey-tpl__layer .icon-inbox.mda-icon:before {
+    content: "\e121"; }
+  *#mda-ey-tpl .icon-archive.mda-icon:before, *.mda-ey-tpl .icon-archive.mda-icon:before, *#mda-ey-tpl__layer .icon-archive.mda-icon:before, *.mda-ey-tpl__layer .icon-archive.mda-icon:before {
+    content: "\e121"; }
+  *#mda-ey-tpl .icon-mail.mda-icon:before, *.mda-ey-tpl .icon-mail.mda-icon:before, *#mda-ey-tpl__layer .icon-mail.mda-icon:before, *.mda-ey-tpl__layer .icon-mail.mda-icon:before {
+    content: "\e002"; }
+  *#mda-ey-tpl .icon-paper-clip.mda-icon:before, *.mda-ey-tpl .icon-paper-clip.mda-icon:before, *#mda-ey-tpl__layer .icon-paper-clip.mda-icon:before, *.mda-ey-tpl__layer .icon-paper-clip.mda-icon:before {
+    content: "\e001"; }
+  *#mda-ey-tpl .icon-link-2.mda-icon:before, *.mda-ey-tpl .icon-link-2.mda-icon:before, *#mda-ey-tpl__layer .icon-link-2.mda-icon:before, *.mda-ey-tpl__layer .icon-link-2.mda-icon:before {
+    content: "\e924"; }
+  *#mda-ey-tpl .icon-link.mda-icon:before, *.mda-ey-tpl .icon-link.mda-icon:before, *#mda-ey-tpl__layer .icon-link.mda-icon:before, *.mda-ey-tpl__layer .icon-link.mda-icon:before {
+    content: "\e005"; }
+  *#mda-ey-tpl .icon-anchor.mda-icon:before, *.mda-ey-tpl .icon-anchor.mda-icon:before, *#mda-ey-tpl__layer .icon-anchor.mda-icon:before, *.mda-ey-tpl__layer .icon-anchor.mda-icon:before {
+    content: "\e077"; }
+  *#mda-ey-tpl .icon-bold.mda-icon:before, *.mda-ey-tpl .icon-bold.mda-icon:before, *#mda-ey-tpl__layer .icon-bold.mda-icon:before, *.mda-ey-tpl__layer .icon-bold.mda-icon:before {
+    content: "\e652"; }
+  *#mda-ey-tpl .icon-list.mda-icon:before, *.mda-ey-tpl .icon-list.mda-icon:before, *#mda-ey-tpl__layer .icon-list.mda-icon:before, *.mda-ey-tpl__layer .icon-list.mda-icon:before {
+    content: "\e629"; }
+  *#mda-ey-tpl .icon-toggle.mda-icon:before, *.mda-ey-tpl .icon-toggle.mda-icon:before, *#mda-ey-tpl__layer .icon-toggle.mda-icon:before, *.mda-ey-tpl__layer .icon-toggle.mda-icon:before {
+    content: "\e003"; }
+  *#mda-ey-tpl .icon-ribbon.mda-icon:before, *.mda-ey-tpl .icon-ribbon.mda-icon:before, *#mda-ey-tpl__layer .icon-ribbon.mda-icon:before, *.mda-ey-tpl__layer .icon-ribbon.mda-icon:before {
+    content: "\e009"; }
+  *#mda-ey-tpl .icon-settings.mda-icon:before, *.mda-ey-tpl .icon-settings.mda-icon:before, *#mda-ey-tpl__layer .icon-settings.mda-icon:before, *.mda-ey-tpl__layer .icon-settings.mda-icon:before {
+    content: "\e60f"; }
+  *#mda-ey-tpl .icon-cog.mda-icon:before, *.mda-ey-tpl .icon-cog.mda-icon:before, *#mda-ey-tpl__layer .icon-cog.mda-icon:before, *.mda-ey-tpl__layer .icon-cog.mda-icon:before {
+    content: "\e023"; }
+  *#mda-ey-tpl .icon-cogs.mda-icon:before, *.mda-ey-tpl .icon-cogs.mda-icon:before, *#mda-ey-tpl__layer .icon-cogs.mda-icon:before, *.mda-ey-tpl__layer .icon-cogs.mda-icon:before {
+    content: "\e943"; }
+  *#mda-ey-tpl .icon-settings2.mda-icon:before, *.mda-ey-tpl .icon-settings2.mda-icon:before, *#mda-ey-tpl__layer .icon-settings2.mda-icon:before, *.mda-ey-tpl__layer .icon-settings2.mda-icon:before {
+    content: "\e619"; }
+  *#mda-ey-tpl .icon-tool.mda-icon:before, *.mda-ey-tpl .icon-tool.mda-icon:before, *#mda-ey-tpl__layer .icon-tool.mda-icon:before, *.mda-ey-tpl__layer .icon-tool.mda-icon:before {
+    content: "\e60c"; }
+  *#mda-ey-tpl .icon-rocket.mda-icon:before, *.mda-ey-tpl .icon-rocket.mda-icon:before, *#mda-ey-tpl__layer .icon-rocket.mda-icon:before, *.mda-ey-tpl__layer .icon-rocket.mda-icon:before {
+    content: "\e610"; }
+  *#mda-ey-tpl .icon-layers.mda-icon:before, *.mda-ey-tpl .icon-layers.mda-icon:before, *#mda-ey-tpl__layer .icon-layers.mda-icon:before, *.mda-ey-tpl__layer .icon-layers.mda-icon:before {
+    content: "\e031"; }
+  *#mda-ey-tpl .icon-pin.mda-icon:before, *.mda-ey-tpl .icon-pin.mda-icon:before, *#mda-ey-tpl__layer .icon-pin.mda-icon:before, *.mda-ey-tpl__layer .icon-pin.mda-icon:before {
+    content: "\e612"; }
+  *#mda-ey-tpl .icon-alert.mda-icon:before, *.mda-ey-tpl .icon-alert.mda-icon:before, *#mda-ey-tpl__layer .icon-alert.mda-icon:before, *.mda-ey-tpl__layer .icon-alert.mda-icon:before {
+    content: "\e613"; }
+  *#mda-ey-tpl .icon-info2.mda-icon:before, *.mda-ey-tpl .icon-info2.mda-icon:before, *#mda-ey-tpl__layer .icon-info2.mda-icon:before, *.mda-ey-tpl__layer .icon-info2.mda-icon:before {
+    content: "\e614"; }
+  *#mda-ey-tpl .icon-info3.mda-icon:before, *.mda-ey-tpl .icon-info3.mda-icon:before, *#mda-ey-tpl__layer .icon-info3.mda-icon:before, *.mda-ey-tpl__layer .icon-info3.mda-icon:before {
+    content: "\e606"; }
+  *#mda-ey-tpl .icon-info1.mda-icon:before, *.mda-ey-tpl .icon-info1.mda-icon:before, *#mda-ey-tpl__layer .icon-info1.mda-icon:before, *.mda-ey-tpl__layer .icon-info1.mda-icon:before {
+    content: "\e615"; }
+  *#mda-ey-tpl .icon-help2.mda-icon:before, *.mda-ey-tpl .icon-help2.mda-icon:before, *#mda-ey-tpl__layer .icon-help2.mda-icon:before, *.mda-ey-tpl__layer .icon-help2.mda-icon:before {
+    content: "\e638"; }
+  *#mda-ey-tpl .icon-help1.mda-icon:before, *.mda-ey-tpl .icon-help1.mda-icon:before, *#mda-ey-tpl__layer .icon-help1.mda-icon:before, *.mda-ey-tpl__layer .icon-help1.mda-icon:before {
+    content: "\e127"; }
+  *#mda-ey-tpl .icon-bulb.mda-icon:before, *.mda-ey-tpl .icon-bulb.mda-icon:before, *#mda-ey-tpl__layer .icon-bulb.mda-icon:before, *.mda-ey-tpl__layer .icon-bulb.mda-icon:before {
+    content: "\e971"; }
+  *#mda-ey-tpl .icon-filter.mda-icon:before, *.mda-ey-tpl .icon-filter.mda-icon:before, *#mda-ey-tpl__layer .icon-filter.mda-icon:before, *.mda-ey-tpl__layer .icon-filter.mda-icon:before {
+    content: "\e616"; }
+  *#mda-ey-tpl .icon-datetime.mda-icon:before, *.mda-ey-tpl .icon-datetime.mda-icon:before, *#mda-ey-tpl__layer .icon-datetime.mda-icon:before, *.mda-ey-tpl__layer .icon-datetime.mda-icon:before {
+    content: "\e64d"; }
+  *#mda-ey-tpl .icon-facets2.mda-icon:before, *.mda-ey-tpl .icon-facets2.mda-icon:before, *#mda-ey-tpl__layer .icon-facets2.mda-icon:before, *.mda-ey-tpl__layer .icon-facets2.mda-icon:before {
+    content: "\e99f"; }
+  *#mda-ey-tpl .icon-order.mda-icon:before, *.mda-ey-tpl .icon-order.mda-icon:before, *#mda-ey-tpl__layer .icon-order.mda-icon:before, *.mda-ey-tpl__layer .icon-order.mda-icon:before {
+    content: "\e635"; }
+  *#mda-ey-tpl .icon-dot.mda-icon:before, *.mda-ey-tpl .icon-dot.mda-icon:before, *#mda-ey-tpl__layer .icon-dot.mda-icon:before, *.mda-ey-tpl__layer .icon-dot.mda-icon:before {
+    content: "\e622"; }
+  *#mda-ey-tpl .icon-waiting.mda-icon:before, *.mda-ey-tpl .icon-waiting.mda-icon:before, *#mda-ey-tpl__layer .icon-waiting.mda-icon:before, *.mda-ey-tpl__layer .icon-waiting.mda-icon:before {
+    content: "\e62c"; }
+  *#mda-ey-tpl .icon-ellipsis.mda-icon:before, *.mda-ey-tpl .icon-ellipsis.mda-icon:before, *#mda-ey-tpl__layer .icon-ellipsis.mda-icon:before, *.mda-ey-tpl__layer .icon-ellipsis.mda-icon:before {
+    content: "\e62c"; }
+  *#mda-ey-tpl .icon-actions.mda-icon:before, *.mda-ey-tpl .icon-actions.mda-icon:before, *#mda-ey-tpl__layer .icon-actions.mda-icon:before, *.mda-ey-tpl__layer .icon-actions.mda-icon:before {
+    content: "\e631"; }
+  *#mda-ey-tpl .icon-internal.mda-icon:before, *.mda-ey-tpl .icon-internal.mda-icon:before, *#mda-ey-tpl__layer .icon-internal.mda-icon:before, *.mda-ey-tpl__layer .icon-internal.mda-icon:before {
+    content: "\e980"; }
+  *#mda-ey-tpl .icon-grid2.mda-icon:before, *.mda-ey-tpl .icon-grid2.mda-icon:before, *#mda-ey-tpl__layer .icon-grid2.mda-icon:before, *.mda-ey-tpl__layer .icon-grid2.mda-icon:before {
+    content: "\e95b"; }
+  *#mda-ey-tpl .icon-drag.mda-icon:before, *.mda-ey-tpl .icon-drag.mda-icon:before, *#mda-ey-tpl__layer .icon-drag.mda-icon:before, *.mda-ey-tpl__layer .icon-drag.mda-icon:before {
+    content: "\e93c"; }
+  *#mda-ey-tpl .icon-group.mda-icon:before, *.mda-ey-tpl .icon-group.mda-icon:before, *#mda-ey-tpl__layer .icon-group.mda-icon:before, *.mda-ey-tpl__layer .icon-group.mda-icon:before {
+    content: "\e96b"; }
+  *#mda-ey-tpl .icon-grid3.mda-icon:before, *.mda-ey-tpl .icon-grid3.mda-icon:before, *#mda-ey-tpl__layer .icon-grid3.mda-icon:before, *.mda-ey-tpl__layer .icon-grid3.mda-icon:before {
+    content: "\e626"; }
+  *#mda-ey-tpl .icon-fragments.mda-icon:before, *.mda-ey-tpl .icon-fragments.mda-icon:before, *#mda-ey-tpl__layer .icon-fragments.mda-icon:before, *.mda-ey-tpl__layer .icon-fragments.mda-icon:before {
+    content: "\e62b"; }
+  *#mda-ey-tpl .icon-disc.mda-icon:before, *.mda-ey-tpl .icon-disc.mda-icon:before, *#mda-ey-tpl__layer .icon-disc.mda-icon:before, *.mda-ey-tpl__layer .icon-disc.mda-icon:before {
+    content: "\e019"; }
+  *#mda-ey-tpl .icon-dot_selected.mda-icon:before, *.mda-ey-tpl .icon-dot_selected.mda-icon:before, *#mda-ey-tpl__layer .icon-dot_selected.mda-icon:before, *.mda-ey-tpl__layer .icon-dot_selected.mda-icon:before {
+    content: "\e632"; }
+  *#mda-ey-tpl .icon-stratio_imagotipo.mda-icon:before, *.mda-ey-tpl .icon-stratio_imagotipo.mda-icon:before, *#mda-ey-tpl__layer .icon-stratio_imagotipo.mda-icon:before, *.mda-ey-tpl__layer .icon-stratio_imagotipo.mda-icon:before {
+    content: "\e963"; }
+  *#mda-ey-tpl .icon-stratio_small.mda-icon:before, *.mda-ey-tpl .icon-stratio_small.mda-icon:before, *#mda-ey-tpl__layer .icon-stratio_small.mda-icon:before, *.mda-ey-tpl__layer .icon-stratio_small.mda-icon:before {
+    content: "\e633"; }
+  *#mda-ey-tpl .icon-stratio_standard.mda-icon:before, *.mda-ey-tpl .icon-stratio_standard.mda-icon:before, *#mda-ey-tpl__layer .icon-stratio_standard.mda-icon:before, *.mda-ey-tpl__layer .icon-stratio_standard.mda-icon:before {
+    content: "\e634"; }
+  *#mda-ey-tpl .icon-nodes.mda-icon:before, *.mda-ey-tpl .icon-nodes.mda-icon:before, *#mda-ey-tpl__layer .icon-nodes.mda-icon:before, *.mda-ey-tpl__layer .icon-nodes.mda-icon:before {
+    content: "\e63a"; }
+  *#mda-ey-tpl .icon-arrow2_up.mda-icon:before, *.mda-ey-tpl .icon-arrow2_up.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow2_up.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow2_up.mda-icon:before {
+    content: "\e608"; }
+  *#mda-ey-tpl .icon-arrow2_down.mda-icon:before, *.mda-ey-tpl .icon-arrow2_down.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow2_down.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow2_down.mda-icon:before {
+    content: "\e63f"; }
+  *#mda-ey-tpl .icon-arrow2_left.mda-icon:before, *.mda-ey-tpl .icon-arrow2_left.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow2_left.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow2_left.mda-icon:before {
+    content: "\e63e"; }
+  *#mda-ey-tpl .icon-arrow2_right.mda-icon:before, *.mda-ey-tpl .icon-arrow2_right.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow2_right.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow2_right.mda-icon:before {
+    content: "\e605"; }
+  *#mda-ey-tpl .icon-arrow3_up.mda-icon:before, *.mda-ey-tpl .icon-arrow3_up.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow3_up.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow3_up.mda-icon:before {
+    content: "\e640"; }
+  *#mda-ey-tpl .icon-arrow3_down.mda-icon:before, *.mda-ey-tpl .icon-arrow3_down.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow3_down.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow3_down.mda-icon:before {
+    content: "\e641"; }
+  *#mda-ey-tpl .icon-arrow4_up.mda-icon:before, *.mda-ey-tpl .icon-arrow4_up.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow4_up.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow4_up.mda-icon:before {
+    content: "\e61a"; }
+  *#mda-ey-tpl .icon-arrow4_down.mda-icon:before, *.mda-ey-tpl .icon-arrow4_down.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow4_down.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow4_down.mda-icon:before {
+    content: "\e625"; }
+  *#mda-ey-tpl .icon-arrow-up.mda-icon:before, *.mda-ey-tpl .icon-arrow-up.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-up.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-up.mda-icon:before {
+    content: "\e096"; }
+  *#mda-ey-tpl .icon-arrow-down.mda-icon:before, *.mda-ey-tpl .icon-arrow-down.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-down.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-down.mda-icon:before {
+    content: "\e097"; }
+  *#mda-ey-tpl .icon-arrow-left.mda-icon:before, *.mda-ey-tpl .icon-arrow-left.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-left.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-left.mda-icon:before {
+    content: "\e094"; }
+  *#mda-ey-tpl .icon-arrow-right.mda-icon:before, *.mda-ey-tpl .icon-arrow-right.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-right.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-right.mda-icon:before {
+    content: "\e095"; }
+  *#mda-ey-tpl .icon-reply.mda-icon:before, *.mda-ey-tpl .icon-reply.mda-icon:before, *#mda-ey-tpl__layer .icon-reply.mda-icon:before, *.mda-ey-tpl__layer .icon-reply.mda-icon:before {
+    content: "\e039"; }
+  *#mda-ey-tpl .icon-back2.mda-icon:before, *.mda-ey-tpl .icon-back2.mda-icon:before, *#mda-ey-tpl__layer .icon-back2.mda-icon:before, *.mda-ey-tpl__layer .icon-back2.mda-icon:before {
+    content: "\e99a"; }
+  *#mda-ey-tpl .icon-chevrons-down.mda-icon:before, *.mda-ey-tpl .icon-chevrons-down.mda-icon:before, *#mda-ey-tpl__layer .icon-chevrons-down.mda-icon:before, *.mda-ey-tpl__layer .icon-chevrons-down.mda-icon:before {
+    content: "\e90c"; }
+  *#mda-ey-tpl .icon-chevrons-left.mda-icon:before, *.mda-ey-tpl .icon-chevrons-left.mda-icon:before, *#mda-ey-tpl__layer .icon-chevrons-left.mda-icon:before, *.mda-ey-tpl__layer .icon-chevrons-left.mda-icon:before {
+    content: "\e90d"; }
+  *#mda-ey-tpl .icon-chevrons-right.mda-icon:before, *.mda-ey-tpl .icon-chevrons-right.mda-icon:before, *#mda-ey-tpl__layer .icon-chevrons-right.mda-icon:before, *.mda-ey-tpl__layer .icon-chevrons-right.mda-icon:before {
+    content: "\e90e"; }
+  *#mda-ey-tpl .icon-arrow-down-left.mda-icon:before, *.mda-ey-tpl .icon-arrow-down-left.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-down-left.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-down-left.mda-icon:before {
+    content: "\e900"; }
+  *#mda-ey-tpl .icon-arrow-down-right.mda-icon:before, *.mda-ey-tpl .icon-arrow-down-right.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-down-right.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-down-right.mda-icon:before {
+    content: "\e901"; }
+  *#mda-ey-tpl .icon-arrow-up-left.mda-icon:before, *.mda-ey-tpl .icon-arrow-up-left.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-up-left.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-up-left.mda-icon:before {
+    content: "\e902"; }
+  *#mda-ey-tpl .icon-arrow-up-right.mda-icon:before, *.mda-ey-tpl .icon-arrow-up-right.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow-up-right.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow-up-right.mda-icon:before {
+    content: "\e903"; }
+  *#mda-ey-tpl .icon-corner-down-left.mda-icon:before, *.mda-ey-tpl .icon-corner-down-left.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-down-left.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-down-left.mda-icon:before {
+    content: "\e911"; }
+  *#mda-ey-tpl .icon-corner-down-right.mda-icon:before, *.mda-ey-tpl .icon-corner-down-right.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-down-right.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-down-right.mda-icon:before {
+    content: "\e912"; }
+  *#mda-ey-tpl .icon-corner-left-down.mda-icon:before, *.mda-ey-tpl .icon-corner-left-down.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-left-down.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-left-down.mda-icon:before {
+    content: "\e913"; }
+  *#mda-ey-tpl .icon-corner-left-up.mda-icon:before, *.mda-ey-tpl .icon-corner-left-up.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-left-up.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-left-up.mda-icon:before {
+    content: "\e914"; }
+  *#mda-ey-tpl .icon-corner-right-down.mda-icon:before, *.mda-ey-tpl .icon-corner-right-down.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-right-down.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-right-down.mda-icon:before {
+    content: "\e915"; }
+  *#mda-ey-tpl .icon-corner-right-up.mda-icon:before, *.mda-ey-tpl .icon-corner-right-up.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-right-up.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-right-up.mda-icon:before {
+    content: "\e916"; }
+  *#mda-ey-tpl .icon-corner-up-left.mda-icon:before, *.mda-ey-tpl .icon-corner-up-left.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-up-left.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-up-left.mda-icon:before {
+    content: "\e917"; }
+  *#mda-ey-tpl .icon-corner-up-right.mda-icon:before, *.mda-ey-tpl .icon-corner-up-right.mda-icon:before, *#mda-ey-tpl__layer .icon-corner-up-right.mda-icon:before, *.mda-ey-tpl__layer .icon-corner-up-right.mda-icon:before {
+    content: "\e918"; }
+  *#mda-ey-tpl .icon-arrow3_middle.mda-icon:before, *.mda-ey-tpl .icon-arrow3_middle.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow3_middle.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow3_middle.mda-icon:before {
+    content: "\e642"; }
+  *#mda-ey-tpl .icon-centric.mda-icon:before, *.mda-ey-tpl .icon-centric.mda-icon:before, *#mda-ey-tpl__layer .icon-centric.mda-icon:before, *.mda-ey-tpl__layer .icon-centric.mda-icon:before {
+    content: "\e987"; }
+  *#mda-ey-tpl .icon-scalable.mda-icon:before, *.mda-ey-tpl .icon-scalable.mda-icon:before, *#mda-ey-tpl__layer .icon-scalable.mda-icon:before, *.mda-ey-tpl__layer .icon-scalable.mda-icon:before {
+    content: "\e988"; }
+  *#mda-ey-tpl .icon-maximize2.mda-icon:before, *.mda-ey-tpl .icon-maximize2.mda-icon:before, *#mda-ey-tpl__layer .icon-maximize2.mda-icon:before, *.mda-ey-tpl__layer .icon-maximize2.mda-icon:before {
+    content: "\e112"; }
+  *#mda-ey-tpl .icon-minimize2.mda-icon:before, *.mda-ey-tpl .icon-minimize2.mda-icon:before, *#mda-ey-tpl__layer .icon-minimize2.mda-icon:before, *.mda-ey-tpl__layer .icon-minimize2.mda-icon:before {
+    content: "\e113"; }
+  *#mda-ey-tpl .icon-in_out1.mda-icon:before, *.mda-ey-tpl .icon-in_out1.mda-icon:before, *#mda-ey-tpl__layer .icon-in_out1.mda-icon:before, *.mda-ey-tpl__layer .icon-in_out1.mda-icon:before {
+    content: "\e98a"; }
+  *#mda-ey-tpl .icon-move.mda-icon:before, *.mda-ey-tpl .icon-move.mda-icon:before, *#mda-ey-tpl__layer .icon-move.mda-icon:before, *.mda-ey-tpl__layer .icon-move.mda-icon:before {
+    content: "\e118"; }
+  *#mda-ey-tpl .icon-a-b.mda-icon:before, *.mda-ey-tpl .icon-a-b.mda-icon:before, *#mda-ey-tpl__layer .icon-a-b.mda-icon:before, *.mda-ey-tpl__layer .icon-a-b.mda-icon:before {
+    content: "\e96c"; }
+  *#mda-ey-tpl .icon-type.mda-icon:before, *.mda-ey-tpl .icon-type.mda-icon:before, *#mda-ey-tpl__layer .icon-type.mda-icon:before, *.mda-ey-tpl__layer .icon-type.mda-icon:before {
+    content: "\e64f"; }
+  *#mda-ey-tpl .icon-history.mda-icon:before, *.mda-ey-tpl .icon-history.mda-icon:before, *#mda-ey-tpl__layer .icon-history.mda-icon:before, *.mda-ey-tpl__layer .icon-history.mda-icon:before {
+    content: "\e95f"; }
+  *#mda-ey-tpl .icon-rotate-ccw.mda-icon:before, *.mda-ey-tpl .icon-rotate-ccw.mda-icon:before, *#mda-ey-tpl__layer .icon-rotate-ccw.mda-icon:before, *.mda-ey-tpl__layer .icon-rotate-ccw.mda-icon:before {
+    content: "\e930"; }
+  *#mda-ey-tpl .icon-reload2.mda-icon:before, *.mda-ey-tpl .icon-reload2.mda-icon:before, *#mda-ey-tpl__layer .icon-reload2.mda-icon:before, *.mda-ey-tpl__layer .icon-reload2.mda-icon:before {
+    content: "\e930"; }
+  *#mda-ey-tpl .icon-back.mda-icon:before, *.mda-ey-tpl .icon-back.mda-icon:before, *#mda-ey-tpl__layer .icon-back.mda-icon:before, *.mda-ey-tpl__layer .icon-back.mda-icon:before {
+    content: "\e930"; }
+  *#mda-ey-tpl .icon-rotate-cw.mda-icon:before, *.mda-ey-tpl .icon-rotate-cw.mda-icon:before, *#mda-ey-tpl__layer .icon-rotate-cw.mda-icon:before, *.mda-ey-tpl__layer .icon-rotate-cw.mda-icon:before {
+    content: "\e931"; }
+  *#mda-ey-tpl .icon-reload.mda-icon:before, *.mda-ey-tpl .icon-reload.mda-icon:before, *#mda-ey-tpl__layer .icon-reload.mda-icon:before, *.mda-ey-tpl__layer .icon-reload.mda-icon:before {
+    content: "\e931"; }
+  *#mda-ey-tpl .icon-refresh-ccw.mda-icon:before, *.mda-ey-tpl .icon-refresh-ccw.mda-icon:before, *#mda-ey-tpl__layer .icon-refresh-ccw.mda-icon:before, *.mda-ey-tpl__layer .icon-refresh-ccw.mda-icon:before {
+    content: "\e92c"; }
+  *#mda-ey-tpl .icon-refresh-cw.mda-icon:before, *.mda-ey-tpl .icon-refresh-cw.mda-icon:before, *#mda-ey-tpl__layer .icon-refresh-cw.mda-icon:before, *.mda-ey-tpl__layer .icon-refresh-cw.mda-icon:before {
+    content: "\e92d"; }
+  *#mda-ey-tpl .icon-repeat2.mda-icon:before, *.mda-ey-tpl .icon-repeat2.mda-icon:before, *#mda-ey-tpl__layer .icon-repeat2.mda-icon:before, *.mda-ey-tpl__layer .icon-repeat2.mda-icon:before {
+    content: "\e92d"; }
+  *#mda-ey-tpl .icon-shuffle.mda-icon:before, *.mda-ey-tpl .icon-shuffle.mda-icon:before, *#mda-ey-tpl__layer .icon-shuffle.mda-icon:before, *.mda-ey-tpl__layer .icon-shuffle.mda-icon:before {
+    content: "\e057"; }
+  *#mda-ey-tpl .icon-repeat.mda-icon:before, *.mda-ey-tpl .icon-repeat.mda-icon:before, *#mda-ey-tpl__layer .icon-repeat.mda-icon:before, *.mda-ey-tpl__layer .icon-repeat.mda-icon:before {
+    content: "\e92e"; }
+  *#mda-ey-tpl .icon-in_out2.mda-icon:before, *.mda-ey-tpl .icon-in_out2.mda-icon:before, *#mda-ey-tpl__layer .icon-in_out2.mda-icon:before, *.mda-ey-tpl__layer .icon-in_out2.mda-icon:before {
+    content: "\e990"; }
+  *#mda-ey-tpl .icon-merge.mda-icon:before, *.mda-ey-tpl .icon-merge.mda-icon:before, *#mda-ey-tpl__layer .icon-merge.mda-icon:before, *.mda-ey-tpl__layer .icon-merge.mda-icon:before {
+    content: "\e98b"; }
+  *#mda-ey-tpl .icon-channel.mda-icon:before, *.mda-ey-tpl .icon-channel.mda-icon:before, *#mda-ey-tpl__layer .icon-channel.mda-icon:before, *.mda-ey-tpl__layer .icon-channel.mda-icon:before {
+    content: "\e98c"; }
+  *#mda-ey-tpl .icon-flow.mda-icon:before, *.mda-ey-tpl .icon-flow.mda-icon:before, *#mda-ey-tpl__layer .icon-flow.mda-icon:before, *.mda-ey-tpl__layer .icon-flow.mda-icon:before {
+    content: "\e942"; }
+  *#mda-ey-tpl .icon-tube.mda-icon:before, *.mda-ey-tpl .icon-tube.mda-icon:before, *#mda-ey-tpl__layer .icon-tube.mda-icon:before, *.mda-ey-tpl__layer .icon-tube.mda-icon:before {
+    content: "\e964"; }
+  *#mda-ey-tpl .icon-event.mda-icon:before, *.mda-ey-tpl .icon-event.mda-icon:before, *#mda-ey-tpl__layer .icon-event.mda-icon:before, *.mda-ey-tpl__layer .icon-event.mda-icon:before {
+    content: "\e97f"; }
+  *#mda-ey-tpl .icon-option.mda-icon:before, *.mda-ey-tpl .icon-option.mda-icon:before, *#mda-ey-tpl__layer .icon-option.mda-icon:before, *.mda-ey-tpl__layer .icon-option.mda-icon:before {
+    content: "\e97d"; }
+  *#mda-ey-tpl .icon-window.mda-icon:before, *.mda-ey-tpl .icon-window.mda-icon:before, *#mda-ey-tpl__layer .icon-window.mda-icon:before, *.mda-ey-tpl__layer .icon-window.mda-icon:before {
+    content: "\e9b5"; }
+  *#mda-ey-tpl .icon-input.mda-icon:before, *.mda-ey-tpl .icon-input.mda-icon:before, *#mda-ey-tpl__layer .icon-input.mda-icon:before, *.mda-ey-tpl__layer .icon-input.mda-icon:before {
+    content: "\e98d"; }
+  *#mda-ey-tpl .icon-output.mda-icon:before, *.mda-ey-tpl .icon-output.mda-icon:before, *#mda-ey-tpl__layer .icon-output.mda-icon:before, *.mda-ey-tpl__layer .icon-output.mda-icon:before {
+    content: "\e98e"; }
+  *#mda-ey-tpl .icon-menu2.mda-icon:before, *.mda-ey-tpl .icon-menu2.mda-icon:before, *#mda-ey-tpl__layer .icon-menu2.mda-icon:before, *.mda-ey-tpl__layer .icon-menu2.mda-icon:before {
+    content: "\e643"; }
+  *#mda-ey-tpl .icon-menu.mda-icon:before, *.mda-ey-tpl .icon-menu.mda-icon:before, *#mda-ey-tpl__layer .icon-menu.mda-icon:before, *.mda-ey-tpl__layer .icon-menu.mda-icon:before {
+    content: "\e120"; }
+  *#mda-ey-tpl .icon-dots.mda-icon:before, *.mda-ey-tpl .icon-dots.mda-icon:before, *#mda-ey-tpl__layer .icon-dots.mda-icon:before, *.mda-ey-tpl__layer .icon-dots.mda-icon:before {
+    content: "\e651"; }
+  *#mda-ey-tpl .icon-activity.mda-icon:before, *.mda-ey-tpl .icon-activity.mda-icon:before, *#mda-ey-tpl__layer .icon-activity.mda-icon:before, *.mda-ey-tpl__layer .icon-activity.mda-icon:before {
+    content: "\e603"; }
+  *#mda-ey-tpl .icon-spider.mda-icon:before, *.mda-ey-tpl .icon-spider.mda-icon:before, *#mda-ey-tpl__layer .icon-spider.mda-icon:before, *.mda-ey-tpl__layer .icon-spider.mda-icon:before {
+    content: "\e982"; }
+  *#mda-ey-tpl .icon-area-chart.mda-icon:before, *.mda-ey-tpl .icon-area-chart.mda-icon:before, *#mda-ey-tpl__layer .icon-area-chart.mda-icon:before, *.mda-ey-tpl__layer .icon-area-chart.mda-icon:before {
+    content: "\e63b"; }
+  *#mda-ey-tpl .icon-bar-graph-2.mda-icon:before, *.mda-ey-tpl .icon-bar-graph-2.mda-icon:before, *#mda-ey-tpl__layer .icon-bar-graph-2.mda-icon:before, *.mda-ey-tpl__layer .icon-bar-graph-2.mda-icon:before {
+    content: "\e091"; }
+  *#mda-ey-tpl .icon-bar-graph.mda-icon:before, *.mda-ey-tpl .icon-bar-graph.mda-icon:before, *#mda-ey-tpl__layer .icon-bar-graph.mda-icon:before, *.mda-ey-tpl__layer .icon-bar-graph.mda-icon:before {
+    content: "\e090"; }
+  *#mda-ey-tpl .icon-bar-chart-2.mda-icon:before, *.mda-ey-tpl .icon-bar-chart-2.mda-icon:before, *#mda-ey-tpl__layer .icon-bar-chart-2.mda-icon:before, *.mda-ey-tpl__layer .icon-bar-chart-2.mda-icon:before {
+    content: "\e905"; }
+  *#mda-ey-tpl .icon-bar-chart.mda-icon:before, *.mda-ey-tpl .icon-bar-chart.mda-icon:before, *#mda-ey-tpl__layer .icon-bar-chart.mda-icon:before, *.mda-ey-tpl__layer .icon-bar-chart.mda-icon:before {
+    content: "\e906"; }
+  *#mda-ey-tpl .icon-graph.mda-icon:before, *.mda-ey-tpl .icon-graph.mda-icon:before, *#mda-ey-tpl__layer .icon-graph.mda-icon:before, *.mda-ey-tpl__layer .icon-graph.mda-icon:before {
+    content: "\e981"; }
+  *#mda-ey-tpl .icon-pie-graph.mda-icon:before, *.mda-ey-tpl .icon-pie-graph.mda-icon:before, *#mda-ey-tpl__layer .icon-pie-graph.mda-icon:before, *.mda-ey-tpl__layer .icon-pie-graph.mda-icon:before {
+    content: "\e092"; }
+  *#mda-ey-tpl .icon-trending-down.mda-icon:before, *.mda-ey-tpl .icon-trending-down.mda-icon:before, *#mda-ey-tpl__layer .icon-trending-down.mda-icon:before, *.mda-ey-tpl__layer .icon-trending-down.mda-icon:before {
+    content: "\e933"; }
+  *#mda-ey-tpl .icon-trending-up.mda-icon:before, *.mda-ey-tpl .icon-trending-up.mda-icon:before, *#mda-ey-tpl__layer .icon-trending-up.mda-icon:before, *.mda-ey-tpl__layer .icon-trending-up.mda-icon:before {
+    content: "\e934"; }
+  *#mda-ey-tpl .icon-line.mda-icon:before, *.mda-ey-tpl .icon-line.mda-icon:before, *#mda-ey-tpl__layer .icon-line.mda-icon:before, *.mda-ey-tpl__layer .icon-line.mda-icon:before {
+    content: "\e93b"; }
+  *#mda-ey-tpl .icon-repartition.mda-icon:before, *.mda-ey-tpl .icon-repartition.mda-icon:before, *#mda-ey-tpl__layer .icon-repartition.mda-icon:before, *.mda-ey-tpl__layer .icon-repartition.mda-icon:before {
+    content: "\e9ad"; }
+  *#mda-ey-tpl .icon-expand.mda-icon:before, *.mda-ey-tpl .icon-expand.mda-icon:before, *#mda-ey-tpl__layer .icon-expand.mda-icon:before, *.mda-ey-tpl__layer .icon-expand.mda-icon:before {
+    content: "\e110"; }
+  *#mda-ey-tpl .icon-contract.mda-icon:before, *.mda-ey-tpl .icon-contract.mda-icon:before, *#mda-ey-tpl__layer .icon-contract.mda-icon:before, *.mda-ey-tpl__layer .icon-contract.mda-icon:before {
+    content: "\e111"; }
+  *#mda-ey-tpl .icon-maximize.mda-icon:before, *.mda-ey-tpl .icon-maximize.mda-icon:before, *#mda-ey-tpl__layer .icon-maximize.mda-icon:before, *.mda-ey-tpl__layer .icon-maximize.mda-icon:before {
+    content: "\e926"; }
+  *#mda-ey-tpl .icon-minimize.mda-icon:before, *.mda-ey-tpl .icon-minimize.mda-icon:before, *#mda-ey-tpl__layer .icon-minimize.mda-icon:before, *.mda-ey-tpl__layer .icon-minimize.mda-icon:before {
+    content: "\e92a"; }
+  *#mda-ey-tpl .icon-select.mda-icon:before, *.mda-ey-tpl .icon-select.mda-icon:before, *#mda-ey-tpl__layer .icon-select.mda-icon:before, *.mda-ey-tpl__layer .icon-select.mda-icon:before {
+    content: "\e9b3"; }
+  *#mda-ey-tpl .icon-crop.mda-icon:before, *.mda-ey-tpl .icon-crop.mda-icon:before, *#mda-ey-tpl__layer .icon-crop.mda-icon:before, *.mda-ey-tpl__layer .icon-crop.mda-icon:before {
+    content: "\e91b"; }
+  *#mda-ey-tpl .icon-scale.mda-icon:before, *.mda-ey-tpl .icon-scale.mda-icon:before, *#mda-ey-tpl__layer .icon-scale.mda-icon:before, *.mda-ey-tpl__layer .icon-scale.mda-icon:before {
+    content: "\e989"; }
+  *#mda-ey-tpl .icon-pointer.mda-icon:before, *.mda-ey-tpl .icon-pointer.mda-icon:before, *#mda-ey-tpl__layer .icon-pointer.mda-icon:before, *.mda-ey-tpl__layer .icon-pointer.mda-icon:before {
+    content: "\e946"; }
+  *#mda-ey-tpl .icon-hand_ponting.mda-icon:before, *.mda-ey-tpl .icon-hand_ponting.mda-icon:before, *#mda-ey-tpl__layer .icon-hand_ponting.mda-icon:before, *.mda-ey-tpl__layer .icon-hand_ponting.mda-icon:before {
+    content: "\e986"; }
+  *#mda-ey-tpl .icon-hand_click.mda-icon:before, *.mda-ey-tpl .icon-hand_click.mda-icon:before, *#mda-ey-tpl__layer .icon-hand_click.mda-icon:before, *.mda-ey-tpl__layer .icon-hand_click.mda-icon:before {
+    content: "\e97b"; }
+  *#mda-ey-tpl .icon-message-circle.mda-icon:before, *.mda-ey-tpl .icon-message-circle.mda-icon:before, *#mda-ey-tpl__layer .icon-message-circle.mda-icon:before, *.mda-ey-tpl__layer .icon-message-circle.mda-icon:before {
+    content: "\e927"; }
+  *#mda-ey-tpl .icon-message-square.mda-icon:before, *.mda-ey-tpl .icon-message-square.mda-icon:before, *#mda-ey-tpl__layer .icon-message-square.mda-icon:before, *.mda-ey-tpl__layer .icon-message-square.mda-icon:before {
+    content: "\e928"; }
+  *#mda-ey-tpl .icon-speech-bubble.mda-icon:before, *.mda-ey-tpl .icon-speech-bubble.mda-icon:before, *#mda-ey-tpl__layer .icon-speech-bubble.mda-icon:before, *.mda-ey-tpl__layer .icon-speech-bubble.mda-icon:before {
+    content: "\e076"; }
+  *#mda-ey-tpl .icon-user.mda-icon:before, *.mda-ey-tpl .icon-user.mda-icon:before, *#mda-ey-tpl__layer .icon-user.mda-icon:before, *.mda-ey-tpl__layer .icon-user.mda-icon:before {
+    content: "\e939"; }
+  *#mda-ey-tpl .icon-head.mda-icon:before, *.mda-ey-tpl .icon-head.mda-icon:before, *#mda-ey-tpl__layer .icon-head.mda-icon:before, *.mda-ey-tpl__layer .icon-head.mda-icon:before {
+    content: "\e939"; }
+  *#mda-ey-tpl .icon-user-minus.mda-icon:before, *.mda-ey-tpl .icon-user-minus.mda-icon:before, *#mda-ey-tpl__layer .icon-user-minus.mda-icon:before, *.mda-ey-tpl__layer .icon-user-minus.mda-icon:before {
+    content: "\e936"; }
+  *#mda-ey-tpl .icon-user-plus.mda-icon:before, *.mda-ey-tpl .icon-user-plus.mda-icon:before, *#mda-ey-tpl__layer .icon-user-plus.mda-icon:before, *.mda-ey-tpl__layer .icon-user-plus.mda-icon:before {
+    content: "\e937"; }
+  *#mda-ey-tpl .icon-user-x.mda-icon:before, *.mda-ey-tpl .icon-user-x.mda-icon:before, *#mda-ey-tpl__layer .icon-user-x.mda-icon:before, *.mda-ey-tpl__layer .icon-user-x.mda-icon:before {
+    content: "\e938"; }
+  *#mda-ey-tpl .icon-users.mda-icon:before, *.mda-ey-tpl .icon-users.mda-icon:before, *#mda-ey-tpl__layer .icon-users.mda-icon:before, *.mda-ey-tpl__layer .icon-users.mda-icon:before {
+    content: "\e93a"; }
+  *#mda-ey-tpl .icon-irc.mda-icon:before, *.mda-ey-tpl .icon-irc.mda-icon:before, *#mda-ey-tpl__layer .icon-irc.mda-icon:before, *.mda-ey-tpl__layer .icon-irc.mda-icon:before {
+    content: "\e94b"; }
+  *#mda-ey-tpl .icon-at-sign.mda-icon:before, *.mda-ey-tpl .icon-at-sign.mda-icon:before, *#mda-ey-tpl__layer .icon-at-sign.mda-icon:before, *.mda-ey-tpl__layer .icon-at-sign.mda-icon:before {
+    content: "\e904"; }
+  *#mda-ey-tpl .icon-jdbc.mda-icon:before, *.mda-ey-tpl .icon-jdbc.mda-icon:before, *#mda-ey-tpl__layer .icon-jdbc.mda-icon:before, *.mda-ey-tpl__layer .icon-jdbc.mda-icon:before {
+    content: "\e602"; }
+  *#mda-ey-tpl .icon-http.mda-icon:before, *.mda-ey-tpl .icon-http.mda-icon:before, *#mda-ey-tpl__layer .icon-http.mda-icon:before, *.mda-ey-tpl__layer .icon-http.mda-icon:before {
+    content: "\e94c"; }
+  *#mda-ey-tpl .icon-globe.mda-icon:before, *.mda-ey-tpl .icon-globe.mda-icon:before, *#mda-ey-tpl__layer .icon-globe.mda-icon:before, *.mda-ey-tpl__layer .icon-globe.mda-icon:before {
+    content: "\e078"; }
+  *#mda-ey-tpl .icon-policy.mda-icon:before, *.mda-ey-tpl .icon-policy.mda-icon:before, *#mda-ey-tpl__layer .icon-policy.mda-icon:before, *.mda-ey-tpl__layer .icon-policy.mda-icon:before {
+    content: "\e960"; }
+  *#mda-ey-tpl .icon-shield.mda-icon:before, *.mda-ey-tpl .icon-shield.mda-icon:before, *#mda-ey-tpl__layer .icon-shield.mda-icon:before, *.mda-ey-tpl__layer .icon-shield.mda-icon:before {
+    content: "\e60e"; }
+  *#mda-ey-tpl .icon-lock.mda-icon:before, *.mda-ey-tpl .icon-lock.mda-icon:before, *#mda-ey-tpl__layer .icon-lock.mda-icon:before, *.mda-ey-tpl__layer .icon-lock.mda-icon:before {
+    content: "\e976"; }
+  *#mda-ey-tpl .icon-lock2.mda-icon:before, *.mda-ey-tpl .icon-lock2.mda-icon:before, *#mda-ey-tpl__layer .icon-lock2.mda-icon:before, *.mda-ey-tpl__layer .icon-lock2.mda-icon:before {
+    content: "\e976"; }
+  *#mda-ey-tpl .icon-unlock.mda-icon:before, *.mda-ey-tpl .icon-unlock.mda-icon:before, *#mda-ey-tpl__layer .icon-unlock.mda-icon:before, *.mda-ey-tpl__layer .icon-unlock.mda-icon:before {
+    content: "\e977"; }
+  *#mda-ey-tpl .icon-unlock2.mda-icon:before, *.mda-ey-tpl .icon-unlock2.mda-icon:before, *#mda-ey-tpl__layer .icon-unlock2.mda-icon:before, *.mda-ey-tpl__layer .icon-unlock2.mda-icon:before {
+    content: "\e977"; }
+  *#mda-ey-tpl .icon-key.mda-icon:before, *.mda-ey-tpl .icon-key.mda-icon:before, *#mda-ey-tpl__layer .icon-key.mda-icon:before, *.mda-ey-tpl__layer .icon-key.mda-icon:before {
+    content: "\e984"; }
+  *#mda-ey-tpl .icon-mongodb.mda-icon:before, *.mda-ey-tpl .icon-mongodb.mda-icon:before, *#mda-ey-tpl__layer .icon-mongodb.mda-icon:before, *.mda-ey-tpl__layer .icon-mongodb.mda-icon:before {
+    content: "\e623"; }
+  *#mda-ey-tpl .icon-solr.mda-icon:before, *.mda-ey-tpl .icon-solr.mda-icon:before, *#mda-ey-tpl__layer .icon-solr.mda-icon:before, *.mda-ey-tpl__layer .icon-solr.mda-icon:before {
+    content: "\e966"; }
+  *#mda-ey-tpl .icon-redis.mda-icon:before, *.mda-ey-tpl .icon-redis.mda-icon:before, *#mda-ey-tpl__layer .icon-redis.mda-icon:before, *.mda-ey-tpl__layer .icon-redis.mda-icon:before {
+    content: "\e64b"; }
+  *#mda-ey-tpl .icon-parquet.mda-icon:before, *.mda-ey-tpl .icon-parquet.mda-icon:before, *#mda-ey-tpl__layer .icon-parquet.mda-icon:before, *.mda-ey-tpl__layer .icon-parquet.mda-icon:before {
+    content: "\e649"; }
+  *#mda-ey-tpl .icon-flume.mda-icon:before, *.mda-ey-tpl .icon-flume.mda-icon:before, *#mda-ey-tpl__layer .icon-flume.mda-icon:before, *.mda-ey-tpl__layer .icon-flume.mda-icon:before {
+    content: "\e646"; }
+  *#mda-ey-tpl .icon-kafka.mda-icon:before, *.mda-ey-tpl .icon-kafka.mda-icon:before, *#mda-ey-tpl__layer .icon-kafka.mda-icon:before, *.mda-ey-tpl__layer .icon-kafka.mda-icon:before {
+    content: "\e645"; }
+  *#mda-ey-tpl .icon-kafkadirect.mda-icon:before, *.mda-ey-tpl .icon-kafkadirect.mda-icon:before, *#mda-ey-tpl__layer .icon-kafkadirect.mda-icon:before, *.mda-ey-tpl__layer .icon-kafkadirect.mda-icon:before {
+    content: "\e648"; }
+  *#mda-ey-tpl .icon-diamond.mda-icon:before, *.mda-ey-tpl .icon-diamond.mda-icon:before, *#mda-ey-tpl__layer .icon-diamond.mda-icon:before, *.mda-ey-tpl__layer .icon-diamond.mda-icon:before {
+    content: "\e947"; }
+  *#mda-ey-tpl .icon-spool.mda-icon:before, *.mda-ey-tpl .icon-spool.mda-icon:before, *#mda-ey-tpl__layer .icon-spool.mda-icon:before, *.mda-ey-tpl__layer .icon-spool.mda-icon:before {
+    content: "\e94f"; }
+  *#mda-ey-tpl .icon-rest.mda-icon:before, *.mda-ey-tpl .icon-rest.mda-icon:before, *#mda-ey-tpl__layer .icon-rest.mda-icon:before, *.mda-ey-tpl__layer .icon-rest.mda-icon:before {
+    content: "\e951"; }
+  *#mda-ey-tpl .icon-sequence.mda-icon:before, *.mda-ey-tpl .icon-sequence.mda-icon:before, *#mda-ey-tpl__layer .icon-sequence.mda-icon:before, *.mda-ey-tpl__layer .icon-sequence.mda-icon:before {
+    content: "\e950"; }
+  *#mda-ey-tpl .icon-jms.mda-icon:before, *.mda-ey-tpl .icon-jms.mda-icon:before, *#mda-ey-tpl__layer .icon-jms.mda-icon:before, *.mda-ey-tpl__layer .icon-jms.mda-icon:before {
+    content: "\e948"; }
+  *#mda-ey-tpl .icon-thrift.mda-icon:before, *.mda-ey-tpl .icon-thrift.mda-icon:before, *#mda-ey-tpl__layer .icon-thrift.mda-icon:before, *.mda-ey-tpl__layer .icon-thrift.mda-icon:before {
+    content: "\e954"; }
+  *#mda-ey-tpl .icon-syslog.mda-icon:before, *.mda-ey-tpl .icon-syslog.mda-icon:before, *#mda-ey-tpl__layer .icon-syslog.mda-icon:before, *.mda-ey-tpl__layer .icon-syslog.mda-icon:before {
+    content: "\e955"; }
+  *#mda-ey-tpl .icon-hbase.mda-icon:before, *.mda-ey-tpl .icon-hbase.mda-icon:before, *#mda-ey-tpl__layer .icon-hbase.mda-icon:before, *.mda-ey-tpl__layer .icon-hbase.mda-icon:before {
+    content: "\e956"; }
+  *#mda-ey-tpl .icon-druid.mda-icon:before, *.mda-ey-tpl .icon-druid.mda-icon:before, *#mda-ey-tpl__layer .icon-druid.mda-icon:before, *.mda-ey-tpl__layer .icon-druid.mda-icon:before {
+    content: "\e957"; }
+  *#mda-ey-tpl .icon-hive.mda-icon:before, *.mda-ey-tpl .icon-hive.mda-icon:before, *#mda-ey-tpl__layer .icon-hive.mda-icon:before, *.mda-ey-tpl__layer .icon-hive.mda-icon:before {
+    content: "\e958"; }
+  *#mda-ey-tpl .icon-snmp.mda-icon:before, *.mda-ey-tpl .icon-snmp.mda-icon:before, *#mda-ey-tpl__layer .icon-snmp.mda-icon:before, *.mda-ey-tpl__layer .icon-snmp.mda-icon:before {
+    content: "\e952"; }
+  *#mda-ey-tpl .icon-scribe.mda-icon:before, *.mda-ey-tpl .icon-scribe.mda-icon:before, *#mda-ey-tpl__layer .icon-scribe.mda-icon:before, *.mda-ey-tpl__layer .icon-scribe.mda-icon:before {
+    content: "\e953"; }
+  *#mda-ey-tpl .icon-mesos.mda-icon:before, *.mda-ey-tpl .icon-mesos.mda-icon:before, *#mda-ey-tpl__layer .icon-mesos.mda-icon:before, *.mda-ey-tpl__layer .icon-mesos.mda-icon:before {
+    content: "\e95c"; }
+  *#mda-ey-tpl .icon-kite.mda-icon:before, *.mda-ey-tpl .icon-kite.mda-icon:before, *#mda-ey-tpl__layer .icon-kite.mda-icon:before, *.mda-ey-tpl__layer .icon-kite.mda-icon:before {
+    content: "\e959"; }
+  *#mda-ey-tpl .icon-zookeeper.mda-icon:before, *.mda-ey-tpl .icon-zookeeper.mda-icon:before, *#mda-ey-tpl__layer .icon-zookeeper.mda-icon:before, *.mda-ey-tpl__layer .icon-zookeeper.mda-icon:before {
+    content: "\e95d"; }
+  *#mda-ey-tpl .icon-netcat.mda-icon:before, *.mda-ey-tpl .icon-netcat.mda-icon:before, *#mda-ey-tpl__layer .icon-netcat.mda-icon:before, *.mda-ey-tpl__layer .icon-netcat.mda-icon:before {
+    content: "\e94a"; }
+  *#mda-ey-tpl .icon-github.mda-icon:before, *.mda-ey-tpl .icon-github.mda-icon:before, *#mda-ey-tpl__layer .icon-github.mda-icon:before, *.mda-ey-tpl__layer .icon-github.mda-icon:before {
+    content: "\e920"; }
+  *#mda-ey-tpl .icon-github2.mda-icon:before, *.mda-ey-tpl .icon-github2.mda-icon:before, *#mda-ey-tpl__layer .icon-github2.mda-icon:before, *.mda-ey-tpl__layer .icon-github2.mda-icon:before {
+    content: "\e967"; }
+  *#mda-ey-tpl .icon-postgres.mda-icon:before, *.mda-ey-tpl .icon-postgres.mda-icon:before, *#mda-ey-tpl__layer .icon-postgres.mda-icon:before, *.mda-ey-tpl__layer .icon-postgres.mda-icon:before {
+    content: "\e9a5"; }
+  *#mda-ey-tpl .icon-elasticsearch.mda-icon:before, *.mda-ey-tpl .icon-elasticsearch.mda-icon:before, *#mda-ey-tpl__layer .icon-elasticsearch.mda-icon:before, *.mda-ey-tpl__layer .icon-elasticsearch.mda-icon:before {
+    content: "\e624"; }
+  *#mda-ey-tpl .icon-hdfs.mda-icon:before, *.mda-ey-tpl .icon-hdfs.mda-icon:before, *#mda-ey-tpl__layer .icon-hdfs.mda-icon:before, *.mda-ey-tpl__layer .icon-hdfs.mda-icon:before {
+    content: "\e93e"; }
+  *#mda-ey-tpl .icon-codepen.mda-icon:before, *.mda-ey-tpl .icon-codepen.mda-icon:before, *#mda-ey-tpl__layer .icon-codepen.mda-icon:before, *.mda-ey-tpl__layer .icon-codepen.mda-icon:before {
+    content: "\e90f"; }
+  *#mda-ey-tpl .icon-docker.mda-icon:before, *.mda-ey-tpl .icon-docker.mda-icon:before, *#mda-ey-tpl__layer .icon-docker.mda-icon:before, *.mda-ey-tpl__layer .icon-docker.mda-icon:before {
+    content: "\e968"; }
+  *#mda-ey-tpl .icon-rabbitmq.mda-icon:before, *.mda-ey-tpl .icon-rabbitmq.mda-icon:before, *#mda-ey-tpl__layer .icon-rabbitmq.mda-icon:before, *.mda-ey-tpl__layer .icon-rabbitmq.mda-icon:before {
+    content: "\e636"; }
+  *#mda-ey-tpl .icon-cassandra.mda-icon:before, *.mda-ey-tpl .icon-cassandra.mda-icon:before, *#mda-ey-tpl__layer .icon-cassandra.mda-icon:before, *.mda-ey-tpl__layer .icon-cassandra.mda-icon:before {
+    content: "\e62f"; }
+  *#mda-ey-tpl .icon-avro.mda-icon:before, *.mda-ey-tpl .icon-avro.mda-icon:before, *#mda-ey-tpl__layer .icon-avro.mda-icon:before, *.mda-ey-tpl__layer .icon-avro.mda-icon:before {
+    content: "\e93d"; }
+  *#mda-ey-tpl .icon-modules.mda-icon:before, *.mda-ey-tpl .icon-modules.mda-icon:before, *#mda-ey-tpl__layer .icon-modules.mda-icon:before, *.mda-ey-tpl__layer .icon-modules.mda-icon:before {
+    content: "\e96d"; }
+  *#mda-ey-tpl .icon-credit-card.mda-icon:before, *.mda-ey-tpl .icon-credit-card.mda-icon:before, *#mda-ey-tpl__layer .icon-credit-card.mda-icon:before, *.mda-ey-tpl__layer .icon-credit-card.mda-icon:before {
+    content: "\e91a"; }
+  *#mda-ey-tpl .icon-bag.mda-icon:before, *.mda-ey-tpl .icon-bag.mda-icon:before, *#mda-ey-tpl__layer .icon-bag.mda-icon:before, *.mda-ey-tpl__layer .icon-bag.mda-icon:before {
+    content: "\e106"; }
+  *#mda-ey-tpl .icon-basket.mda-icon:before, *.mda-ey-tpl .icon-basket.mda-icon:before, *#mda-ey-tpl__layer .icon-basket.mda-icon:before, *.mda-ey-tpl__layer .icon-basket.mda-icon:before {
+    content: "\e996"; }
+  *#mda-ey-tpl .icon-tag_right.mda-icon:before, *.mda-ey-tpl .icon-tag_right.mda-icon:before, *#mda-ey-tpl__layer .icon-tag_right.mda-icon:before, *.mda-ey-tpl__layer .icon-tag_right.mda-icon:before {
+    content: "\e08a"; }
+  *#mda-ey-tpl .icon-tag_left.mda-icon:before, *.mda-ey-tpl .icon-tag_left.mda-icon:before, *#mda-ey-tpl__layer .icon-tag_left.mda-icon:before, *.mda-ey-tpl__layer .icon-tag_left.mda-icon:before {
+    content: "\e085"; }
+  *#mda-ey-tpl .icon-transport.mda-icon:before, *.mda-ey-tpl .icon-transport.mda-icon:before, *#mda-ey-tpl__layer .icon-transport.mda-icon:before, *.mda-ey-tpl__layer .icon-transport.mda-icon:before {
+    content: "\e628"; }
+  *#mda-ey-tpl .icon-speed.mda-icon:before, *.mda-ey-tpl .icon-speed.mda-icon:before, *#mda-ey-tpl__layer .icon-speed.mda-icon:before, *.mda-ey-tpl__layer .icon-speed.mda-icon:before {
+    content: "\e999"; }
+  *#mda-ey-tpl .icon-dashboard.mda-icon:before, *.mda-ey-tpl .icon-dashboard.mda-icon:before, *#mda-ey-tpl__layer .icon-dashboard.mda-icon:before, *.mda-ey-tpl__layer .icon-dashboard.mda-icon:before {
+    content: "\e60b"; }
+  *#mda-ey-tpl .icon-facets.mda-icon:before, *.mda-ey-tpl .icon-facets.mda-icon:before, *#mda-ey-tpl__layer .icon-facets.mda-icon:before, *.mda-ey-tpl__layer .icon-facets.mda-icon:before {
+    content: "\e99e"; }
+  *#mda-ey-tpl .icon-hand_thumbup.mda-icon:before, *.mda-ey-tpl .icon-hand_thumbup.mda-icon:before, *#mda-ey-tpl__layer .icon-hand_thumbup.mda-icon:before, *.mda-ey-tpl__layer .icon-hand_thumbup.mda-icon:before {
+    content: "\e96f"; }
+  *#mda-ey-tpl .icon-heart.mda-icon:before, *.mda-ey-tpl .icon-heart.mda-icon:before, *#mda-ey-tpl__layer .icon-heart.mda-icon:before, *.mda-ey-tpl__layer .icon-heart.mda-icon:before {
+    content: "\e024"; }
+  *#mda-ey-tpl .icon-star2.mda-icon:before, *.mda-ey-tpl .icon-star2.mda-icon:before, *#mda-ey-tpl__layer .icon-star2.mda-icon:before, *.mda-ey-tpl__layer .icon-star2.mda-icon:before {
+    content: "\e997"; }
+  *#mda-ey-tpl .icon-star.mda-icon:before, *.mda-ey-tpl .icon-star.mda-icon:before, *#mda-ey-tpl__layer .icon-star.mda-icon:before, *.mda-ey-tpl__layer .icon-star.mda-icon:before {
+    content: "\e093"; }
+  *#mda-ey-tpl .icon-linkedin.mda-icon:before, *.mda-ey-tpl .icon-linkedin.mda-icon:before, *#mda-ey-tpl__layer .icon-linkedin.mda-icon:before, *.mda-ey-tpl__layer .icon-linkedin.mda-icon:before {
+    content: "\e9a2"; }
+  *#mda-ey-tpl .icon-twitter.mda-icon:before, *.mda-ey-tpl .icon-twitter.mda-icon:before, *#mda-ey-tpl__layer .icon-twitter.mda-icon:before, *.mda-ey-tpl__layer .icon-twitter.mda-icon:before {
+    content: "\e637"; }
+  *#mda-ey-tpl .icon-youtube.mda-icon:before, *.mda-ey-tpl .icon-youtube.mda-icon:before, *#mda-ey-tpl__layer .icon-youtube.mda-icon:before, *.mda-ey-tpl__layer .icon-youtube.mda-icon:before {
+    content: "\e9a3"; }
+  *#mda-ey-tpl .icon-slideshare.mda-icon:before, *.mda-ey-tpl .icon-slideshare.mda-icon:before, *#mda-ey-tpl__layer .icon-slideshare.mda-icon:before, *.mda-ey-tpl__layer .icon-slideshare.mda-icon:before {
+    content: "\e9a4"; }
+  *#mda-ey-tpl .icon-command.mda-icon:before, *.mda-ey-tpl .icon-command.mda-icon:before, *#mda-ey-tpl__layer .icon-command.mda-icon:before, *.mda-ey-tpl__layer .icon-command.mda-icon:before {
+    content: "\e087"; }
+  *#mda-ey-tpl .icon-alt.mda-icon:before, *.mda-ey-tpl .icon-alt.mda-icon:before, *#mda-ey-tpl__layer .icon-alt.mda-icon:before, *.mda-ey-tpl__layer .icon-alt.mda-icon:before {
+    content: "\e088"; }
+  *#mda-ey-tpl .icon-home.mda-icon:before, *.mda-ey-tpl .icon-home.mda-icon:before, *#mda-ey-tpl__layer .icon-home.mda-icon:before, *.mda-ey-tpl__layer .icon-home.mda-icon:before {
+    content: "\e9a7"; }
+  *#mda-ey-tpl .icon-home2.mda-icon:before, *.mda-ey-tpl .icon-home2.mda-icon:before, *#mda-ey-tpl__layer .icon-home2.mda-icon:before, *.mda-ey-tpl__layer .icon-home2.mda-icon:before {
+    content: "\e9a7"; }
+  *#mda-ey-tpl .icon-planet.mda-icon:before, *.mda-ey-tpl .icon-planet.mda-icon:before, *#mda-ey-tpl__layer .icon-planet.mda-icon:before, *.mda-ey-tpl__layer .icon-planet.mda-icon:before {
+    content: "\e9a9"; }
+  *#mda-ey-tpl .icon-machine_learning.mda-icon:before, *.mda-ey-tpl .icon-machine_learning.mda-icon:before, *#mda-ey-tpl__layer .icon-machine_learning.mda-icon:before, *.mda-ey-tpl__layer .icon-machine_learning.mda-icon:before {
+    content: "\e9aa"; }
+  *#mda-ey-tpl .icon-drop.mda-icon:before, *.mda-ey-tpl .icon-drop.mda-icon:before, *#mda-ey-tpl__layer .icon-drop.mda-icon:before, *.mda-ey-tpl__layer .icon-drop.mda-icon:before {
+    content: "\e063"; }
+  *#mda-ey-tpl .icon-moon.mda-icon:before, *.mda-ey-tpl .icon-moon.mda-icon:before, *#mda-ey-tpl__layer .icon-moon.mda-icon:before, *.mda-ey-tpl__layer .icon-moon.mda-icon:before {
+    content: "\e061"; }
+  *#mda-ey-tpl .icon-thermometer.mda-icon:before, *.mda-ey-tpl .icon-thermometer.mda-icon:before, *#mda-ey-tpl__layer .icon-thermometer.mda-icon:before, *.mda-ey-tpl__layer .icon-thermometer.mda-icon:before {
+    content: "\e062"; }
+  *#mda-ey-tpl .icon-umbrella.mda-icon:before, *.mda-ey-tpl .icon-umbrella.mda-icon:before, *#mda-ey-tpl__layer .icon-umbrella.mda-icon:before, *.mda-ey-tpl__layer .icon-umbrella.mda-icon:before {
+    content: "\e060"; }
+  *#mda-ey-tpl .icon-fire.mda-icon:before, *.mda-ey-tpl .icon-fire.mda-icon:before, *#mda-ey-tpl__layer .icon-fire.mda-icon:before, *.mda-ey-tpl__layer .icon-fire.mda-icon:before {
+    content: "\e983"; }
+  *#mda-ey-tpl .icon-stress.mda-icon:before, *.mda-ey-tpl .icon-stress.mda-icon:before, *#mda-ey-tpl__layer .icon-stress.mda-icon:before, *.mda-ey-tpl__layer .icon-stress.mda-icon:before {
+    content: "\e94e"; }
+  *#mda-ey-tpl .icon-omni.mda-icon:before, *.mda-ey-tpl .icon-omni.mda-icon:before, *#mda-ey-tpl__layer .icon-omni.mda-icon:before, *.mda-ey-tpl__layer .icon-omni.mda-icon:before {
+    content: "\e9a0"; }
+  *#mda-ey-tpl .icon-deepweb.mda-icon:before, *.mda-ey-tpl .icon-deepweb.mda-icon:before, *#mda-ey-tpl__layer .icon-deepweb.mda-icon:before, *.mda-ey-tpl__layer .icon-deepweb.mda-icon:before {
+    content: "\e9a1"; }
+  *#mda-ey-tpl .icon-coffe.mda-icon:before, *.mda-ey-tpl .icon-coffe.mda-icon:before, *#mda-ey-tpl__layer .icon-coffe.mda-icon:before, *.mda-ey-tpl__layer .icon-coffe.mda-icon:before {
+    content: "\e944"; }
+  *#mda-ey-tpl .icon-chip2.mda-icon:before, *.mda-ey-tpl .icon-chip2.mda-icon:before, *#mda-ey-tpl__layer .icon-chip2.mda-icon:before, *.mda-ey-tpl__layer .icon-chip2.mda-icon:before {
+    content: "\e62a"; }
+  *#mda-ey-tpl .icon-chip3.mda-icon:before, *.mda-ey-tpl .icon-chip3.mda-icon:before, *#mda-ey-tpl__layer .icon-chip3.mda-icon:before, *.mda-ey-tpl__layer .icon-chip3.mda-icon:before {
+    content: "\e62a"; }
+  *#mda-ey-tpl .icon-chip1.mda-icon:before, *.mda-ey-tpl .icon-chip1.mda-icon:before, *#mda-ey-tpl__layer .icon-chip1.mda-icon:before, *.mda-ey-tpl__layer .icon-chip1.mda-icon:before {
+    content: "\e62d"; }
+  *#mda-ey-tpl .icon-cpu.mda-icon:before, *.mda-ey-tpl .icon-cpu.mda-icon:before, *#mda-ey-tpl__layer .icon-cpu.mda-icon:before, *.mda-ey-tpl__layer .icon-cpu.mda-icon:before {
+    content: "\e62d"; }
+  *#mda-ey-tpl .icon-chip.mda-icon:before, *.mda-ey-tpl .icon-chip.mda-icon:before, *#mda-ey-tpl__layer .icon-chip.mda-icon:before, *.mda-ey-tpl__layer .icon-chip.mda-icon:before {
+    content: "\e62d"; }
+  *#mda-ey-tpl .icon-server.mda-icon:before, *.mda-ey-tpl .icon-server.mda-icon:before, *#mda-ey-tpl__layer .icon-server.mda-icon:before, *.mda-ey-tpl__layer .icon-server.mda-icon:before {
+    content: "\e974"; }
+  *#mda-ey-tpl .icon-cpu2.mda-icon:before, *.mda-ey-tpl .icon-cpu2.mda-icon:before, *#mda-ey-tpl__layer .icon-cpu2.mda-icon:before, *.mda-ey-tpl__layer .icon-cpu2.mda-icon:before {
+    content: "\e627"; }
+  *#mda-ey-tpl .icon-socket.mda-icon:before, *.mda-ey-tpl .icon-socket.mda-icon:before, *#mda-ey-tpl__layer .icon-socket.mda-icon:before, *.mda-ey-tpl__layer .icon-socket.mda-icon:before {
+    content: "\e644"; }
+  *#mda-ey-tpl .icon-websocket.mda-icon:before, *.mda-ey-tpl .icon-websocket.mda-icon:before, *#mda-ey-tpl__layer .icon-websocket.mda-icon:before, *.mda-ey-tpl__layer .icon-websocket.mda-icon:before {
+    content: "\e650"; }
+  *#mda-ey-tpl .icon-plug.mda-icon:before, *.mda-ey-tpl .icon-plug.mda-icon:before, *#mda-ey-tpl__layer .icon-plug.mda-icon:before, *.mda-ey-tpl__layer .icon-plug.mda-icon:before {
+    content: "\e97a"; }
+  *#mda-ey-tpl .icon-pause2.mda-icon:before, *.mda-ey-tpl .icon-pause2.mda-icon:before, *#mda-ey-tpl__layer .icon-pause2.mda-icon:before, *.mda-ey-tpl__layer .icon-pause2.mda-icon:before {
+    content: "\e970"; }
+  *#mda-ey-tpl .icon-storage.mda-icon:before, *.mda-ey-tpl .icon-storage.mda-icon:before, *#mda-ey-tpl__layer .icon-storage.mda-icon:before, *.mda-ey-tpl__layer .icon-storage.mda-icon:before {
+    content: "\e607"; }
+  *#mda-ey-tpl .icon-mobile.mda-icon:before, *.mda-ey-tpl .icon-mobile.mda-icon:before, *#mda-ey-tpl__layer .icon-mobile.mda-icon:before, *.mda-ey-tpl__layer .icon-mobile.mda-icon:before {
+    content: "\e978"; }
+  *#mda-ey-tpl .icon-compass.mda-icon:before, *.mda-ey-tpl .icon-compass.mda-icon:before, *#mda-ey-tpl__layer .icon-compass.mda-icon:before, *.mda-ey-tpl__layer .icon-compass.mda-icon:before {
+    content: "\e60d"; }
+  *#mda-ey-tpl .icon-rudder.mda-icon:before, *.mda-ey-tpl .icon-rudder.mda-icon:before, *#mda-ey-tpl__layer .icon-rudder.mda-icon:before, *.mda-ey-tpl__layer .icon-rudder.mda-icon:before {
+    content: "\e9ac"; }
+  *#mda-ey-tpl .icon-robot.mda-icon:before, *.mda-ey-tpl .icon-robot.mda-icon:before, *#mda-ey-tpl__layer .icon-robot.mda-icon:before, *.mda-ey-tpl__layer .icon-robot.mda-icon:before {
+    content: "\e9ab"; }
+  *#mda-ey-tpl .icon-smiley.mda-icon:before, *.mda-ey-tpl .icon-smiley.mda-icon:before, *#mda-ey-tpl__layer .icon-smiley.mda-icon:before, *.mda-ey-tpl__layer .icon-smiley.mda-icon:before {
+    content: "\e96e"; }
+  *#mda-ey-tpl .icon-pacman.mda-icon:before, *.mda-ey-tpl .icon-pacman.mda-icon:before, *#mda-ey-tpl__layer .icon-pacman.mda-icon:before, *.mda-ey-tpl__layer .icon-pacman.mda-icon:before {
+    content: "\e97c"; }
+  *#mda-ey-tpl .icon-astronaut.mda-icon:before, *.mda-ey-tpl .icon-astronaut.mda-icon:before, *#mda-ey-tpl__layer .icon-astronaut.mda-icon:before, *.mda-ey-tpl__layer .icon-astronaut.mda-icon:before {
+    content: "\e9b6"; }
+  *#mda-ey-tpl .icon-hide.mda-icon:before, *.mda-ey-tpl .icon-hide.mda-icon:before, *#mda-ey-tpl__layer .icon-hide.mda-icon:before, *.mda-ey-tpl__layer .icon-hide.mda-icon:before {
+    content: "\e99d"; }
+  *#mda-ey-tpl .icon-infinite.mda-icon:before, *.mda-ey-tpl .icon-infinite.mda-icon:before, *#mda-ey-tpl__layer .icon-infinite.mda-icon:before, *.mda-ey-tpl__layer .icon-infinite.mda-icon:before {
+    content: "\e992"; }
+  *#mda-ey-tpl .icon-hash.mda-icon:before, *.mda-ey-tpl .icon-hash.mda-icon:before, *#mda-ey-tpl__layer .icon-hash.mda-icon:before, *.mda-ey-tpl__layer .icon-hash.mda-icon:before {
+    content: "\e921"; }
+  *#mda-ey-tpl .icon-atom.mda-icon:before, *.mda-ey-tpl .icon-atom.mda-icon:before, *#mda-ey-tpl__layer .icon-atom.mda-icon:before, *.mda-ey-tpl__layer .icon-atom.mda-icon:before {
+    content: "\e993"; }
+  *#mda-ey-tpl .icon-debug.mda-icon:before, *.mda-ey-tpl .icon-debug.mda-icon:before, *#mda-ey-tpl__layer .icon-debug.mda-icon:before, *.mda-ey-tpl__layer .icon-debug.mda-icon:before {
+    content: "\e9b7"; }
+  *#mda-ey-tpl .icon-loto.mda-icon:before, *.mda-ey-tpl .icon-loto.mda-icon:before, *#mda-ey-tpl__layer .icon-loto.mda-icon:before, *.mda-ey-tpl__layer .icon-loto.mda-icon:before {
+    content: "\e998"; }
+  *#mda-ey-tpl .icon-location-2.mda-icon:before, *.mda-ey-tpl .icon-location-2.mda-icon:before, *#mda-ey-tpl__layer .icon-location-2.mda-icon:before, *.mda-ey-tpl__layer .icon-location-2.mda-icon:before {
+    content: "\e071"; }
+  *#mda-ey-tpl .icon-Interceptor.mda-icon:before, *.mda-ey-tpl .icon-Interceptor.mda-icon:before, *#mda-ey-tpl__layer .icon-Interceptor.mda-icon:before, *.mda-ey-tpl__layer .icon-Interceptor.mda-icon:before {
+    content: "\e98f"; }
+  *#mda-ey-tpl .icon-briefcase.mda-icon:before, *.mda-ey-tpl .icon-briefcase.mda-icon:before, *#mda-ey-tpl__layer .icon-briefcase.mda-icon:before, *.mda-ey-tpl__layer .icon-briefcase.mda-icon:before {
+    content: "\e075"; }
+  *#mda-ey-tpl .icon-puzzle.mda-icon:before, *.mda-ey-tpl .icon-puzzle.mda-icon:before, *#mda-ey-tpl__layer .icon-puzzle.mda-icon:before, *.mda-ey-tpl__layer .icon-puzzle.mda-icon:before {
+    content: "\e60a"; }
+  *#mda-ey-tpl .icon-direction.mda-icon:before, *.mda-ey-tpl .icon-direction.mda-icon:before, *#mda-ey-tpl__layer .icon-direction.mda-icon:before, *.mda-ey-tpl__layer .icon-direction.mda-icon:before {
+    content: "\e621"; }
+  *#mda-ey-tpl .icon-flag.mda-icon:before, *.mda-ey-tpl .icon-flag.mda-icon:before, *#mda-ey-tpl__layer .icon-flag.mda-icon:before, *.mda-ey-tpl__layer .icon-flag.mda-icon:before {
+    content: "\e108"; }
+  *#mda-ey-tpl .icon-ribbon2.mda-icon:before, *.mda-ey-tpl .icon-ribbon2.mda-icon:before, *#mda-ey-tpl__layer .icon-ribbon2.mda-icon:before, *.mda-ey-tpl__layer .icon-ribbon2.mda-icon:before {
+    content: "\e94d"; }
+  *#mda-ey-tpl .icon-cup.mda-icon:before, *.mda-ey-tpl .icon-cup.mda-icon:before, *#mda-ey-tpl__layer .icon-cup.mda-icon:before, *.mda-ey-tpl__layer .icon-cup.mda-icon:before {
+    content: "\e61d"; }
+  *#mda-ey-tpl .icon-pingpong.mda-icon:before, *.mda-ey-tpl .icon-pingpong.mda-icon:before, *#mda-ey-tpl__layer .icon-pingpong.mda-icon:before, *.mda-ey-tpl__layer .icon-pingpong.mda-icon:before {
+    content: "\e985"; }
+  *#mda-ey-tpl .icon-evolution.mda-icon:before, *.mda-ey-tpl .icon-evolution.mda-icon:before, *#mda-ey-tpl__layer .icon-evolution.mda-icon:before, *.mda-ey-tpl__layer .icon-evolution.mda-icon:before {
+    content: "\e975"; }
+  *#mda-ey-tpl .icon-bike.mda-icon:before, *.mda-ey-tpl .icon-bike.mda-icon:before, *#mda-ey-tpl__layer .icon-bike.mda-icon:before, *.mda-ey-tpl__layer .icon-bike.mda-icon:before {
+    content: "\e9a6"; }
+  *#mda-ey-tpl .icon-car.mda-icon:before, *.mda-ey-tpl .icon-car.mda-icon:before, *#mda-ey-tpl__layer .icon-car.mda-icon:before, *.mda-ey-tpl__layer .icon-car.mda-icon:before {
+    content: "\e99c"; }
+  *#mda-ey-tpl .icon-intelligence.mda-icon:before, *.mda-ey-tpl .icon-intelligence.mda-icon:before, *#mda-ey-tpl__layer .icon-intelligence.mda-icon:before, *.mda-ey-tpl__layer .icon-intelligence.mda-icon:before {
+    content: "\e979"; }
+  *#mda-ey-tpl .icon-box.mda-icon:before, *.mda-ey-tpl .icon-box.mda-icon:before, *#mda-ey-tpl__layer .icon-box.mda-icon:before, *.mda-ey-tpl__layer .icon-box.mda-icon:before {
+    content: "\e079"; }
+  *#mda-ey-tpl .icon-lego.mda-icon:before, *.mda-ey-tpl .icon-lego.mda-icon:before, *#mda-ey-tpl__layer .icon-lego.mda-icon:before, *.mda-ey-tpl__layer .icon-lego.mda-icon:before {
+    content: "\e941"; }
+  *#mda-ey-tpl .icon-radio.mda-icon:before, *.mda-ey-tpl .icon-radio.mda-icon:before, *#mda-ey-tpl__layer .icon-radio.mda-icon:before, *.mda-ey-tpl__layer .icon-radio.mda-icon:before {
+    content: "\e9c1"; }
+  *#mda-ey-tpl .icon-radio-checked.mda-icon:before, *.mda-ey-tpl .icon-radio-checked.mda-icon:before, *#mda-ey-tpl__layer .icon-radio-checked.mda-icon:before, *.mda-ey-tpl__layer .icon-radio-checked.mda-icon:before {
+    content: "\e9c0"; }
+  *#mda-ey-tpl .icon-arrow4_right.mda-icon:before, *.mda-ey-tpl .icon-arrow4_right.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow4_right.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow4_right.mda-icon:before {
+    content: "\e9be"; }
+  *#mda-ey-tpl .icon-arrow4_left.mda-icon:before, *.mda-ey-tpl .icon-arrow4_left.mda-icon:before, *#mda-ey-tpl__layer .icon-arrow4_left.mda-icon:before, *.mda-ey-tpl__layer .icon-arrow4_left.mda-icon:before {
+    content: "\e9bd"; }
+
+*#mda-ey-tpl .mda-fs__12, *.mda-ey-tpl .mda-fs__12, *#mda-ey-tpl__layer .mda-fs__12, *.mda-ey-tpl__layer .mda-fs__12, *#mda-ey-tpl H6, *.mda-ey-tpl H6, *#mda-ey-tpl__layer H6, *.mda-ey-tpl__layer H6 {
+  font-size: 0.75rem;
+  line-height: 1.0625rem; }
+
+*#mda-ey-tpl .mda-fs__14, *.mda-ey-tpl .mda-fs__14, *#mda-ey-tpl__layer .mda-fs__14, *.mda-ey-tpl__layer .mda-fs__14, *#mda-ey-tpl H5, *.mda-ey-tpl H5, *#mda-ey-tpl__layer H5, *.mda-ey-tpl__layer H5 {
+  font-size: 0.875rem;
+  line-height: 1.125rem; }
+
+*#mda-ey-tpl .mda-fs__15, *.mda-ey-tpl .mda-fs__15, *#mda-ey-tpl__layer .mda-fs__15, *.mda-ey-tpl__layer .mda-fs__15 {
+  font-size: 0.9375rem;
+  line-height: 1.25rem; }
+
+*#mda-ey-tpl .mda-fs__16, *.mda-ey-tpl .mda-fs__16, *#mda-ey-tpl__layer .mda-fs__16, *.mda-ey-tpl__layer .mda-fs__16, *#mda-ey-tpl H4, *.mda-ey-tpl H4, *#mda-ey-tpl__layer H4, *.mda-ey-tpl__layer H4 {
+  font-size: 1rem;
+  line-height: 1.3125rem; }
+
+*#mda-ey-tpl .mda-fs__18, *.mda-ey-tpl .mda-fs__18, *#mda-ey-tpl__layer .mda-fs__18, *.mda-ey-tpl__layer .mda-fs__18, *#mda-ey-tpl H3, *.mda-ey-tpl H3, *#mda-ey-tpl__layer H3, *.mda-ey-tpl__layer H3 {
+  font-size: 1.125rem;
+  line-height: 1.375rem; }
+
+*#mda-ey-tpl .mda-fs__20, *.mda-ey-tpl .mda-fs__20, *#mda-ey-tpl__layer .mda-fs__20, *.mda-ey-tpl__layer .mda-fs__20 {
+  font-size: 1.25rem;
+  line-height: 1.5rem; }
+
+*#mda-ey-tpl .mda-fs__22, *.mda-ey-tpl .mda-fs__22, *#mda-ey-tpl__layer .mda-fs__22, *.mda-ey-tpl__layer .mda-fs__22 {
+  font-size: 1.375rem;
+  line-height: 1.625rem; }
+
+*#mda-ey-tpl .mda-fs__25, *.mda-ey-tpl .mda-fs__25, *#mda-ey-tpl__layer .mda-fs__25, *.mda-ey-tpl__layer .mda-fs__25, *#mda-ey-tpl H2, *.mda-ey-tpl H2, *#mda-ey-tpl__layer H2, *.mda-ey-tpl__layer H2 {
+  font-size: 1.5625rem;
+  line-height: 1.875rem; }
+
+*#mda-ey-tpl .mda-fs__29, *.mda-ey-tpl .mda-fs__29, *#mda-ey-tpl__layer .mda-fs__29, *.mda-ey-tpl__layer .mda-fs__29 {
+  font-size: 1.8125rem;
+  line-height: 2.125rem; }
+
+*#mda-ey-tpl .mda-fs__32, *.mda-ey-tpl .mda-fs__32, *#mda-ey-tpl__layer .mda-fs__32, *.mda-ey-tpl__layer .mda-fs__32, *#mda-ey-tpl H1, *.mda-ey-tpl H1, *#mda-ey-tpl__layer H1, *.mda-ey-tpl__layer H1 {
+  font-size: 2rem;
+  line-height: 2.375rem; }
+
+*#mda-ey-tpl .mda-fs__36, *.mda-ey-tpl .mda-fs__36, *#mda-ey-tpl__layer .mda-fs__36, *.mda-ey-tpl__layer .mda-fs__36 {
+  font-size: 2.25rem;
+  line-height: 2.7rem; }
+
+*#mda-ey-tpl .mda-fs__41, *.mda-ey-tpl .mda-fs__41, *#mda-ey-tpl__layer .mda-fs__41, *.mda-ey-tpl__layer .mda-fs__41 {
+  font-size: 2.5625rem;
+  line-height: 3.075rem; }
+
+*#mda-ey-tpl .mda-fs__46, *.mda-ey-tpl .mda-fs__46, *#mda-ey-tpl__layer .mda-fs__46, *.mda-ey-tpl__layer .mda-fs__46 {
+  font-size: 2.875rem;
+  line-height: 3.45rem; }
+
+*#mda-ey-tpl .mda-fs__52, *.mda-ey-tpl .mda-fs__52, *#mda-ey-tpl__layer .mda-fs__52, *.mda-ey-tpl__layer .mda-fs__52 {
+  font-size: 3.25rem;
+  line-height: 3.9rem; }
+
+*#mda-ey-tpl .mda-fs__58, *.mda-ey-tpl .mda-fs__58, *#mda-ey-tpl__layer .mda-fs__58, *.mda-ey-tpl__layer .mda-fs__58 {
+  font-size: 3.625rem;
+  line-height: 4.35rem; }
+
+*#mda-ey-tpl .mda-fs__66, *.mda-ey-tpl .mda-fs__66, *#mda-ey-tpl__layer .mda-fs__66, *.mda-ey-tpl__layer .mda-fs__66 {
+  font-size: 4.125rem;
+  line-height: 4.95rem; }
+
+*#mda-ey-tpl .mda-fs__74, *.mda-ey-tpl .mda-fs__74, *#mda-ey-tpl__layer .mda-fs__74, *.mda-ey-tpl__layer .mda-fs__74 {
+  font-size: 4.625rem;
+  line-height: 5.55rem; }
+
+*#mda-ey-tpl .mda-fs__83, *.mda-ey-tpl .mda-fs__83, *#mda-ey-tpl__layer .mda-fs__83, *.mda-ey-tpl__layer .mda-fs__83 {
+  font-size: 5.1875rem;
+  line-height: 6.225rem; }
+
+*#mda-ey-tpl .mda-fs__94, *.mda-ey-tpl .mda-fs__94, *#mda-ey-tpl__layer .mda-fs__94, *.mda-ey-tpl__layer .mda-fs__94 {
+  font-size: 5.875rem;
+  line-height: 7.05rem; }
+
+*#mda-ey-tpl, *.mda-ey-tpl, *#mda-ey-tpl__layer, *.mda-ey-tpl__layer, *#mda-ey-tpl *, *.mda-ey-tpl *, *#mda-ey-tpl__layer *, *.mda-ey-tpl__layer *, *#mda-ey-tpl .mda-font__default, *.mda-ey-tpl .mda-font__default, *#mda-ey-tpl__layer .mda-font__default, *.mda-ey-tpl__layer .mda-font__default {
+  font-size: 1rem;
+  line-height: 1.3125rem; }
+
+*#mda-ey-tpl *, *.mda-ey-tpl *, *#mda-ey-tpl__layer *, *.mda-ey-tpl__layer * {
+  font-family: Poppins, sans-serif;
+  outline: none; }
+
+*#mda-ey-tpl .mda-italic, *#mda-ey-tpl .mda-italic-bold, *.mda-ey-tpl .mda-italic, *.mda-ey-tpl *#mda-ey-tpl .mda-italic-bold, *#mda-ey-tpl *.mda-ey-tpl .mda-italic-bold, *.mda-ey-tpl .mda-italic-bold, *.mda-ey-tpl *#mda-ey-tpl__layer .mda-italic-bold, *#mda-ey-tpl__layer *.mda-ey-tpl .mda-italic-bold, *#mda-ey-tpl__layer .mda-italic, *#mda-ey-tpl__layer .mda-italic-bold, *.mda-ey-tpl__layer .mda-italic, *.mda-ey-tpl__layer *#mda-ey-tpl .mda-italic-bold, *#mda-ey-tpl *.mda-ey-tpl__layer .mda-italic-bold, *.mda-ey-tpl__layer *#mda-ey-tpl__layer .mda-italic-bold, *#mda-ey-tpl__layer *.mda-ey-tpl__layer .mda-italic-bold, *.mda-ey-tpl__layer .mda-italic-bold {
+  font-style: italic; }
+
+*#mda-ey-tpl .mda-bold, *#mda-ey-tpl .mda-italic-bold, *.mda-ey-tpl .mda-bold, *.mda-ey-tpl *#mda-ey-tpl .mda-italic-bold, *#mda-ey-tpl *.mda-ey-tpl .mda-italic-bold, *.mda-ey-tpl .mda-italic-bold, *.mda-ey-tpl *#mda-ey-tpl__layer .mda-italic-bold, *#mda-ey-tpl__layer *.mda-ey-tpl .mda-italic-bold, *#mda-ey-tpl__layer .mda-bold, *#mda-ey-tpl__layer .mda-italic-bold, *.mda-ey-tpl__layer .mda-bold, *.mda-ey-tpl__layer *#mda-ey-tpl .mda-italic-bold, *#mda-ey-tpl *.mda-ey-tpl__layer .mda-italic-bold, *.mda-ey-tpl__layer *#mda-ey-tpl__layer .mda-italic-bold, *#mda-ey-tpl__layer *.mda-ey-tpl__layer .mda-italic-bold, *.mda-ey-tpl__layer .mda-italic-bold {
+  font-weight: bold; }
+
