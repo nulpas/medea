@@ -1623,6 +1623,8 @@
     content: "\e047"; }
   *#mda-sanitas-tpl .icon-square-chevron-down.mda-icon:before, *.mda-sanitas-tpl .icon-square-chevron-down.mda-icon:before, *#mda-sanitas-tpl__layer .icon-square-chevron-down.mda-icon:before, *.mda-sanitas-tpl__layer .icon-square-chevron-down.mda-icon:before {
     content: "\e9be"; }
+  *#mda-sanitas-tpl .icon-square-unchecked.mda-icon:before, *.mda-sanitas-tpl .icon-square-unchecked.mda-icon:before, *#mda-sanitas-tpl__layer .icon-square-unchecked.mda-icon:before, *.mda-sanitas-tpl__layer .icon-square-unchecked.mda-icon:before {
+    content: "\e9e5"; }
   *#mda-sanitas-tpl .icon-square-check.mda-icon:before, *.mda-sanitas-tpl .icon-square-check.mda-icon:before, *#mda-sanitas-tpl__layer .icon-square-check.mda-icon:before, *.mda-sanitas-tpl__layer .icon-square-check.mda-icon:before {
     content: "\e9bf"; }
   *#mda-sanitas-tpl .icon-square-check-minus.mda-icon:before, *.mda-sanitas-tpl .icon-square-check-minus.mda-icon:before, *#mda-sanitas-tpl__layer .icon-square-check-minus.mda-icon:before, *.mda-sanitas-tpl__layer .icon-square-check-minus.mda-icon:before {
@@ -1639,6 +1641,8 @@
     content: "\e115"; }
   *#mda-sanitas-tpl .icon-percent.mda-icon:before, *.mda-sanitas-tpl .icon-percent.mda-icon:before, *#mda-sanitas-tpl__layer .icon-percent.mda-icon:before, *.mda-sanitas-tpl__layer .icon-percent.mda-icon:before {
     content: "\e92b"; }
+  *#mda-sanitas-tpl .icon-sql.mda-icon:before, *.mda-sanitas-tpl .icon-sql.mda-icon:before, *#mda-sanitas-tpl__layer .icon-sql.mda-icon:before, *.mda-sanitas-tpl__layer .icon-sql.mda-icon:before {
+    content: "\e9e4"; }
   *#mda-sanitas-tpl .icon-init-nulls.mda-icon:before, *.mda-sanitas-tpl .icon-init-nulls.mda-icon:before, *#mda-sanitas-tpl__layer .icon-init-nulls.mda-icon:before, *.mda-sanitas-tpl__layer .icon-init-nulls.mda-icon:before {
     content: "\e919"; }
   *#mda-sanitas-tpl .icon-clear-nulls.mda-icon:before, *.mda-sanitas-tpl .icon-clear-nulls.mda-icon:before, *#mda-sanitas-tpl__layer .icon-clear-nulls.mda-icon:before, *.mda-sanitas-tpl__layer .icon-clear-nulls.mda-icon:before {

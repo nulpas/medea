@@ -451,6 +451,9 @@
   *#medea-tpl .icon-square-chevron-down.mda-icon:before, *.medea-tpl .icon-square-chevron-down.mda-icon:before, *#medea-tpl__layer .icon-square-chevron-down.mda-icon:before, *.medea-tpl__layer .icon-square-chevron-down.mda-icon:before,
   *#mda-stratio-tpl .icon-square-chevron-down.mda-icon:before, *.mda-stratio-tpl .icon-square-chevron-down.mda-icon:before, *#mda-stratio-tpl__layer .icon-square-chevron-down.mda-icon:before, *.mda-stratio-tpl__layer .icon-square-chevron-down.mda-icon:before {
     content: "\e9be"; }
+  *#medea-tpl .icon-square-unchecked.mda-icon:before, *.medea-tpl .icon-square-unchecked.mda-icon:before, *#medea-tpl__layer .icon-square-unchecked.mda-icon:before, *.medea-tpl__layer .icon-square-unchecked.mda-icon:before,
+  *#mda-stratio-tpl .icon-square-unchecked.mda-icon:before, *.mda-stratio-tpl .icon-square-unchecked.mda-icon:before, *#mda-stratio-tpl__layer .icon-square-unchecked.mda-icon:before, *.mda-stratio-tpl__layer .icon-square-unchecked.mda-icon:before {
+    content: "\e9e5"; }
   *#medea-tpl .icon-square-check.mda-icon:before, *.medea-tpl .icon-square-check.mda-icon:before, *#medea-tpl__layer .icon-square-check.mda-icon:before, *.medea-tpl__layer .icon-square-check.mda-icon:before,
   *#mda-stratio-tpl .icon-square-check.mda-icon:before, *.mda-stratio-tpl .icon-square-check.mda-icon:before, *#mda-stratio-tpl__layer .icon-square-check.mda-icon:before, *.mda-stratio-tpl__layer .icon-square-check.mda-icon:before {
     content: "\e9bf"; }
@@ -475,6 +478,9 @@
   *#medea-tpl .icon-percent.mda-icon:before, *.medea-tpl .icon-percent.mda-icon:before, *#medea-tpl__layer .icon-percent.mda-icon:before, *.medea-tpl__layer .icon-percent.mda-icon:before,
   *#mda-stratio-tpl .icon-percent.mda-icon:before, *.mda-stratio-tpl .icon-percent.mda-icon:before, *#mda-stratio-tpl__layer .icon-percent.mda-icon:before, *.mda-stratio-tpl__layer .icon-percent.mda-icon:before {
     content: "\e92b"; }
+  *#medea-tpl .icon-sql.mda-icon:before, *.medea-tpl .icon-sql.mda-icon:before, *#medea-tpl__layer .icon-sql.mda-icon:before, *.medea-tpl__layer .icon-sql.mda-icon:before,
+  *#mda-stratio-tpl .icon-sql.mda-icon:before, *.mda-stratio-tpl .icon-sql.mda-icon:before, *#mda-stratio-tpl__layer .icon-sql.mda-icon:before, *.mda-stratio-tpl__layer .icon-sql.mda-icon:before {
+    content: "\e9e4"; }
   *#medea-tpl .icon-init-nulls.mda-icon:before, *.medea-tpl .icon-init-nulls.mda-icon:before, *#medea-tpl__layer .icon-init-nulls.mda-icon:before, *.medea-tpl__layer .icon-init-nulls.mda-icon:before,
   *#mda-stratio-tpl .icon-init-nulls.mda-icon:before, *.mda-stratio-tpl .icon-init-nulls.mda-icon:before, *#mda-stratio-tpl__layer .icon-init-nulls.mda-icon:before, *.mda-stratio-tpl__layer .icon-init-nulls.mda-icon:before {
     content: "\e919"; }
