@@ -1,73 +1,73 @@
-$fontName: Nunito;
+$fontName: 'Nunito Sans';
 $fontWeightsAvailable: (
   light: (
     weight: 300,
     style: normal,
-    path: '../../../fonts/nunito/nunito-v9-latin-300',
-    local1: 'Nunito Light',
-    local2: Nunito-Light
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-300',
+    local1: 'Nunito Sans Light',
+    local2: NunitoSans-Light
   ),
   lightItalic: (
     weight: 300,
     style: italic,
-    path: '../../../fonts/nunito/nunito-v9-latin-300italic',
-    local1: 'Nunito Light Italic',
-    local2: Nunito-LightItalic
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-300italic',
+    local1: 'Nunito Sans Light Italic',
+    local2: NunitoSans-LightItalic
   ),
   regular: (
     weight: normal,
     style: normal,
-    path: '../../../fonts/nunito/nunito-v9-latin-regular',
-    local1: 'Nunito Regular',
-    local2: Nunito-Regular
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-regular',
+    local1: 'Nunito Sans Regular',
+    local2: NunitoSans-Regular
   ),
   regularItalic: (
     weight: normal,
     style: italic,
-    path: '../../../fonts/nunito/nunito-v9-latin-italic',
-    local1: 'Nunito Italic',
-    local2: Nunito-Italic
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-italic',
+    local1: 'Nunito Sans Italic',
+    local2: NunitoSans-Italic
   ),
   semiBold: (
     weight: 600,
     style: normal,
-    path: '../../../fonts/nunito/nunito-v9-latin-600',
-    local1: 'Nunito SemiBold',
-    local2: Nunito-SemiBold
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-600',
+    local1: 'Nunito Sans SemiBold',
+    local2: NunitoSans-SemiBold
   ),
   semiBoldItalic: (
     weight: 600,
     style: italic,
-    path: '../../../fonts/nunito/nunito-v9-latin-600italic',
-    local1: 'Nunito SemiBold Italic',
-    local2: Nunito-SemiBoldItalic
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-600italic',
+    local1: 'Nunito Sans SemiBold Italic',
+    local2: NunitoSans-SemiBoldItalic
   ),
   bold: (
     weight: bold,
     style: normal,
-    path: '../../../fonts/nunito/nunito-v9-latin-700',
-    local1: 'Nunito Bold',
-    local2: Nunito-Bold
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-700',
+    local1: 'Nunito Sans Bold',
+    local2: NunitoSans-Bold
   ),
   boldItalic: (
     weight: bold,
     style: italic,
-    path: '../../../fonts/nunito/nunito-v9-latin-700italic',
-    local1: 'Nunito Bold Italic',
-    local2: Nunito-BoldItalic
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-700italic',
+    local1: 'Nunito Sans Bold Italic',
+    local2: NunitoSans-BoldItalic
   ),
   extraBold: (
     weight: 800,
     style: normal,
-    path: '../../../fonts/nunito/nunito-v9-latin-800',
-    local1: 'Nunito ExtraBold',
-    local2: Nunito-ExtraBold
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-800',
+    local1: 'Nunito Sans ExtraBold',
+    local2: NunitoSans-ExtraBold
   ),
   extraBoldItalic: (
     weight: 800,
     style: italic,
-    path: '../../../fonts/nunito/nunito-v9-latin-800italic',
-    local1: 'Nunito ExtraBold Italic',
-    local2: Nunito-ExtraBoldItalic
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-800italic',
+    local1: 'Nunito Sans ExtraBold Italic',
+    local2: NunitoSans-ExtraBoldItalic
   )
 );
