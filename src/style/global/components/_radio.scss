@@ -1,0 +1,33 @@
+@import '../exportable/app.mixins';
+
+%mda-radio {
+  --mda-radio-icon-space: 5px;
+  --mda-radio-option-space: 20px;
+
+  INPUT[type=radio] {
+    display: none;
+    & + LABEL {
+      @include createFlexBox(row, center, normal, nowrap);
+      display: inline-flex;
+      margin-right: var(--mda-radio-option-space);
+      color: var(--mda-color-neutral-50);
+      cursor: pointer;
+      &:hover:before {
+        color: var(--mda-color-action);
+      }
+      &:before {
+        display: inline-block;
+        font-family: var(--mda-icon-font-family);
+        content: var(--mda-icon-radio);
+        font-size: inherit;
+        line-height: inherit;
+        margin-right: var(--mda-radio-icon-space);
+        color: var(--mda-color-neutral-30);
+      }
+    }
+    &:checked + LABEL:before {
+      content: var(--mda-icon-radio-checked);
+      color: var(--mda-color-action);
+    }
+  }
+}

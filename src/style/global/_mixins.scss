@@ -29,10 +29,57 @@
   @content;
 }
 
+
 //## Mixin for create font size class.
 //## PARAMETERS: font-size, line-height
+//## @DEPRECATED
 @mixin createFontSizeElement($fontSize, $lineHeight) {
   font-size: $fontSize;
   line-height: $lineHeight;
+  @content;
+}
+
+
+//## Mixin for define font size class.
+//## PARAMETERS: font-size, html root font-size, factor to calculate line-height
+@mixin defineFontSizeElement($fontSize, $fontSizeRoot, $fontLineHeightFactor) {
+  $calculatedFontSize: $fontSize / $fontSizeRoot;
+  font-size: $calculatedFontSize + rem;
+  line-height: (ceil($calculatedFontSize * $fontLineHeightFactor * 10000) / 10000) + rem;
+  @content;
+}
+
+//## Mixin to generate a complete font definition.
+//## PARAMETERS: font-size array, html root font-size, factor to calculate line-height
+@mixin createFontDefinition($fontSizeSet, $fontSizeRoot, $fontLineHeightFactor) {
+  @each $key in $fontSizeSet {
+    .mda-font--#{$key} {
+      @include defineFontSizeElement($key, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+  @content;
+}
+
+//## Mixin to generate html headers definition.
+//## PARAMETERS: headers font-size array, html root font-size, factor to calculate line-height
+@mixin createHeadersDefinition($fonSizeHeaders, $fonSizeRoot, $fontLineHeightFactor) {
+  @each $key in $fonSizeHeaders {
+    $i: index($fonSizeHeaders, $key);
+    H#{$i} {
+      font-size: $key + rem;
+      line-height: ($key * $fontLineHeightFactor) + rem;
+    }
+  }
+  @content;
+}
+
+//## Mixin to generate template color definition.
+//## PARAMETERS: template color set array
+@mixin createColorsDefinition($colorSet) {
+  @each $key, $value in $colorSet {
+    .mda-color--#{$key} { color: $value; }
+    .mda-color__bg--#{$key} { background-color: $value; }
+    .mda-color__border--#{$key} { border-color: $value; }
+  }
   @content;
 }

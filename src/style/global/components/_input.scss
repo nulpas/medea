@@ -1,0 +1,58 @@
+@import './common';
+
+%mda-input {
+  INPUT.mda-input {
+    width: var(--mda-component-width);
+    min-width: var(--mda-component-width);
+    box-sizing: border-box;
+    padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
+    border: var(--mda-component-border);
+    border-radius: var(--mda-component-border-radius);
+    color: inherit;
+    &.disabled {
+      @extend %mda-default-disabled-component;
+      cursor: default;
+    }
+    &.error {
+      border-color: var(--mda-color-critical);
+    }
+    &.focus {
+      border-color: var(--mda-color-action);
+    }
+  }
+
+  %mda-input--icon {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    &:after {
+      font-size: inherit;
+      line-height: inherit;
+      position: absolute;
+      color: var(--mda-component-icon-color);
+      top: var(--mda-component-padding-vertical);
+      right: .5em;
+    }
+    &.disabled:after {
+      color: var(--mda-color-neutral-20);
+    }
+    &.action:after {
+      cursor: pointer;
+    }
+    & > INPUT.mda-input {
+      font-size: inherit;
+      line-height: inherit;
+      padding-right: calc(1em + 10px);
+    }
+  }
+
+  SPAN, DIV {
+    &.mda-input--search {
+      @extend %mda-input--icon;
+      &:after {
+        font-family: var(--mda-icon-font-family);
+        content: var(--mda-icon-search);
+      }
+    }
+  }
+}

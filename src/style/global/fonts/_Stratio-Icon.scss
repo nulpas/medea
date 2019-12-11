@@ -5,26 +5,28 @@ $iconFontFamily: 'Stratio Icon';
 
 @include createFontFaceRule($iconFontFamily, normal, normal, '../../../fonts/stratio-icon-set/ico_stratio');
 
-%mda-icon__definition {
-  font-family: $iconFontFamily, Symbol, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
-  -webkit-font-smoothing: antialiased;  //# Support for all WebKit browsers.
-  text-rendering: optimizeLegibility;   //# Support for Safari and Chrome.
-  -moz-osx-font-smoothing: grayscale;   //# Support for Firefox.
-  font-feature-settings: 'liga';        //# Support for IE.
+%mda-icon-definition {
+  .mda-icon {
+    font-family: $iconFontFamily, Symbol, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;  //# Support for all WebKit browsers.
+    text-rendering: optimizeLegibility;   //# Support for Safari and Chrome.
+    -moz-osx-font-smoothing: grayscale;   //# Support for Firefox.
+    font-feature-settings: 'liga';        //# Support for IE.
 
-  @each $key, $value in $iconTableDefinitions {
-    &.#{$key}:before {
-      content: unquote('"\\#{$value}"');
+    @each $key, $value in $iconTableDefinitions {
+      &.#{$key}:before {
+        content: unquote('"\\#{$value}"');
+      }
     }
   }
 }

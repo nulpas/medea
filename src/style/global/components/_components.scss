@@ -1,0 +1,11 @@
+@import './input';
+@import './label';
+@import './radio';
+@import './select';
+
+%mda-components {
+  @extend %mda-label;
+  @extend %mda-input;
+  @extend %mda-select;
+  @extend %mda-radio;
+}

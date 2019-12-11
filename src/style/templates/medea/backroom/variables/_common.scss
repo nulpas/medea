@@ -1,0 +1,27 @@
+@import '../../../../global/components/common';
+@import '../colors';
+@import './sass';
+
+%mda-global-vars {
+  @each $key, $value in $colorsAvailable {
+    --mda-color-#{$key}: #{$value};
+  }
+
+  --mda-icon-font-family: '#{$defaultIconFontFamilyMedea}', '#{$defaultIconFontFamilyEgeo}', Symbol, sans-serif;
+  --mda-icon-search: '#{$searchIcon}';
+  --mda-icon-arrow-bottom: '#{$arrowDownIcon}';
+  --mda-icon-radio: '#{$radioIcon}';
+  --mda-icon-radio-checked: '#{$radioCheckedIcon}';
+
+  --mda-component-width: fit-content;
+
+  --mda-component-padding-vertical: 9px;
+  --mda-component-padding-horizontal: 10px;
+
+  --mda-component-border: 1px solid var(--mda-color-space-20);
+  --mda-component-border-radius: 4px;
+
+  --mda-component-background-color: var(--mda-color-neutral-full);
+
+  --mda-component-icon-color: inherit;
+}

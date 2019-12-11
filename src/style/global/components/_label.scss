@@ -1,0 +1,21 @@
+@import './common';
+
+%mda-label {
+  --mda-label-display: table-cell;
+  --mda-label-separation: .3571em;
+
+  LABEL.mda-label {
+    display: var(--mda-label-display);
+    color: var(--mda-color-space-70);
+    padding-bottom: var(--mda-label-separation);
+    &.disabled {
+      color: var(--mda-color-neutral-20);
+    }
+    &.error {
+      color: var(--mda-color-critical);
+    }
+    &.focus {
+      color: var(--mda-color-action);
+    }
+  }
+}

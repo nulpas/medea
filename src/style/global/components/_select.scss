@@ -1,0 +1,85 @@
+@import './common';
+
+%mda-select {
+  SELECT.mda-select {
+    width: var(--mda-component-width);
+    min-width: var(--mda-component-width);
+    box-sizing: border-box;
+    border: var(--mda-component-border);
+    border-radius: var(--mda-component-border-radius);
+    font-size: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: unset;
+    padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
+    background-color: var(--mda-component-background-color);
+    color: inherit;
+    &::-ms-expand {
+      display: none;
+    }
+    &.disabled {
+      @extend %mda-default-disabled-component;
+      cursor: default;
+    }
+    &.error {
+      border-color: var(--mda-color-critical);
+    }
+    &.focus {
+      border-color: var(--mda-color-action);
+    }
+  }
+
+  %mda-select__wrapper {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    &:after {
+      font-family: var(--mda-icon-font-family);
+      content: var(--mda-icon-arrow-bottom);
+      position: absolute;
+      font-size: inherit;
+      line-height: inherit;
+      pointer-events: none;
+      color: var(--mda-component-icon-color);
+      top: var(--mda-component-padding-vertical);
+      right: var(--mda-component-padding-vertical);
+    }
+    & > SELECT.mda-select {
+      font-size: inherit;
+      line-height: inherit;
+      padding-right: calc(1em + 10px);
+    }
+    &.disabled:after {
+      color: var(--mda-color-neutral-20);
+    }
+    &.error:after {
+      color: var(--mda-color-critical);
+    }
+    &.focus:after {
+      color: var(--mda-color-action);
+    }
+  }
+
+  SPAN, DIV {
+    &.mda-select {
+      @extend %mda-select__wrapper;
+    }
+
+    &.mda-select--filter {
+      @extend %mda-select__wrapper;
+      &:after {
+        right: 0;
+      }
+      & > SELECT.mda-select {
+        width: fit-content;
+        min-width: fit-content;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        padding-left: 0;
+      }
+    }
+  }
+}

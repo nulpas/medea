@@ -1,18 +1,18 @@
 $fontName: 'Nunito Sans';
 $fontWeightsAvailable: (
-  light: (
-    weight: 300,
+  extra-light: (
+    weight: 200,
     style: normal,
-    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-300',
-    local1: 'Nunito Sans Light',
-    local2: NunitoSans-Light
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-200',
+    local1: 'Nunito Sans ExtraLight',
+    local2: NunitoSans-ExtraLight
   ),
-  lightItalic: (
-    weight: 300,
+  extra-light-italic: (
+    weight: 200,
     style: italic,
-    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-300italic',
-    local1: 'Nunito Sans Light Italic',
-    local2: NunitoSans-LightItalic
+    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-200italic',
+    local1: 'Nunito Sans ExtraLight Italic',
+    local2: NunitoSans-ExtraLightItalic
   ),
   regular: (
     weight: normal,
@@ -21,21 +21,21 @@ $fontWeightsAvailable: (
     local1: 'Nunito Sans Regular',
     local2: NunitoSans-Regular
   ),
-  regularItalic: (
+  regular-italic: (
     weight: normal,
     style: italic,
     path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-italic',
     local1: 'Nunito Sans Italic',
     local2: NunitoSans-Italic
   ),
-  semiBold: (
+  semi-bold: (
     weight: 600,
     style: normal,
     path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-600',
     local1: 'Nunito Sans SemiBold',
     local2: NunitoSans-SemiBold
   ),
-  semiBoldItalic: (
+  semi-bold-italic: (
     weight: 600,
     style: italic,
     path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-600italic',
@@ -49,25 +49,11 @@ $fontWeightsAvailable: (
     local1: 'Nunito Sans Bold',
     local2: NunitoSans-Bold
   ),
-  boldItalic: (
+  bold-italic: (
     weight: bold,
     style: italic,
     path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-700italic',
     local1: 'Nunito Sans Bold Italic',
     local2: NunitoSans-BoldItalic
-  ),
-  extraBold: (
-    weight: 800,
-    style: normal,
-    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-800',
-    local1: 'Nunito Sans ExtraBold',
-    local2: NunitoSans-ExtraBold
-  ),
-  extraBoldItalic: (
-    weight: 800,
-    style: italic,
-    path: '../../../fonts/nunito-sans/nunito-sans-v5-latin-800italic',
-    local1: 'Nunito Sans ExtraBold Italic',
-    local2: NunitoSans-ExtraBoldItalic
   )
 );
