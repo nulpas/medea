@@ -1,6 +1,7 @@
 // ###### Blocks
 %mda-default-disabled-component {
-  background-color: var(--mda-color-neutral-4);
-  color: var(--mda-color-neutral-20);
-  border-color: var(--mda-color-neutral-20);
+  background-color: var(--mda-component-disabled-background-color);
+  color: var(--mda-component-disabled-color);
+  border-color: var(--mda-component-disabled-border-color);
+  cursor: var(--mda-component-disabled-cursor);
 }

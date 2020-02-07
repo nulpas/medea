@@ -1,11 +1,15 @@
+@import './checkbox';
 @import './input';
 @import './label';
 @import './radio';
+@import './report';
 @import './select';
 
 %mda-components {
-  @extend %mda-label;
+  @extend %mda-checkbox;
   @extend %mda-input;
-  @extend %mda-select;
+  @extend %mda-label;
   @extend %mda-radio;
+  @extend %mda-report;
+  @extend %mda-select;
 }

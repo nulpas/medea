@@ -5,23 +5,62 @@
 %mda-global-vars {
   @each $key, $value in $colorsAvailable {
     --mda-color-#{$key}: #{$value};
+    --mda-color-#{$key}-rgb: #{red($value), green($value), blue($value)};
   }
 
-  --mda-icon-font-family: '#{$defaultIconFontFamilyMedea}', '#{$defaultIconFontFamilyEgeo}', Symbol, sans-serif;
-  --mda-icon-search: '#{$searchIcon}';
-  --mda-icon-arrow-bottom: '#{$arrowDownIcon}';
-  --mda-icon-radio: '#{$radioIcon}';
-  --mda-icon-radio-checked: '#{$radioCheckedIcon}';
-
   --mda-component-width: fit-content;
+  --mda-component-vertical-spacer: 2px;
 
   --mda-component-padding-vertical: 9px;
   --mda-component-padding-horizontal: 10px;
 
-  --mda-component-border: 1px solid var(--mda-color-space-20);
+  --mda-component-border: 1px solid var(--mda-color-space-40);
+  --mda-component-border-hover-color: var(--mda-color-space-70);
+  --mda-component-border-focus-color: var(--mda-color-action);
+  --mda-component-border-focus-color-rgb: var(--mda-color-action-rgb);
+  --mda-component-border-error-color: var(--mda-color-critical);
   --mda-component-border-radius: 4px;
+  --mda-component-error-color: var(--mda-color-critical);
+
+  --mda-component-disabled-color: var(--mda-color-space-80);
+  --mda-component-disabled-border-color: var(--mda-color-space-40);
+  --mda-component-disabled-background-color: var(--mda-color-space-5);
+  --mda-component-disabled-cursor: not-allowed;
+  --mda-component-disabled-label-color: var(--mda-color-space-50);
+
+  --mda-component-placeholder-color: var(--mda-color-space-50);
+  --mda-component-placeholder-disabled-color: var(--mda-color-space-50);
 
   --mda-component-background-color: var(--mda-color-neutral-full);
 
-  --mda-component-icon-color: inherit;
+  --mda-component-icon-color: var(--mda-color-space-80);
+  --mda-component-icon-disabled-color: var(--mda-color-space-50);
+
+  --mda-icon-font-family: '#{$defaultIconFontFamilyMedea}', '#{$defaultIconFontFamilyEgeo}', Symbol, sans-serif;
+  --mda-icon-search: '#{$searchIcon}';
+  --mda-icon-email: '#{$emailIcon}';
+  --mda-icon-user: '#{$userIcon}';
+  --mda-icon-password: '#{$passwordIcon}';
+  --mda-icon-arrow-bottom: '#{$arrowDownIcon}';
+  --mda-icon-radio: '#{$radioIcon}';
+  --mda-icon-radio-checked: '#{$radioCheckedIcon}';
+  --mda-icon-checkbox: '#{$checkboxIcon}';
+  --mda-icon-checkbox-checked: '#{$checkboxCheckedIcon}';
+
+  --mda-label-display: table-cell;
+  --mda-label-color: var(--mda-color-space-80);
+  --mda-label-disabled-color: var(--mda-color-space-80);
+  --mda-label-error-color: var(--mda-color-space-80);
+  --mda-label-focus-color: var(--mda-color-space-110);
+
+  --mda-report-color: var(--mda-color-space-80);
+
+  --mda-radio-display: inline-block;
+  --mda-radio-option-spacer: 20px;
+  --mda-radio-icon-spacer: 4px;
+  --mda-radio-size: 16px;
+  --mda-radio-color: var(--mda-color-space-70);
+  --mda-radio-hover-color: var(--mda-color-action);
+  --mda-radio-checked-color: var(--mda-color-action);
+  --mda-radio-checked-disabled-color: var(--mda-color-action-40);
 }

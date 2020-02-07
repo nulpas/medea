@@ -1,6 +1,6 @@
 {
   "name": "@lunaeme/medea",
-  "version": "0.2.5",
+  "version": "3.0.0",
   "description": "Medea template system.",
   "main": "index.js",
   "scripts": {
@@ -23,14 +23,13 @@
   },
   "homepage": "https://github.com/nulpas/medea#readme",
   "devDependencies": {
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "@lunaeme/circe-core": "^0.3.3",
+    "@babel/preset-env": "^7.7.6",
     "babel-loader": "^8.0.6",
-    "copy-webpack-plugin": "^5.0.5",
-    "css-loader": "^3.2.1",
+    "copy-webpack-plugin": "^5.1.0",
+    "css-loader": "^3.3.0",
     "file-loader": "^5.0.2",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.13.0",

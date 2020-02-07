@@ -3,18 +3,35 @@
 @import './font-sizes';
 
 %mda-components-template {
-  LABEL.mda-label {
-    @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
-    &.mda-label--small {
+  LABEL {
+    &.mda-label, &.mda-label.mda-label--small {
       @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
     }
   }
 
   INPUT, SPAN, DIV {
-    .mda-input {
+    &.mda-input {
       @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
       &.mda-input--small {
         --mda-component-padding-vertical: 5px;
+      }
+    }
+  }
+
+  SPAN, DIV {
+    &.mda-report {
+      @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  SELECT, SPAN, DIV {
+    .mda-select {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      &.mda-select--small:not(.mda-select--filter) {
+        --mda-component-padding-vertical: 5px;
+      }
+      &.mda-select--filter {
+        --mda-component-padding-vertical: 0;
       }
     }
   }

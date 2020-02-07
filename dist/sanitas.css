@@ -1387,6 +1387,7 @@
   *#mda-sanitas-tpl .i-specialties-vascular-surgery2-linear.bupa-icon:before, *.mda-sanitas-tpl .i-specialties-vascular-surgery2-linear.bupa-icon:before, *#mda-sanitas-tpl__layer .i-specialties-vascular-surgery2-linear.bupa-icon:before, *.mda-sanitas-tpl__layer .i-specialties-vascular-surgery2-linear.bupa-icon:before {
     content: "\eb61"; }
 
+/* ###### Stratio Icon Font v.1.26 ###### */
 @font-face {
   font-family: "Stratio Icon";
   font-style: normal;
@@ -1411,6 +1412,26 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga'; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-recommend:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-recommend:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-recommend:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-recommend:before {
+    content: "\e9f0"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-functions:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-functions:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-functions:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-functions:before {
+    content: "\e9ee"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-connection:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-connection:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-connection:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-connection:before {
+    content: "\e9eb"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-foreign-key:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-foreign-key:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-foreign-key:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-foreign-key:before {
+    content: "\e9e6"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-primary-key:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-primary-key:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-primary-key:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-primary-key:before {
+    content: "\e9ec"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-automl:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-automl:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-automl:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-automl:before {
+    content: "\e9ed"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-Ml-trainer:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-Ml-trainer:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-Ml-trainer:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-Ml-trainer:before {
+    content: "\e9e7"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-ml-model:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-ml-model:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-ml-model:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-ml-model:before {
+    content: "\e9e8"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-streaming1:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-streaming1:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-streaming1:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-streaming1:before {
+    content: "\e9e9"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-batch:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-batch:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-batch:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-batch:before {
+    content: "\e9ea"; }
   *#mda-sanitas-tpl .mda-icon .mda-icon.icon-dashboards:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-dashboards:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-dashboards:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-dashboards:before {
     content: "\e9d0"; }
   *#mda-sanitas-tpl .mda-icon .mda-icon.icon-streaming:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-streaming:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-streaming:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-streaming:before {
@@ -1911,6 +1932,10 @@
     content: "\e625"; }
   *#mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow4_left:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow4_left:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow4_left:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow4_left:before {
     content: "\e9bd"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow:before {
+    content: "\e9ef"; }
+  *#mda-sanitas-tpl .mda-icon .mda-icon.icon-right:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-right:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-right:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-right:before {
+    content: "\e9ef"; }
   *#mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow-up:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow-up:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow-up:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow-up:before {
     content: "\e096"; }
   *#mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow-down:before, *.mda-sanitas-tpl .mda-icon .mda-icon.icon-arrow-down:before, *#mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow-down:before, *.mda-sanitas-tpl__layer .mda-icon .mda-icon.icon-arrow-down:before {

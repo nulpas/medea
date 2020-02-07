@@ -1,5 +1,5 @@
-%mda-radio {
-  INPUT[type=radio] {
+%mda-checkbox {
+  INPUT[type=checkbox] {
     display: none;
     & + LABEL {
       display: var(--mda-radio-display);
@@ -18,7 +18,7 @@
         height: var(--mda-radio-size);
         max-height: var(--mda-radio-size);
         border: 1px solid var(--mda-radio-color);
-        border-radius: 100%;
+        border-radius: 2px;
         vertical-align: middle;
         margin: -3px var(--mda-radio-icon-spacer) 0 0;
       }
@@ -55,7 +55,7 @@
         font-family: var(--mda-icon-font-family);
         font-size: calc(var(--mda-radio-size) + 2px);
         line-height: calc(var(--mda-radio-size) + 2px);
-        content: var(--mda-icon-radio-checked);
+        content: var(--mda-icon-checkbox-checked);
         color: var(--mda-radio-checked-color);
         margin-left: -2px;
       }

@@ -9,15 +9,25 @@
     border: var(--mda-component-border);
     border-radius: var(--mda-component-border-radius);
     color: inherit;
-    &.disabled {
+    &:hover {
+      border-color: var(--mda-component-border-hover-color);
+    }
+    &:disabled, &.disabled {
       @extend %mda-default-disabled-component;
-      cursor: default;
+      &::placeholder {
+        color: var(--mda-component-placeholder-disabled-color);
+      }
     }
-    &.error {
-      border-color: var(--mda-color-critical);
+    &:focus, &.focus {
+      border-color: var(--mda-component-border-focus-color);
+      box-shadow: 0 0 4px 0 rgba(var(--mda-component-border-focus-color-rgb), 0.2);
     }
-    &.focus {
-      border-color: var(--mda-color-action);
+    &.error, &:focus.error, &.focus.error {
+      border-color: var(--mda-component-border-error-color);
+      box-shadow: none;
+    }
+    &::placeholder {
+      color: var(--mda-component-placeholder-color);
     }
   }
 
@@ -25,16 +35,24 @@
     display: inline-block;
     position: relative;
     box-sizing: border-box;
+    &:hover {
+      INPUT.mda-input:not(:focus):not(.focus):not(:disabled):not(.disabled):not(.error) {
+        border-color: var(--mda-component-border-hover-color);
+      }
+    }
     &:after {
       font-size: inherit;
       line-height: inherit;
       position: absolute;
       color: var(--mda-component-icon-color);
-      top: var(--mda-component-padding-vertical);
-      right: .5em;
+      top: calc(var(--mda-component-padding-vertical) + 1px);
+      right: .6em;
     }
-    &.disabled:after {
-      color: var(--mda-color-neutral-20);
+    &.disabled {
+      cursor: var(--mda-component-disabled-cursor);
+      &:after {
+        color: var(--mda-component-icon-disabled-color);
+      }
     }
     &.action:after {
       cursor: pointer;
@@ -42,16 +60,39 @@
     & > INPUT.mda-input {
       font-size: inherit;
       line-height: inherit;
-      padding-right: calc(1em + 10px);
+      padding-right: 2em;
     }
   }
 
   SPAN, DIV {
-    &.mda-input--search {
-      @extend %mda-input--icon;
-      &:after {
-        font-family: var(--mda-icon-font-family);
-        content: var(--mda-icon-search);
+    &.mda-input {
+      &.mda-input--search {
+        @extend %mda-input--icon;
+        &:after {
+          font-family: var(--mda-icon-font-family);
+          content: var(--mda-icon-search);
+        }
+      }
+      &.mda-input--email {
+        @extend %mda-input--icon;
+        &:after {
+          font-family: var(--mda-icon-font-family);
+          content: var(--mda-icon-email);
+        }
+      }
+      &.mda-input--user {
+        @extend %mda-input--icon;
+        &:after {
+          font-family: var(--mda-icon-font-family);
+          content: var(--mda-icon-user);
+        }
+      }
+      &.mda-input--password {
+        @extend %mda-input--icon;
+        &:after {
+          font-family: var(--mda-icon-font-family);
+          content: var(--mda-icon-password);
+        }
       }
     }
   }
