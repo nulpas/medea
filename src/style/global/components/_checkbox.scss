@@ -3,7 +3,9 @@
 %mda-checkbox {
   INPUT[type=checkbox] {
     $checkboxCorrectionFactor: 1px;
-    $checkboxIconCorrectionOverlap: 0;
+
+    // ###### Needed to put "px" because only zero value in SASS variable has an unexpected behavior.
+    $checkboxIconCorrectionOverlap: 0px;
 
     @include selectionElement(2px, $checkboxCorrectionFactor) {
       left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2));

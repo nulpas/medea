@@ -1128,7 +1128,7 @@ HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML
             box-sizing: border-box;
     content: '';
     left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2));
-    bottom: calc( (var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2) - 0 + var(--mda-selection-icon-spacer));
+    bottom: calc( (var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2) - 0px + var(--mda-selection-icon-spacer));
     border: none;
     background-color: unset;
     font-family: var(--mda-icon-font-family);
