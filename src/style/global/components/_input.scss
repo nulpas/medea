@@ -1,38 +1,10 @@
-@import 'shared/common';
+@import './shared/common';
+@import './shared/mixins';
 
 %mda-input {
   INPUT.mda-input {
-    width: var(--mda-component-width);
-    min-width: var(--mda-component-width);
-    box-sizing: border-box;
-    padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
-    border: var(--mda-component-border);
-    border-color: var(--mda-component-border-color);
-    border-radius: var(--mda-component-border-radius);
-    background: var(--mda-component-background-color);
-    color: inherit;
-    &:hover {
-      border-color: var(--mda-component-hover-border-color);
-      background-color: var(--mda-component-hover-background-color);
-    }
-    &:disabled, &.disabled {
+    @include textInputElement() {
       @extend %mda-default-disabled-component;
-      &::placeholder {
-        color: var(--mda-component-placeholder-disabled-color);
-      }
-    }
-    &:focus, &.focus {
-      border-color: var(--mda-component-focus-border-color);
-      box-shadow: 0 0 4px 0 rgba(var(--mda-component-focus-border-color-rgb), 0.2);
-      background-color: var(--mda-component-focus-background-color);
-    }
-    &.error, &:focus.error, &.focus.error {
-      border-color: var(--mda-component-error-border-color);
-      background-color: var(--mda-component-error-background-color);
-      box-shadow: none;
-    }
-    &::placeholder {
-      color: var(--mda-component-placeholder-color);
     }
   }
 

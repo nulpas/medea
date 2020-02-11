@@ -30,6 +30,14 @@
     }
   }
 
+  TEXTAREA.mda-textarea {
+    @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+    &.mda-textarea--small {
+      --mda-component-padding-vertical: 5px;
+      --mda-textarea-height: 32px;
+    }
+  }
+
   SELECT, SPAN, DIV {
     .mda-select {
       @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);

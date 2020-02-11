@@ -1147,11 +1147,14 @@ HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML
     background-color: unset;
     color: var(--mda-selection-internal-checked-disabled-color); }
 
-HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
   color: var(--mda-component-disabled-color);
   border-color: var(--mda-component-disabled-border-color);
   background-color: var(--mda-component-disabled-background-color);
   cursor: var(--mda-component-disabled-cursor); }
+
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled {
+  resize: none; }
 
 HTML #medea-tpl INPUT.mda-input, HTML .medea-tpl INPUT.mda-input, HTML #mda-stratio-tpl INPUT.mda-input, HTML .mda-stratio-tpl INPUT.mda-input {
   width: var(--mda-component-width);
@@ -1240,11 +1243,14 @@ HTML #medea-tpl SPAN.mda-input.mda-input--password:after, HTML .medea-tpl SPAN.m
   font-family: var(--mda-icon-font-family);
   content: var(--mda-icon-password); }
 
-HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
   color: var(--mda-component-disabled-color);
   border-color: var(--mda-component-disabled-border-color);
   background-color: var(--mda-component-disabled-background-color);
   cursor: var(--mda-component-disabled-cursor); }
+
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled {
+  resize: none; }
 
 HTML #medea-tpl LABEL.mda-label, HTML .medea-tpl LABEL.mda-label, HTML #mda-stratio-tpl LABEL.mda-label, HTML .mda-stratio-tpl LABEL.mda-label {
   display: var(--mda-label-display);
@@ -1340,11 +1346,14 @@ HTML #medea-tpl DIV.mda-report, HTML .medea-tpl DIV.mda-report, HTML #mda-strati
   HTML #medea-tpl DIV.mda-report.error, HTML .medea-tpl DIV.mda-report.error, HTML #mda-stratio-tpl DIV.mda-report.error, HTML .mda-stratio-tpl DIV.mda-report.error, HTML #medea-tpl SPAN.mda-report.error, HTML .medea-tpl SPAN.mda-report.error, HTML #mda-stratio-tpl SPAN.mda-report.error, HTML .mda-stratio-tpl SPAN.mda-report.error {
     color: var(--mda-error-color); }
 
-HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
   color: var(--mda-component-disabled-color);
   border-color: var(--mda-component-disabled-border-color);
   background-color: var(--mda-component-disabled-background-color);
   cursor: var(--mda-component-disabled-cursor); }
+
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled {
+  resize: none; }
 
 HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-select-filter-width: fit-content; }
@@ -1408,11 +1417,72 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
     padding-left: 0;
     padding-right: calc(1em + 10px); }
 
-HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
   color: var(--mda-component-disabled-color);
   border-color: var(--mda-component-disabled-border-color);
   background-color: var(--mda-component-disabled-background-color);
   cursor: var(--mda-component-disabled-cursor); }
+
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled {
+  resize: none; }
+
+HTML #medea-tpl TEXTAREA.mda-textarea, HTML .medea-tpl TEXTAREA.mda-textarea, HTML #mda-stratio-tpl TEXTAREA.mda-textarea, HTML .mda-stratio-tpl TEXTAREA.mda-textarea {
+  width: var(--mda-component-width);
+  min-width: var(--mda-component-width);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
+  border: var(--mda-component-border);
+  border-color: var(--mda-component-border-color);
+  border-radius: var(--mda-component-border-radius);
+  background: var(--mda-component-background-color);
+  color: inherit;
+  resize: var(--mda-textarea-resize);
+  vertical-align: top;
+  height: var(--mda-textarea-height);
+  min-height: var(--mda-textarea-height); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:hover, HTML .medea-tpl TEXTAREA.mda-textarea:hover, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:hover, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:hover {
+    border-color: var(--mda-component-hover-border-color);
+    background-color: var(--mda-component-hover-background-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:disabled::-webkit-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea:disabled::-webkit-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled::-webkit-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled::-webkit-input-placeholder, HTML #medea-tpl TEXTAREA.mda-textarea.disabled::-webkit-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea.disabled::-webkit-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled::-webkit-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled::-webkit-input-placeholder {
+    color: var(--mda-component-placeholder-disabled-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:disabled::-moz-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea:disabled::-moz-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled::-moz-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled::-moz-placeholder, HTML #medea-tpl TEXTAREA.mda-textarea.disabled::-moz-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea.disabled::-moz-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled::-moz-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled::-moz-placeholder {
+    color: var(--mda-component-placeholder-disabled-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:disabled:-ms-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea:disabled:-ms-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled:-ms-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled:-ms-input-placeholder, HTML #medea-tpl TEXTAREA.mda-textarea.disabled:-ms-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea.disabled:-ms-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled:-ms-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled:-ms-input-placeholder {
+    color: var(--mda-component-placeholder-disabled-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:disabled::-ms-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea:disabled::-ms-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled::-ms-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled::-ms-input-placeholder, HTML #medea-tpl TEXTAREA.mda-textarea.disabled::-ms-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea.disabled::-ms-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled::-ms-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled::-ms-input-placeholder {
+    color: var(--mda-component-placeholder-disabled-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:disabled::placeholder, HTML .medea-tpl TEXTAREA.mda-textarea:disabled::placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled::placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled::placeholder, HTML #medea-tpl TEXTAREA.mda-textarea.disabled::placeholder, HTML .medea-tpl TEXTAREA.mda-textarea.disabled::placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled::placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled::placeholder {
+    color: var(--mda-component-placeholder-disabled-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:focus, HTML .medea-tpl TEXTAREA.mda-textarea:focus, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:focus, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:focus, HTML #medea-tpl TEXTAREA.mda-textarea.focus, HTML .medea-tpl TEXTAREA.mda-textarea.focus, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.focus, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.focus {
+    border-color: var(--mda-component-focus-border-color);
+    -webkit-box-shadow: 0 0 4px 0 rgba(var(--mda-component-focus-border-color-rgb), 0.2);
+            box-shadow: 0 0 4px 0 rgba(var(--mda-component-focus-border-color-rgb), 0.2);
+    background-color: var(--mda-component-focus-background-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea.error, HTML .medea-tpl TEXTAREA.mda-textarea.error, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.error, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.error, HTML #medea-tpl TEXTAREA.mda-textarea:focus.error, HTML .medea-tpl TEXTAREA.mda-textarea:focus.error, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:focus.error, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:focus.error, HTML #medea-tpl TEXTAREA.mda-textarea.focus.error, HTML .medea-tpl TEXTAREA.mda-textarea.focus.error, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.focus.error, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.focus.error {
+    border-color: var(--mda-component-error-border-color);
+    background-color: var(--mda-component-error-background-color);
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+  HTML #medea-tpl TEXTAREA.mda-textarea::-webkit-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea::-webkit-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea::-webkit-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea::-webkit-input-placeholder {
+    color: var(--mda-component-placeholder-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea::-moz-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea::-moz-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea::-moz-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea::-moz-placeholder {
+    color: var(--mda-component-placeholder-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea:-ms-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea:-ms-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:-ms-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:-ms-input-placeholder {
+    color: var(--mda-component-placeholder-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea::-ms-input-placeholder, HTML .medea-tpl TEXTAREA.mda-textarea::-ms-input-placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea::-ms-input-placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea::-ms-input-placeholder {
+    color: var(--mda-component-placeholder-color); }
+  HTML #medea-tpl TEXTAREA.mda-textarea::placeholder, HTML .medea-tpl TEXTAREA.mda-textarea::placeholder, HTML #mda-stratio-tpl TEXTAREA.mda-textarea::placeholder, HTML .mda-stratio-tpl TEXTAREA.mda-textarea::placeholder {
+    color: var(--mda-component-placeholder-color); }
+
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
+  color: var(--mda-component-disabled-color);
+  border-color: var(--mda-component-disabled-border-color);
+  background-color: var(--mda-component-disabled-background-color);
+  cursor: var(--mda-component-disabled-cursor); }
+
+HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled {
+  resize: none; }
 
 HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-color-st-blue: #37b5e4;
@@ -1569,7 +1639,9 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-selection-internal-checked-color: var(--mda-color-neutral-full);
   --mda-selection-internal-checked-disabled-color: var(--mda-color-neutral-full);
   --mda-radio-internal-checked-size: 6px;
-  --mda-checkbox-internal-checked-size: 16px; }
+  --mda-checkbox-internal-checked-size: 14px;
+  --mda-textarea-height: 40px;
+  --mda-textarea-resize: vertical; }
 
 HTML #medea-tpl LABEL.mda-label, HTML .medea-tpl LABEL.mda-label, HTML #mda-stratio-tpl LABEL.mda-label, HTML .mda-stratio-tpl LABEL.mda-label, HTML #medea-tpl LABEL.mda-label.mda-label--small, HTML .medea-tpl LABEL.mda-label.mda-label--small, HTML #mda-stratio-tpl LABEL.mda-label.mda-label--small, HTML .mda-stratio-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;
@@ -1588,6 +1660,13 @@ HTML #medea-tpl INPUT[type=radio] + LABEL, HTML .medea-tpl INPUT[type=radio] + L
 HTML #medea-tpl SPAN.mda-report, HTML .medea-tpl SPAN.mda-report, HTML #mda-stratio-tpl SPAN.mda-report, HTML .mda-stratio-tpl SPAN.mda-report, HTML #medea-tpl DIV.mda-report, HTML .medea-tpl DIV.mda-report, HTML #mda-stratio-tpl DIV.mda-report, HTML .mda-stratio-tpl DIV.mda-report {
   font-size: 0.85714rem;
   line-height: 1.2246rem; }
+
+HTML #medea-tpl TEXTAREA.mda-textarea, HTML .medea-tpl TEXTAREA.mda-textarea, HTML #mda-stratio-tpl TEXTAREA.mda-textarea, HTML .mda-stratio-tpl TEXTAREA.mda-textarea {
+  font-size: 1rem;
+  line-height: 1.4287rem; }
+  HTML #medea-tpl TEXTAREA.mda-textarea.mda-textarea--small, HTML .medea-tpl TEXTAREA.mda-textarea.mda-textarea--small, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.mda-textarea--small, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.mda-textarea--small {
+    --mda-component-padding-vertical: 5px;
+    --mda-textarea-height: 32px; }
 
 HTML #medea-tpl SELECT .mda-select, HTML .medea-tpl SELECT .mda-select, HTML #mda-stratio-tpl SELECT .mda-select, HTML .mda-stratio-tpl SELECT .mda-select, HTML #medea-tpl SPAN .mda-select, HTML .medea-tpl SPAN .mda-select, HTML #mda-stratio-tpl SPAN .mda-select, HTML .mda-stratio-tpl SPAN .mda-select, HTML #medea-tpl DIV .mda-select, HTML .medea-tpl DIV .mda-select, HTML #mda-stratio-tpl DIV .mda-select, HTML .mda-stratio-tpl DIV .mda-select {
   font-size: 1rem;
