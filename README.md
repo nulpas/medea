@@ -1,3 +1,5 @@
-# MEDEA (Template System)
+# MEDEA
 
-Template system for typography.
+CSS Multi-Templates Design System.
+
+Todo ...

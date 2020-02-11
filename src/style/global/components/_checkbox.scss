@@ -3,13 +3,14 @@
 %mda-checkbox {
   INPUT[type=checkbox] {
     $checkboxCorrectionFactor: 1px;
+    $checkboxIconCorrectionOverlap: 0;
 
     @include selectionElement(2px, $checkboxCorrectionFactor) {
       left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2));
       bottom: calc(
         (var(--mda-selection-icon-size) / 2) -
         (var(--mda-checkbox-internal-checked-size) / 2) -
-        #{$checkboxCorrectionFactor} +
+        #{$checkboxIconCorrectionOverlap} +
         var(--mda-selection-icon-spacer)
       );
       border: none;

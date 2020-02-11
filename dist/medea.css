@@ -1128,7 +1128,7 @@ HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML
             box-sizing: border-box;
     content: '';
     left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2));
-    bottom: calc( (var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2) - 1px + var(--mda-selection-icon-spacer));
+    bottom: calc( (var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2) - 0 + var(--mda-selection-icon-spacer));
     border: none;
     background-color: unset;
     font-family: var(--mda-icon-font-family);
@@ -1569,7 +1569,7 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-selection-internal-checked-color: var(--mda-color-neutral-full);
   --mda-selection-internal-checked-disabled-color: var(--mda-color-neutral-full);
   --mda-radio-internal-checked-size: 6px;
-  --mda-checkbox-internal-checked-size: 15px; }
+  --mda-checkbox-internal-checked-size: 16px; }
 
 HTML #medea-tpl LABEL.mda-label, HTML .medea-tpl LABEL.mda-label, HTML #mda-stratio-tpl LABEL.mda-label, HTML .mda-stratio-tpl LABEL.mda-label, HTML #medea-tpl LABEL.mda-label.mda-label--small, HTML .medea-tpl LABEL.mda-label.mda-label--small, HTML #mda-stratio-tpl LABEL.mda-label.mda-label--small, HTML .mda-stratio-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;
