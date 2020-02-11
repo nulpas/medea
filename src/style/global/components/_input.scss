@@ -1,4 +1,4 @@
-@import './common';
+@import 'shared/common';
 
 %mda-input {
   INPUT.mda-input {
@@ -7,10 +7,13 @@
     box-sizing: border-box;
     padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
     border: var(--mda-component-border);
+    border-color: var(--mda-component-border-color);
     border-radius: var(--mda-component-border-radius);
+    background: var(--mda-component-background-color);
     color: inherit;
     &:hover {
-      border-color: var(--mda-component-border-hover-color);
+      border-color: var(--mda-component-hover-border-color);
+      background-color: var(--mda-component-hover-background-color);
     }
     &:disabled, &.disabled {
       @extend %mda-default-disabled-component;
@@ -19,11 +22,13 @@
       }
     }
     &:focus, &.focus {
-      border-color: var(--mda-component-border-focus-color);
-      box-shadow: 0 0 4px 0 rgba(var(--mda-component-border-focus-color-rgb), 0.2);
+      border-color: var(--mda-component-focus-border-color);
+      box-shadow: 0 0 4px 0 rgba(var(--mda-component-focus-border-color-rgb), 0.2);
+      background-color: var(--mda-component-focus-background-color);
     }
     &.error, &:focus.error, &.focus.error {
-      border-color: var(--mda-component-border-error-color);
+      border-color: var(--mda-component-error-border-color);
+      background-color: var(--mda-component-error-background-color);
       box-shadow: none;
     }
     &::placeholder {
@@ -37,7 +42,8 @@
     box-sizing: border-box;
     &:hover {
       INPUT.mda-input:not(:focus):not(.focus):not(:disabled):not(.disabled):not(.error) {
-        border-color: var(--mda-component-border-hover-color);
+        border-color: var(--mda-component-hover-border-color);
+        background-color: var(--mda-component-hover-background-color);
       }
     }
     &:after {

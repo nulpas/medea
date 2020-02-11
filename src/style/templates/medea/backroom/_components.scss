@@ -18,6 +18,12 @@
     }
   }
 
+  INPUT[type=radio], INPUT[type=checkbox] {
+    & + LABEL {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
   SPAN, DIV {
     &.mda-report {
       @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);

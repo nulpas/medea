@@ -1,63 +1,31 @@
+@import './shared/mixins';
+
 %mda-checkbox {
   INPUT[type=checkbox] {
-    display: none;
-    & + LABEL {
-      display: var(--mda-radio-display);
-      margin: 4px var(--mda-radio-option-spacer) 4px 0;
-      color: var(--mda-label-color);
-      cursor: pointer;
-      width: fit-content;
-      min-width: fit-content;
-      &:before {
-        position: relative;
-        display: inline-block;
-        box-sizing: border-box;
-        content: '';
-        width: var(--mda-radio-size);
-        max-width: var(--mda-radio-size);
-        height: var(--mda-radio-size);
-        max-height: var(--mda-radio-size);
-        border: 1px solid var(--mda-radio-color);
-        border-radius: 2px;
-        vertical-align: middle;
-        margin: -3px var(--mda-radio-icon-spacer) 0 0;
-      }
-    }
-    &:hover {
-      & + LABEL {
-        &:before {
-          border-color: var(--mda-radio-hover-color);
-        }
-      }
+    $checkboxCorrectionFactor: 1px;
+
+    @include selectionElement(2px, $checkboxCorrectionFactor) {
+      left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-checkbox-internal-checked-size) / 2));
+      bottom: calc(
+        (var(--mda-selection-icon-size) / 2) -
+        (var(--mda-checkbox-internal-checked-size) / 2) -
+        #{$checkboxCorrectionFactor} +
+        var(--mda-selection-icon-spacer)
+      );
+      border: none;
+      background-color: unset;
+      font-family: var(--mda-icon-font-family);
+      content: var(--mda-icon-checkbox-checked);
+      font-size: var(--mda-checkbox-internal-checked-size);
+      line-height: var(--mda-checkbox-internal-checked-size);
+      color: var(--mda-selection-internal-checked-color);
     }
     &:disabled, &.disabled {
-      & + LABEL {
-        color: var(--mda-component-disabled-label-color);
-        cursor: var(--mda-component-disabled-cursor);
-        &:before {
-          border-color: var(--mda-component-disabled-border-color);
-          background-color: var(--mda-component-disabled-background-color);
-        }
-      }
       &:checked + LABEL {
-        &:before {
-          color: var(--mda-radio-checked-disabled-color);
+        &:after {
+          background-color: unset;
+          color: var(--mda-selection-internal-checked-disabled-color);
         }
-      }
-    }
-    &:checked + LABEL {
-      &:before {
-        width: auto;
-        max-width: none;
-        height: auto;
-        max-height: none;
-        border: none;
-        font-family: var(--mda-icon-font-family);
-        font-size: calc(var(--mda-radio-size) + 2px);
-        line-height: calc(var(--mda-radio-size) + 2px);
-        content: var(--mda-icon-checkbox-checked);
-        color: var(--mda-radio-checked-color);
-        margin-left: -2px;
       }
     }
   }
