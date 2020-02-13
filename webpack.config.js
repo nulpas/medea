@@ -1,11 +1,12 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const postcssPresetEnv = require('postcss-preset-env');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: {
-    stratio: path.resolve(__dirname, 'src/style/templates/stratio/stratio.scss'),
+    medea: path.resolve(__dirname, 'src/style/templates/medea/medea.scss'),
     sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss'),
     ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss')
   },
@@ -63,6 +64,16 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].css'
-    })
+    }),
+    new CopyPlugin([
+      {
+        from: path.resolve(__dirname, 'src/style/global/exportable/_app.mixins.scss'),
+        to: path.resolve(__dirname, 'dist/sass/_mixins.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/medea/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/_colors.scss')
+      }
+    ])
   ]
 };

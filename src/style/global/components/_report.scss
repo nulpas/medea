@@ -1,0 +1,12 @@
+%mda-report {
+  DIV, SPAN {
+    &.mda-report {
+      display: block;
+      color: var(--mda-report-color);
+      padding-top: var(--mda-component-vertical-spacer);
+      &.error {
+        color: var(--mda-error-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+//## Mixin for generate selection element basic structure.
+//## PARAMETERS: border-radius, position-correction-factor
+@mixin selectionElement($borderRadius, $correctionFactor) {
+  display: none;
+  & + LABEL {
+    position: relative;
+    display: inline-flex;
+    margin-right: var(--mda-selection-option-spacer);
+    padding: var(--mda-selection-icon-spacer) 0;
+    color: var(--mda-label-color);
+    cursor: pointer;
+    width: fit-content;
+    min-width: fit-content;
+    height: var(--mda-selection-icon-size);
+    min-height: var(--mda-selection-icon-size);
+    line-height: unset;
+    &:before {
+      position: relative;
+      display: inline-block;
+      box-sizing: border-box;
+      content: '';
+      left: 0;
+      top: $correctionFactor;
+      width: var(--mda-selection-icon-size);
+      max-width: var(--mda-selection-icon-size);
+      height: var(--mda-selection-icon-size);
+      max-height: var(--mda-selection-icon-size);
+      border: var(--mda-component-border);
+      border-color: var(--mda-component-border-color);
+      background-color: var(--mda-component-background-color);
+      border-radius: $borderRadius;
+      margin-right: var(--mda-selection-icon-spacer);
+    }
+  }
+  &:hover {
+    & + LABEL {
+      &:before {
+        border-color: var(--mda-component-hover-border-color);
+        background-color: var(--mda-component-hover-background-color);
+      }
+    }
+  }
+  &:disabled, &.disabled {
+    & + LABEL {
+      color: var(--mda-selection-disabled-tex-color);
+      cursor: var(--mda-component-disabled-cursor);
+      &:before {
+        border-color: var(--mda-component-disabled-border-color);
+        background-color: var(--mda-component-disabled-background-color);
+      }
+    }
+    &:checked + LABEL {
+      &:before {
+        border-color: var(--mda-selection-checked-disabled-border-color);
+        background-color: var(--mda-selection-checked-disabled-background-color);
+      }
+      &:after {
+        background-color: var(--mda-selection-internal-checked-disabled-color);
+      }
+    }
+  }
+  &:checked + LABEL {
+    &:before {
+      border-color: var(--mda-component-checked-border-color);
+      background-color: var(--mda-component-checked-background-color);
+    }
+    &:after {
+      position: absolute;
+      display: inline-block;
+      box-sizing: border-box;
+      content: '';
+      @content;
+    }
+  }
+  &.mda-selection--no-label + LABEL {
+    font-size: 0;
+    line-height: 0;
+  }
+  &.mda-selection--vertical {
+    & + LABEL {
+      display: flex;
+    }
+  }
+}
+
+//## Mixin for generate input text element basic structure.
+//## PARAMETERS: void
+@mixin textInputElement() {
+  width: var(--mda-component-width);
+  min-width: var(--mda-component-width);
+  box-sizing: border-box;
+  padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
+  border: var(--mda-component-border);
+  border-color: var(--mda-component-border-color);
+  border-radius: var(--mda-component-border-radius);
+  background: var(--mda-component-background-color);
+  color: inherit;
+  &:hover {
+    border-color: var(--mda-component-hover-border-color);
+    background-color: var(--mda-component-hover-background-color);
+  }
+  &:disabled, &.disabled {
+    @content;
+    &::placeholder {
+      color: var(--mda-component-placeholder-disabled-color);
+    }
+  }
+  &:focus, &.focus {
+    border-color: var(--mda-component-focus-border-color);
+    box-shadow: 0 0 4px 0 rgba(var(--mda-component-focus-border-color-rgb), 0.2);
+    background-color: var(--mda-component-focus-background-color);
+  }
+  &.error, &:focus.error, &.focus.error {
+    border-color: var(--mda-component-error-border-color);
+    background-color: var(--mda-component-error-background-color);
+    box-shadow: none;
+  }
+  &::placeholder {
+    color: var(--mda-component-placeholder-color);
+  }
+}

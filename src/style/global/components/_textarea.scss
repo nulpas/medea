@@ -1,0 +1,15 @@
+@import './shared/common';
+@import './shared/mixins';
+
+%mda-textarea {
+  TEXTAREA.mda-textarea {
+    @include textInputElement() {
+      @extend %mda-textarea-disabled-component;
+    };
+
+    resize: var(--mda-textarea-resize);
+    vertical-align: top;
+    height: var(--mda-textarea-height);
+    min-height: var(--mda-textarea-height);
+  }
+}

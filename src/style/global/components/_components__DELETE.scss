@@ -1,0 +1,58 @@
+@import '../exportable/app.mixins';
+
+*#medea-tpl, *.medea-tpl, *#medea-tpl__layer, *.medea-tpl__layer,
+*#mda-stratio-tpl, *.mda-stratio-tpl, *#mda-stratio-tpl__layer, *.mda-stratio-tpl__layer {
+  BUTTON.mda-button {
+    cursor: pointer;
+    background-color: #128bdd;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    &:hover {
+      background-color: #0979c4;
+    }
+
+    &:active {
+      background-color: #0766a6;
+    }
+
+    &.disabled {
+      background-color: #ededed;
+      color: #cbcbcb;
+      cursor: default;
+    }
+
+    SPAN {
+      font-size: 15px;
+      line-height: 15px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+
+    I {
+      line-height: 15px;
+      vertical-align: middle;
+      font-size: 18px;
+    }
+  }
+
+  I.mda-icon-button {
+    color: #777777;
+    cursor: pointer;
+
+    &:hover {
+      color: #333333;
+    }
+
+    &:active {
+      color: #777777;
+    }
+
+    &.disabled {
+      color: #ededed;
+      cursor: default;
+    }
+  }
+}

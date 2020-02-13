@@ -1,0 +1,55 @@
+@import '../../../global/mixins';
+
+@import './font-sizes';
+
+%mda-components-template {
+  LABEL {
+    &.mda-label, &.mda-label.mda-label--small {
+      @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  INPUT, SPAN, DIV {
+    &.mda-input {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      &.mda-input--small {
+        --mda-component-padding-vertical: 5px;
+      }
+    }
+  }
+
+  INPUT[type=radio], INPUT[type=checkbox] {
+    & + LABEL {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  SPAN, DIV {
+    &.mda-report {
+      @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  TEXTAREA.mda-textarea {
+    @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+    &.mda-textarea--small {
+      --mda-component-padding-vertical: 5px;
+      --mda-textarea-height: 32px;
+    }
+  }
+
+  SELECT, SPAN, DIV {
+    .mda-select {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      &.mda-select--small:not(.mda-select--filter) {
+        --mda-component-padding-vertical: 5px;
+      }
+      &.mda-select--filter {
+        --mda-component-padding-vertical: 0;
+      }
+      &.mda-select--placeholder {
+        color: var(--mda-component-placeholder-color);
+      }
+    }
+  }
+}

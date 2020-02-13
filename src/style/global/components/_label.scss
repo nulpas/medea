@@ -1,0 +1,18 @@
+@import 'shared/common';
+
+%mda-label {
+  LABEL.mda-label {
+    display: var(--mda-label-display);
+    color: var(--mda-label-color);
+    padding-bottom: var(--mda-component-vertical-spacer);
+    &.disabled {
+      color: var(--mda-label-disabled-color);
+    }
+    &.error {
+      color: var(--mda-label-error-color);
+    }
+    &.focus {
+      color: var(--mda-label-focus-color);
+    }
+  }
+}

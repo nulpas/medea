@@ -1,0 +1,23 @@
+@import './shared/mixins';
+
+%mda-radio {
+  INPUT[type=radio] {
+    $radioCorrectionFactor: 1px;
+
+    @include selectionElement(100%, $radioCorrectionFactor) {
+      left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-radio-internal-checked-size) / 2));
+      bottom: calc(
+        (var(--mda-selection-icon-size) / 2) -
+        (var(--mda-radio-internal-checked-size) / 2) -
+        #{$radioCorrectionFactor} +
+        var(--mda-selection-icon-spacer)
+      );
+      width: var(--mda-radio-internal-checked-size);
+      max-width: var(--mda-radio-internal-checked-size);
+      height: var(--mda-radio-internal-checked-size);
+      max-height: var(--mda-radio-internal-checked-size);
+      background-color: var(--mda-selection-internal-checked-color);
+      border-radius: 100%;
+    }
+  }
+}
