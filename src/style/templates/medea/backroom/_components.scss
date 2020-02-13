@@ -47,6 +47,9 @@
       &.mda-select--filter {
         --mda-component-padding-vertical: 0;
       }
+      &.mda-select--placeholder {
+        color: var(--mda-component-placeholder-color);
+      }
     }
   }
 }

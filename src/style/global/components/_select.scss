@@ -1,35 +1,19 @@
-@import 'shared/common';
+@import './shared/common';
+@import './shared/mixins';
 
 %mda-select {
   --mda-select-filter-width: fit-content;
 
   SELECT.mda-select {
-    width: var(--mda-component-width);
-    min-width: var(--mda-component-width);
-    box-sizing: border-box;
-    border: var(--mda-component-border);
-    border-radius: var(--mda-component-border-radius);
-    font-size: inherit;
-    line-height: inherit;
-    cursor: pointer;
+    @include textInputElement() {
+      @extend %mda-default-disabled-component;
+    }
+
     -webkit-appearance: none;
     -moz-appearance: none;
     text-overflow: unset;
-    padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
-    background-color: var(--mda-component-background-color);
-    color: inherit;
     &::-ms-expand {
       display: none;
-    }
-    &.disabled {
-      @extend %mda-default-disabled-component;
-      cursor: default;
-    }
-    &.error {
-      border-color: var(--mda-color-critical);
-    }
-    &.focus {
-      border-color: var(--mda-color-action);
     }
   }
 
@@ -53,14 +37,17 @@
       line-height: inherit;
       padding-right: 2em;
     }
-    &.disabled:after {
-      color: var(--mda-color-neutral-20);
+    &:disabled, &.disabled {
+      cursor: var(--mda-component-disabled-cursor);
+      &:after {
+        color: var(--mda-component-icon-disabled-color);
+      }
     }
-    &.error:after {
-      color: var(--mda-color-critical);
+    &:focus:after, &.focus:after {
+      color: var(--mda-focus-color);
     }
-    &.focus:after {
-      color: var(--mda-color-action);
+    &.error:after, &:focus.error:after, &.focus.error:after {
+      color: var(--mda-error-color);
     }
   }
 
@@ -81,6 +68,7 @@
           background-color: transparent;
           padding-left: 0;
           padding-right: calc(1em + 10px);
+          box-shadow: none;
         }
       }
     }

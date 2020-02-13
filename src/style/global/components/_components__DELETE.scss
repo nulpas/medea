@@ -9,23 +9,28 @@
     border: none;
     border-radius: 5px;
     color: white;
+
     &:hover {
       background-color: #0979c4;
     }
+
     &:active {
       background-color: #0766a6;
     }
+
     &.disabled {
       background-color: #ededed;
       color: #cbcbcb;
       cursor: default;
     }
+
     SPAN {
       font-size: 15px;
       line-height: 15px;
       margin-left: 10px;
       vertical-align: middle;
     }
+
     I {
       line-height: 15px;
       vertical-align: middle;
@@ -36,152 +41,18 @@
   I.mda-icon-button {
     color: #777777;
     cursor: pointer;
+
     &:hover {
       color: #333333;
     }
+
     &:active {
       color: #777777;
     }
+
     &.disabled {
       color: #ededed;
       cursor: default;
-    }
-  }
-
-  TEXTAREA.mda-textarea {
-    width: 300px;
-    min-width: 300px;
-    height: 100px;
-    min-height: 100px;
-    padding: 5px 10px;
-    border: 1px solid #b5b5b5;
-    border-radius: 4px;
-    resize: vertical;
-    &.disabled {
-      background-color: #f0f0f0;
-      color: #cbcbcb;
-      border-color: #d1d1d1;
-      cursor: default;
-    }
-    &.error {
-      border-color: red;
-    }
-  }
-
-  INPUT[type=checkbox] {
-    display:none;
-    & + LABEL {
-      @include createFlexBox(row, center, normal, nowrap);
-      color: #111111;
-      cursor: pointer;
-      font-size: 14px;
-      width: fit-content;
-      max-width: fit-content;
-      white-space: nowrap;
-      &:hover:before {
-        color: #128bdd;
-      }
-      &:before {
-        font-family: 'Stratio Icon', 'ico_stratio', Symbol, sans-serif;
-        font-size: 16px;
-        display: inline-block;
-        content: '\e9a8';
-        letter-spacing: 8px;
-        color: #b5b5b5;
-      }
-      &.disabled {
-        color: #cfcfcf;
-        cursor: default;
-        &:hover:before {
-          color: #cfcfcf;
-        }
-        &:before {
-          color: #cfcfcf;
-        }
-      }
-    }
-    &:checked + LABEL {
-      &:before {
-        content: '\e9bf';
-        color: #128bdd;
-      }
-      &.disabled:before {
-        color: #cfcfcf;
-      }
-    }
-    &.mda-switch {
-      & + LABEL {
-        position: relative;
-        padding-left: 56px;
-        width: fit-content;
-        max-width: fit-content;
-        height: 23px;
-        &:before{
-          content: '';
-          width: 45px;
-          height: 25px;
-          background-color: #cbcbcb;
-          position: absolute;
-          border-radius: 20px;
-          top: 0;
-          left: 0;
-        }
-        &:after {
-          content: '';
-          position: absolute;
-          width: 20px;
-          height: 20px;
-          border-radius: 100%;
-          background-color: white;
-          top: 10%;
-          left: 3px;
-          cursor: pointer;
-          transition: left 150ms ease-in-out;
-        }
-        .mda-switch__icon {
-          opacity: 0;
-          z-index: 1;
-          font-size: 14px;
-          color: #cfcfcf;
-          transition: opacity 100ms ease-in-out;
-          &:before {
-            top: -6px;
-            margin-left: -50px
-          }
-        }
-      }
-      &:checked + LABEL {
-        &:before {
-          background-color: #128bde;
-        }
-        &:after {
-          left: 22px;
-        }
-      }
-      &.disabled + LABEL {
-        &:before{
-          opacity: .5;
-        }
-      }
-      &.disabled:checked + LABEL {
-        .mda-switch__icon {
-          opacity: 1;
-          &:before {
-            left: 5px;
-            color: white;
-          }
-        }
-      }
-      &.disabled:not(:checked) + LABEL {
-        .mda-switch__icon {
-          opacity: 1;
-          margin-left: 20px;
-          position: absolute;
-          &:before {
-            color: white;
-          }
-        }
-      }
     }
   }
 }
