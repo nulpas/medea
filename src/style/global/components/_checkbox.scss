@@ -3,6 +3,7 @@
 %mda-checkbox {
   INPUT[type=checkbox] {
     $checkboxCorrectionFactor: 1px;
+    $checkboxIndeterminateHeight: 2px;
 
     // ###### Needed to put "px" because only zero value in SASS variable has an unexpected behavior.
     $checkboxIconCorrectionOverlap: 0px;
@@ -28,6 +29,43 @@
         &:after {
           background-color: unset;
           color: var(--mda-selection-internal-checked-disabled-color);
+        }
+      }
+
+      &.mda-checkbox--indeterminate {
+        &:checked + LABEL {
+          &:before {
+            border-color: var(--mda-selection-checked-disabled-border-color);
+          }
+          &:after {
+            background-color: var(--mda-selection-checked-disabled-background-color);
+          }
+        }
+        }
+    }
+
+    &.mda-checkbox--indeterminate {
+      &:checked + LABEL {
+        &:before {
+          border-color: var(--mda-checkbox-indeterminate-border-color);
+          background-color: var(--mda-checkbox-indeterminate-background-color);
+        }
+        &:after {
+          left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-radio-internal-checked-size) / 2));
+          bottom: calc(
+            (var(--mda-selection-icon-size) / 2) -
+            (#{$checkboxIndeterminateHeight} / 2) -
+            #{$checkboxCorrectionFactor} +
+            var(--mda-selection-icon-spacer)
+          );
+          width: var(--mda-radio-internal-checked-size);
+          max-width: var(--mda-radio-internal-checked-size);
+          height: $checkboxIndeterminateHeight;
+          max-height: $checkboxIndeterminateHeight;
+          min-height: $checkboxIndeterminateHeight;
+          background-color: var(--mda-checkbox-internal-indeterminate-background-color);
+          border-radius: 100%;
+          content: '';
         }
       }
     }

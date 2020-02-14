@@ -89,6 +89,9 @@
 
   // ###### CHECKBOX Button
   --mda-checkbox-internal-checked-size: 14px;
+  --mda-checkbox-indeterminate-border-color: var(--mda-color-action);
+  --mda-checkbox-indeterminate-background-color: var(--mda-color-neutral-full);
+  --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-action);
 
   // ###### TEXTAREA
   --mda-textarea-height: 40px;
