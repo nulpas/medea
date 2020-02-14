@@ -1,0 +1,57 @@
+%mda-button {
+  BUTTON.mda-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
+    border: var(--mda-component-border);
+    border-color: var(--mda-button-border-color);
+    border-radius: var(--mda-component-border-radius);
+    background-color: var(--mda-button-background-color);
+    color: var(--mda-button-color);
+    & > I.mda-icon {
+      color: inherit;
+    }
+    &:hover {
+      color: var(--mda-button-hover-color);
+      border-color: var(--mda-button-hover-border-color);
+      background-color: var(--mda-button-hover-background-color);
+      & > I.mda-icon {
+        color: inherit;
+      }
+    }
+    &:active {
+      color: var(--mda-button-active-color);
+      border-color: var(--mda-button-active-border-color);
+      background-color: var(--mda-button-active-background-color);
+      & > I.mda-icon {
+        color: inherit;
+      }
+    }
+    &:disabled, &.disabled {
+      color: var(--mda-button-disabled-color);
+      border-color: var(--mda-button-disabled-border-color);
+      background-color: var(--mda-button-disabled-background-color);
+      cursor: var(--mda-component-disabled-cursor);
+      & > I.mda-icon {
+        color: var(--mda-button-disabled-icon-color);
+        cursor: inherit;
+      }
+    }
+
+    I.mda-icon {
+      font-size: var(--mda-button-icon-size);
+      margin: 0 var(--mda-button-icon-spacer);
+      height: var(--mda-button-icon-size);
+      min-height: var(--mda-button-icon-size);
+      &.mda-button--icon-left {
+        margin-left: 0;
+      }
+      &.mda-button--icon-right {
+        margin-right: 0;
+      }
+    }
+  }
+}

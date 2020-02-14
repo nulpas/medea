@@ -1,3 +1,4 @@
+@import './button';
 @import './checkbox';
 @import './input';
 @import './label';
@@ -7,6 +8,7 @@
 @import './textarea';
 
 %mda-components {
+  @extend %mda-button;
   @extend %mda-checkbox;
   @extend %mda-input;
   @extend %mda-label;

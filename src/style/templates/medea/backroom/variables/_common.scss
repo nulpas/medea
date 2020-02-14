@@ -93,4 +93,22 @@
   // ###### TEXTAREA
   --mda-textarea-height: 40px;
   --mda-textarea-resize: vertical;
+
+  // ###### BUTTON
+  --mda-button-color: var(--mda-color-neutral-full);
+  --mda-button-border-color: var(--mda-color-action);
+  --mda-button-background-color: var(--mda-color-action);
+  --mda-button-hover-color: var(--mda-color-neutral-full);
+  --mda-button-hover-border-color: var(--mda-color-action-120);
+  --mda-button-hover-background-color: var(--mda-color-action-120);
+  --mda-button-active-color: var(--mda-color-neutral-full);
+  --mda-button-active-border-color: var(--mda-color-action-150);
+  --mda-button-active-background-color: var(--mda-color-action-150);
+  --mda-button-disabled-color: var(--mda-color-action-60);
+  --mda-button-disabled-border-color: var(--mda-color-action-10);
+  --mda-button-disabled-background-color: var(--mda-color-action-10);
+  --mda-button-disabled-icon-color: var(--mda-color-neutral-full);
+
+  --mda-button-icon-size: 16px;
+  --mda-button-icon-spacer: 4px;
 }
