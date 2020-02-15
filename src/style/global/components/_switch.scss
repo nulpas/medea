@@ -11,6 +11,7 @@
       padding: var(--mda-selection-icon-spacer) 0;
       margin-right: var(--mda-selection-option-spacer);
       line-height: var(--mda-switch-height);
+      color: var(--mda-label-color);
       &:before {
         position: relative;
         left: 0;
@@ -58,6 +59,8 @@
       }
     }
     &:disabled + LABEL, &.disabled + LABEL {
+      color: var(--mda-selection-disabled-tex-color);
+      cursor: var(--mda-component-disabled-cursor);
       &:before{
         background-color: var(--mda-switch-disabled-background-color);
         cursor: var(--mda-component-disabled-cursor);
@@ -107,6 +110,7 @@
       padding: var(--mda-selection-icon-spacer) 0;
       margin-right: var(--mda-selection-option-spacer);
       line-height: var(--mda-switch-height);
+      color: var(--mda-label-color);
       &:after {
         position: relative;
         left: 0;
@@ -155,6 +159,8 @@
       }
     }
     &:disabled + LABEL, &.disabled + LABEL {
+      color: var(--mda-selection-disabled-tex-color);
+      cursor: var(--mda-component-disabled-cursor);
       &:after {
         background-color: var(--mda-switch-disabled-background-color);
         cursor: var(--mda-component-disabled-cursor);
