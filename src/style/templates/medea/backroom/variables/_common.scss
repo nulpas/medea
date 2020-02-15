@@ -114,4 +114,16 @@
 
   --mda-button-icon-size: 16px;
   --mda-button-icon-spacer: 4px;
+
+  // ###### SWITCH
+  --mda-switch-background-color: var(--mda-color-space-30);
+  --mda-switch-color: var(--mda-color-neutral-full);
+  --mda-switch-shadow-color: var(--mda-color-neutral);
+  --mda-switch-shadow-color-rgb: var(--mda-color-neutral-rgb);
+  --mda-switch-checked-background-color: var(--mda-color-action);
+  --mda-switch-disabled-background-color: var(--mda-color-space-10);
+  --mda-switch-disabled-checked-background-color: var(--mda-color-action-40);
+
+  --mda-switch-height: 22px;
+  --mda-switch-border-radio: 25px;
 }

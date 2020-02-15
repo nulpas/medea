@@ -5,6 +5,7 @@
 @import './radio';
 @import './report';
 @import './select';
+@import './switch';
 @import './textarea';
 
 %mda-components {
@@ -15,5 +16,6 @@
   @extend %mda-radio;
   @extend %mda-report;
   @extend %mda-select;
+  @extend %mda-switch;
   @extend %mda-textarea;
 }

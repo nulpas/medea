@@ -1116,9 +1116,9 @@ HTML #medea-tpl BUTTON.mda-button, HTML .medea-tpl BUTTON.mda-button, HTML #mda-
     HTML #medea-tpl BUTTON.mda-button I.mda-icon.mda-button--icon-right, HTML .medea-tpl BUTTON.mda-button I.mda-icon.mda-button--icon-right, HTML #mda-stratio-tpl BUTTON.mda-button I.mda-icon.mda-button--icon-right, HTML .mda-stratio-tpl BUTTON.mda-button I.mda-icon.mda-button--icon-right {
       margin-right: 0; }
 
-HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML #mda-stratio-tpl INPUT[type=checkbox], HTML .mda-stratio-tpl INPUT[type=checkbox] {
+HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch), HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch), HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch), HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch) {
   display: none; }
-  HTML #medea-tpl INPUT[type=checkbox] + LABEL, HTML .medea-tpl INPUT[type=checkbox] + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox] + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox] + LABEL {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL {
     position: relative;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -1136,7 +1136,7 @@ HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML
     height: var(--mda-selection-icon-size);
     min-height: var(--mda-selection-icon-size);
     line-height: unset; }
-    HTML #medea-tpl INPUT[type=checkbox] + LABEL:before, HTML .medea-tpl INPUT[type=checkbox] + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox] + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox] + LABEL:before {
+    HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch) + LABEL:before {
       position: relative;
       display: inline-block;
       -webkit-box-sizing: border-box;
@@ -1153,24 +1153,24 @@ HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML
       background-color: var(--mda-component-background-color);
       border-radius: 2px;
       margin-right: var(--mda-selection-icon-spacer); }
-  HTML #medea-tpl INPUT[type=checkbox]:hover + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:hover + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:hover + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:hover + LABEL:before {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):hover + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):hover + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):hover + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):hover + LABEL:before {
     border-color: var(--mda-component-hover-border-color);
     background-color: var(--mda-component-hover-background-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:disabled + LABEL, HTML .medea-tpl INPUT[type=checkbox]:disabled + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled + LABEL, HTML #medea-tpl INPUT[type=checkbox].disabled + LABEL, HTML .medea-tpl INPUT[type=checkbox].disabled + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled + LABEL {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL {
     color: var(--mda-selection-disabled-tex-color);
     cursor: var(--mda-component-disabled-cursor); }
-    HTML #medea-tpl INPUT[type=checkbox]:disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled + LABEL:before {
+    HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled + LABEL:before, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled + LABEL:before {
       border-color: var(--mda-component-disabled-border-color);
       background-color: var(--mda-component-disabled-background-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:disabled:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:disabled:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled:checked + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].disabled:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].disabled:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled:checked + LABEL:before {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:before, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:before {
     border-color: var(--mda-selection-checked-disabled-border-color);
     background-color: var(--mda-selection-checked-disabled-background-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled:checked + LABEL:after {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after {
     background-color: var(--mda-selection-internal-checked-disabled-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:checked + LABEL:before {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:before {
     border-color: var(--mda-component-checked-border-color);
     background-color: var(--mda-component-checked-background-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:checked + LABEL:after {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):checked + LABEL:after {
     position: absolute;
     display: inline-block;
     -webkit-box-sizing: border-box;
@@ -1185,24 +1185,24 @@ HTML #medea-tpl INPUT[type=checkbox], HTML .medea-tpl INPUT[type=checkbox], HTML
     font-size: var(--mda-checkbox-internal-checked-size);
     line-height: var(--mda-checkbox-internal-checked-size);
     color: var(--mda-selection-internal-checked-color); }
-  HTML #medea-tpl INPUT[type=checkbox].mda-selection--no-label + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-selection--no-label + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-selection--no-label + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-selection--no-label + LABEL {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--no-label + LABEL, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--no-label + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--no-label + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--no-label + LABEL {
     font-size: 0;
     line-height: 0; }
-  HTML #medea-tpl INPUT[type=checkbox].mda-selection--vertical + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-selection--vertical + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-selection--vertical + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-selection--vertical + LABEL {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--vertical + LABEL, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--vertical + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--vertical + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-selection--vertical + LABEL {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-  HTML #medea-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled:checked + LABEL:after {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled:checked + LABEL:after {
     background-color: unset;
     color: var(--mda-selection-internal-checked-disabled-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:before {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:before {
     border-color: var(--mda-selection-checked-disabled-border-color); }
-  HTML #medea-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].disabled.mda-checkbox--indeterminate:checked + LABEL:after {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch):disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).disabled.mda-checkbox--indeterminate:checked + LABEL:after {
     background-color: var(--mda-selection-checked-disabled-background-color); }
-  HTML #medea-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:before {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:before {
     border-color: var(--mda-checkbox-indeterminate-border-color);
     background-color: var(--mda-checkbox-indeterminate-background-color); }
-  HTML #medea-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-checkbox--indeterminate:checked + LABEL:after {
+  HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after {
     left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-radio-internal-checked-size) / 2));
     bottom: calc( (var(--mda-selection-icon-size) / 2) - (2px / 2) - 1px + var(--mda-selection-icon-spacer));
     width: var(--mda-radio-internal-checked-size);
@@ -1513,6 +1513,167 @@ HTML #medea-tpl SPAN.mda-select.mda-select--filter > SELECT.mda-select, HTML .me
   -webkit-box-shadow: none;
           box-shadow: none; }
 
+HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right), HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right), HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right), HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) {
+  display: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: var(--mda-selection-icon-spacer) 0;
+    margin-right: var(--mda-selection-option-spacer);
+    line-height: var(--mda-switch-height); }
+    HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:before {
+      position: relative;
+      left: 0;
+      top: 0;
+      content: '';
+      width: calc(var(--mda-switch-height) * 2);
+      height: var(--mda-switch-height);
+      background-color: var(--mda-switch-background-color);
+      border-radius: var(--mda-switch-border-radio);
+      margin-right: var(--mda-selection-icon-spacer); }
+    HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL:after {
+      content: '';
+      position: absolute;
+      width: calc(var(--mda-switch-height) - 4px);
+      height: calc(var(--mda-switch-height) - 4px);
+      top: calc(2px + var(--mda-selection-icon-spacer));
+      left: 3px;
+      border-radius: 100%;
+      background-color: var(--mda-switch-color);
+      cursor: pointer;
+      -webkit-box-shadow: 0 0 4px 0 rgba(var(--mda-switch-shadow-color-rgb), 0.2);
+              box-shadow: 0 0 4px 0 rgba(var(--mda-switch-shadow-color-rgb), 0.2);
+      -webkit-transition: left 150ms ease-in-out;
+      transition: left 150ms ease-in-out; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):active + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):active + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):active + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):active + LABEL:after {
+    width: calc(var(--mda-switch-height) -  4px + 6px);
+    border-radius: 25px;
+    -webkit-transition: none;
+    transition: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:before {
+    background-color: var(--mda-switch-checked-background-color); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked + LABEL:after {
+    left: calc((var(--mda-switch-height) * 2) - (var(--mda-switch-height) - 4px) - 3px); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked:active + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked:active + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked:active + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):checked:active + LABEL:after {
+    left: calc((var(--mda-switch-height) * 2) - (var(--mda-switch-height) - 4px + 6px) - 3px);
+    -webkit-transition: none;
+    transition: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:before {
+    background-color: var(--mda-switch-disabled-background-color);
+    cursor: var(--mda-component-disabled-cursor); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled + LABEL:after {
+    cursor: var(--mda-component-disabled-cursor);
+    -webkit-transition: none;
+    transition: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked + LABEL:before {
+    background-color: var(--mda-switch-disabled-checked-background-color); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:active + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:active + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:active + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:active + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:active + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:active + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:active + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:active + LABEL:after {
+    width: calc(var(--mda-switch-height) - 4px);
+    left: 3px; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked:active + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked:active + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked:active + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right):disabled:checked:active + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked:active + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked:active + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked:active + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).disabled:checked:active + LABEL:after {
+    left: calc((var(--mda-switch-height) * 2) - (var(--mda-switch-height) - 4px) - 3px); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--no-label + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--no-label + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--no-label + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--no-label + LABEL {
+    font-size: 0;
+    line-height: 0; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--vertical + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--vertical + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--vertical + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right).mda-selection--vertical + LABEL {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right {
+  display: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: var(--mda-selection-icon-spacer) 0;
+    margin-right: var(--mda-selection-option-spacer);
+    line-height: var(--mda-switch-height); }
+    HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:after {
+      position: relative;
+      left: 0;
+      top: 0;
+      content: '';
+      width: calc(var(--mda-switch-height) * 2);
+      height: var(--mda-switch-height);
+      background-color: var(--mda-switch-background-color);
+      border-radius: var(--mda-switch-border-radio);
+      margin-left: var(--mda-selection-icon-spacer); }
+    HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right + LABEL:before {
+      content: '';
+      z-index: 1;
+      position: absolute;
+      width: calc(var(--mda-switch-height) - 4px);
+      height: calc(var(--mda-switch-height) - 4px);
+      top: calc(2px + var(--mda-selection-icon-spacer));
+      right: calc((var(--mda-switch-height) * 2) - (var(--mda-switch-height) - 4px) - 3px);
+      border-radius: 100%;
+      background-color: var(--mda-switch-color);
+      cursor: pointer;
+      -webkit-box-shadow: 0 0 4px 0 rgba(var(--mda-switch-shadow-color-rgb), 0.2);
+              box-shadow: 0 0 4px 0 rgba(var(--mda-switch-shadow-color-rgb), 0.2);
+      -webkit-transition: right 150ms ease-in-out;
+      transition: right 150ms ease-in-out; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:active + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:active + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:active + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:active + LABEL:before {
+    width: calc(var(--mda-switch-height) -  4px + 6px);
+    border-radius: 25px;
+    -webkit-transition: none;
+    transition: none;
+    right: calc((var(--mda-switch-height) * 2) - (var(--mda-switch-height) - 4px + 6px) - 3px); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:after {
+    background-color: var(--mda-switch-checked-background-color); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked + LABEL:before {
+    right: 3px; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked:active + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked:active + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked:active + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:checked:active + LABEL:before {
+    -webkit-transition: none;
+    transition: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:after {
+    background-color: var(--mda-switch-disabled-background-color);
+    cursor: var(--mda-component-disabled-cursor); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled + LABEL:before {
+    cursor: var(--mda-component-disabled-cursor);
+    -webkit-transition: none;
+    transition: none; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked + LABEL:after, HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked + LABEL:after {
+    background-color: var(--mda-switch-disabled-checked-background-color); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:active + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:active + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:active + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:active + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:active + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:active + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:active + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:active + LABEL:before {
+    width: calc(var(--mda-switch-height) - 4px);
+    right: calc((var(--mda-switch-height) * 2) - (var(--mda-switch-height) - 4px) - 3px); }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked:active + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked:active + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked:active + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right:disabled:checked:active + LABEL:before, HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked:active + LABEL:before, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked:active + LABEL:before, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked:active + LABEL:before, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.disabled:checked:active + LABEL:before {
+    right: 3px; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--no-label + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--no-label + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--no-label + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--no-label + LABEL {
+    font-size: 0;
+    line-height: 0; }
+  HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--vertical + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--vertical + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--vertical + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch.mda-switch--right.mda-selection--vertical + LABEL {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
 HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select:disabled, HTML .medea-tpl SELECT.mda-select:disabled, HTML #mda-stratio-tpl SELECT.mda-select:disabled, HTML .mda-stratio-tpl SELECT.mda-select:disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
   color: var(--mda-component-disabled-color);
   border-color: var(--mda-component-disabled-border-color);
@@ -1762,7 +1923,16 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-button-disabled-background-color: var(--mda-color-action-10);
   --mda-button-disabled-icon-color: var(--mda-color-neutral-full);
   --mda-button-icon-size: 16px;
-  --mda-button-icon-spacer: 4px; }
+  --mda-button-icon-spacer: 4px;
+  --mda-switch-background-color: var(--mda-color-space-30);
+  --mda-switch-color: var(--mda-color-neutral-full);
+  --mda-switch-shadow-color: var(--mda-color-neutral);
+  --mda-switch-shadow-color-rgb: var(--mda-color-neutral-rgb);
+  --mda-switch-checked-background-color: var(--mda-color-action);
+  --mda-switch-disabled-background-color: var(--mda-color-space-10);
+  --mda-switch-disabled-checked-background-color: var(--mda-color-action-40);
+  --mda-switch-height: 22px;
+  --mda-switch-border-radio: 25px; }
 
 HTML #medea-tpl LABEL.mda-label, HTML .medea-tpl LABEL.mda-label, HTML #mda-stratio-tpl LABEL.mda-label, HTML .mda-stratio-tpl LABEL.mda-label, HTML #medea-tpl LABEL.mda-label.mda-label--small, HTML .medea-tpl LABEL.mda-label.mda-label--small, HTML #mda-stratio-tpl LABEL.mda-label.mda-label--small, HTML .mda-stratio-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;

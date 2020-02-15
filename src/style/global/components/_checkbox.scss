@@ -1,7 +1,7 @@
 @import './shared/mixins';
 
 %mda-checkbox {
-  INPUT[type=checkbox] {
+  INPUT[type=checkbox]:not(.mda-switch) {
     $checkboxCorrectionFactor: 1px;
     $checkboxIndeterminateHeight: 2px;
 
