@@ -6,6 +6,7 @@
 @import './report';
 @import './select';
 @import './switch';
+@import './tag';
 @import './textarea';
 
 %mda-components {
@@ -17,5 +18,6 @@
   @extend %mda-report;
   @extend %mda-select;
   @extend %mda-switch;
+  @extend %mda-tag;
   @extend %mda-textarea;
 }

@@ -126,4 +126,24 @@
 
   --mda-switch-height: 22px;
   --mda-switch-border-radio: 25px;
+
+  // ###### TAG
+  --mda-tag-text-color: var(--mda-color-space-110);
+  --mda-tag-border-color: var(--mda-color-space-10);
+  --mda-tag-background-color: var(--mda-color-space-10);
+  --mda-tag-info-text-color: var(--mda-color-action);
+  --mda-tag-info-border-color: var(--mda-color-action-10);
+  --mda-tag-info-background-color: var(--mda-color-action-10);
+  --mda-tag-critical-text-color: var(--mda-color-critical-140);
+  --mda-tag-critical-border-color: var(--mda-color-critical-10);
+  --mda-tag-critical-background-color: var(--mda-color-critical-10);
+  --mda-tag-warning-text-color: var(--mda-color-warning);
+  --mda-tag-warning-border-color: var(--mda-color-warning-10);
+  --mda-tag-warning-background-color: var(--mda-color-warning-10);
+  --mda-tag-success-text-color: var(--mda-color-success);
+  --mda-tag-success-border-color: var(--mda-color-success-10);
+  --mda-tag-success-background-color: var(--mda-color-success-10);
+
+  --mda-tag-padding-horizontal: 8px;
+  --mda-tag-padding-vertical: 4px;
 }

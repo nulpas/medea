@@ -1,0 +1,15 @@
+%mda-tag {
+  SPAN, DIV {
+    &.mda-tag {
+      width: fit-content;
+      min-width: fit-content;
+      box-sizing: border-box;
+      color: var(--mda-tag-text-color);
+      border: var(--mda-component-border);
+      border-color: var(--mda-tag-border-color);
+      border-radius: var(--mda-component-border-radius);
+      background-color: var(--mda-tag-background-color);
+      padding: var(--mda-tag-padding-vertical) var(--mda-tag-padding-horizontal);
+    }
+  }
+}

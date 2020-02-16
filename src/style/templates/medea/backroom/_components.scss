@@ -121,4 +121,41 @@
       }
     }
   }
+
+  SPAN, DIV {
+    &.mda-tag {
+      &.mda-tag--medium {
+        --mda-tag-padding-vertical: 4px;
+
+        font-size: 12px;
+        line-height: 1.0205rem;
+      }
+      &.mda-tag--small {
+        --mda-tag-padding-vertical: 2px;
+
+        font-size: 12px;
+        line-height: 1.0205rem;
+      }
+      &.mda-tag--info {
+        color: var(--mda-tag-info-text-color);
+        border-color: var(--mda-tag-info-border-color);
+        background-color: var(--mda-tag-info-background-color);
+      }
+      &.mda-tag--critical {
+        color: var(--mda-tag-critical-text-color);
+        border-color: var(--mda-tag-critical-border-color);
+        background-color: var(--mda-tag-critical-background-color);
+      }
+      &.mda-tag--warning {
+        color: var(--mda-tag-warning-text-color);
+        border-color: var(--mda-tag-warning-border-color);
+        background-color: var(--mda-tag-warning-background-color);
+      }
+      &.mda-tag--success {
+        color: var(--mda-tag-success-text-color);
+        border-color: var(--mda-tag-success-border-color);
+        background-color: var(--mda-tag-success-background-color);
+      }
+    }
+  }
 }
