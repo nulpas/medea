@@ -124,17 +124,24 @@
 
   SPAN, DIV {
     &.mda-tag {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      I.mda-icon {
+        font-size: inherit;
+        line-height: 14px;
+      }
       &.mda-tag--medium {
+        @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
         --mda-tag-padding-vertical: 4px;
-
-        font-size: 12px;
-        line-height: 1.0205rem;
+        I.mda-icon {
+          line-height: 12px;
+        }
       }
       &.mda-tag--small {
+        @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
         --mda-tag-padding-vertical: 2px;
-
-        font-size: 12px;
-        line-height: 1.0205rem;
+        I.mda-icon {
+          line-height: 12px;
+        }
       }
       &.mda-tag--info {
         color: var(--mda-tag-info-text-color);

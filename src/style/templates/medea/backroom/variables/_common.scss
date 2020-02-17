@@ -144,6 +144,16 @@
   --mda-tag-success-border-color: var(--mda-color-success-10);
   --mda-tag-success-background-color: var(--mda-color-success-10);
 
+  --mda-tag-hover-text-color: var(--mda-color-action);
+  --mda-tag-hover-border-color: var(--mda-color-action-10);
+  --mda-tag-hover-background-color: var(--mda-color-action-10);
+  --mda-tag-active-text-color: var(--mda-color-neutral-full);
+  --mda-tag-active-border-color: var(--mda-color-action);
+  --mda-tag-active-background-color: var(--mda-color-action);
+  --mda-tag-disabled-text-color: var(--mda-color-space-50);
+  --mda-tag-disabled-border-color: var(--mda-color-space-10);
+  --mda-tag-disabled-background-color: var(--mda-color-space-10);
+
   --mda-tag-padding-horizontal: 8px;
   --mda-tag-padding-vertical: 4px;
 }

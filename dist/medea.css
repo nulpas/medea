@@ -1683,6 +1683,25 @@ HTML #medea-tpl INPUT[type=checkbox].mda-switch.mda-switch--right, HTML .medea-t
     display: flex; }
 
 HTML #medea-tpl SPAN.mda-tag, HTML .medea-tpl SPAN.mda-tag, HTML #mda-stratio-tpl SPAN.mda-tag, HTML .mda-stratio-tpl SPAN.mda-tag, HTML #medea-tpl DIV.mda-tag, HTML .medea-tpl DIV.mda-tag, HTML #mda-stratio-tpl DIV.mda-tag, HTML .mda-stratio-tpl DIV.mda-tag {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-direction: row nowrap;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-justify-content: normal;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1697,6 +1716,33 @@ HTML #medea-tpl SPAN.mda-tag, HTML .medea-tpl SPAN.mda-tag, HTML #mda-stratio-tp
   border-radius: var(--mda-component-border-radius);
   background-color: var(--mda-tag-background-color);
   padding: var(--mda-tag-padding-vertical) var(--mda-tag-padding-horizontal); }
+  HTML #medea-tpl SPAN.mda-tag I.mda-icon, HTML .medea-tpl SPAN.mda-tag I.mda-icon, HTML #mda-stratio-tpl SPAN.mda-tag I.mda-icon, HTML .mda-stratio-tpl SPAN.mda-tag I.mda-icon, HTML #medea-tpl DIV.mda-tag I.mda-icon, HTML .medea-tpl DIV.mda-tag I.mda-icon, HTML #mda-stratio-tpl DIV.mda-tag I.mda-icon, HTML .mda-stratio-tpl DIV.mda-tag I.mda-icon {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: inherit;
+    margin-left: 8px;
+    cursor: pointer; }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive {
+    cursor: pointer; }
+    HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive:hover, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive:hover, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:hover, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:hover, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive:hover, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive:hover, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:hover, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:hover {
+      color: var(--mda-tag-hover-text-color);
+      border-color: var(--mda-tag-hover-border-color);
+      background-color: var(--mda-tag-hover-background-color); }
+    HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive:active, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive:active, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:active, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:active, HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive.selected, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive.selected, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive.selected, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive.selected, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive:active, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive:active, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:active, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:active, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive.selected, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive.selected, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive.selected, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive.selected {
+      color: var(--mda-tag-active-text-color);
+      border-color: var(--mda-tag-active-border-color);
+      background-color: var(--mda-tag-active-background-color); }
+    HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive:disabled, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive:disabled, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:disabled, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:disabled, HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive.disabled, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive.disabled, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive.disabled, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive.disabled, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive:disabled, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive:disabled, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:disabled, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:disabled, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive.disabled, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive.disabled, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive.disabled, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive.disabled {
+      color: var(--mda-tag-disabled-text-color);
+      border-color: var(--mda-tag-disabled-border-color);
+      background-color: var(--mda-tag-disabled-background-color);
+      cursor: var(--mda-component-disabled-cursor); }
+      HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML #medea-tpl SPAN.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML .medea-tpl SPAN.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive:disabled I.mda-icon, HTML #medea-tpl DIV.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML .medea-tpl DIV.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--interactive.disabled I.mda-icon, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--interactive.disabled I.mda-icon {
+        cursor: var(--mda-component-disabled-cursor); }
 
 HTML #medea-tpl TEXTAREA.mda-textarea:disabled, HTML .medea-tpl TEXTAREA.mda-textarea:disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea:disabled, HTML #medea-tpl TEXTAREA.mda-textarea.disabled, HTML .medea-tpl TEXTAREA.mda-textarea.disabled, HTML #mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML .mda-stratio-tpl TEXTAREA.mda-textarea.disabled, HTML #medea-tpl INPUT.mda-input:disabled, HTML .medea-tpl INPUT.mda-input:disabled, HTML #mda-stratio-tpl INPUT.mda-input:disabled, HTML .mda-stratio-tpl INPUT.mda-input:disabled, HTML #medea-tpl INPUT.mda-input.disabled, HTML .medea-tpl INPUT.mda-input.disabled, HTML #mda-stratio-tpl INPUT.mda-input.disabled, HTML .mda-stratio-tpl INPUT.mda-input.disabled, HTML #medea-tpl SELECT.mda-select:disabled, HTML .medea-tpl SELECT.mda-select:disabled, HTML #mda-stratio-tpl SELECT.mda-select:disabled, HTML .mda-stratio-tpl SELECT.mda-select:disabled, HTML #medea-tpl SELECT.mda-select.disabled, HTML .medea-tpl SELECT.mda-select.disabled, HTML #mda-stratio-tpl SELECT.mda-select.disabled, HTML .mda-stratio-tpl SELECT.mda-select.disabled {
   color: var(--mda-component-disabled-color);
@@ -1972,6 +2018,15 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-tag-success-text-color: var(--mda-color-success);
   --mda-tag-success-border-color: var(--mda-color-success-10);
   --mda-tag-success-background-color: var(--mda-color-success-10);
+  --mda-tag-hover-text-color: var(--mda-color-action);
+  --mda-tag-hover-border-color: var(--mda-color-action-10);
+  --mda-tag-hover-background-color: var(--mda-color-action-10);
+  --mda-tag-active-text-color: var(--mda-color-neutral-full);
+  --mda-tag-active-border-color: var(--mda-color-action);
+  --mda-tag-active-background-color: var(--mda-color-action);
+  --mda-tag-disabled-text-color: var(--mda-color-space-50);
+  --mda-tag-disabled-border-color: var(--mda-color-space-10);
+  --mda-tag-disabled-background-color: var(--mda-color-space-10);
   --mda-tag-padding-horizontal: 8px;
   --mda-tag-padding-vertical: 4px; }
 
@@ -2068,35 +2123,40 @@ HTML #medea-tpl BUTTON.mda-button, HTML .medea-tpl BUTTON.mda-button, HTML #mda-
       --mda-component-padding-horizontal: 7px;
       --mda-component-padding-vertical: 7px; }
 
-HTML #medea-tpl SPAN.mda-tag.mda-tag--medium, HTML .medea-tpl SPAN.mda-tag.mda-tag--medium, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--medium, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--medium, HTML #medea-tpl DIV.mda-tag.mda-tag--medium, HTML .medea-tpl DIV.mda-tag.mda-tag--medium, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--medium, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--medium {
-  --mda-tag-padding-vertical: 4px;
-  font-size: 12px;
-  line-height: 1.0205rem; }
-
-HTML #medea-tpl SPAN.mda-tag.mda-tag--small, HTML .medea-tpl SPAN.mda-tag.mda-tag--small, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--small, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--small, HTML #medea-tpl DIV.mda-tag.mda-tag--small, HTML .medea-tpl DIV.mda-tag.mda-tag--small, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--small, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--small {
-  --mda-tag-padding-vertical: 2px;
-  font-size: 12px;
-  line-height: 1.0205rem; }
-
-HTML #medea-tpl SPAN.mda-tag.mda-tag--info, HTML .medea-tpl SPAN.mda-tag.mda-tag--info, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--info, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--info, HTML #medea-tpl DIV.mda-tag.mda-tag--info, HTML .medea-tpl DIV.mda-tag.mda-tag--info, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--info, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--info {
-  color: var(--mda-tag-info-text-color);
-  border-color: var(--mda-tag-info-border-color);
-  background-color: var(--mda-tag-info-background-color); }
-
-HTML #medea-tpl SPAN.mda-tag.mda-tag--critical, HTML .medea-tpl SPAN.mda-tag.mda-tag--critical, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--critical, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--critical, HTML #medea-tpl DIV.mda-tag.mda-tag--critical, HTML .medea-tpl DIV.mda-tag.mda-tag--critical, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--critical, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--critical {
-  color: var(--mda-tag-critical-text-color);
-  border-color: var(--mda-tag-critical-border-color);
-  background-color: var(--mda-tag-critical-background-color); }
-
-HTML #medea-tpl SPAN.mda-tag.mda-tag--warning, HTML .medea-tpl SPAN.mda-tag.mda-tag--warning, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--warning, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--warning, HTML #medea-tpl DIV.mda-tag.mda-tag--warning, HTML .medea-tpl DIV.mda-tag.mda-tag--warning, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--warning, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--warning {
-  color: var(--mda-tag-warning-text-color);
-  border-color: var(--mda-tag-warning-border-color);
-  background-color: var(--mda-tag-warning-background-color); }
-
-HTML #medea-tpl SPAN.mda-tag.mda-tag--success, HTML .medea-tpl SPAN.mda-tag.mda-tag--success, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--success, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--success, HTML #medea-tpl DIV.mda-tag.mda-tag--success, HTML .medea-tpl DIV.mda-tag.mda-tag--success, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--success, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--success {
-  color: var(--mda-tag-success-text-color);
-  border-color: var(--mda-tag-success-border-color);
-  background-color: var(--mda-tag-success-background-color); }
+HTML #medea-tpl SPAN.mda-tag, HTML .medea-tpl SPAN.mda-tag, HTML #mda-stratio-tpl SPAN.mda-tag, HTML .mda-stratio-tpl SPAN.mda-tag, HTML #medea-tpl DIV.mda-tag, HTML .medea-tpl DIV.mda-tag, HTML #mda-stratio-tpl DIV.mda-tag, HTML .mda-stratio-tpl DIV.mda-tag {
+  font-size: 1rem;
+  line-height: 1.4287rem; }
+  HTML #medea-tpl SPAN.mda-tag I.mda-icon, HTML .medea-tpl SPAN.mda-tag I.mda-icon, HTML #mda-stratio-tpl SPAN.mda-tag I.mda-icon, HTML .mda-stratio-tpl SPAN.mda-tag I.mda-icon, HTML #medea-tpl DIV.mda-tag I.mda-icon, HTML .medea-tpl DIV.mda-tag I.mda-icon, HTML #mda-stratio-tpl DIV.mda-tag I.mda-icon, HTML .mda-stratio-tpl DIV.mda-tag I.mda-icon {
+    font-size: inherit;
+    line-height: 14px; }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--medium, HTML .medea-tpl SPAN.mda-tag.mda-tag--medium, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--medium, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--medium, HTML #medea-tpl DIV.mda-tag.mda-tag--medium, HTML .medea-tpl DIV.mda-tag.mda-tag--medium, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--medium, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--medium {
+    font-size: 0.85714rem;
+    line-height: 1.2246rem;
+    --mda-tag-padding-vertical: 4px; }
+    HTML #medea-tpl SPAN.mda-tag.mda-tag--medium I.mda-icon, HTML .medea-tpl SPAN.mda-tag.mda-tag--medium I.mda-icon, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--medium I.mda-icon, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--medium I.mda-icon, HTML #medea-tpl DIV.mda-tag.mda-tag--medium I.mda-icon, HTML .medea-tpl DIV.mda-tag.mda-tag--medium I.mda-icon, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--medium I.mda-icon, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--medium I.mda-icon {
+      line-height: 12px; }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--small, HTML .medea-tpl SPAN.mda-tag.mda-tag--small, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--small, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--small, HTML #medea-tpl DIV.mda-tag.mda-tag--small, HTML .medea-tpl DIV.mda-tag.mda-tag--small, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--small, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--small {
+    font-size: 0.85714rem;
+    line-height: 1.2246rem;
+    --mda-tag-padding-vertical: 2px; }
+    HTML #medea-tpl SPAN.mda-tag.mda-tag--small I.mda-icon, HTML .medea-tpl SPAN.mda-tag.mda-tag--small I.mda-icon, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--small I.mda-icon, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--small I.mda-icon, HTML #medea-tpl DIV.mda-tag.mda-tag--small I.mda-icon, HTML .medea-tpl DIV.mda-tag.mda-tag--small I.mda-icon, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--small I.mda-icon, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--small I.mda-icon {
+      line-height: 12px; }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--info, HTML .medea-tpl SPAN.mda-tag.mda-tag--info, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--info, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--info, HTML #medea-tpl DIV.mda-tag.mda-tag--info, HTML .medea-tpl DIV.mda-tag.mda-tag--info, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--info, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--info {
+    color: var(--mda-tag-info-text-color);
+    border-color: var(--mda-tag-info-border-color);
+    background-color: var(--mda-tag-info-background-color); }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--critical, HTML .medea-tpl SPAN.mda-tag.mda-tag--critical, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--critical, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--critical, HTML #medea-tpl DIV.mda-tag.mda-tag--critical, HTML .medea-tpl DIV.mda-tag.mda-tag--critical, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--critical, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--critical {
+    color: var(--mda-tag-critical-text-color);
+    border-color: var(--mda-tag-critical-border-color);
+    background-color: var(--mda-tag-critical-background-color); }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--warning, HTML .medea-tpl SPAN.mda-tag.mda-tag--warning, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--warning, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--warning, HTML #medea-tpl DIV.mda-tag.mda-tag--warning, HTML .medea-tpl DIV.mda-tag.mda-tag--warning, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--warning, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--warning {
+    color: var(--mda-tag-warning-text-color);
+    border-color: var(--mda-tag-warning-border-color);
+    background-color: var(--mda-tag-warning-background-color); }
+  HTML #medea-tpl SPAN.mda-tag.mda-tag--success, HTML .medea-tpl SPAN.mda-tag.mda-tag--success, HTML #mda-stratio-tpl SPAN.mda-tag.mda-tag--success, HTML .mda-stratio-tpl SPAN.mda-tag.mda-tag--success, HTML #medea-tpl DIV.mda-tag.mda-tag--success, HTML .medea-tpl DIV.mda-tag.mda-tag--success, HTML #mda-stratio-tpl DIV.mda-tag.mda-tag--success, HTML .mda-stratio-tpl DIV.mda-tag.mda-tag--success {
+    color: var(--mda-tag-success-text-color);
+    border-color: var(--mda-tag-success-border-color);
+    background-color: var(--mda-tag-success-background-color); }
 
 HTML {
   font-size: 14px;
