@@ -1075,6 +1075,9 @@ HTML #medea-tpl BUTTON.mda-button, HTML .medea-tpl BUTTON.mda-button, HTML #mda-
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   cursor: pointer;
@@ -1106,6 +1109,12 @@ HTML #medea-tpl BUTTON.mda-button, HTML .medea-tpl BUTTON.mda-button, HTML #mda-
     HTML #medea-tpl BUTTON.mda-button:disabled > I.mda-icon, HTML .medea-tpl BUTTON.mda-button:disabled > I.mda-icon, HTML #mda-stratio-tpl BUTTON.mda-button:disabled > I.mda-icon, HTML .mda-stratio-tpl BUTTON.mda-button:disabled > I.mda-icon, HTML #medea-tpl BUTTON.mda-button.disabled > I.mda-icon, HTML .medea-tpl BUTTON.mda-button.disabled > I.mda-icon, HTML #mda-stratio-tpl BUTTON.mda-button.disabled > I.mda-icon, HTML .mda-stratio-tpl BUTTON.mda-button.disabled > I.mda-icon {
       color: var(--mda-button-disabled-icon-color);
       cursor: inherit; }
+  HTML #medea-tpl BUTTON.mda-button.no-events, HTML .medea-tpl BUTTON.mda-button.no-events, HTML #mda-stratio-tpl BUTTON.mda-button.no-events, HTML .mda-stratio-tpl BUTTON.mda-button.no-events {
+    cursor: wait; }
+    HTML #medea-tpl BUTTON.mda-button.no-events:hover, HTML .medea-tpl BUTTON.mda-button.no-events:hover, HTML #mda-stratio-tpl BUTTON.mda-button.no-events:hover, HTML .mda-stratio-tpl BUTTON.mda-button.no-events:hover {
+      color: var(--mda-button-color);
+      border-color: var(--mda-button-border-color);
+      background-color: var(--mda-button-background-color); }
   HTML #medea-tpl BUTTON.mda-button I.mda-icon, HTML .medea-tpl BUTTON.mda-button I.mda-icon, HTML #mda-stratio-tpl BUTTON.mda-button I.mda-icon, HTML .mda-stratio-tpl BUTTON.mda-button I.mda-icon {
     font-size: var(--mda-button-icon-size);
     margin: 0 var(--mda-button-icon-spacer);
@@ -2139,12 +2148,14 @@ HTML #medea-tpl BUTTON.mda-button, HTML .medea-tpl BUTTON.mda-button, HTML #mda-
     --mda-button-disabled-icon-color: var(--mda-color-space-40); }
   HTML #medea-tpl BUTTON.mda-button.mda-button--icon-only, HTML .medea-tpl BUTTON.mda-button.mda-button--icon-only, HTML #mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only, HTML .mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only {
     --mda-component-padding-horizontal: 11px;
-    --mda-component-padding-vertical: 11px; }
+    --mda-component-padding-vertical: 9px; }
     HTML #medea-tpl BUTTON.mda-button.mda-button--icon-only I.mda-icon, HTML .medea-tpl BUTTON.mda-button.mda-button--icon-only I.mda-icon, HTML #mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only I.mda-icon, HTML .mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only I.mda-icon {
-      margin: 0; }
+      margin: 2px 0; }
     HTML #medea-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small, HTML .medea-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small, HTML #mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small, HTML .mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small {
       --mda-component-padding-horizontal: 7px;
       --mda-component-padding-vertical: 7px; }
+      HTML #medea-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small I.mda-icon, HTML .medea-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small I.mda-icon, HTML #mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small I.mda-icon, HTML .mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small I.mda-icon {
+        margin: 0; }
 
 HTML #medea-tpl SPAN.mda-tag, HTML .medea-tpl SPAN.mda-tag, HTML #mda-stratio-tpl SPAN.mda-tag, HTML .mda-stratio-tpl SPAN.mda-tag, HTML #medea-tpl DIV.mda-tag, HTML .medea-tpl DIV.mda-tag, HTML #mda-stratio-tpl DIV.mda-tag, HTML .mda-stratio-tpl DIV.mda-tag {
   font-size: 1rem;
@@ -2195,8 +2206,8 @@ HTML #medea-tpl .mda-spinner.mda-spinner--16, HTML .medea-tpl .mda-spinner.mda-s
   --mda-spinner-size: 16px;
   --mda-spinner-line-width: 6px; }
 
-HTML #medea-tpl .mda-spinner.mda-spinner--24, HTML .medea-tpl .mda-spinner.mda-spinner--24, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--24, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--24 {
-  --mda-spinner-size: 24px;
+HTML #medea-tpl .mda-spinner.mda-spinner--20, HTML .medea-tpl .mda-spinner.mda-spinner--20, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--20, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--20 {
+  --mda-spinner-size: 20px;
   --mda-spinner-line-width: 5px; }
 
 HTML #medea-tpl .mda-spinner.mda-spinner--inverse, HTML .medea-tpl .mda-spinner.mda-spinner--inverse, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--inverse, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--inverse {

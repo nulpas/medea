@@ -3,6 +3,7 @@
     position: relative;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     cursor: pointer;
     padding: var(--mda-component-padding-vertical) var(--mda-component-padding-horizontal);
@@ -38,6 +39,15 @@
       & > I.mda-icon {
         color: var(--mda-button-disabled-icon-color);
         cursor: inherit;
+      }
+    }
+
+    &.no-events {
+      cursor: wait;
+      &:hover {
+        color: var(--mda-button-color);
+        border-color: var(--mda-button-border-color);
+        background-color: var(--mda-button-background-color);
       }
     }
 

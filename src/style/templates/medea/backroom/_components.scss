@@ -109,14 +109,17 @@
         --mda-button-disabled-icon-color: var(--mda-color-space-40);
       }
       &.mda-button--icon-only {
-        I.mda-icon {
-          margin: 0;
-        }
         --mda-component-padding-horizontal: 11px;
-        --mda-component-padding-vertical: 11px;
+        --mda-component-padding-vertical: 9px;
+        I.mda-icon {
+          margin: 2px 0;
+        }
         &.mda-button--small {
           --mda-component-padding-horizontal: 7px;
           --mda-component-padding-vertical: 7px;
+          I.mda-icon {
+            margin: 0;
+          }
         }
       }
     }
@@ -181,8 +184,8 @@
       --mda-spinner-size: 16px;
       --mda-spinner-line-width: 6px;
     }
-    &.mda-spinner--24 {
-      --mda-spinner-size: 24px;
+    &.mda-spinner--20 {
+      --mda-spinner-size: 20px;
       --mda-spinner-line-width: 5px;
     }
     &.mda-spinner--inverse {
