@@ -1178,6 +1178,7 @@ HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch), HTML .medea-tpl INPUT[typ
     content: '';
     --tempCheck01: var(--mda-selection-icon-size) / 2;
     --tempCheck02: var(--mda-checkbox-internal-checked-size) / 2;
+    --tempCheck03: var(--mda-radio-internal-checked-size) / 2;
     left: calc(var(--tempCheck01) - var(--tempCheck02));
     bottom: calc( var(--tempCheck01) - var(--tempCheck02) - 0px + var(--mda-selection-icon-spacer));
     border: none;
@@ -1205,8 +1206,8 @@ HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch), HTML .medea-tpl INPUT[typ
     border-color: var(--mda-checkbox-indeterminate-border-color);
     background-color: var(--mda-checkbox-indeterminate-background-color); }
   HTML #medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after, HTML .medea-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after, HTML #mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after, HTML .mda-stratio-tpl INPUT[type=checkbox]:not(.mda-switch).mda-checkbox--indeterminate:checked + LABEL:after {
-    left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-radio-internal-checked-size) / 2));
-    bottom: calc( (var(--mda-selection-icon-size) / 2) - (2px / 2) - 1px + var(--mda-selection-icon-spacer));
+    left: calc(var(--tempCheck01) - var(--tempCheck03));
+    bottom: calc( var(--tempCheck01) - 1px - 1px + var(--mda-selection-icon-spacer));
     width: var(--mda-radio-internal-checked-size);
     max-width: var(--mda-radio-internal-checked-size);
     height: 2px;

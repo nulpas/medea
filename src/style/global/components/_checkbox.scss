@@ -11,6 +11,7 @@
     @include selectionElement(2px, $checkboxCorrectionFactor) {
       --tempCheck01: var(--mda-selection-icon-size) / 2;
       --tempCheck02: var(--mda-checkbox-internal-checked-size) / 2;
+      --tempCheck03: var(--mda-radio-internal-checked-size) / 2;
       left: calc(var(--tempCheck01) - var(--tempCheck02));
       bottom: calc(
         var(--tempCheck01) -
@@ -53,10 +54,10 @@
           background-color: var(--mda-checkbox-indeterminate-background-color);
         }
         &:after {
-          left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-radio-internal-checked-size) / 2));
+          left: calc(var(--tempCheck01) - var(--tempCheck03));
           bottom: calc(
-            (var(--mda-selection-icon-size) / 2) -
-            (#{$checkboxIndeterminateHeight} / 2) -
+            var(--tempCheck01) -
+            #{$checkboxIndeterminateHeight / 2} -
             #{$checkboxCorrectionFactor} +
             var(--mda-selection-icon-spacer)
           );
