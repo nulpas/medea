@@ -165,4 +165,28 @@
       }
     }
   }
+
+  .mda-spinner {
+    &.mda-spinner--inline {
+      --mda-spinner-display: inline-flex;
+    }
+    &.mda-spinner--inherit {
+      --mda-spinner-display: inherit;
+    }
+    &.mda-spinner--12 {
+      --mda-spinner-size: 12px;
+      --mda-spinner-line-width: 7px;
+    }
+    &.mda-spinner--16 {
+      --mda-spinner-size: 16px;
+      --mda-spinner-line-width: 6px;
+    }
+    &.mda-spinner--24 {
+      --mda-spinner-size: 24px;
+      --mda-spinner-line-width: 5px;
+    }
+    &.mda-spinner--inverse {
+      --mda-spinner-color: var(--mda-color-neutral-full);
+    }
+  }
 }

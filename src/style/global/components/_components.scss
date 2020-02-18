@@ -5,6 +5,7 @@
 @import './radio';
 @import './report';
 @import './select';
+@import './spinner';
 @import './switch';
 @import './tag';
 @import './textarea';
@@ -17,6 +18,7 @@
   @extend %mda-radio;
   @extend %mda-report;
   @extend %mda-select;
+  @extend %mda-spinner;
   @extend %mda-switch;
   @extend %mda-tag;
   @extend %mda-textarea;

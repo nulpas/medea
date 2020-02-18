@@ -156,4 +156,10 @@
 
   --mda-tag-padding-horizontal: 8px;
   --mda-tag-padding-vertical: 4px;
+
+  // ###### SPINNER
+  --mda-spinner-display: block;
+  --mda-spinner-size: 80px;
+  --mda-spinner-line-width: 3px;
+  --mda-spinner-color: var(--mda-color-action);
 }

@@ -1513,6 +1513,12 @@ HTML #medea-tpl SPAN.mda-select.mda-select--filter > SELECT.mda-select, HTML .me
   -webkit-box-shadow: none;
           box-shadow: none; }
 
+HTML #medea-tpl .mda-spinner, HTML .medea-tpl .mda-spinner, HTML #mda-stratio-tpl .mda-spinner, HTML .mda-stratio-tpl .mda-spinner {
+  --mda-spinner-default-display: var(--mda-spinner-display);
+  --mda-spinner-default-size: var(--mda-spinner-size);
+  --mda-spinner-default-line-width: var(--mda-spinner-line-width);
+  --mda-spinner-default-color: var(--mda-spinner-color); }
+
 HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right), HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right), HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right), HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) {
   display: none; }
   HTML #medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL, HTML .medea-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL, HTML #mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL, HTML .mda-stratio-tpl INPUT[type=checkbox].mda-switch:not(.mda-switch--right) + LABEL {
@@ -2028,7 +2034,11 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-tag-disabled-border-color: var(--mda-color-space-10);
   --mda-tag-disabled-background-color: var(--mda-color-space-10);
   --mda-tag-padding-horizontal: 8px;
-  --mda-tag-padding-vertical: 4px; }
+  --mda-tag-padding-vertical: 4px;
+  --mda-spinner-display: block;
+  --mda-spinner-size: 80px;
+  --mda-spinner-line-width: 3px;
+  --mda-spinner-color: var(--mda-color-action); }
 
 HTML #medea-tpl LABEL.mda-label, HTML .medea-tpl LABEL.mda-label, HTML #mda-stratio-tpl LABEL.mda-label, HTML .mda-stratio-tpl LABEL.mda-label, HTML #medea-tpl LABEL.mda-label.mda-label--small, HTML .medea-tpl LABEL.mda-label.mda-label--small, HTML #mda-stratio-tpl LABEL.mda-label.mda-label--small, HTML .mda-stratio-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;
@@ -2157,6 +2167,27 @@ HTML #medea-tpl SPAN.mda-tag, HTML .medea-tpl SPAN.mda-tag, HTML #mda-stratio-tp
     color: var(--mda-tag-success-text-color);
     border-color: var(--mda-tag-success-border-color);
     background-color: var(--mda-tag-success-background-color); }
+
+HTML #medea-tpl .mda-spinner.mda-spinner--inline, HTML .medea-tpl .mda-spinner.mda-spinner--inline, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--inline, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--inline {
+  --mda-spinner-display: inline-flex; }
+
+HTML #medea-tpl .mda-spinner.mda-spinner--inherit, HTML .medea-tpl .mda-spinner.mda-spinner--inherit, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--inherit, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--inherit {
+  --mda-spinner-display: inherit; }
+
+HTML #medea-tpl .mda-spinner.mda-spinner--12, HTML .medea-tpl .mda-spinner.mda-spinner--12, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--12, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--12 {
+  --mda-spinner-size: 12px;
+  --mda-spinner-line-width: 7px; }
+
+HTML #medea-tpl .mda-spinner.mda-spinner--16, HTML .medea-tpl .mda-spinner.mda-spinner--16, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--16, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--16 {
+  --mda-spinner-size: 16px;
+  --mda-spinner-line-width: 6px; }
+
+HTML #medea-tpl .mda-spinner.mda-spinner--24, HTML .medea-tpl .mda-spinner.mda-spinner--24, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--24, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--24 {
+  --mda-spinner-size: 24px;
+  --mda-spinner-line-width: 5px; }
+
+HTML #medea-tpl .mda-spinner.mda-spinner--inverse, HTML .medea-tpl .mda-spinner.mda-spinner--inverse, HTML #mda-stratio-tpl .mda-spinner.mda-spinner--inverse, HTML .mda-stratio-tpl .mda-spinner.mda-spinner--inverse {
+  --mda-spinner-color: var(--mda-color-neutral-full); }
 
 HTML {
   font-size: 14px;
