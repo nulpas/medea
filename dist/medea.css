@@ -1822,8 +1822,8 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-color-st-blue-rgb: 55, 181, 228;
   --mda-color-action: #0776DF;
   --mda-color-action-rgb: 7, 118, 223;
-  --mda-color-action-150: #033b70;
-  --mda-color-action-150-rgb: 3, 59, 112;
+  --mda-color-action-150: #043b70;
+  --mda-color-action-150-rgb: 4, 59, 112;
   --mda-color-action-120: #065bb2;
   --mda-color-action-120-rgb: 6, 91, 178;
   --mda-color-action-80: #3991e5;
@@ -1906,30 +1906,38 @@ HTML #medea-tpl, HTML .medea-tpl, HTML #mda-stratio-tpl, HTML .mda-stratio-tpl {
   --mda-color-neutral-2-rgb: 250, 250, 250;
   --mda-color-neutral-full: white;
   --mda-color-neutral-full-rgb: 255, 255, 255;
+  --mda-color-misc-aqua: #3dc9fc;
+  --mda-color-misc-aqua-rgb: 61, 201, 252;
+  --mda-color-misc-aqua-30: #c5effe;
+  --mda-color-misc-aqua-30-rgb: 197, 239, 254;
   --mda-color-misc-coral: #fa7167;
   --mda-color-misc-coral-rgb: 250, 113, 103;
-  --mda-color-misc-coral-40: #fdc6c2;
-  --mda-color-misc-coral-40-rgb: 253, 198, 194;
-  --mda-color-misc-tangerine: #fa9c7d;
-  --mda-color-misc-tangerine-rgb: 250, 156, 125;
-  --mda-color-misc-tangerine-40: #fdd7cb;
-  --mda-color-misc-tangerine-40-rgb: 253, 215, 203;
-  --mda-color-misc-peach: #fdbd2b;
-  --mda-color-misc-peach-rgb: 253, 189, 43;
-  --mda-color-misc-peach-30: #feebbf;
-  --mda-color-misc-peach-30-rgb: 254, 235, 191;
-  --mda-color-misc-olive: #acc952;
-  --mda-color-misc-olive-rgb: 172, 201, 82;
-  --mda-color-misc-olive-30: #e6efcb;
-  --mda-color-misc-olive-30-rgb: 230, 239, 203;
-  --mda-color-misc-turquoise: #2dcfbe;
-  --mda-color-misc-turquoise-rgb: 45, 207, 190;
-  --mda-color-misc-turquoise-30: #c0f1ec;
-  --mda-color-misc-turquoise-30-rgb: 192, 241, 236;
+  --mda-color-misc-coral-30: #fed4d1;
+  --mda-color-misc-coral-30-rgb: 254, 212, 209;
   --mda-color-misc-lavender: #cd89d2;
   --mda-color-misc-lavender-rgb: 205, 137, 210;
   --mda-color-misc-lavender-30: #f0dcf2;
   --mda-color-misc-lavender-30-rgb: 240, 220, 242;
+  --mda-color-misc-olive: #acc952;
+  --mda-color-misc-olive-rgb: 172, 201, 82;
+  --mda-color-misc-olive-30: #e6efcb;
+  --mda-color-misc-olive-30-rgb: 230, 239, 203;
+  --mda-color-misc-tangerine: #fa9c7d;
+  --mda-color-misc-tangerine-rgb: 250, 156, 125;
+  --mda-color-misc-tangerine-30: #fee1d8;
+  --mda-color-misc-tangerine-30-rgb: 254, 225, 216;
+  --mda-color-misc-peach: #fdbd2b;
+  --mda-color-misc-peach-rgb: 253, 189, 43;
+  --mda-color-misc-peach-30: #feebbf;
+  --mda-color-misc-peach-30-rgb: 254, 235, 191;
+  --mda-color-misc-turquoise: #2dcfbe;
+  --mda-color-misc-turquoise-rgb: 45, 207, 190;
+  --mda-color-misc-turquoise-30: #c0f1ec;
+  --mda-color-misc-turquoise-30-rgb: 192, 241, 236;
+  --mda-color-misc-viking: #77b1e1;
+  --mda-color-misc-viking-rgb: 119, 177, 225;
+  --mda-color-misc-viking-30: #d6e8f6;
+  --mda-color-misc-viking-30-rgb: 214, 232, 246;
   --mda-component-width: fit-content;
   --mda-component-vertical-spacer: 2px;
   --mda-component-padding-vertical: 9px;
@@ -2285,11 +2293,11 @@ HTML {
   HTML #medea-tpl .mda-color__border--action, HTML .medea-tpl .mda-color__border--action, HTML #mda-stratio-tpl .mda-color__border--action, HTML .mda-stratio-tpl .mda-color__border--action {
     border-color: #0776DF; }
   HTML #medea-tpl .mda-color--action-150, HTML .medea-tpl .mda-color--action-150, HTML #mda-stratio-tpl .mda-color--action-150, HTML .mda-stratio-tpl .mda-color--action-150 {
-    color: #033b70; }
+    color: #043b70; }
   HTML #medea-tpl .mda-color__bg--action-150, HTML .medea-tpl .mda-color__bg--action-150, HTML #mda-stratio-tpl .mda-color__bg--action-150, HTML .mda-stratio-tpl .mda-color__bg--action-150 {
-    background-color: #033b70; }
+    background-color: #043b70; }
   HTML #medea-tpl .mda-color__border--action-150, HTML .medea-tpl .mda-color__border--action-150, HTML #mda-stratio-tpl .mda-color__border--action-150, HTML .mda-stratio-tpl .mda-color__border--action-150 {
-    border-color: #033b70; }
+    border-color: #043b70; }
   HTML #medea-tpl .mda-color--action-120, HTML .medea-tpl .mda-color--action-120, HTML #mda-stratio-tpl .mda-color--action-120, HTML .mda-stratio-tpl .mda-color--action-120 {
     color: #065bb2; }
   HTML #medea-tpl .mda-color__bg--action-120, HTML .medea-tpl .mda-color__bg--action-120, HTML #mda-stratio-tpl .mda-color__bg--action-120, HTML .mda-stratio-tpl .mda-color__bg--action-120 {
@@ -2536,66 +2544,30 @@ HTML {
     background-color: white; }
   HTML #medea-tpl .mda-color__border--neutral-full, HTML .medea-tpl .mda-color__border--neutral-full, HTML #mda-stratio-tpl .mda-color__border--neutral-full, HTML .mda-stratio-tpl .mda-color__border--neutral-full {
     border-color: white; }
+  HTML #medea-tpl .mda-color--misc-aqua, HTML .medea-tpl .mda-color--misc-aqua, HTML #mda-stratio-tpl .mda-color--misc-aqua, HTML .mda-stratio-tpl .mda-color--misc-aqua {
+    color: #3dc9fc; }
+  HTML #medea-tpl .mda-color__bg--misc-aqua, HTML .medea-tpl .mda-color__bg--misc-aqua, HTML #mda-stratio-tpl .mda-color__bg--misc-aqua, HTML .mda-stratio-tpl .mda-color__bg--misc-aqua {
+    background-color: #3dc9fc; }
+  HTML #medea-tpl .mda-color__border--misc-aqua, HTML .medea-tpl .mda-color__border--misc-aqua, HTML #mda-stratio-tpl .mda-color__border--misc-aqua, HTML .mda-stratio-tpl .mda-color__border--misc-aqua {
+    border-color: #3dc9fc; }
+  HTML #medea-tpl .mda-color--misc-aqua-30, HTML .medea-tpl .mda-color--misc-aqua-30, HTML #mda-stratio-tpl .mda-color--misc-aqua-30, HTML .mda-stratio-tpl .mda-color--misc-aqua-30 {
+    color: #c5effe; }
+  HTML #medea-tpl .mda-color__bg--misc-aqua-30, HTML .medea-tpl .mda-color__bg--misc-aqua-30, HTML #mda-stratio-tpl .mda-color__bg--misc-aqua-30, HTML .mda-stratio-tpl .mda-color__bg--misc-aqua-30 {
+    background-color: #c5effe; }
+  HTML #medea-tpl .mda-color__border--misc-aqua-30, HTML .medea-tpl .mda-color__border--misc-aqua-30, HTML #mda-stratio-tpl .mda-color__border--misc-aqua-30, HTML .mda-stratio-tpl .mda-color__border--misc-aqua-30 {
+    border-color: #c5effe; }
   HTML #medea-tpl .mda-color--misc-coral, HTML .medea-tpl .mda-color--misc-coral, HTML #mda-stratio-tpl .mda-color--misc-coral, HTML .mda-stratio-tpl .mda-color--misc-coral {
     color: #fa7167; }
   HTML #medea-tpl .mda-color__bg--misc-coral, HTML .medea-tpl .mda-color__bg--misc-coral, HTML #mda-stratio-tpl .mda-color__bg--misc-coral, HTML .mda-stratio-tpl .mda-color__bg--misc-coral {
     background-color: #fa7167; }
   HTML #medea-tpl .mda-color__border--misc-coral, HTML .medea-tpl .mda-color__border--misc-coral, HTML #mda-stratio-tpl .mda-color__border--misc-coral, HTML .mda-stratio-tpl .mda-color__border--misc-coral {
     border-color: #fa7167; }
-  HTML #medea-tpl .mda-color--misc-coral-40, HTML .medea-tpl .mda-color--misc-coral-40, HTML #mda-stratio-tpl .mda-color--misc-coral-40, HTML .mda-stratio-tpl .mda-color--misc-coral-40 {
-    color: #fdc6c2; }
-  HTML #medea-tpl .mda-color__bg--misc-coral-40, HTML .medea-tpl .mda-color__bg--misc-coral-40, HTML #mda-stratio-tpl .mda-color__bg--misc-coral-40, HTML .mda-stratio-tpl .mda-color__bg--misc-coral-40 {
-    background-color: #fdc6c2; }
-  HTML #medea-tpl .mda-color__border--misc-coral-40, HTML .medea-tpl .mda-color__border--misc-coral-40, HTML #mda-stratio-tpl .mda-color__border--misc-coral-40, HTML .mda-stratio-tpl .mda-color__border--misc-coral-40 {
-    border-color: #fdc6c2; }
-  HTML #medea-tpl .mda-color--misc-tangerine, HTML .medea-tpl .mda-color--misc-tangerine, HTML #mda-stratio-tpl .mda-color--misc-tangerine, HTML .mda-stratio-tpl .mda-color--misc-tangerine {
-    color: #fa9c7d; }
-  HTML #medea-tpl .mda-color__bg--misc-tangerine, HTML .medea-tpl .mda-color__bg--misc-tangerine, HTML #mda-stratio-tpl .mda-color__bg--misc-tangerine, HTML .mda-stratio-tpl .mda-color__bg--misc-tangerine {
-    background-color: #fa9c7d; }
-  HTML #medea-tpl .mda-color__border--misc-tangerine, HTML .medea-tpl .mda-color__border--misc-tangerine, HTML #mda-stratio-tpl .mda-color__border--misc-tangerine, HTML .mda-stratio-tpl .mda-color__border--misc-tangerine {
-    border-color: #fa9c7d; }
-  HTML #medea-tpl .mda-color--misc-tangerine-40, HTML .medea-tpl .mda-color--misc-tangerine-40, HTML #mda-stratio-tpl .mda-color--misc-tangerine-40, HTML .mda-stratio-tpl .mda-color--misc-tangerine-40 {
-    color: #fdd7cb; }
-  HTML #medea-tpl .mda-color__bg--misc-tangerine-40, HTML .medea-tpl .mda-color__bg--misc-tangerine-40, HTML #mda-stratio-tpl .mda-color__bg--misc-tangerine-40, HTML .mda-stratio-tpl .mda-color__bg--misc-tangerine-40 {
-    background-color: #fdd7cb; }
-  HTML #medea-tpl .mda-color__border--misc-tangerine-40, HTML .medea-tpl .mda-color__border--misc-tangerine-40, HTML #mda-stratio-tpl .mda-color__border--misc-tangerine-40, HTML .mda-stratio-tpl .mda-color__border--misc-tangerine-40 {
-    border-color: #fdd7cb; }
-  HTML #medea-tpl .mda-color--misc-peach, HTML .medea-tpl .mda-color--misc-peach, HTML #mda-stratio-tpl .mda-color--misc-peach, HTML .mda-stratio-tpl .mda-color--misc-peach {
-    color: #fdbd2b; }
-  HTML #medea-tpl .mda-color__bg--misc-peach, HTML .medea-tpl .mda-color__bg--misc-peach, HTML #mda-stratio-tpl .mda-color__bg--misc-peach, HTML .mda-stratio-tpl .mda-color__bg--misc-peach {
-    background-color: #fdbd2b; }
-  HTML #medea-tpl .mda-color__border--misc-peach, HTML .medea-tpl .mda-color__border--misc-peach, HTML #mda-stratio-tpl .mda-color__border--misc-peach, HTML .mda-stratio-tpl .mda-color__border--misc-peach {
-    border-color: #fdbd2b; }
-  HTML #medea-tpl .mda-color--misc-peach-30, HTML .medea-tpl .mda-color--misc-peach-30, HTML #mda-stratio-tpl .mda-color--misc-peach-30, HTML .mda-stratio-tpl .mda-color--misc-peach-30 {
-    color: #feebbf; }
-  HTML #medea-tpl .mda-color__bg--misc-peach-30, HTML .medea-tpl .mda-color__bg--misc-peach-30, HTML #mda-stratio-tpl .mda-color__bg--misc-peach-30, HTML .mda-stratio-tpl .mda-color__bg--misc-peach-30 {
-    background-color: #feebbf; }
-  HTML #medea-tpl .mda-color__border--misc-peach-30, HTML .medea-tpl .mda-color__border--misc-peach-30, HTML #mda-stratio-tpl .mda-color__border--misc-peach-30, HTML .mda-stratio-tpl .mda-color__border--misc-peach-30 {
-    border-color: #feebbf; }
-  HTML #medea-tpl .mda-color--misc-olive, HTML .medea-tpl .mda-color--misc-olive, HTML #mda-stratio-tpl .mda-color--misc-olive, HTML .mda-stratio-tpl .mda-color--misc-olive {
-    color: #acc952; }
-  HTML #medea-tpl .mda-color__bg--misc-olive, HTML .medea-tpl .mda-color__bg--misc-olive, HTML #mda-stratio-tpl .mda-color__bg--misc-olive, HTML .mda-stratio-tpl .mda-color__bg--misc-olive {
-    background-color: #acc952; }
-  HTML #medea-tpl .mda-color__border--misc-olive, HTML .medea-tpl .mda-color__border--misc-olive, HTML #mda-stratio-tpl .mda-color__border--misc-olive, HTML .mda-stratio-tpl .mda-color__border--misc-olive {
-    border-color: #acc952; }
-  HTML #medea-tpl .mda-color--misc-olive-30, HTML .medea-tpl .mda-color--misc-olive-30, HTML #mda-stratio-tpl .mda-color--misc-olive-30, HTML .mda-stratio-tpl .mda-color--misc-olive-30 {
-    color: #e6efcb; }
-  HTML #medea-tpl .mda-color__bg--misc-olive-30, HTML .medea-tpl .mda-color__bg--misc-olive-30, HTML #mda-stratio-tpl .mda-color__bg--misc-olive-30, HTML .mda-stratio-tpl .mda-color__bg--misc-olive-30 {
-    background-color: #e6efcb; }
-  HTML #medea-tpl .mda-color__border--misc-olive-30, HTML .medea-tpl .mda-color__border--misc-olive-30, HTML #mda-stratio-tpl .mda-color__border--misc-olive-30, HTML .mda-stratio-tpl .mda-color__border--misc-olive-30 {
-    border-color: #e6efcb; }
-  HTML #medea-tpl .mda-color--misc-turquoise, HTML .medea-tpl .mda-color--misc-turquoise, HTML #mda-stratio-tpl .mda-color--misc-turquoise, HTML .mda-stratio-tpl .mda-color--misc-turquoise {
-    color: #2dcfbe; }
-  HTML #medea-tpl .mda-color__bg--misc-turquoise, HTML .medea-tpl .mda-color__bg--misc-turquoise, HTML #mda-stratio-tpl .mda-color__bg--misc-turquoise, HTML .mda-stratio-tpl .mda-color__bg--misc-turquoise {
-    background-color: #2dcfbe; }
-  HTML #medea-tpl .mda-color__border--misc-turquoise, HTML .medea-tpl .mda-color__border--misc-turquoise, HTML #mda-stratio-tpl .mda-color__border--misc-turquoise, HTML .mda-stratio-tpl .mda-color__border--misc-turquoise {
-    border-color: #2dcfbe; }
-  HTML #medea-tpl .mda-color--misc-turquoise-30, HTML .medea-tpl .mda-color--misc-turquoise-30, HTML #mda-stratio-tpl .mda-color--misc-turquoise-30, HTML .mda-stratio-tpl .mda-color--misc-turquoise-30 {
-    color: #c0f1ec; }
-  HTML #medea-tpl .mda-color__bg--misc-turquoise-30, HTML .medea-tpl .mda-color__bg--misc-turquoise-30, HTML #mda-stratio-tpl .mda-color__bg--misc-turquoise-30, HTML .mda-stratio-tpl .mda-color__bg--misc-turquoise-30 {
-    background-color: #c0f1ec; }
-  HTML #medea-tpl .mda-color__border--misc-turquoise-30, HTML .medea-tpl .mda-color__border--misc-turquoise-30, HTML #mda-stratio-tpl .mda-color__border--misc-turquoise-30, HTML .mda-stratio-tpl .mda-color__border--misc-turquoise-30 {
-    border-color: #c0f1ec; }
+  HTML #medea-tpl .mda-color--misc-coral-30, HTML .medea-tpl .mda-color--misc-coral-30, HTML #mda-stratio-tpl .mda-color--misc-coral-30, HTML .mda-stratio-tpl .mda-color--misc-coral-30 {
+    color: #fed4d1; }
+  HTML #medea-tpl .mda-color__bg--misc-coral-30, HTML .medea-tpl .mda-color__bg--misc-coral-30, HTML #mda-stratio-tpl .mda-color__bg--misc-coral-30, HTML .mda-stratio-tpl .mda-color__bg--misc-coral-30 {
+    background-color: #fed4d1; }
+  HTML #medea-tpl .mda-color__border--misc-coral-30, HTML .medea-tpl .mda-color__border--misc-coral-30, HTML #mda-stratio-tpl .mda-color__border--misc-coral-30, HTML .mda-stratio-tpl .mda-color__border--misc-coral-30 {
+    border-color: #fed4d1; }
   HTML #medea-tpl .mda-color--misc-lavender, HTML .medea-tpl .mda-color--misc-lavender, HTML #mda-stratio-tpl .mda-color--misc-lavender, HTML .mda-stratio-tpl .mda-color--misc-lavender {
     color: #cd89d2; }
   HTML #medea-tpl .mda-color__bg--misc-lavender, HTML .medea-tpl .mda-color__bg--misc-lavender, HTML #mda-stratio-tpl .mda-color__bg--misc-lavender, HTML .mda-stratio-tpl .mda-color__bg--misc-lavender {
@@ -2608,4 +2580,64 @@ HTML {
     background-color: #f0dcf2; }
   HTML #medea-tpl .mda-color__border--misc-lavender-30, HTML .medea-tpl .mda-color__border--misc-lavender-30, HTML #mda-stratio-tpl .mda-color__border--misc-lavender-30, HTML .mda-stratio-tpl .mda-color__border--misc-lavender-30 {
     border-color: #f0dcf2; }
+  HTML #medea-tpl .mda-color--misc-olive, HTML .medea-tpl .mda-color--misc-olive, HTML #mda-stratio-tpl .mda-color--misc-olive, HTML .mda-stratio-tpl .mda-color--misc-olive {
+    color: #acc952; }
+  HTML #medea-tpl .mda-color__bg--misc-olive, HTML .medea-tpl .mda-color__bg--misc-olive, HTML #mda-stratio-tpl .mda-color__bg--misc-olive, HTML .mda-stratio-tpl .mda-color__bg--misc-olive {
+    background-color: #acc952; }
+  HTML #medea-tpl .mda-color__border--misc-olive, HTML .medea-tpl .mda-color__border--misc-olive, HTML #mda-stratio-tpl .mda-color__border--misc-olive, HTML .mda-stratio-tpl .mda-color__border--misc-olive {
+    border-color: #acc952; }
+  HTML #medea-tpl .mda-color--misc-olive-30, HTML .medea-tpl .mda-color--misc-olive-30, HTML #mda-stratio-tpl .mda-color--misc-olive-30, HTML .mda-stratio-tpl .mda-color--misc-olive-30 {
+    color: #e6efcb; }
+  HTML #medea-tpl .mda-color__bg--misc-olive-30, HTML .medea-tpl .mda-color__bg--misc-olive-30, HTML #mda-stratio-tpl .mda-color__bg--misc-olive-30, HTML .mda-stratio-tpl .mda-color__bg--misc-olive-30 {
+    background-color: #e6efcb; }
+  HTML #medea-tpl .mda-color__border--misc-olive-30, HTML .medea-tpl .mda-color__border--misc-olive-30, HTML #mda-stratio-tpl .mda-color__border--misc-olive-30, HTML .mda-stratio-tpl .mda-color__border--misc-olive-30 {
+    border-color: #e6efcb; }
+  HTML #medea-tpl .mda-color--misc-tangerine, HTML .medea-tpl .mda-color--misc-tangerine, HTML #mda-stratio-tpl .mda-color--misc-tangerine, HTML .mda-stratio-tpl .mda-color--misc-tangerine {
+    color: #fa9c7d; }
+  HTML #medea-tpl .mda-color__bg--misc-tangerine, HTML .medea-tpl .mda-color__bg--misc-tangerine, HTML #mda-stratio-tpl .mda-color__bg--misc-tangerine, HTML .mda-stratio-tpl .mda-color__bg--misc-tangerine {
+    background-color: #fa9c7d; }
+  HTML #medea-tpl .mda-color__border--misc-tangerine, HTML .medea-tpl .mda-color__border--misc-tangerine, HTML #mda-stratio-tpl .mda-color__border--misc-tangerine, HTML .mda-stratio-tpl .mda-color__border--misc-tangerine {
+    border-color: #fa9c7d; }
+  HTML #medea-tpl .mda-color--misc-tangerine-30, HTML .medea-tpl .mda-color--misc-tangerine-30, HTML #mda-stratio-tpl .mda-color--misc-tangerine-30, HTML .mda-stratio-tpl .mda-color--misc-tangerine-30 {
+    color: #fee1d8; }
+  HTML #medea-tpl .mda-color__bg--misc-tangerine-30, HTML .medea-tpl .mda-color__bg--misc-tangerine-30, HTML #mda-stratio-tpl .mda-color__bg--misc-tangerine-30, HTML .mda-stratio-tpl .mda-color__bg--misc-tangerine-30 {
+    background-color: #fee1d8; }
+  HTML #medea-tpl .mda-color__border--misc-tangerine-30, HTML .medea-tpl .mda-color__border--misc-tangerine-30, HTML #mda-stratio-tpl .mda-color__border--misc-tangerine-30, HTML .mda-stratio-tpl .mda-color__border--misc-tangerine-30 {
+    border-color: #fee1d8; }
+  HTML #medea-tpl .mda-color--misc-peach, HTML .medea-tpl .mda-color--misc-peach, HTML #mda-stratio-tpl .mda-color--misc-peach, HTML .mda-stratio-tpl .mda-color--misc-peach {
+    color: #fdbd2b; }
+  HTML #medea-tpl .mda-color__bg--misc-peach, HTML .medea-tpl .mda-color__bg--misc-peach, HTML #mda-stratio-tpl .mda-color__bg--misc-peach, HTML .mda-stratio-tpl .mda-color__bg--misc-peach {
+    background-color: #fdbd2b; }
+  HTML #medea-tpl .mda-color__border--misc-peach, HTML .medea-tpl .mda-color__border--misc-peach, HTML #mda-stratio-tpl .mda-color__border--misc-peach, HTML .mda-stratio-tpl .mda-color__border--misc-peach {
+    border-color: #fdbd2b; }
+  HTML #medea-tpl .mda-color--misc-peach-30, HTML .medea-tpl .mda-color--misc-peach-30, HTML #mda-stratio-tpl .mda-color--misc-peach-30, HTML .mda-stratio-tpl .mda-color--misc-peach-30 {
+    color: #feebbf; }
+  HTML #medea-tpl .mda-color__bg--misc-peach-30, HTML .medea-tpl .mda-color__bg--misc-peach-30, HTML #mda-stratio-tpl .mda-color__bg--misc-peach-30, HTML .mda-stratio-tpl .mda-color__bg--misc-peach-30 {
+    background-color: #feebbf; }
+  HTML #medea-tpl .mda-color__border--misc-peach-30, HTML .medea-tpl .mda-color__border--misc-peach-30, HTML #mda-stratio-tpl .mda-color__border--misc-peach-30, HTML .mda-stratio-tpl .mda-color__border--misc-peach-30 {
+    border-color: #feebbf; }
+  HTML #medea-tpl .mda-color--misc-turquoise, HTML .medea-tpl .mda-color--misc-turquoise, HTML #mda-stratio-tpl .mda-color--misc-turquoise, HTML .mda-stratio-tpl .mda-color--misc-turquoise {
+    color: #2dcfbe; }
+  HTML #medea-tpl .mda-color__bg--misc-turquoise, HTML .medea-tpl .mda-color__bg--misc-turquoise, HTML #mda-stratio-tpl .mda-color__bg--misc-turquoise, HTML .mda-stratio-tpl .mda-color__bg--misc-turquoise {
+    background-color: #2dcfbe; }
+  HTML #medea-tpl .mda-color__border--misc-turquoise, HTML .medea-tpl .mda-color__border--misc-turquoise, HTML #mda-stratio-tpl .mda-color__border--misc-turquoise, HTML .mda-stratio-tpl .mda-color__border--misc-turquoise {
+    border-color: #2dcfbe; }
+  HTML #medea-tpl .mda-color--misc-turquoise-30, HTML .medea-tpl .mda-color--misc-turquoise-30, HTML #mda-stratio-tpl .mda-color--misc-turquoise-30, HTML .mda-stratio-tpl .mda-color--misc-turquoise-30 {
+    color: #c0f1ec; }
+  HTML #medea-tpl .mda-color__bg--misc-turquoise-30, HTML .medea-tpl .mda-color__bg--misc-turquoise-30, HTML #mda-stratio-tpl .mda-color__bg--misc-turquoise-30, HTML .mda-stratio-tpl .mda-color__bg--misc-turquoise-30 {
+    background-color: #c0f1ec; }
+  HTML #medea-tpl .mda-color__border--misc-turquoise-30, HTML .medea-tpl .mda-color__border--misc-turquoise-30, HTML #mda-stratio-tpl .mda-color__border--misc-turquoise-30, HTML .mda-stratio-tpl .mda-color__border--misc-turquoise-30 {
+    border-color: #c0f1ec; }
+  HTML #medea-tpl .mda-color--misc-viking, HTML .medea-tpl .mda-color--misc-viking, HTML #mda-stratio-tpl .mda-color--misc-viking, HTML .mda-stratio-tpl .mda-color--misc-viking {
+    color: #77b1e1; }
+  HTML #medea-tpl .mda-color__bg--misc-viking, HTML .medea-tpl .mda-color__bg--misc-viking, HTML #mda-stratio-tpl .mda-color__bg--misc-viking, HTML .mda-stratio-tpl .mda-color__bg--misc-viking {
+    background-color: #77b1e1; }
+  HTML #medea-tpl .mda-color__border--misc-viking, HTML .medea-tpl .mda-color__border--misc-viking, HTML #mda-stratio-tpl .mda-color__border--misc-viking, HTML .mda-stratio-tpl .mda-color__border--misc-viking {
+    border-color: #77b1e1; }
+  HTML #medea-tpl .mda-color--misc-viking-30, HTML .medea-tpl .mda-color--misc-viking-30, HTML #mda-stratio-tpl .mda-color--misc-viking-30, HTML .mda-stratio-tpl .mda-color--misc-viking-30 {
+    color: #d6e8f6; }
+  HTML #medea-tpl .mda-color__bg--misc-viking-30, HTML .medea-tpl .mda-color__bg--misc-viking-30, HTML #mda-stratio-tpl .mda-color__bg--misc-viking-30, HTML .mda-stratio-tpl .mda-color__bg--misc-viking-30 {
+    background-color: #d6e8f6; }
+  HTML #medea-tpl .mda-color__border--misc-viking-30, HTML .medea-tpl .mda-color__border--misc-viking-30, HTML #mda-stratio-tpl .mda-color__border--misc-viking-30, HTML .mda-stratio-tpl .mda-color__border--misc-viking-30 {
+    border-color: #d6e8f6; }
 
