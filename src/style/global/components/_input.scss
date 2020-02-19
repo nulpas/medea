@@ -19,6 +19,7 @@
       }
     }
     &:after {
+      font-family: var(--mda-icon-font-family);
       font-size: inherit;
       line-height: inherit;
       position: absolute;
@@ -26,14 +27,15 @@
       top: calc(var(--mda-component-padding-vertical) + 1px);
       right: .6em;
     }
-    &.disabled {
+    &.action:after {
+      cursor: pointer;
+    }
+    &.disabled, &.action.disabled {
       cursor: var(--mda-component-disabled-cursor);
       &:after {
         color: var(--mda-component-icon-disabled-color);
+        cursor: var(--mda-component-disabled-cursor);
       }
-    }
-    &.action:after {
-      cursor: pointer;
     }
     & > INPUT.mda-input {
       font-size: inherit;
@@ -44,31 +46,34 @@
 
   SPAN, DIV {
     &.mda-input {
+      &.mda-input--action-clear {
+        @extend %mda-input--icon;
+        &.action:after {
+          content: var(--mda-icon-action-clear);
+        }
+      }
+
       &.mda-input--search {
         @extend %mda-input--icon;
-        &:after {
-          font-family: var(--mda-icon-font-family);
+        &:not(.action):after {
           content: var(--mda-icon-search);
         }
       }
       &.mda-input--email {
         @extend %mda-input--icon;
-        &:after {
-          font-family: var(--mda-icon-font-family);
+        &:not(.action):after {
           content: var(--mda-icon-email);
         }
       }
       &.mda-input--user {
         @extend %mda-input--icon;
-        &:after {
-          font-family: var(--mda-icon-font-family);
+        &:not(.action):after {
           content: var(--mda-icon-user);
         }
       }
       &.mda-input--password {
         @extend %mda-input--icon;
-        &:after {
-          font-family: var(--mda-icon-font-family);
+        &:not(.action):after {
           content: var(--mda-icon-password);
         }
       }
