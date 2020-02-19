@@ -1855,24 +1855,24 @@ HTML #mda-ey-tpl TEXTAREA.mda-textarea:disabled, HTML .mda-ey-tpl TEXTAREA.mda-t
   resize: none; }
 
 HTML #mda-ey-tpl, HTML .mda-ey-tpl {
-  --mda-color-st-blue: #37b5e4;
-  --mda-color-st-blue-rgb: 55, 181, 228;
-  --mda-color-action: #0776DF;
-  --mda-color-action-rgb: 7, 118, 223;
-  --mda-color-action-150: #043b70;
-  --mda-color-action-150-rgb: 4, 59, 112;
-  --mda-color-action-120: #065bb2;
-  --mda-color-action-120-rgb: 6, 91, 178;
-  --mda-color-action-80: #3991e5;
-  --mda-color-action-80-rgb: 57, 145, 229;
-  --mda-color-action-60: #6aadec;
-  --mda-color-action-60-rgb: 106, 173, 236;
-  --mda-color-action-40: #9cc8f2;
-  --mda-color-action-40-rgb: 156, 200, 242;
-  --mda-color-action-10: #e6f1fc;
-  --mda-color-action-10-rgb: 230, 241, 252;
-  --mda-color-space: #27323d;
-  --mda-color-space-rgb: 39, 50, 61;
+  --mda-color-st-blue: #ffe600;
+  --mda-color-st-blue-rgb: 255, 230, 0;
+  --mda-color-action: #a7065f;
+  --mda-color-action-rgb: 167, 6, 95;
+  --mda-color-action-150: #630338;
+  --mda-color-action-150-rgb: 99, 3, 56;
+  --mda-color-action-120: #8e0f55;
+  --mda-color-action-120-rgb: 142, 15, 85;
+  --mda-color-action-80: #bf317f;
+  --mda-color-action-80-rgb: 191, 49, 127;
+  --mda-color-action-60: #bd4f8c;
+  --mda-color-action-60-rgb: 189, 79, 140;
+  --mda-color-action-40: #b5849e;
+  --mda-color-action-40-rgb: 181, 132, 158;
+  --mda-color-action-10: #e4d1db;
+  --mda-color-action-10-rgb: 228, 209, 219;
+  --mda-color-space: #000000;
+  --mda-color-space-rgb: 0, 0, 0;
   --mda-color-space-110: #0f1b27;
   --mda-color-space-110-rgb: 15, 27, 39;
   --mda-color-space-80: #566574;
@@ -1980,7 +1980,7 @@ HTML #mda-ey-tpl, HTML .mda-ey-tpl {
   --mda-component-padding-vertical: 9px;
   --mda-component-padding-horizontal: 10px;
   --mda-component-border: 1px solid;
-  --mda-component-border-radius: 4px;
+  --mda-component-border-radius: 25px;
   --mda-focus-color: var(--mda-color-action);
   --mda-error-color: var(--mda-color-critical);
   --mda-component-border-color: var(--mda-color-space-40);
@@ -2321,59 +2321,59 @@ HTML {
     font-size: 1rem;
     line-height: 1.4286rem; }
   HTML #mda-ey-tpl .mda-color--st-blue, HTML .mda-ey-tpl .mda-color--st-blue {
-    color: #37b5e4; }
+    color: #ffe600; }
   HTML #mda-ey-tpl .mda-color__bg--st-blue, HTML .mda-ey-tpl .mda-color__bg--st-blue {
-    background-color: #37b5e4; }
+    background-color: #ffe600; }
   HTML #mda-ey-tpl .mda-color__border--st-blue, HTML .mda-ey-tpl .mda-color__border--st-blue {
-    border-color: #37b5e4; }
+    border-color: #ffe600; }
   HTML #mda-ey-tpl .mda-color--action, HTML .mda-ey-tpl .mda-color--action {
-    color: #0776DF; }
+    color: #a7065f; }
   HTML #mda-ey-tpl .mda-color__bg--action, HTML .mda-ey-tpl .mda-color__bg--action {
-    background-color: #0776DF; }
+    background-color: #a7065f; }
   HTML #mda-ey-tpl .mda-color__border--action, HTML .mda-ey-tpl .mda-color__border--action {
-    border-color: #0776DF; }
+    border-color: #a7065f; }
   HTML #mda-ey-tpl .mda-color--action-150, HTML .mda-ey-tpl .mda-color--action-150 {
-    color: #043b70; }
+    color: #630338; }
   HTML #mda-ey-tpl .mda-color__bg--action-150, HTML .mda-ey-tpl .mda-color__bg--action-150 {
-    background-color: #043b70; }
+    background-color: #630338; }
   HTML #mda-ey-tpl .mda-color__border--action-150, HTML .mda-ey-tpl .mda-color__border--action-150 {
-    border-color: #043b70; }
+    border-color: #630338; }
   HTML #mda-ey-tpl .mda-color--action-120, HTML .mda-ey-tpl .mda-color--action-120 {
-    color: #065bb2; }
+    color: #8e0f55; }
   HTML #mda-ey-tpl .mda-color__bg--action-120, HTML .mda-ey-tpl .mda-color__bg--action-120 {
-    background-color: #065bb2; }
+    background-color: #8e0f55; }
   HTML #mda-ey-tpl .mda-color__border--action-120, HTML .mda-ey-tpl .mda-color__border--action-120 {
-    border-color: #065bb2; }
+    border-color: #8e0f55; }
   HTML #mda-ey-tpl .mda-color--action-80, HTML .mda-ey-tpl .mda-color--action-80 {
-    color: #3991e5; }
+    color: #bf317f; }
   HTML #mda-ey-tpl .mda-color__bg--action-80, HTML .mda-ey-tpl .mda-color__bg--action-80 {
-    background-color: #3991e5; }
+    background-color: #bf317f; }
   HTML #mda-ey-tpl .mda-color__border--action-80, HTML .mda-ey-tpl .mda-color__border--action-80 {
-    border-color: #3991e5; }
+    border-color: #bf317f; }
   HTML #mda-ey-tpl .mda-color--action-60, HTML .mda-ey-tpl .mda-color--action-60 {
-    color: #6aadec; }
+    color: #bd4f8c; }
   HTML #mda-ey-tpl .mda-color__bg--action-60, HTML .mda-ey-tpl .mda-color__bg--action-60 {
-    background-color: #6aadec; }
+    background-color: #bd4f8c; }
   HTML #mda-ey-tpl .mda-color__border--action-60, HTML .mda-ey-tpl .mda-color__border--action-60 {
-    border-color: #6aadec; }
+    border-color: #bd4f8c; }
   HTML #mda-ey-tpl .mda-color--action-40, HTML .mda-ey-tpl .mda-color--action-40 {
-    color: #9cc8f2; }
+    color: #b5849e; }
   HTML #mda-ey-tpl .mda-color__bg--action-40, HTML .mda-ey-tpl .mda-color__bg--action-40 {
-    background-color: #9cc8f2; }
+    background-color: #b5849e; }
   HTML #mda-ey-tpl .mda-color__border--action-40, HTML .mda-ey-tpl .mda-color__border--action-40 {
-    border-color: #9cc8f2; }
+    border-color: #b5849e; }
   HTML #mda-ey-tpl .mda-color--action-10, HTML .mda-ey-tpl .mda-color--action-10 {
-    color: #e6f1fc; }
+    color: #e4d1db; }
   HTML #mda-ey-tpl .mda-color__bg--action-10, HTML .mda-ey-tpl .mda-color__bg--action-10 {
-    background-color: #e6f1fc; }
+    background-color: #e4d1db; }
   HTML #mda-ey-tpl .mda-color__border--action-10, HTML .mda-ey-tpl .mda-color__border--action-10 {
-    border-color: #e6f1fc; }
+    border-color: #e4d1db; }
   HTML #mda-ey-tpl .mda-color--space, HTML .mda-ey-tpl .mda-color--space {
-    color: #27323d; }
+    color: #000000; }
   HTML #mda-ey-tpl .mda-color__bg--space, HTML .mda-ey-tpl .mda-color__bg--space {
-    background-color: #27323d; }
+    background-color: #000000; }
   HTML #mda-ey-tpl .mda-color__border--space, HTML .mda-ey-tpl .mda-color__border--space {
-    border-color: #27323d; }
+    border-color: #000000; }
   HTML #mda-ey-tpl .mda-color--space-110, HTML .mda-ey-tpl .mda-color--space-110 {
     color: #0f1b27; }
   HTML #mda-ey-tpl .mda-color__bg--space-110, HTML .mda-ey-tpl .mda-color__bg--space-110 {
