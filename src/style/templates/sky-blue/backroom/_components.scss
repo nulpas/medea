@@ -1,0 +1,195 @@
+@import '../../../global/mixins';
+
+@import './font-sizes';
+
+%mda-components-template {
+  LABEL {
+    &.mda-label, &.mda-label.mda-label--small {
+      @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  INPUT, SPAN, DIV {
+    &.mda-input {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      &.mda-input--small {
+        --mda-component-padding-vertical: 5px;
+      }
+    }
+  }
+
+  INPUT[type=radio], INPUT[type=checkbox] {
+    & + LABEL {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  SPAN, DIV {
+    &.mda-report {
+      @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+    }
+  }
+
+  TEXTAREA.mda-textarea {
+    @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+    &.mda-textarea--small {
+      --mda-component-padding-vertical: 5px;
+      --mda-textarea-height: 32px;
+    }
+  }
+
+  SELECT, SPAN, DIV {
+    &.mda-select {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      &.mda-select--small:not(.mda-select--filter) {
+        --mda-component-padding-vertical: 5px;
+      }
+      &.mda-select--filter {
+        --mda-component-width: fit-content;
+        --mda-component-padding-vertical: 0;
+      }
+      &.mda-select--placeholder {
+        color: var(--mda-component-placeholder-color);
+      }
+    }
+  }
+
+  BUTTON {
+    &.mda-button {
+      font-size: 14px;
+      line-height: 20px;
+
+      --mda-component-padding-horizontal: 20px;
+      &.mda-button--small {
+        --mda-component-padding-vertical: 5px;
+      }
+      &.mda-button--secondary, &.mda-button--bob {
+        --mda-button-color: var(--mda-color-action);
+        --mda-button-border-color: var(--mda-color-space-70);
+        --mda-button-background-color: var(--mda-color-neutral-full);
+        --mda-button-hover-color: var(--mda-color-action-120);
+        --mda-button-hover-border-color: var(--mda-color-action-120);
+        --mda-button-hover-background-color: var(--mda-color-neutral-full);
+        --mda-button-active-color: var(--mda-color-action-150);
+        --mda-button-active-border-color: var(--mda-color-action-150);
+        --mda-button-active-background-color: var(--mda-color-neutral-full);
+        --mda-button-disabled-color: var(--mda-color-action-60);
+        --mda-button-disabled-border-color: var(--mda-color-action-40);
+        --mda-button-disabled-background-color: var(--mda-color-neutral-full);
+        --mda-button-disabled-icon-color: var(--mda-color-action-60);
+      }
+      &.mda-button--third {
+        --mda-button-color: var(--mda-color-space-80);
+        --mda-button-border-color: var(--mda-color-space-5);
+        --mda-button-background-color: var(--mda-color-space-5);
+        --mda-button-hover-color: var(--mda-color-space);
+        --mda-button-hover-border-color: var(--mda-color-space-10);
+        --mda-button-hover-background-color: var(--mda-color-space-10);
+        --mda-button-active-color: var(--mda-color-action-150);
+        --mda-button-active-border-color: var(--mda-color-space-5);
+        --mda-button-active-background-color: var(--mda-color-space-5);
+        --mda-button-disabled-color: var(--mda-color-space-40);
+        --mda-button-disabled-border-color: var(--mda-color-space-5);
+        --mda-button-disabled-background-color: var(--mda-color-space-5);
+        --mda-button-disabled-icon-color: var(--mda-color-space-40);
+      }
+      &.mda-button--critical {
+        --mda-button-color: var(--mda-color-neutral-full);
+        --mda-button-border-color: var(--mda-color-critical);
+        --mda-button-background-color: var(--mda-color-critical);
+        --mda-button-hover-color: var(--mda-color-neutral-full);
+        --mda-button-hover-border-color: var(--mda-color-critical-120);
+        --mda-button-hover-background-color: var(--mda-color-critical-120);
+        --mda-button-active-color: var(--mda-color-neutral-full);
+        --mda-button-active-border-color: var(--mda-color-critical-140);
+        --mda-button-active-background-color: var(--mda-color-critical-140);
+        --mda-button-disabled-color: var(--mda-color-space-40);
+        --mda-button-disabled-border-color: var(--mda-color-critical-10);
+        --mda-button-disabled-background-color: var(--mda-color-critical-10);
+        --mda-button-disabled-icon-color: var(--mda-color-space-40);
+      }
+      &.mda-button--icon-only {
+        --mda-component-padding-horizontal: 11px;
+        --mda-component-padding-vertical: 9px;
+        I.mda-icon {
+          margin: 2px 0;
+        }
+        &.mda-button--small {
+          --mda-component-padding-horizontal: 7px;
+          --mda-component-padding-vertical: 7px;
+          I.mda-icon {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+
+  SPAN, DIV {
+    &.mda-tag {
+      @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
+      I.mda-icon {
+        font-size: inherit;
+        line-height: 14px;
+      }
+      &.mda-tag--medium {
+        @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+        --mda-tag-padding-vertical: 4px;
+        I.mda-icon {
+          line-height: 12px;
+        }
+      }
+      &.mda-tag--small {
+        @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
+        --mda-tag-padding-vertical: 2px;
+        I.mda-icon {
+          line-height: 12px;
+        }
+      }
+      &.mda-tag--info {
+        color: var(--mda-tag-info-text-color);
+        border-color: var(--mda-tag-info-border-color);
+        background-color: var(--mda-tag-info-background-color);
+      }
+      &.mda-tag--critical {
+        color: var(--mda-tag-critical-text-color);
+        border-color: var(--mda-tag-critical-border-color);
+        background-color: var(--mda-tag-critical-background-color);
+      }
+      &.mda-tag--warning {
+        color: var(--mda-tag-warning-text-color);
+        border-color: var(--mda-tag-warning-border-color);
+        background-color: var(--mda-tag-warning-background-color);
+      }
+      &.mda-tag--success {
+        color: var(--mda-tag-success-text-color);
+        border-color: var(--mda-tag-success-border-color);
+        background-color: var(--mda-tag-success-background-color);
+      }
+    }
+  }
+
+  .mda-spinner {
+    &.mda-spinner--inline {
+      --mda-spinner-display: inline-flex;
+    }
+    &.mda-spinner--inherit {
+      --mda-spinner-display: inherit;
+    }
+    &.mda-spinner--12 {
+      --mda-spinner-size: 12px;
+      --mda-spinner-line-width: 7px;
+    }
+    &.mda-spinner--16 {
+      --mda-spinner-size: 16px;
+      --mda-spinner-line-width: 6px;
+    }
+    &.mda-spinner--20 {
+      --mda-spinner-size: 20px;
+      --mda-spinner-line-width: 5px;
+    }
+    &.mda-spinner--inverse {
+      --mda-spinner-color: var(--mda-color-neutral-full);
+    }
+  }
+}

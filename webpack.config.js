@@ -6,7 +6,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    medea: path.resolve(__dirname, 'src/style/templates/medea/medea.scss'),
+    skyBlue: path.resolve(__dirname, 'src/style/templates/sky-blue/sky-blue.scss'),
     sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss'),
     ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss')
   },
@@ -71,8 +71,12 @@ module.exports = {
         to: path.resolve(__dirname, 'dist/sass/_mixins.scss')
       },
       {
-        from: path.resolve(__dirname, 'src/style/templates/medea/backroom/exportable/_app.colors.scss'),
-        to: path.resolve(__dirname, 'dist/sass/_colors.scss')
+        from: path.resolve(__dirname, 'src/style/templates/sky-blue/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/sky-blue/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/ey/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/ey/_colors.scss')
       }
     ])
   ]

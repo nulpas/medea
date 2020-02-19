@@ -1,38 +1,50 @@
+@import '../../global/mixins';
 @import '../../global/fonts/Poppins';
 @import '../../global/fonts/Stratio-Icon';
+@import '../../global/components/components';
 
-@import 'backroom/font-helpers';
+@import './backroom/variables/common';
+@import './backroom/components';
+@import './backroom/font-sizes';
+@import './backroom/colors';
 
-*#mda-ey-tpl, *.mda-ey-tpl, *#mda-ey-tpl__layer, *.mda-ey-tpl__layer {
-  @extend %mda-font__default;
+HTML {
+  font-size: $fontSizeRoot + px;
+  line-height: round($fontSizeRoot * $fontLineHeightFactor) + px;
 
-  * {
-    font-family: Poppins, sans-serif;
-    @extend %mda-font__default;
-    outline: none;
-  }
+  #mda-ey-tpl, .mda-ey-tpl {
+    * {
+      font-family: Poppins, sans-serif;
+      color: $colorSpace110;
+      outline: none;
+    }
 
-  @extend %mda-typography__base;
-  @extend %mda-font-sizes__base;
+    @extend %mda-typography__base;
 
-  @extend %mda-font__headers;
+    @include createFontDefinition($fontSizesText, $fontSizeRoot, $fontLineHeightFactor) {
+      // ###### HEADERS
+      @include createHeadersDefinition($fontSizesHeaders, $fontSizeRoot, $fontLineHeightFactor);
 
-  .mda-italic {
-    font-style: italic;
-  }
-  .mda-bold {
-    font-weight: bold;
-  }
-  .mda-italic-bold {
-    @extend .mda-italic;
-    @extend .mda-bold;
-  }
+      // ###### DEFAULT WEIGHT AND STYLE
+      .mda--bold {
+        font-weight: bold;
+      }
+      .mda--italic {
+        font-style: italic;
+      }
 
-  .mda-icon {
+      // ###### DEFAULT SIZE
+      .mda-font--default {
+        font-size: 1rem;
+        line-height: $fontLineHeightFactor + rem;
+      }
+    }
+
+    @include createColorsDefinition($colorsAvailable);
     @extend %mda-icon-definition;
-  }
-
-  .mda-font__default {
-    @extend %mda-font__default;
+    @extend %mda-global-vars;
+    @extend %mda-components;
+    @extend %mda-components-template;
   }
 }
+

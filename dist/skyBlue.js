@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/style/templates/medea/medea.scss");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/style/templates/sky-blue/sky-blue.scss");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/style/templates/medea/medea.scss":
-/*!**********************************************!*\
-  !*** ./src/style/templates/medea/medea.scss ***!
-  \**********************************************/
+/***/ "./src/style/templates/sky-blue/sky-blue.scss":
+/*!****************************************************!*\
+  !*** ./src/style/templates/sky-blue/sky-blue.scss ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/templates/medea/medea.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/templates/sky-blue/sky-blue.scss?");
 
 /***/ })
 
