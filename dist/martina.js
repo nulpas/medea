@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/style/templates/sanitas/sanitas.scss");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/style/templates/martina/martina.scss");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/style/templates/sanitas/sanitas.scss":
+/***/ "./src/style/templates/martina/martina.scss":
 /*!**************************************************!*\
-  !*** ./src/style/templates/sanitas/sanitas.scss ***!
+  !*** ./src/style/templates/martina/martina.scss ***!
   \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/templates/sanitas/sanitas.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/style/templates/martina/martina.scss?");
 
 /***/ })
 

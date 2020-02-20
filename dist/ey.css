@@ -73,7 +73,7 @@ HTML #mda-ey-tpl .mda-typo__light, HTML .mda-ey-tpl .mda-typo__light {
   font-weight: 300;
   font-style: normal; }
 
-HTML #mda-ey-tpl .mda-typo__lightItalic, HTML .mda-ey-tpl .mda-typo__lightItalic {
+HTML #mda-ey-tpl .mda-typo__light-italic, HTML .mda-ey-tpl .mda-typo__light-italic {
   font-weight: 300;
   font-style: italic; }
 
@@ -81,15 +81,15 @@ HTML #mda-ey-tpl .mda-typo__regular, HTML .mda-ey-tpl .mda-typo__regular {
   font-weight: normal;
   font-style: normal; }
 
-HTML #mda-ey-tpl .mda-typo__regularItalic, HTML .mda-ey-tpl .mda-typo__regularItalic {
+HTML #mda-ey-tpl .mda-typo__regular-italic, HTML .mda-ey-tpl .mda-typo__regular-italic {
   font-weight: normal;
   font-style: italic; }
 
-HTML #mda-ey-tpl .mda-typo__semiBold, HTML .mda-ey-tpl .mda-typo__semiBold {
+HTML #mda-ey-tpl .mda-typo__semi-bold, HTML .mda-ey-tpl .mda-typo__semi-bold {
   font-weight: 600;
   font-style: normal; }
 
-HTML #mda-ey-tpl .mda-typo__semiBoldItalic, HTML .mda-ey-tpl .mda-typo__semiBoldItalic {
+HTML #mda-ey-tpl .mda-typo__semi-bold-italic, HTML .mda-ey-tpl .mda-typo__semi-bold-italic {
   font-weight: 600;
   font-style: italic; }
 
@@ -97,15 +97,15 @@ HTML #mda-ey-tpl .mda-typo__bold, HTML .mda-ey-tpl .mda-typo__bold {
   font-weight: bold;
   font-style: normal; }
 
-HTML #mda-ey-tpl .mda-typo__boldItalic, HTML .mda-ey-tpl .mda-typo__boldItalic {
+HTML #mda-ey-tpl .mda-typo__bold-italic, HTML .mda-ey-tpl .mda-typo__bold-italic {
   font-weight: bold;
   font-style: italic; }
 
-HTML #mda-ey-tpl .mda-typo__extraBold, HTML .mda-ey-tpl .mda-typo__extraBold {
+HTML #mda-ey-tpl .mda-typo__extra-bold, HTML .mda-ey-tpl .mda-typo__extra-bold {
   font-weight: 800;
   font-style: normal; }
 
-HTML #mda-ey-tpl .mda-typo__extraBoldItalic, HTML .mda-ey-tpl .mda-typo__extraBoldItalic {
+HTML #mda-ey-tpl .mda-typo__extra-bold-italic, HTML .mda-ey-tpl .mda-typo__extra-bold-italic {
   font-weight: 800;
   font-style: italic; }
 

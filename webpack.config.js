@@ -6,9 +6,9 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    'space-blue': path.resolve(__dirname, 'src/style/templates/space-blue/space-blue.scss'),
-    sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss'),
-    ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss')
+    ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss'),
+    martina: path.resolve(__dirname, 'src/style/templates/martina/martina.scss'),
+    'space-blue': path.resolve(__dirname, 'src/style/templates/space-blue/space-blue.scss')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -71,12 +71,16 @@ module.exports = {
         to: path.resolve(__dirname, 'dist/sass/_mixins.scss')
       },
       {
-        from: path.resolve(__dirname, 'src/style/templates/space-blue/backroom/exportable/_app.colors.scss'),
-        to: path.resolve(__dirname, 'dist/sass/space-blue/_colors.scss')
-      },
-      {
         from: path.resolve(__dirname, 'src/style/templates/ey/backroom/exportable/_app.colors.scss'),
         to: path.resolve(__dirname, 'dist/sass/ey/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/martina/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/martina/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/space-blue/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/space-blue/_colors.scss')
       }
     ])
   ]
