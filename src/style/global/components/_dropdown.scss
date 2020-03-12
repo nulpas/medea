@@ -1,0 +1,31 @@
+%mda-dropdown {
+  .mda-dropdown {
+    --mda-dropdown-default-position: var(--mda-dropdown-position);
+    --mda-dropdown-default-width: var(--mda-dropdown-width);
+    --mda-dropdown-default-min-width: var(--mda-dropdown-min-width);
+    --mda-dropdown-default-left: var(--mda-dropdown-left);
+    --mda-dropdown-default-top: var(--mda-dropdown-top);
+
+    --mda-dropdown-default-border: var(--mda-dropdown-border);
+    --mda-dropdown-default-border-color: var(--mda-dropdown-border-color);
+    --mda-dropdown-default-border-radius: var(--mda-dropdown-border-radius);
+
+    --mda-dropdown-default-box-shadow: var(--mda-dropdown-box-shadow);
+
+    --mda-dropdown-default-padding: var(--mda-dropdown-padding);
+    --mda-dropdown-default-margin: var(--mda-dropdown-margin);
+
+    --mda-dropdown-option-default-padding: var(--mda-dropdown-option-padding);
+    --mda-dropdown-option-default-icon-size: var(--mda-dropdown-option-icon-size);
+    --mda-dropdown-option-default-icon-spacer: var(--mda-dropdown-option-icon-spacer);
+
+    --mda-dropdown-option-default-selected-text-color: var(--mda-dropdown-option-selected-text-color);
+    --mda-dropdown-option-default-selected-background-color: var(--mda-dropdown-option-selected-background-color);
+
+    --mda-dropdown-option-default-icon-right-size: var(--mda-dropdown-option-icon-right-size);
+
+    --mda-dropdown-separator-default-border: var(--mda-dropdown-separator-border);
+    --mda-dropdown-separator-default-border-color: var(--mda-dropdown-separator-border-color);
+    --mda-dropdown-separator-default-margin: var(--mda-dropdown-separator-margin);
+  }
+}

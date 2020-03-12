@@ -1,5 +1,6 @@
 @import './button';
 @import './checkbox';
+@import './dropdown';
 @import './input';
 @import './label';
 @import './radio';
@@ -13,6 +14,7 @@
 %mda-components {
   @extend %mda-button;
   @extend %mda-checkbox;
+  @extend %mda-dropdown;
   @extend %mda-input;
   @extend %mda-label;
   @extend %mda-radio;
