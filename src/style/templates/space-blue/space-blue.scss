@@ -10,7 +10,7 @@
 
 HTML {
   font-size: $fontSizeRoot + px;
-  line-height: round($fontSizeRoot * $fontLineHeightFactor) + px;
+  line-height: $fontLineHeightFactor;
 
   #medea-tpl, .medea-tpl, #mda-stratio-tpl, .mda-stratio-tpl {
     * {

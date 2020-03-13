@@ -64,19 +64,15 @@
         --mda-component-padding-vertical: 5px;
       }
       &.mda-button--secondary, &.mda-button--bob {
-        --mda-button-color: var(--mda-color-action);
-        --mda-button-border-color: var(--mda-color-space-70);
-        --mda-button-background-color: var(--mda-color-neutral-full);
-        --mda-button-hover-color: var(--mda-color-action-120);
-        --mda-button-hover-border-color: var(--mda-color-action-120);
-        --mda-button-hover-background-color: var(--mda-color-neutral-full);
-        --mda-button-active-color: var(--mda-color-action-150);
-        --mda-button-active-border-color: var(--mda-color-action-150);
+        --mda-button-color: var(--mda-color-corporate-200);
+        --mda-button-border-color: var(--mda-color-corporate-200);
+        --mda-button-background-color: transparent;
+        --mda-button-hover-color: var(--mda-color-corporate-300);
+        --mda-button-hover-border-color: var(--mda-color-corporate-300);
+        --mda-button-hover-background-color: var(--mda-color-neutral-2);
+        --mda-button-active-color: var(--mda-color-corporate-400);
+        --mda-button-active-border-color: var(--mda-color-corporate-400);
         --mda-button-active-background-color: var(--mda-color-neutral-full);
-        --mda-button-disabled-color: var(--mda-color-action-60);
-        --mda-button-disabled-border-color: var(--mda-color-action-40);
-        --mda-button-disabled-background-color: var(--mda-color-neutral-full);
-        --mda-button-disabled-icon-color: var(--mda-color-action-60);
       }
       &.mda-button--third {
         --mda-button-color: var(--mda-color-space-80);
@@ -85,13 +81,9 @@
         --mda-button-hover-color: var(--mda-color-space);
         --mda-button-hover-border-color: var(--mda-color-space-10);
         --mda-button-hover-background-color: var(--mda-color-space-10);
-        --mda-button-active-color: var(--mda-color-action-150);
+        --mda-button-active-color: var(--mda-color-space-110);
         --mda-button-active-border-color: var(--mda-color-space-5);
         --mda-button-active-background-color: var(--mda-color-space-5);
-        --mda-button-disabled-color: var(--mda-color-space-40);
-        --mda-button-disabled-border-color: var(--mda-color-space-5);
-        --mda-button-disabled-background-color: var(--mda-color-space-5);
-        --mda-button-disabled-icon-color: var(--mda-color-space-40);
       }
       &.mda-button--critical {
         --mda-button-color: var(--mda-color-neutral-full);
@@ -103,10 +95,6 @@
         --mda-button-active-color: var(--mda-color-neutral-full);
         --mda-button-active-border-color: var(--mda-color-critical-140);
         --mda-button-active-background-color: var(--mda-color-critical-140);
-        --mda-button-disabled-color: var(--mda-color-space-40);
-        --mda-button-disabled-border-color: var(--mda-color-critical-10);
-        --mda-button-disabled-background-color: var(--mda-color-critical-10);
-        --mda-button-disabled-icon-color: var(--mda-color-space-40);
       }
       &.mda-button--icon-only {
         --mda-component-padding-horizontal: 11px;

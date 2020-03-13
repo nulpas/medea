@@ -10,7 +10,7 @@
 
 HTML {
   font-size: $fontSizeRoot + px;
-  line-height: round($fontSizeRoot * $fontLineHeightFactor) + px;
+  line-height: $fontLineHeightFactor;
 
   #mda-ey-tpl, .mda-ey-tpl {
     * {

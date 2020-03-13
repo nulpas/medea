@@ -71,9 +71,9 @@
 //## Mixin for define font size class.
 //## PARAMETERS: font-size, html root font-size, factor to calculate line-height
 @mixin defineFontSizeElement($fontSize, $fontSizeRoot, $fontLineHeightFactor) {
-  $calculatedFontSize: $fontSize / $fontSizeRoot;
-  font-size: $calculatedFontSize + rem;
-  line-height: (ceil($calculatedFontSize * $fontLineHeightFactor * 10000) / 10000) + rem;
+  font-size: ($fontSize / $fontSizeRoot) + rem;
+  // line-height: (ceil($calculatedFontSize * $fontLineHeightFactor * 10000) / 10000) + rem;
+  line-height: $fontLineHeightFactor;
   @content;
 }
 

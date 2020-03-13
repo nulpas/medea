@@ -21,7 +21,7 @@
   --mda-component-border-radius: 4px;
 
   // ###### Generic Colors (HEX)
-  --mda-focus-color: var(--mda-color-action);
+  --mda-focus-color: var(--mda-color-corporate-200);
   --mda-error-color: var(--mda-color-critical);
 
   // ###### Component Colors (HEX)
@@ -29,15 +29,15 @@
   --mda-component-background-color: var(--mda-color-neutral-full);
   --mda-component-hover-border-color: var(--mda-color-space-70);
   --mda-component-hover-background-color: var(--mda-color-neutral-full);
-  --mda-component-focus-border-color: var(--mda-color-action);
+  --mda-component-focus-border-color: var(--mda-color-corporate-200);
   --mda-component-focus-background-color: var(--mda-color-neutral-full);
   --mda-component-error-border-color: var(--mda-color-critical);
   --mda-component-error-background-color: var(--mda-color-neutral-full);
-  --mda-component-checked-border-color: var(--mda-color-action);
-  --mda-component-checked-background-color: var(--mda-color-action);
+  --mda-component-checked-border-color: var(--mda-color-corporate-200);
+  --mda-component-checked-background-color: var(--mda-color-corporate-200);
 
   // ###### Component Colors (RGB Variations)
-  --mda-component-focus-border-color-rgb: var(--mda-color-action-rgb);
+  --mda-component-focus-border-color-rgb: var(--mda-color-corporate-200-rgb);
 
   // ###### Component Generic DISABLED and variations
   --mda-component-disabled-color: var(--mda-color-space-80);
@@ -79,8 +79,8 @@
   --mda-selection-icon-size: 16px;
 
   --mda-selection-disabled-tex-color: var(--mda-color-space-50);
-  --mda-selection-checked-disabled-border-color: var(--mda-color-action-40);
-  --mda-selection-checked-disabled-background-color: var(--mda-color-action-40);
+  --mda-selection-checked-disabled-border-color: var(--mda-color-space-30);
+  --mda-selection-checked-disabled-background-color: var(--mda-color-space-30);
 
   --mda-selection-internal-checked-color: var(--mda-color-neutral-full);
   --mda-selection-internal-checked-disabled-color: var(--mda-color-neutral-full);
@@ -90,9 +90,9 @@
 
   // ###### CHECKBOX Button
   --mda-checkbox-internal-checked-size: 14px;
-  --mda-checkbox-indeterminate-border-color: var(--mda-color-action);
+  --mda-checkbox-indeterminate-border-color: var(--mda-color-corporate-200);
   --mda-checkbox-indeterminate-background-color: var(--mda-color-neutral-full);
-  --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-action);
+  --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-corporate-200);
 
   // ###### TEXTAREA
   --mda-textarea-height: 40px;
@@ -100,18 +100,18 @@
 
   // ###### BUTTON
   --mda-button-color: var(--mda-color-neutral-full);
-  --mda-button-border-color: var(--mda-color-action);
-  --mda-button-background-color: var(--mda-color-action);
+  --mda-button-border-color: var(--mda-color-corporate-200);
+  --mda-button-background-color: var(--mda-color-corporate-200);
   --mda-button-hover-color: var(--mda-color-neutral-full);
-  --mda-button-hover-border-color: var(--mda-color-action-120);
-  --mda-button-hover-background-color: var(--mda-color-action-120);
+  --mda-button-hover-border-color: var(--mda-color-corporate-300);
+  --mda-button-hover-background-color: var(--mda-color-corporate-300);
   --mda-button-active-color: var(--mda-color-neutral-full);
-  --mda-button-active-border-color: var(--mda-color-action-150);
-  --mda-button-active-background-color: var(--mda-color-action-150);
-  --mda-button-disabled-color: var(--mda-color-action-60);
-  --mda-button-disabled-border-color: var(--mda-color-action-10);
-  --mda-button-disabled-background-color: var(--mda-color-action-10);
-  --mda-button-disabled-icon-color: var(--mda-color-neutral-full);
+  --mda-button-active-border-color: var(--mda-color-corporate-400);
+  --mda-button-active-background-color: var(--mda-color-corporate-400);
+  --mda-button-disabled-color: var(--mda-color-space-30);
+  --mda-button-disabled-border-color: var(--mda-color-space-10);
+  --mda-button-disabled-background-color: var(--mda-color-space-10);
+  --mda-button-disabled-icon-color: var(--mda-color-space-30);
 
   --mda-button-icon-size: 16px;
   --mda-button-icon-spacer: 4px;
@@ -121,9 +121,9 @@
   --mda-switch-color: var(--mda-color-neutral-full);
   --mda-switch-shadow-color: var(--mda-color-neutral);
   --mda-switch-shadow-color-rgb: var(--mda-color-neutral-rgb);
-  --mda-switch-checked-background-color: var(--mda-color-action);
+  --mda-switch-checked-background-color: var(--mda-color-corporate-200);
   --mda-switch-disabled-background-color: var(--mda-color-space-10);
-  --mda-switch-disabled-checked-background-color: var(--mda-color-action-40);
+  --mda-switch-disabled-checked-background-color: var(--mda-color-space-30);
 
   --mda-switch-height: 22px;
   --mda-switch-border-radio: 25px;
@@ -132,9 +132,9 @@
   --mda-tag-text-color: var(--mda-color-space-110);
   --mda-tag-border-color: var(--mda-color-space-10);
   --mda-tag-background-color: var(--mda-color-space-10);
-  --mda-tag-info-text-color: var(--mda-color-action);
-  --mda-tag-info-border-color: var(--mda-color-action-10);
-  --mda-tag-info-background-color: var(--mda-color-action-10);
+  --mda-tag-info-text-color: var(--mda-color-corporate-200);
+  --mda-tag-info-border-color: var(--mda-color-space-10);
+  --mda-tag-info-background-color: var(--mda-color-space-10);
   --mda-tag-critical-text-color: var(--mda-color-critical-140);
   --mda-tag-critical-border-color: var(--mda-color-critical-10);
   --mda-tag-critical-background-color: var(--mda-color-critical-10);
@@ -145,12 +145,12 @@
   --mda-tag-success-border-color: var(--mda-color-success-10);
   --mda-tag-success-background-color: var(--mda-color-success-10);
 
-  --mda-tag-hover-text-color: var(--mda-color-action);
-  --mda-tag-hover-border-color: var(--mda-color-action-10);
-  --mda-tag-hover-background-color: var(--mda-color-action-10);
+  --mda-tag-hover-text-color: var(--mda-color-corporate-200);
+  --mda-tag-hover-border-color: var(--mda-color-space-10);
+  --mda-tag-hover-background-color: var(--mda-color-space-10);
   --mda-tag-active-text-color: var(--mda-color-neutral-full);
-  --mda-tag-active-border-color: var(--mda-color-action);
-  --mda-tag-active-background-color: var(--mda-color-action);
+  --mda-tag-active-border-color: var(--mda-color-corporate-200);
+  --mda-tag-active-background-color: var(--mda-color-corporate-200);
   --mda-tag-disabled-text-color: var(--mda-color-space-50);
   --mda-tag-disabled-border-color: var(--mda-color-space-10);
   --mda-tag-disabled-background-color: var(--mda-color-space-10);
@@ -162,7 +162,7 @@
   --mda-spinner-display: block;
   --mda-spinner-size: 80px;
   --mda-spinner-line-width: 3px;
-  --mda-spinner-color: var(--mda-color-action);
+  --mda-spinner-color: var(--mda-color-corporate-200);
 
   // ###### DROPDOWN
   --mda-dropdown-position: absolute;
@@ -185,7 +185,7 @@
   --mda-dropdown-option-icon-spacer: 8px;
 
   --mda-dropdown-option-selected-text-color: inherit;
-  --mda-dropdown-option-selected-background-color: var(--mda-color-action-10);
+  --mda-dropdown-option-selected-background-color: var(--mda-color-space-10);
 
   --mda-dropdown-option-icon-right-size: 14px;
 
