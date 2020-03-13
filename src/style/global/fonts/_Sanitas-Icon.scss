@@ -2,8 +2,9 @@
 @import '../sanitas-icon-definitions';
 
 $iconFontFamily: 'SanitasIconsFonts';
+$typesToGenerate: (eot, svg, ttf, woff, woff2);
 
-@include createFontFaceRule($iconFontFamily, normal, normal, '../../../fonts/sanitas-icon-set/SanitasIconsFonts');
+@include createFontFaceRule($typesToGenerate, $iconFontFamily, normal, normal, '../../../fonts/sanitas-icon-set/SanitasIconsFonts');
 
 %bupa-icon__definition {
   font-family: $iconFontFamily, Symbol, sans-serif;

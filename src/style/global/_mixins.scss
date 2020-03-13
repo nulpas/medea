@@ -1,22 +1,50 @@
+//## Function that removes all whitespaces in a string.
+//## PARAMETERS: $string
+@function removeWhitespace($string) {
+  @while (str-index($string, ' ') != null) {
+    $_index: str-index($string, ' ');
+    $string: "#{str-slice($string, 0, $_index - 1)}#{str-slice($string, $_index + 1)}";
+  }
+  @return $string;
+}
+
 //## Mixin for generate @font-face css rules.
-//## PARAMETERS: font-family, font-weight, font-style, url, local, local
-@mixin createFontFaceRule($name, $weight, $style, $path, $local01: '', $local02: '') {
+//## PARAMETERS: $typesToGenerate, font-family, font-weight, font-style, url, local, local
+@mixin createFontFaceRule($types, $name, $weight, $style, $path, $local01: '', $local02: '') {
   $_local01: if($local01 != '', 'local("#{$local01}"),', '');
   $_local02: if($local02 != '', 'local(#{$local02}),', '');
+
+  $_types: ();
+  @if index($types, eot) {
+    $_types: append($_types, url('#{$path}.eot?#iefix') format('embedded-opentype'), comma);         //# IE6-IE8
+  }
+  @if index($types, otf) {
+    $_types: append($_types, url('#{$path}.otf') format('opentype'), comma);                         //# Windows & Mac
+  }
+  @if index($types, svg) {
+    $_types: append($_types, url('#{$path}.svg##{removeWhitespace($name)}') format('svg'), comma);   //# Legacy iOS
+  }
+  @if index($types, ttf) {
+    $_types: append($_types, url('#{$path}.ttf') format('truetype'), comma);                         //# Safari, Android, iOS
+  }
+  @if index($types, woff) {
+    $_types: append($_types, url('#{$path}.woff') format('woff'), comma);                            //# Modern Browsers
+  }
+  @if index($types, woff2) {
+    $_types: append($_types, url('#{$path}.woff2') format('woff2'), comma);                          //# Super Modern Browsers
+  }
 
   @font-face {
     font-family: $name;
     font-style: $style;
     font-weight: $weight;
-    src: url('#{$path}.eot'); //# IE9 Compat Modes
+    @if index($types, eot) {
+      src: url('#{$path}.eot'); //# IE9 Compat Modes
+    }
     src:
       #{unquote($_local01)}
       #{unquote($_local02)}
-      url('#{$path}.eot?#iefix') format('embedded-opentype'), //# IE6-IE8
-      url('#{$path}.woff2') format('woff2'),                  //# Super Modern Browsers
-      url('#{$path}.woff') format('woff'),                    //# Modern Browsers
-      url('#{$path}.ttf') format('truetype'),                 //# Safari, Android, iOS
-      url('#{$path}.svg#Nunito') format('svg');               //# Legacy iOS
+      #{$_types};
     @content;
   }
 }

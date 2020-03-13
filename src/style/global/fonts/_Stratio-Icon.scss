@@ -2,8 +2,9 @@
 @import '../stratio-icon-definitions';
 
 $iconFontFamily: 'Stratio Icon';
+$typesToGenerate: (eot, svg, ttf, woff, woff2);
 
-@include createFontFaceRule($iconFontFamily, normal, normal, '../../../fonts/stratio-icon-set/ico_stratio');
+@include createFontFaceRule($typesToGenerate, $iconFontFamily, normal, normal, '../../../fonts/stratio-icon-set/ico_stratio');
 
 %mda-icon-definition {
   .mda-icon {

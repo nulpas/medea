@@ -8,7 +8,8 @@ module.exports = {
   entry: {
     ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss'),
     martina: path.resolve(__dirname, 'src/style/templates/martina/martina.scss'),
-    'space-blue': path.resolve(__dirname, 'src/style/templates/space-blue/space-blue.scss')
+    'space-blue': path.resolve(__dirname, 'src/style/templates/space-blue/space-blue.scss'),
+    'stratio-web': path.resolve(__dirname, 'src/style/templates/stratio-web/stratio-web.scss')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -52,7 +53,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2)$/i,
+        test: /\.(eot|otf|svg|ttf|woff|woff2)$/i,
         loader: 'file-loader?name=fonts/[name].[ext]'
       },
       // {
@@ -81,6 +82,10 @@ module.exports = {
       {
         from: path.resolve(__dirname, 'src/style/templates/space-blue/backroom/exportable/_app.colors.scss'),
         to: path.resolve(__dirname, 'dist/sass/space-blue/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/stratio-web/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/stratio-web/_colors.scss')
       }
     ])
   ]
