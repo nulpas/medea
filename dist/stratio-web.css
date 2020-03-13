@@ -2250,7 +2250,7 @@ HTML {
   font-size: 14px;
   line-height: 20px; }
   HTML #mda-stratio-web-tpl *, HTML .mda-stratio-web-tpl * {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: Manrope, sans-serif;
     color: #0f1b27;
     outline: none; }
   HTML #mda-stratio-web-tpl .mda-font--10, HTML .mda-stratio-web-tpl .mda-font--10 {
