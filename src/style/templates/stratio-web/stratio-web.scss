@@ -12,7 +12,7 @@ HTML {
   font-size: $fontSizeRoot + px;
   line-height: round($fontSizeRoot * $fontLineHeightFactor) + px;
 
-  #medea-tpl, .medea-tpl, #mda-stratio-tpl, .mda-stratio-tpl {
+  #mda-stratio-web-tpl, .mda-stratio-web-tpl {
     * {
       font-family: 'Nunito Sans', sans-serif;
       color: $colorSpace110;
