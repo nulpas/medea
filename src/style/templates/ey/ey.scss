@@ -9,10 +9,10 @@
 @import './backroom/colors';
 
 HTML {
-  font-size: $fontSizeRoot + px;
-  line-height: $fontLineHeightFactor;
+  &#mda-ey-tpl, &.mda-ey-tpl {
+    font-size: $fontSizeRoot + px;
+    line-height: $fontLineHeightFactor;
 
-  #mda-ey-tpl, .mda-ey-tpl {
     * {
       font-family: Poppins, sans-serif;
       color: $colorSpace110;

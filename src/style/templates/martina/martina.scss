@@ -9,10 +9,10 @@
 @import './backroom/colors';
 
 HTML {
-  font-size: $fontSizeRoot + px;
-  line-height: $fontLineHeightFactor;
+  &#mda-martina-tpl, &.mda-martina-tpl {
+    font-size: $fontSizeRoot + px;
+    line-height: $fontLineHeightFactor;
 
-  #mda-martina-tpl, .mda-martina-tpl {
     * {
       font-family: Poppins, sans-serif;
       color: $colorSpace110;
