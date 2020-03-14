@@ -2106,7 +2106,27 @@ HTML#mda-martina-tpl, HTML.mda-martina-tpl {
   --mda-spinner-display: block;
   --mda-spinner-size: 80px;
   --mda-spinner-line-width: 3px;
-  --mda-spinner-color: var(--mda-color-action); }
+  --mda-spinner-color: var(--mda-color-action);
+  --mda-dropdown-position: absolute;
+  --mda-dropdown-width: fit-content;
+  --mda-dropdown-min-width: 150px;
+  --mda-dropdown-left: 0;
+  --mda-dropdown-top: 0;
+  --mda-dropdown-border: none;
+  --mda-dropdown-border-color: unset;
+  --mda-dropdown-border-radius: var(--mda-component-border-radius);
+  --mda-dropdown-box-shadow: 0 3px 9px 0 rgba(var(--mda-color-neutral-rgb), 0.25);
+  --mda-dropdown-padding: 8px 0;
+  --mda-dropdown-margin: 0;
+  --mda-dropdown-option-padding: 8px 16px;
+  --mda-dropdown-option-icon-size: 16px;
+  --mda-dropdown-option-icon-spacer: 8px;
+  --mda-dropdown-option-selected-text-color: inherit;
+  --mda-dropdown-option-selected-background-color: var(--mda-color-action-10);
+  --mda-dropdown-option-icon-right-size: 14px;
+  --mda-dropdown-separator-border: var(--mda-component-border);
+  --mda-dropdown-separator-border-color: var(--mda-color-space-20);
+  --mda-dropdown-separator-margin: 4px 0; }
 
 HTML#mda-martina-tpl LABEL.mda-label, HTML.mda-martina-tpl LABEL.mda-label, HTML#mda-martina-tpl LABEL.mda-label.mda-label--small, HTML.mda-martina-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;

@@ -1984,6 +1984,7 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-corporate-200);
   --mda-textarea-height: 40px;
   --mda-textarea-resize: vertical;
+  --mda-button-border-radius: 20px;
   --mda-button-color: var(--mda-color-neutral-full);
   --mda-button-border-color: var(--mda-color-corporate-200);
   --mda-button-background-color: var(--mda-color-corporate-200);
@@ -1998,7 +1999,7 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-button-disabled-background-color: var(--mda-color-space-10);
   --mda-button-disabled-icon-color: var(--mda-color-space-30);
   --mda-button-icon-size: 16px;
-  --mda-button-icon-spacer: 4px;
+  --mda-button-icon-spacer: 16px;
   --mda-switch-background-color: var(--mda-color-space-30);
   --mda-switch-color: var(--mda-color-neutral-full);
   --mda-switch-shadow-color: var(--mda-color-neutral);
@@ -2098,7 +2099,8 @@ HTML#mda-stratio-web-tpl SELECT.mda-select, HTML.mda-stratio-web-tpl SELECT.mda-
 HTML#mda-stratio-web-tpl BUTTON.mda-button, HTML.mda-stratio-web-tpl BUTTON.mda-button {
   font-size: 14px;
   line-height: 20px;
-  --mda-component-padding-horizontal: 20px; }
+  --mda-component-padding-horizontal: 20px;
+  --mda-component-border-radius: var(--mda-button-border-radius); }
   HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--small, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--small {
     --mda-component-padding-vertical: 5px; }
   HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--secondary, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--secondary, HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--bob, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--bob {
@@ -2203,7 +2205,7 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   line-height: 1.3; }
   HTML#mda-stratio-web-tpl *, HTML.mda-stratio-web-tpl * {
     font-family: Manrope, sans-serif;
-    color: #0f1b27;
+    color: #1a2246;
     outline: none; }
   HTML#mda-stratio-web-tpl .mda-font--10, HTML.mda-stratio-web-tpl .mda-font--10 {
     font-size: 0.625rem;

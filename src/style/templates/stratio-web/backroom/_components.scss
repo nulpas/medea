@@ -60,6 +60,7 @@
       line-height: 20px;
 
       --mda-component-padding-horizontal: 20px;
+      --mda-component-border-radius: var(--mda-button-border-radius);
       &.mda-button--small {
         --mda-component-padding-vertical: 5px;
       }

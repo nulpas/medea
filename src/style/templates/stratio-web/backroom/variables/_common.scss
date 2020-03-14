@@ -99,6 +99,8 @@
   --mda-textarea-resize: vertical;
 
   // ###### BUTTON
+  --mda-button-border-radius: 20px;
+
   --mda-button-color: var(--mda-color-neutral-full);
   --mda-button-border-color: var(--mda-color-corporate-200);
   --mda-button-background-color: var(--mda-color-corporate-200);
@@ -114,7 +116,7 @@
   --mda-button-disabled-icon-color: var(--mda-color-space-30);
 
   --mda-button-icon-size: 16px;
-  --mda-button-icon-spacer: 4px;
+  --mda-button-icon-spacer: 16px;
 
   // ###### SWITCH
   --mda-switch-background-color: var(--mda-color-space-30);
