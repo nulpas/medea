@@ -28,4 +28,12 @@ $typesToGenerate: (eot, svg, ttf, woff, woff2);
       content: unquote('"\\#{$value}"');
     }
   }
+
+  .mda-icon-text {
+    &:before {
+      vertical-align: middle;
+      font-size: calc(1em + 2px);
+      line-height: unset;
+    }
+  }
 }

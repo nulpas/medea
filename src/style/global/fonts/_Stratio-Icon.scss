@@ -7,7 +7,7 @@ $typesToGenerate: (eot, svg, ttf, woff, woff2);
 @include createFontFaceRule($typesToGenerate, $iconFontFamily, normal, normal, '../../../fonts/stratio-icon-set/ico_stratio');
 
 %mda-icon-definition {
-  .mda-icon {
+  .mda-icon, .mda-icon-text {
     font-family: $iconFontFamily, Symbol, sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -28,6 +28,13 @@ $typesToGenerate: (eot, svg, ttf, woff, woff2);
       &.#{$key}:before {
         content: unquote('"\\#{$value}"');
       }
+    }
+  }
+  .mda-icon-text {
+    &:before {
+      vertical-align: middle;
+      font-size: calc(1em + 2px);
+      line-height: unset;
     }
   }
 }

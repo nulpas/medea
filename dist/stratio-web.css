@@ -84,7 +84,7 @@ HTML#mda-stratio-web-tpl .mda-font--extra-bold, HTML.mda-stratio-web-tpl .mda-fo
   src: url(fonts/ico_stratio.eot);
   src:   url(fonts/ico_stratio.eot?#iefix) format("embedded-opentype"), url(fonts/ico_stratio.svg#StratioIcon) format("svg"), url(fonts/ico_stratio.ttf) format("truetype"), url(fonts/ico_stratio.woff) format("woff"), url(fonts/ico_stratio.woff2) format("woff2"); }
 
-HTML#mda-stratio-web-tpl .mda-icon, HTML.mda-stratio-web-tpl .mda-icon {
+HTML#mda-stratio-web-tpl .mda-icon, HTML.mda-stratio-web-tpl .mda-icon, HTML#mda-stratio-web-tpl .mda-icon-text, HTML.mda-stratio-web-tpl .mda-icon-text {
   font-family: "Stratio Icon", Symbol, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -101,960 +101,965 @@ HTML#mda-stratio-web-tpl .mda-icon, HTML.mda-stratio-web-tpl .mda-icon {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-feature-settings: 'liga';
           font-feature-settings: 'liga'; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-recommend:before, HTML.mda-stratio-web-tpl .mda-icon.icon-recommend:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-recommend:before, HTML.mda-stratio-web-tpl .mda-icon.icon-recommend:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-recommend:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-recommend:before {
     content: "\e9f0"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-functions:before, HTML.mda-stratio-web-tpl .mda-icon.icon-functions:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-functions:before, HTML.mda-stratio-web-tpl .mda-icon.icon-functions:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-functions:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-functions:before {
     content: "\e9ee"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-connection:before, HTML.mda-stratio-web-tpl .mda-icon.icon-connection:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-connection:before, HTML.mda-stratio-web-tpl .mda-icon.icon-connection:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-connection:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-connection:before {
     content: "\e9eb"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-foreign-key:before, HTML.mda-stratio-web-tpl .mda-icon.icon-foreign-key:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-foreign-key:before, HTML.mda-stratio-web-tpl .mda-icon.icon-foreign-key:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-foreign-key:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-foreign-key:before {
     content: "\e9e6"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-primary-key:before, HTML.mda-stratio-web-tpl .mda-icon.icon-primary-key:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-primary-key:before, HTML.mda-stratio-web-tpl .mda-icon.icon-primary-key:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-primary-key:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-primary-key:before {
     content: "\e9ec"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-automl:before, HTML.mda-stratio-web-tpl .mda-icon.icon-automl:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-automl:before, HTML.mda-stratio-web-tpl .mda-icon.icon-automl:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-automl:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-automl:before {
     content: "\e9ed"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-Ml-trainer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-Ml-trainer:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-Ml-trainer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-Ml-trainer:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-Ml-trainer:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-Ml-trainer:before {
     content: "\e9e7"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-ml-model:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ml-model:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-ml-model:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ml-model:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-ml-model:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-ml-model:before {
     content: "\e9e8"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-streaming1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-streaming1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-streaming1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-streaming1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-streaming1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-streaming1:before {
     content: "\e9e9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-batch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-batch:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-batch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-batch:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-batch:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-batch:before {
     content: "\e9ea"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-dashboards:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dashboards:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-dashboards:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dashboards:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-dashboards:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-dashboards:before {
     content: "\e9d0"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-streaming:before, HTML.mda-stratio-web-tpl .mda-icon.icon-streaming:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-streaming:before, HTML.mda-stratio-web-tpl .mda-icon.icon-streaming:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-streaming:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-streaming:before {
     content: "\e9d1"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-notebooks:before, HTML.mda-stratio-web-tpl .mda-icon.icon-notebooks:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-notebooks:before, HTML.mda-stratio-web-tpl .mda-icon.icon-notebooks:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-notebooks:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-notebooks:before {
     content: "\e9d2"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-project:before, HTML.mda-stratio-web-tpl .mda-icon.icon-project:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-project:before, HTML.mda-stratio-web-tpl .mda-icon.icon-project:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-project:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-project:before {
     content: "\e9d3"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-operational:before, HTML.mda-stratio-web-tpl .mda-icon.icon-operational:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-operational:before, HTML.mda-stratio-web-tpl .mda-icon.icon-operational:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-operational:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-operational:before {
     content: "\e9d4"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-instant:before, HTML.mda-stratio-web-tpl .mda-icon.icon-instant:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-instant:before, HTML.mda-stratio-web-tpl .mda-icon.icon-instant:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-instant:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-instant:before {
     content: "\e9d5"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pivot:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pivot:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pivot:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pivot:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pivot:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pivot:before {
     content: "\e9e2"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-insert-literal:before, HTML.mda-stratio-web-tpl .mda-icon.icon-insert-literal:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-insert-literal:before, HTML.mda-stratio-web-tpl .mda-icon.icon-insert-literal:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-insert-literal:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-insert-literal:before {
     content: "\e9cc"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-partial-info:before, HTML.mda-stratio-web-tpl .mda-icon.icon-partial-info:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-partial-info:before, HTML.mda-stratio-web-tpl .mda-icon.icon-partial-info:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-partial-info:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-partial-info:before {
     content: "\e9cd"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-left-padding:before, HTML.mda-stratio-web-tpl .mda-icon.icon-left-padding:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-left-padding:before, HTML.mda-stratio-web-tpl .mda-icon.icon-left-padding:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-left-padding:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-left-padding:before {
     content: "\e9ce"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mask:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mask:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mask:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mask:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mask:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mask:before {
     content: "\e9cf"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-radio-checked:before, HTML.mda-stratio-web-tpl .mda-icon.icon-radio-checked:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-radio-checked:before, HTML.mda-stratio-web-tpl .mda-icon.icon-radio-checked:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-radio-checked:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-radio-checked:before {
     content: "\e9c0"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-radio:before, HTML.mda-stratio-web-tpl .mda-icon.icon-radio:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-radio:before, HTML.mda-stratio-web-tpl .mda-icon.icon-radio:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-radio:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-radio:before {
     content: "\e9c1"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-view:before, HTML.mda-stratio-web-tpl .mda-icon.icon-view:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-view:before, HTML.mda-stratio-web-tpl .mda-icon.icon-view:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-view:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-view:before {
     content: "\e000"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-eye:before, HTML.mda-stratio-web-tpl .mda-icon.icon-eye:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-eye:before, HTML.mda-stratio-web-tpl .mda-icon.icon-eye:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-eye:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-eye:before {
     content: "\e000"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-eye2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-eye2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-eye2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-eye2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-eye2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-eye2:before {
     content: "\e000"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-eye-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-eye-off:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-eye-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-eye-off:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-eye-off:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-eye-off:before {
     content: "\e91e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bell:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bell:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bell:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bell:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bell:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bell:before {
     content: "\e604"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bell-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bell-off:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bell-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bell-off:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bell-off:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bell-off:before {
     content: "\e907"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-camera:before, HTML.mda-stratio-web-tpl .mda-icon.icon-camera:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-camera:before, HTML.mda-stratio-web-tpl .mda-icon.icon-camera:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-camera:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-camera:before {
     content: "\e017"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-camera-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-camera-off:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-camera-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-camera-off:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-camera-off:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-camera-off:before {
     content: "\e909"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mic-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mic-off:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mic-off:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mic-off:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mic-off:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mic-off:before {
     content: "\e929"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-volume:before, HTML.mda-stratio-web-tpl .mda-icon.icon-volume:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-volume:before, HTML.mda-stratio-web-tpl .mda-icon.icon-volume:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-volume:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-volume:before {
     content: "\e098"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mute:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mute:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mute:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mute:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mute:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mute:before {
     content: "\e099"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-video:before, HTML.mda-stratio-web-tpl .mda-icon.icon-video:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-video:before, HTML.mda-stratio-web-tpl .mda-icon.icon-video:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-video:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-video:before {
     content: "\e018"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-sun:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sun:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-sun:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sun:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-sun:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-sun:before {
     content: "\e064"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-loader:before, HTML.mda-stratio-web-tpl .mda-icon.icon-loader:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-loader:before, HTML.mda-stratio-web-tpl .mda-icon.icon-loader:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-loader:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-loader:before {
     content: "\e105"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-battery:before, HTML.mda-stratio-web-tpl .mda-icon.icon-battery:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-battery:before, HTML.mda-stratio-web-tpl .mda-icon.icon-battery:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-battery:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-battery:before {
     content: "\e073"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-transmission:before, HTML.mda-stratio-web-tpl .mda-icon.icon-transmission:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-transmission:before, HTML.mda-stratio-web-tpl .mda-icon.icon-transmission:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-transmission:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-transmission:before {
     content: "\e940"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-signal:before, HTML.mda-stratio-web-tpl .mda-icon.icon-signal:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-signal:before, HTML.mda-stratio-web-tpl .mda-icon.icon-signal:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-signal:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-signal:before {
     content: "\e011"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-image:before, HTML.mda-stratio-web-tpl .mda-icon.icon-image:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-image:before, HTML.mda-stratio-web-tpl .mda-icon.icon-image:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-image:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-image:before {
     content: "\e010"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-target:before, HTML.mda-stratio-web-tpl .mda-icon.icon-target:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-target:before, HTML.mda-stratio-web-tpl .mda-icon.icon-target:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-target:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-target:before {
     content: "\e012"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-clock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-clock:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-clock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-clock:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-clock:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-clock:before {
     content: "\e014"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-timer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-timer:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-timer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-timer:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-timer:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-timer:before {
     content: "\e61e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-alarm:before, HTML.mda-stratio-web-tpl .mda-icon.icon-alarm:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-alarm:before, HTML.mda-stratio-web-tpl .mda-icon.icon-alarm:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-alarm:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-alarm:before {
     content: "\e99b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-watch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-watch:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-watch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-watch:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-watch:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-watch:before {
     content: "\e015"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-sand-clock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sand-clock:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-sand-clock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sand-clock:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-sand-clock:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-sand-clock:before {
     content: "\e617"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-calendar:before, HTML.mda-stratio-web-tpl .mda-icon.icon-calendar:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-calendar:before, HTML.mda-stratio-web-tpl .mda-icon.icon-calendar:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-calendar:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-calendar:before {
     content: "\e639"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-calendar2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-calendar2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-calendar2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-calendar2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-calendar2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-calendar2:before {
     content: "\e639"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-printer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-printer:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-printer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-printer:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-printer:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-printer:before {
     content: "\e020"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-air-play:before, HTML.mda-stratio-web-tpl .mda-icon.icon-air-play:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-air-play:before, HTML.mda-stratio-web-tpl .mda-icon.icon-air-play:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-air-play:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-air-play:before {
     content: "\e016"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-monitor:before, HTML.mda-stratio-web-tpl .mda-icon.icon-monitor:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-monitor:before, HTML.mda-stratio-web-tpl .mda-icon.icon-monitor:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-monitor:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-monitor:before {
     content: "\e021"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-desktop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-desktop:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-desktop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-desktop:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-desktop:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-desktop:before {
     content: "\e021"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-laptop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-laptop:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-laptop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-laptop:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-laptop:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-laptop:before {
     content: "\e973"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-book2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-book2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-book2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-book2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-book2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-book2:before {
     content: "\e030"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-book1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-book1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-book1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-book1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-book1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-book1:before {
     content: "\e611"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-xml:before, HTML.mda-stratio-web-tpl .mda-icon.icon-xml:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-xml:before, HTML.mda-stratio-web-tpl .mda-icon.icon-xml:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-xml:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-xml:before {
     content: "\e969"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-code:before, HTML.mda-stratio-web-tpl .mda-icon.icon-code:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-code:before, HTML.mda-stratio-web-tpl .mda-icon.icon-code:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-code:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-code:before {
     content: "\e949"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-json:before, HTML.mda-stratio-web-tpl .mda-icon.icon-json:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-json:before, HTML.mda-stratio-web-tpl .mda-icon.icon-json:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-json:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-json:before {
     content: "\e96a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-jsonPath:before, HTML.mda-stratio-web-tpl .mda-icon.icon-jsonPath:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-jsonPath:before, HTML.mda-stratio-web-tpl .mda-icon.icon-jsonPath:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-jsonPath:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-jsonPath:before {
     content: "\e9b1"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-json-path:before, HTML.mda-stratio-web-tpl .mda-icon.icon-json-path:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-json-path:before, HTML.mda-stratio-web-tpl .mda-icon.icon-json-path:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-json-path:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-json-path:before {
     content: "\e9b1"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-solid-folder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-solid-folder:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-solid-folder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-solid-folder:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-solid-folder:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-solid-folder:before {
     content: "\e925"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-folder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-folder:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-folder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-folder:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-folder:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-folder:before {
     content: "\e059"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-move-to-folder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-move-to-folder:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-move-to-folder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-move-to-folder:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-move-to-folder:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-move-to-folder:before {
     content: "\e9b0"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-folder-executions:before, HTML.mda-stratio-web-tpl .mda-icon.icon-folder-executions:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-folder-executions:before, HTML.mda-stratio-web-tpl .mda-icon.icon-folder-executions:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-folder-executions:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-folder-executions:before {
     content: "\e9de"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-file:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-file:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-file:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-file:before {
     content: "\e124"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-filesystem:before, HTML.mda-stratio-web-tpl .mda-icon.icon-filesystem:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-filesystem:before, HTML.mda-stratio-web-tpl .mda-icon.icon-filesystem:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-filesystem:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-filesystem:before {
     content: "\e95e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-csv:before, HTML.mda-stratio-web-tpl .mda-icon.icon-csv:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-csv:before, HTML.mda-stratio-web-tpl .mda-icon.icon-csv:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-csv:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-csv:before {
     content: "\e9af"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-debug-data:before, HTML.mda-stratio-web-tpl .mda-icon.icon-debug-data:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-debug-data:before, HTML.mda-stratio-web-tpl .mda-icon.icon-debug-data:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-debug-data:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-debug-data:before {
     content: "\e9bb"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-view-debug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-view-debug:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-view-debug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-view-debug:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-view-debug:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-view-debug:before {
     content: "\e9bb"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-file-debug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file-debug:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-file-debug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file-debug:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-file-debug:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-file-debug:before {
     content: "\e9bb"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-csv2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-csv2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-csv2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-csv2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-csv2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-csv2:before {
     content: "\e647"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-Excel:before, HTML.mda-stratio-web-tpl .mda-icon.icon-Excel:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-Excel:before, HTML.mda-stratio-web-tpl .mda-icon.icon-Excel:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-Excel:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-Excel:before {
     content: "\e963"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-print:before, HTML.mda-stratio-web-tpl .mda-icon.icon-print:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-print:before, HTML.mda-stratio-web-tpl .mda-icon.icon-print:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-print:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-print:before {
     content: "\e64a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-dictionary:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dictionary:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-dictionary:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dictionary:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-dictionary:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-dictionary:before {
     content: "\e9c3"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-structured-data:before, HTML.mda-stratio-web-tpl .mda-icon.icon-structured-data:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-structured-data:before, HTML.mda-stratio-web-tpl .mda-icon.icon-structured-data:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-structured-data:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-structured-data:before {
     content: "\e9dc"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-catalog:before, HTML.mda-stratio-web-tpl .mda-icon.icon-catalog:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-catalog:before, HTML.mda-stratio-web-tpl .mda-icon.icon-catalog:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-catalog:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-catalog:before {
     content: "\e9e3"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-file-add:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file-add:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-file-add:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file-add:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-file-add:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-file-add:before {
     content: "\e125"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-file-subtract:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file-subtract:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-file-subtract:before, HTML.mda-stratio-web-tpl .mda-icon.icon-file-subtract:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-file-subtract:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-file-subtract:before {
     content: "\e126"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-stack:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stack:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-stack:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stack:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-stack:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-stack:before {
     content: "\e032"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-stack-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stack-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-stack-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stack-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-stack-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-stack-2:before {
     content: "\e033"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-copy:before, HTML.mda-stratio-web-tpl .mda-icon.icon-copy:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-copy:before, HTML.mda-stratio-web-tpl .mda-icon.icon-copy:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-copy:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-copy:before {
     content: "\e910"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-drop-duplicates:before, HTML.mda-stratio-web-tpl .mda-icon.icon-drop-duplicates:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-drop-duplicates:before, HTML.mda-stratio-web-tpl .mda-icon.icon-drop-duplicates:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-drop-duplicates:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-drop-duplicates:before {
     content: "\e908"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-union:before, HTML.mda-stratio-web-tpl .mda-icon.icon-union:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-union:before, HTML.mda-stratio-web-tpl .mda-icon.icon-union:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-union:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-union:before {
     content: "\e9b4"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-join:before {
     content: "\e9b4"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-intersection:before, HTML.mda-stratio-web-tpl .mda-icon.icon-intersection:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-intersection:before, HTML.mda-stratio-web-tpl .mda-icon.icon-intersection:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-intersection:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-intersection:before {
     content: "\e9ae"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-copy2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-copy2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-copy2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-copy2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-copy2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-copy2:before {
     content: "\e61c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-paper:before, HTML.mda-stratio-web-tpl .mda-icon.icon-paper:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-paper:before, HTML.mda-stratio-web-tpl .mda-icon.icon-paper:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-paper:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-paper:before {
     content: "\e034"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-paper-stack:before, HTML.mda-stratio-web-tpl .mda-icon.icon-paper-stack:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-paper-stack:before, HTML.mda-stratio-web-tpl .mda-icon.icon-paper-stack:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-paper-stack:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-paper-stack:before {
     content: "\e035"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-clipboard:before, HTML.mda-stratio-web-tpl .mda-icon.icon-clipboard:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-clipboard:before, HTML.mda-stratio-web-tpl .mda-icon.icon-clipboard:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-clipboard:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-clipboard:before {
     content: "\e013"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-report:before, HTML.mda-stratio-web-tpl .mda-icon.icon-report:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-report:before, HTML.mda-stratio-web-tpl .mda-icon.icon-report:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-report:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-report:before {
     content: "\e618"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-policy2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-policy2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-policy2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-policy2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-policy2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-policy2:before {
     content: "\e961"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-policy-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-policy-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-policy-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-policy-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-policy-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-policy-2:before {
     content: "\e961"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-scissors:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scissors:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-scissors:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scissors:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-scissors:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-scissors:before {
     content: "\e9c7"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-edit:before, HTML.mda-stratio-web-tpl .mda-icon.icon-edit:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-edit:before, HTML.mda-stratio-web-tpl .mda-icon.icon-edit:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-edit:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-edit:before {
     content: "\e63c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-edit-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-edit-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-edit-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-edit-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-edit-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-edit-2:before {
     content: "\e91c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-edit-3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-edit-3:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-edit-3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-edit-3:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-edit-3:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-edit-3:before {
     content: "\e91d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-search:before, HTML.mda-stratio-web-tpl .mda-icon.icon-search:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-search:before, HTML.mda-stratio-web-tpl .mda-icon.icon-search:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-search:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-search:before {
     content: "\e036"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-zoom-in:before, HTML.mda-stratio-web-tpl .mda-icon.icon-zoom-in:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-zoom-in:before, HTML.mda-stratio-web-tpl .mda-icon.icon-zoom-in:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-zoom-in:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-zoom-in:before {
     content: "\e037"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-zoom-out:before, HTML.mda-stratio-web-tpl .mda-icon.icon-zoom-out:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-zoom-out:before, HTML.mda-stratio-web-tpl .mda-icon.icon-zoom-out:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-zoom-out:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-zoom-out:before {
     content: "\e038"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-plus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-plus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-plus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-plus:before {
     content: "\e040"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-minus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-minus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-minus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-minus:before {
     content: "\e041"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-check2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-check2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-check2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-check2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-check2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-check2:before {
     content: "\e042"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-check-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-check-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-check-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-check-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-check-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-check-2:before {
     content: "\e042"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-check:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-check:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-check:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-check:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-check:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-check:before {
     content: "\e048"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-cross:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-cross:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-cross:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-cross:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-cross:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-cross:before {
     content: "\e043"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-check-circle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check-circle:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-check-circle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check-circle:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-check-circle:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-check-circle:before {
     content: "\e90a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-check-square:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check-square:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-check-square:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check-square:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-check-square:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-check-square:before {
     content: "\e90b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-marquee:before, HTML.mda-stratio-web-tpl .mda-icon.icon-marquee:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-marquee:before, HTML.mda-stratio-web-tpl .mda-icon.icon-marquee:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-marquee:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-marquee:before {
     content: "\e082"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-marquee-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-marquee-plus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-marquee-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-marquee-plus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-marquee-plus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-marquee-plus:before {
     content: "\e083"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-marquee-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-marquee-minus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-marquee-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-marquee-minus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-marquee-minus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-marquee-minus:before {
     content: "\e084"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-checkbox:before, HTML.mda-stratio-web-tpl .mda-icon.icon-checkbox:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-checkbox:before, HTML.mda-stratio-web-tpl .mda-icon.icon-checkbox:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-checkbox:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-checkbox:before {
     content: "\e9a8"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-plus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-plus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-plus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-plus:before {
     content: "\e044"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-minus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-minus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-minus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-minus:before {
     content: "\e045"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-cross:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-cross:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-cross:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-cross:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-cross:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-cross:before {
     content: "\e047"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-chevron-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-chevron-down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-chevron-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-chevron-down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-chevron-down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-chevron-down:before {
     content: "\e9be"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-unchecked:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-unchecked:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-unchecked:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-unchecked:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-unchecked:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-unchecked:before {
     content: "\e9e5"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-check:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-check:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-check:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-check:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-check:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-check:before {
     content: "\e9bf"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-square-check-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-check-minus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-square-check-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-square-check-minus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-square-check-minus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-square-check-minus:before {
     content: "\e9d8"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-check2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-check2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-check2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-check2:before {
     content: "\e64c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-check:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-check:before, HTML.mda-stratio-web-tpl .mda-icon.icon-check:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-check:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-check:before {
     content: "\e116"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cross:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cross:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cross:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cross:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cross:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cross:before {
     content: "\e117"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-plus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-plus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-plus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-plus:before {
     content: "\e114"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-minus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-minus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-minus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-minus:before {
     content: "\e115"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-percent:before, HTML.mda-stratio-web-tpl .mda-icon.icon-percent:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-percent:before, HTML.mda-stratio-web-tpl .mda-icon.icon-percent:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-percent:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-percent:before {
     content: "\e92b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-sql:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sql:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-sql:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sql:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-sql:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-sql:before {
     content: "\e9e4"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-init-nulls:before, HTML.mda-stratio-web-tpl .mda-icon.icon-init-nulls:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-init-nulls:before, HTML.mda-stratio-web-tpl .mda-icon.icon-init-nulls:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-init-nulls:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-init-nulls:before {
     content: "\e919"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-clear-nulls:before, HTML.mda-stratio-web-tpl .mda-icon.icon-clear-nulls:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-clear-nulls:before, HTML.mda-stratio-web-tpl .mda-icon.icon-clear-nulls:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-clear-nulls:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-clear-nulls:before {
     content: "\e922"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-case-letter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-case-letter:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-case-letter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-case-letter:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-case-letter:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-case-letter:before {
     content: "\e9c4"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-if:before, HTML.mda-stratio-web-tpl .mda-icon.icon-if:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-if:before, HTML.mda-stratio-web-tpl .mda-icon.icon-if:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-if:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-if:before {
     content: "\e9c5"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-case:before, HTML.mda-stratio-web-tpl .mda-icon.icon-case:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-case:before, HTML.mda-stratio-web-tpl .mda-icon.icon-case:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-case:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-case:before {
     content: "\e9e1"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-formatter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-formatter:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-formatter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-formatter:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-formatter:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-formatter:before {
     content: "\e9dd"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-comma-delimiter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-comma-delimiter:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-comma-delimiter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-comma-delimiter:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-comma-delimiter:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-comma-delimiter:before {
     content: "\e9c6"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-integrity:before, HTML.mda-stratio-web-tpl .mda-icon.icon-integrity:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-integrity:before, HTML.mda-stratio-web-tpl .mda-icon.icon-integrity:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-integrity:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-integrity:before {
     content: "\e9cb"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-sql-builder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sql-builder:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-sql-builder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sql-builder:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-sql-builder:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-sql-builder:before {
     content: "\e932"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-inner-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inner-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-inner-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inner-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-inner-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-inner-join:before {
     content: "\e935"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-left-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-left-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-left-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-left-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-left-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-left-join:before {
     content: "\e93f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-left-only-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-left-only-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-left-only-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-left-only-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-left-only-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-left-only-join:before {
     content: "\e965"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-right-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-right-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-right-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-right-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-right-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-right-join:before {
     content: "\e991"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-right-only-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-right-only-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-right-only-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-right-only-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-right-only-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-right-only-join:before {
     content: "\e9b8"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-full-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-full-join:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-full-join:before, HTML.mda-stratio-web-tpl .mda-icon.icon-full-join:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-full-join:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-full-join:before {
     content: "\e9b9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rewind:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rewind:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rewind:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rewind:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rewind:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rewind:before {
     content: "\e92f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pause:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pause:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pause:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pause:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pause:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pause:before {
     content: "\e053"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-fast-forward:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fast-forward:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-fast-forward:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fast-forward:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-fast-forward:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-fast-forward:before {
     content: "\e91f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-record:before, HTML.mda-stratio-web-tpl .mda-icon.icon-record:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-record:before, HTML.mda-stratio-web-tpl .mda-icon.icon-record:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-record:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-record:before {
     content: "\e049"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-skip-back:before, HTML.mda-stratio-web-tpl .mda-icon.icon-skip-back:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-skip-back:before, HTML.mda-stratio-web-tpl .mda-icon.icon-skip-back:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-skip-back:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-skip-back:before {
     content: "\e050"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rewind-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rewind-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rewind-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rewind-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rewind-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rewind-2:before {
     content: "\e051"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-play:before, HTML.mda-stratio-web-tpl .mda-icon.icon-play:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-play:before, HTML.mda-stratio-web-tpl .mda-icon.icon-play:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-play:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-play:before {
     content: "\e052"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-fast-forward-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fast-forward-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-fast-forward-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fast-forward-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-fast-forward-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-fast-forward-2:before {
     content: "\e055"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-skip-forward:before, HTML.mda-stratio-web-tpl .mda-icon.icon-skip-forward:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-skip-forward:before, HTML.mda-stratio-web-tpl .mda-icon.icon-skip-forward:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-skip-forward:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-skip-forward:before {
     content: "\e056"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-stop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stop:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-stop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stop:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-stop:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-stop:before {
     content: "\e054"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-decision:before, HTML.mda-stratio-web-tpl .mda-icon.icon-decision:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-decision:before, HTML.mda-stratio-web-tpl .mda-icon.icon-decision:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-decision:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-decision:before {
     content: "\e9bc"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cloud:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cloud:before {
     content: "\e065"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud-updown:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud-updown:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud-updown:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud-updown:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cloud-updown:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cloud-updown:before {
     content: "\e97e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud-upload:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud-upload:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud-upload:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud-upload:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cloud-upload:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cloud-upload:before {
     content: "\e066"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud-download:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud-download:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cloud-download:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cloud-download:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cloud-download:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cloud-download:before {
     content: "\e067"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-upload:before, HTML.mda-stratio-web-tpl .mda-icon.icon-upload:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-upload:before, HTML.mda-stratio-web-tpl .mda-icon.icon-upload:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-upload:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-upload:before {
     content: "\e068"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-download:before, HTML.mda-stratio-web-tpl .mda-icon.icon-download:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-download:before, HTML.mda-stratio-web-tpl .mda-icon.icon-download:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-download:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-download:before {
     content: "\e069"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-export:before, HTML.mda-stratio-web-tpl .mda-icon.icon-export:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-export:before, HTML.mda-stratio-web-tpl .mda-icon.icon-export:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-export:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-export:before {
     content: "\e128"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-import:before, HTML.mda-stratio-web-tpl .mda-icon.icon-import:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-import:before, HTML.mda-stratio-web-tpl .mda-icon.icon-import:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-import:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-import:before {
     content: "\e61f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-persist:before, HTML.mda-stratio-web-tpl .mda-icon.icon-persist:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-persist:before, HTML.mda-stratio-web-tpl .mda-icon.icon-persist:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-persist:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-persist:before {
     content: "\e9b2"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-install:before, HTML.mda-stratio-web-tpl .mda-icon.icon-install:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-install:before, HTML.mda-stratio-web-tpl .mda-icon.icon-install:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-install:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-install:before {
     content: "\e972"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-inbox-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inbox-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-inbox-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inbox-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-inbox-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-inbox-2:before {
     content: "\e122"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-inbox2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inbox2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-inbox2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inbox2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-inbox2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-inbox2:before {
     content: "\e122"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-outbox:before, HTML.mda-stratio-web-tpl .mda-icon.icon-outbox:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-outbox:before, HTML.mda-stratio-web-tpl .mda-icon.icon-outbox:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-outbox:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-outbox:before {
     content: "\e123"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-exit:before, HTML.mda-stratio-web-tpl .mda-icon.icon-exit:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-exit:before, HTML.mda-stratio-web-tpl .mda-icon.icon-exit:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-exit:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-exit:before {
     content: "\e962"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-logout:before, HTML.mda-stratio-web-tpl .mda-icon.icon-logout:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-logout:before, HTML.mda-stratio-web-tpl .mda-icon.icon-logout:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-logout:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-logout:before {
     content: "\e62e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-login:before, HTML.mda-stratio-web-tpl .mda-icon.icon-login:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-login:before, HTML.mda-stratio-web-tpl .mda-icon.icon-login:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-login:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-login:before {
     content: "\e630"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-esc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-esc:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-esc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-esc:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-esc:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-esc:before {
     content: "\e089"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-exit2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-exit2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-exit2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-exit2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-exit2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-exit2:before {
     content: "\e95a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-exit-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-exit-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-exit-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-exit-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-exit-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-exit-2:before {
     content: "\e95a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-switch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-switch:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-switch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-switch:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-switch:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-switch:before {
     content: "\e994"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-position:before, HTML.mda-stratio-web-tpl .mda-icon.icon-position:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-position:before, HTML.mda-stratio-web-tpl .mda-icon.icon-position:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-position:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-position:before {
     content: "\e61b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-map:before, HTML.mda-stratio-web-tpl .mda-icon.icon-map:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-map:before, HTML.mda-stratio-web-tpl .mda-icon.icon-map:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-map:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-map:before {
     content: "\e072"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-layout:before, HTML.mda-stratio-web-tpl .mda-icon.icon-layout:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-layout:before, HTML.mda-stratio-web-tpl .mda-icon.icon-layout:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-layout:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-layout:before {
     content: "\e004"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-content-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-content-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-content-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-content-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-content-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-content-right:before {
     content: "\e100"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-content-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-content-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-content-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-content-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-content-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-content-left:before {
     content: "\e101"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid:before {
     content: "\e102"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid4:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid4:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid4:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid4:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid4:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid4:before {
     content: "\e103"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid-2:before {
     content: "\e103"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-table-view:before, HTML.mda-stratio-web-tpl .mda-icon.icon-table-view:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-table-view:before, HTML.mda-stratio-web-tpl .mda-icon.icon-table-view:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-table-view:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-table-view:before {
     content: "\e9c2"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-columns:before, HTML.mda-stratio-web-tpl .mda-icon.icon-columns:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-columns:before, HTML.mda-stratio-web-tpl .mda-icon.icon-columns:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-columns:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-columns:before {
     content: "\e104"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rename-column:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rename-column:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rename-column:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rename-column:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rename-column:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rename-column:before {
     content: "\e923"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-trim:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trim:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-trim:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trim:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-trim:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-trim:before {
     content: "\e9c8"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-ban:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ban:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-ban:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ban:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-ban:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-ban:before {
     content: "\e107"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-forbidden:before, HTML.mda-stratio-web-tpl .mda-icon.icon-forbidden:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-forbidden:before, HTML.mda-stratio-web-tpl .mda-icon.icon-forbidden:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-forbidden:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-forbidden:before {
     content: "\e107"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-delete:before, HTML.mda-stratio-web-tpl .mda-icon.icon-delete:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-delete:before, HTML.mda-stratio-web-tpl .mda-icon.icon-delete:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-delete:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-delete:before {
     content: "\e119"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-trash:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trash:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-trash:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trash:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-trash:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-trash:before {
     content: "\e945"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-share:before, HTML.mda-stratio-web-tpl .mda-icon.icon-share:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-share:before, HTML.mda-stratio-web-tpl .mda-icon.icon-share:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-share:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-share:before {
     content: "\e081"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-plane:before, HTML.mda-stratio-web-tpl .mda-icon.icon-plane:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-plane:before, HTML.mda-stratio-web-tpl .mda-icon.icon-plane:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-plane:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-plane:before {
     content: "\e609"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-location:before, HTML.mda-stratio-web-tpl .mda-icon.icon-location:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-location:before, HTML.mda-stratio-web-tpl .mda-icon.icon-location:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-location:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-location:before {
     content: "\e070"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-box2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-box2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-box2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-box2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-box2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-box2:before {
     content: "\e995"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-box-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-box-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-box-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-box-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-box-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-box-2:before {
     content: "\e995"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-inbox:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inbox:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-inbox:before, HTML.mda-stratio-web-tpl .mda-icon.icon-inbox:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-inbox:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-inbox:before {
     content: "\e121"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-archive:before, HTML.mda-stratio-web-tpl .mda-icon.icon-archive:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-archive:before, HTML.mda-stratio-web-tpl .mda-icon.icon-archive:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-archive:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-archive:before {
     content: "\e121"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mail:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mail:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mail:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mail:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mail:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mail:before {
     content: "\e002"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-paper-clip:before, HTML.mda-stratio-web-tpl .mda-icon.icon-paper-clip:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-paper-clip:before, HTML.mda-stratio-web-tpl .mda-icon.icon-paper-clip:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-paper-clip:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-paper-clip:before {
     content: "\e001"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-link-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-link-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-link-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-link-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-link-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-link-2:before {
     content: "\e924"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-unlink-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlink-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-unlink-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlink-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-unlink-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-unlink-2:before {
     content: "\e9d9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-link:before, HTML.mda-stratio-web-tpl .mda-icon.icon-link:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-link:before, HTML.mda-stratio-web-tpl .mda-icon.icon-link:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-link:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-link:before {
     content: "\e005"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-unlink:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlink:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-unlink:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlink:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-unlink:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-unlink:before {
     content: "\e9da"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-anchor:before, HTML.mda-stratio-web-tpl .mda-icon.icon-anchor:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-anchor:before, HTML.mda-stratio-web-tpl .mda-icon.icon-anchor:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-anchor:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-anchor:before {
     content: "\e077"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bold:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bold:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bold:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bold:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bold:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bold:before {
     content: "\e652"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-list:before, HTML.mda-stratio-web-tpl .mda-icon.icon-list:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-list:before, HTML.mda-stratio-web-tpl .mda-icon.icon-list:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-list:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-list:before {
     content: "\e629"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-toggle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-toggle:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-toggle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-toggle:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-toggle:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-toggle:before {
     content: "\e003"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-ribbon:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ribbon:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-ribbon:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ribbon:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-ribbon:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-ribbon:before {
     content: "\e009"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-settings:before, HTML.mda-stratio-web-tpl .mda-icon.icon-settings:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-settings:before, HTML.mda-stratio-web-tpl .mda-icon.icon-settings:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-settings:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-settings:before {
     content: "\e60f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cog:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cog:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cog:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cog:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cog:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cog:before {
     content: "\e023"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cogs:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cogs:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cogs:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cogs:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cogs:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cogs:before {
     content: "\e943"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-settings2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-settings2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-settings2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-settings2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-settings2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-settings2:before {
     content: "\e619"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-settings-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-settings-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-settings-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-settings-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-settings-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-settings-2:before {
     content: "\e619"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-tool:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tool:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-tool:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tool:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-tool:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-tool:before {
     content: "\e60c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rocket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rocket:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rocket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rocket:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rocket:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rocket:before {
     content: "\e610"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-layers:before, HTML.mda-stratio-web-tpl .mda-icon.icon-layers:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-layers:before, HTML.mda-stratio-web-tpl .mda-icon.icon-layers:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-layers:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-layers:before {
     content: "\e031"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-unstack:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unstack:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-unstack:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unstack:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-unstack:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-unstack:before {
     content: "\e9db"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pin:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pin:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pin:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pin:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pin:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pin:before {
     content: "\e612"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-alert:before, HTML.mda-stratio-web-tpl .mda-icon.icon-alert:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-alert:before, HTML.mda-stratio-web-tpl .mda-icon.icon-alert:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-alert:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-alert:before {
     content: "\e613"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-alert:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-alert:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-circle-alert:before, HTML.mda-stratio-web-tpl .mda-icon.icon-circle-alert:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-circle-alert:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-circle-alert:before {
     content: "\e9ba"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-info2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-info2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-info2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-info2:before {
     content: "\e614"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-info-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-info-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-info-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-info-2:before {
     content: "\e614"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-info3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info3:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-info3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info3:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-info3:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-info3:before {
     content: "\e606"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-info-3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info-3:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-info-3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info-3:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-info-3:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-info-3:before {
     content: "\e606"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-info1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-info1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-info1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-info1:before {
     content: "\e615"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-info:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-info:before, HTML.mda-stratio-web-tpl .mda-icon.icon-info:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-info:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-info:before {
     content: "\e615"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-help2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-help2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-help2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-help2:before {
     content: "\e638"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-help-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-help-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-help-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-help-2:before {
     content: "\e638"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-help1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-help1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-help1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-help1:before {
     content: "\e127"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-help:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-help:before, HTML.mda-stratio-web-tpl .mda-icon.icon-help:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-help:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-help:before {
     content: "\e127"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bulb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bulb:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bulb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bulb:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bulb:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bulb:before {
     content: "\e971"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-filter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-filter:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-filter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-filter:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-filter:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-filter:before {
     content: "\e616"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-datetime:before, HTML.mda-stratio-web-tpl .mda-icon.icon-datetime:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-datetime:before, HTML.mda-stratio-web-tpl .mda-icon.icon-datetime:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-datetime:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-datetime:before {
     content: "\e64d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-facets2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-facets2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-facets2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-facets2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-facets2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-facets2:before {
     content: "\e99f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-facets-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-facets-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-facets-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-facets-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-facets-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-facets-2:before {
     content: "\e99f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-order:before, HTML.mda-stratio-web-tpl .mda-icon.icon-order:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-order:before, HTML.mda-stratio-web-tpl .mda-icon.icon-order:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-order:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-order:before {
     content: "\e635"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-dot:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dot:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-dot:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dot:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-dot:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-dot:before {
     content: "\e622"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-waiting:before, HTML.mda-stratio-web-tpl .mda-icon.icon-waiting:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-waiting:before, HTML.mda-stratio-web-tpl .mda-icon.icon-waiting:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-waiting:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-waiting:before {
     content: "\e62c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-ellipsis:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ellipsis:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-ellipsis:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ellipsis:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-ellipsis:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-ellipsis:before {
     content: "\e62c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-actions:before, HTML.mda-stratio-web-tpl .mda-icon.icon-actions:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-actions:before, HTML.mda-stratio-web-tpl .mda-icon.icon-actions:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-actions:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-actions:before {
     content: "\e631"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-internal:before, HTML.mda-stratio-web-tpl .mda-icon.icon-internal:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-internal:before, HTML.mda-stratio-web-tpl .mda-icon.icon-internal:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-internal:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-internal:before {
     content: "\e980"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid2:before {
     content: "\e95b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid-5:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid-5:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid-5:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid-5:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid-5:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid-5:before {
     content: "\e95b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-drag:before, HTML.mda-stratio-web-tpl .mda-icon.icon-drag:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-drag:before, HTML.mda-stratio-web-tpl .mda-icon.icon-drag:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-drag:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-drag:before {
     content: "\e93c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-group:before, HTML.mda-stratio-web-tpl .mda-icon.icon-group:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-group:before, HTML.mda-stratio-web-tpl .mda-icon.icon-group:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-group:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-group:before {
     content: "\e96b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid3:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid3:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid3:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid3:before {
     content: "\e626"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-grid-3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid-3:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-grid-3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-grid-3:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-grid-3:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-grid-3:before {
     content: "\e626"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-fragments:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fragments:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-fragments:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fragments:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-fragments:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-fragments:before {
     content: "\e62b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-disc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-disc:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-disc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-disc:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-disc:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-disc:before {
     content: "\e019"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-dot_selected:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dot_selected:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-dot_selected:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dot_selected:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-dot_selected:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-dot_selected:before {
     content: "\e632"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-stratio_small:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stratio_small:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-stratio_small:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stratio_small:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-stratio_small:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-stratio_small:before {
     content: "\e633"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-stratio_standard:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stratio_standard:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-stratio_standard:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stratio_standard:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-stratio_standard:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-stratio_standard:before {
     content: "\e634"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-nodes:before, HTML.mda-stratio-web-tpl .mda-icon.icon-nodes:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-nodes:before, HTML.mda-stratio-web-tpl .mda-icon.icon-nodes:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-nodes:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-nodes:before {
     content: "\e63a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow2_up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow2_up:before {
     content: "\e608"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow2_down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow2_down:before {
     content: "\e63f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow2_left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow2_left:before {
     content: "\e63e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow2_right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow2_right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow2_right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow2_right:before {
     content: "\e605"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow3_up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow3_up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow3_up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow3_up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow3_up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow3_up:before {
     content: "\e640"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow3_down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow3_down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow3_down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow3_down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow3_down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow3_down:before {
     content: "\e641"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow4_up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow4_up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow4_up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow4_up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow4_up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow4_up:before {
     content: "\e61a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow4_down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow4_down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow4_down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow4_down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow4_down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow4_down:before {
     content: "\e625"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow4_left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow4_left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow4_left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow4_left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow4_left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow4_left:before {
     content: "\e9bd"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow:before {
     content: "\e9ef"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-right:before {
     content: "\e9ef"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-up:before {
     content: "\e096"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-down:before {
     content: "\e097"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-left:before {
     content: "\e094"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-right:before {
     content: "\e095"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-reply:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reply:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-reply:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reply:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-reply:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-reply:before {
     content: "\e039"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-back2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-back2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-back2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-back2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-back2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-back2:before {
     content: "\e99a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chevrons-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chevrons-down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chevrons-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chevrons-down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chevrons-down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chevrons-down:before {
     content: "\e90c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chevrons-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chevrons-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chevrons-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chevrons-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chevrons-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chevrons-left:before {
     content: "\e90d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chevrons-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chevrons-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chevrons-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chevrons-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chevrons-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chevrons-right:before {
     content: "\e90e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-down-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-down-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-down-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-down-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-down-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-down-left:before {
     content: "\e900"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-down-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-down-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-down-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-down-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-down-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-down-right:before {
     content: "\e901"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-up-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-up-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-up-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-up-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-up-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-up-left:before {
     content: "\e902"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-up-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-up-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow-up-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow-up-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow-up-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow-up-right:before {
     content: "\e903"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-down-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-down-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-down-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-down-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-down-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-down-left:before {
     content: "\e911"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-down-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-down-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-down-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-down-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-down-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-down-right:before {
     content: "\e912"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-left-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-left-down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-left-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-left-down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-left-down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-left-down:before {
     content: "\e913"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-left-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-left-up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-left-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-left-up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-left-up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-left-up:before {
     content: "\e914"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-right-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-right-down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-right-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-right-down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-right-down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-right-down:before {
     content: "\e915"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-right-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-right-up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-right-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-right-up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-right-up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-right-up:before {
     content: "\e916"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-up-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-up-left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-up-left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-up-left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-up-left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-up-left:before {
     content: "\e917"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-up-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-up-right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-corner-up-right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-corner-up-right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-corner-up-right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-corner-up-right:before {
     content: "\e918"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow3_middle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow3_middle:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arrow3_middle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arrow3_middle:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arrow3_middle:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arrow3_middle:before {
     content: "\e642"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-centric:before, HTML.mda-stratio-web-tpl .mda-icon.icon-centric:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-centric:before, HTML.mda-stratio-web-tpl .mda-icon.icon-centric:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-centric:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-centric:before {
     content: "\e987"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-scalable:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scalable:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-scalable:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scalable:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-scalable:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-scalable:before {
     content: "\e988"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-maximize2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-maximize2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-maximize2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-maximize2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-maximize2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-maximize2:before {
     content: "\e112"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-minimize2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-minimize2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-minimize2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-minimize2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-minimize2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-minimize2:before {
     content: "\e113"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-in_out1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-in_out1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-in_out1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-in_out1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-in_out1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-in_out1:before {
     content: "\e98a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-move:before, HTML.mda-stratio-web-tpl .mda-icon.icon-move:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-move:before, HTML.mda-stratio-web-tpl .mda-icon.icon-move:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-move:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-move:before {
     content: "\e118"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-a-b:before, HTML.mda-stratio-web-tpl .mda-icon.icon-a-b:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-a-b:before, HTML.mda-stratio-web-tpl .mda-icon.icon-a-b:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-a-b:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-a-b:before {
     content: "\e96c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-type:before, HTML.mda-stratio-web-tpl .mda-icon.icon-type:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-type:before, HTML.mda-stratio-web-tpl .mda-icon.icon-type:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-type:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-type:before {
     content: "\e64f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-history:before, HTML.mda-stratio-web-tpl .mda-icon.icon-history:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-history:before, HTML.mda-stratio-web-tpl .mda-icon.icon-history:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-history:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-history:before {
     content: "\e95f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rotate-ccw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rotate-ccw:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rotate-ccw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rotate-ccw:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rotate-ccw:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rotate-ccw:before {
     content: "\e930"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-reload2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-reload2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-reload2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-reload2:before {
     content: "\e930"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-back:before, HTML.mda-stratio-web-tpl .mda-icon.icon-back:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-back:before, HTML.mda-stratio-web-tpl .mda-icon.icon-back:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-back:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-back:before {
     content: "\e930"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rotate-cw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rotate-cw:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rotate-cw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rotate-cw:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rotate-cw:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rotate-cw:before {
     content: "\e931"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-reload1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-reload1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-reload1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-reload1:before {
     content: "\e931"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-refresh-ccw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-refresh-ccw:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-refresh-ccw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-refresh-ccw:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-refresh-ccw:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-refresh-ccw:before {
     content: "\e92c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-reload:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-reload:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-reload:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-reload:before {
     content: "\e92c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-refresh:before, HTML.mda-stratio-web-tpl .mda-icon.icon-refresh:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-refresh:before, HTML.mda-stratio-web-tpl .mda-icon.icon-refresh:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-refresh:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-refresh:before {
     content: "\e92c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-refresh-cw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-refresh-cw:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-refresh-cw:before, HTML.mda-stratio-web-tpl .mda-icon.icon-refresh-cw:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-refresh-cw:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-refresh-cw:before {
     content: "\e92d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-repeat2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-repeat2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-repeat2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-repeat2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-repeat2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-repeat2:before {
     content: "\e92d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-restart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-restart:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-restart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-restart:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-restart:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-restart:before {
     content: "\e92d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-shuffle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-shuffle:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-shuffle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-shuffle:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-shuffle:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-shuffle:before {
     content: "\e057"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-repeat:before, HTML.mda-stratio-web-tpl .mda-icon.icon-repeat:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-repeat:before, HTML.mda-stratio-web-tpl .mda-icon.icon-repeat:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-repeat:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-repeat:before {
     content: "\e92e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-in_out2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-in_out2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-in_out2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-in_out2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-in_out2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-in_out2:before {
     content: "\e990"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-merge:before, HTML.mda-stratio-web-tpl .mda-icon.icon-merge:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-merge:before, HTML.mda-stratio-web-tpl .mda-icon.icon-merge:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-merge:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-merge:before {
     content: "\e98b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-channel:before, HTML.mda-stratio-web-tpl .mda-icon.icon-channel:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-channel:before, HTML.mda-stratio-web-tpl .mda-icon.icon-channel:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-channel:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-channel:before {
     content: "\e98c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-flow:before, HTML.mda-stratio-web-tpl .mda-icon.icon-flow:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-flow:before, HTML.mda-stratio-web-tpl .mda-icon.icon-flow:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-flow:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-flow:before {
     content: "\e942"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-tube:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tube:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-tube:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tube:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-tube:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-tube:before {
     content: "\e964"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-event:before, HTML.mda-stratio-web-tpl .mda-icon.icon-event:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-event:before, HTML.mda-stratio-web-tpl .mda-icon.icon-event:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-event:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-event:before {
     content: "\e97f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-option:before, HTML.mda-stratio-web-tpl .mda-icon.icon-option:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-option:before, HTML.mda-stratio-web-tpl .mda-icon.icon-option:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-option:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-option:before {
     content: "\e97d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-window:before, HTML.mda-stratio-web-tpl .mda-icon.icon-window:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-window:before, HTML.mda-stratio-web-tpl .mda-icon.icon-window:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-window:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-window:before {
     content: "\e9b5"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-input:before, HTML.mda-stratio-web-tpl .mda-icon.icon-input:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-input:before, HTML.mda-stratio-web-tpl .mda-icon.icon-input:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-input:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-input:before {
     content: "\e98d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-output:before, HTML.mda-stratio-web-tpl .mda-icon.icon-output:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-output:before, HTML.mda-stratio-web-tpl .mda-icon.icon-output:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-output:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-output:before {
     content: "\e98e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-menu2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-menu2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-menu2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-menu2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-menu2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-menu2:before {
     content: "\e643"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-menu:before, HTML.mda-stratio-web-tpl .mda-icon.icon-menu:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-menu:before, HTML.mda-stratio-web-tpl .mda-icon.icon-menu:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-menu:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-menu:before {
     content: "\e120"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-dots:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dots:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-dots:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dots:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-dots:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-dots:before {
     content: "\e651"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-activity:before, HTML.mda-stratio-web-tpl .mda-icon.icon-activity:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-activity:before, HTML.mda-stratio-web-tpl .mda-icon.icon-activity:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-activity:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-activity:before {
     content: "\e603"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-spider:before, HTML.mda-stratio-web-tpl .mda-icon.icon-spider:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-spider:before, HTML.mda-stratio-web-tpl .mda-icon.icon-spider:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-spider:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-spider:before {
     content: "\e982"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-area-chart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-area-chart:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-area-chart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-area-chart:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-area-chart:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-area-chart:before {
     content: "\e63b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-graph-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-graph-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-graph-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-graph-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bar-graph-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bar-graph-2:before {
     content: "\e091"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-graph:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-graph:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-graph:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-graph:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bar-graph:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bar-graph:before {
     content: "\e090"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-chart-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-chart-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-chart-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-chart-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bar-chart-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bar-chart-2:before {
     content: "\e905"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-chart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-chart:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bar-chart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bar-chart:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bar-chart:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bar-chart:before {
     content: "\e906"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-graph:before, HTML.mda-stratio-web-tpl .mda-icon.icon-graph:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-graph:before, HTML.mda-stratio-web-tpl .mda-icon.icon-graph:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-graph:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-graph:before {
     content: "\e981"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pie-graph:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pie-graph:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pie-graph:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pie-graph:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pie-graph:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pie-graph:before {
     content: "\e092"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-trending-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trending-down:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-trending-down:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trending-down:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-trending-down:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-trending-down:before {
     content: "\e933"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-trending-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trending-up:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-trending-up:before, HTML.mda-stratio-web-tpl .mda-icon.icon-trending-up:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-trending-up:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-trending-up:before {
     content: "\e934"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-line:before, HTML.mda-stratio-web-tpl .mda-icon.icon-line:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-line:before, HTML.mda-stratio-web-tpl .mda-icon.icon-line:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-line:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-line:before {
     content: "\e93b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-repartition:before, HTML.mda-stratio-web-tpl .mda-icon.icon-repartition:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-repartition:before, HTML.mda-stratio-web-tpl .mda-icon.icon-repartition:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-repartition:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-repartition:before {
     content: "\e9ad"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-expand:before, HTML.mda-stratio-web-tpl .mda-icon.icon-expand:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-expand:before, HTML.mda-stratio-web-tpl .mda-icon.icon-expand:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-expand:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-expand:before {
     content: "\e110"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-contract:before, HTML.mda-stratio-web-tpl .mda-icon.icon-contract:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-contract:before, HTML.mda-stratio-web-tpl .mda-icon.icon-contract:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-contract:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-contract:before {
     content: "\e111"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-maximize:before, HTML.mda-stratio-web-tpl .mda-icon.icon-maximize:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-maximize:before, HTML.mda-stratio-web-tpl .mda-icon.icon-maximize:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-maximize:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-maximize:before {
     content: "\e926"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-minimize:before, HTML.mda-stratio-web-tpl .mda-icon.icon-minimize:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-minimize:before, HTML.mda-stratio-web-tpl .mda-icon.icon-minimize:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-minimize:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-minimize:before {
     content: "\e92a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-select:before, HTML.mda-stratio-web-tpl .mda-icon.icon-select:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-select:before, HTML.mda-stratio-web-tpl .mda-icon.icon-select:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-select:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-select:before {
     content: "\e9b3"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-crop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-crop:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-crop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-crop:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-crop:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-crop:before {
     content: "\e91b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-scale:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scale:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-scale:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scale:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-scale:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-scale:before {
     content: "\e989"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pointer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pointer:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pointer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pointer:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pointer:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pointer:before {
     content: "\e946"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hand_ponting:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hand_ponting:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hand_ponting:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hand_ponting:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hand_ponting:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hand_ponting:before {
     content: "\e986"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hand_click:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hand_click:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hand_click:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hand_click:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hand_click:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hand_click:before {
     content: "\e97b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-message-circle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-message-circle:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-message-circle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-message-circle:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-message-circle:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-message-circle:before {
     content: "\e927"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-no-comment:before, HTML.mda-stratio-web-tpl .mda-icon.icon-no-comment:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-no-comment:before, HTML.mda-stratio-web-tpl .mda-icon.icon-no-comment:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-no-comment:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-no-comment:before {
     content: "\e9d7"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-message-square:before, HTML.mda-stratio-web-tpl .mda-icon.icon-message-square:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-message-square:before, HTML.mda-stratio-web-tpl .mda-icon.icon-message-square:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-message-square:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-message-square:before {
     content: "\e928"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-speech-bubble:before, HTML.mda-stratio-web-tpl .mda-icon.icon-speech-bubble:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-speech-bubble:before, HTML.mda-stratio-web-tpl .mda-icon.icon-speech-bubble:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-speech-bubble:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-speech-bubble:before {
     content: "\e076"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-user:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-user:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-user:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-user:before {
     content: "\e939"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-head:before, HTML.mda-stratio-web-tpl .mda-icon.icon-head:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-head:before, HTML.mda-stratio-web-tpl .mda-icon.icon-head:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-head:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-head:before {
     content: "\e939"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-user-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user-minus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-user-minus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user-minus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-user-minus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-user-minus:before {
     content: "\e936"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-user-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user-plus:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-user-plus:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user-plus:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-user-plus:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-user-plus:before {
     content: "\e937"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-user-x:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user-x:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-user-x:before, HTML.mda-stratio-web-tpl .mda-icon.icon-user-x:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-user-x:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-user-x:before {
     content: "\e938"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-users:before, HTML.mda-stratio-web-tpl .mda-icon.icon-users:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-users:before, HTML.mda-stratio-web-tpl .mda-icon.icon-users:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-users:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-users:before {
     content: "\e93a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-irc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-irc:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-irc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-irc:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-irc:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-irc:before {
     content: "\e94b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-at-sign:before, HTML.mda-stratio-web-tpl .mda-icon.icon-at-sign:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-at-sign:before, HTML.mda-stratio-web-tpl .mda-icon.icon-at-sign:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-at-sign:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-at-sign:before {
     content: "\e904"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-jdbc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-jdbc:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-jdbc:before, HTML.mda-stratio-web-tpl .mda-icon.icon-jdbc:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-jdbc:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-jdbc:before {
     content: "\e602"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-http:before, HTML.mda-stratio-web-tpl .mda-icon.icon-http:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-http:before, HTML.mda-stratio-web-tpl .mda-icon.icon-http:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-http:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-http:before {
     content: "\e94c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-globe:before, HTML.mda-stratio-web-tpl .mda-icon.icon-globe:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-globe:before, HTML.mda-stratio-web-tpl .mda-icon.icon-globe:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-globe:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-globe:before {
     content: "\e078"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-policy:before, HTML.mda-stratio-web-tpl .mda-icon.icon-policy:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-policy:before, HTML.mda-stratio-web-tpl .mda-icon.icon-policy:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-policy:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-policy:before {
     content: "\e960"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-shield:before, HTML.mda-stratio-web-tpl .mda-icon.icon-shield:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-shield:before, HTML.mda-stratio-web-tpl .mda-icon.icon-shield:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-shield:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-shield:before {
     content: "\e60e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-lock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-lock:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-lock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-lock:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-lock:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-lock:before {
     content: "\e976"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-lock2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-lock2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-lock2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-lock2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-lock2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-lock2:before {
     content: "\e976"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-unlock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlock:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-unlock:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlock:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-unlock:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-unlock:before {
     content: "\e977"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-unlock2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlock2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-unlock2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-unlock2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-unlock2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-unlock2:before {
     content: "\e977"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-key:before, HTML.mda-stratio-web-tpl .mda-icon.icon-key:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-key:before, HTML.mda-stratio-web-tpl .mda-icon.icon-key:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-key:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-key:before {
     content: "\e984"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-arangodb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arangodb:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-arangodb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-arangodb:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-arangodb:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-arangodb:before {
     content: "\e9d6"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mongodb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mongodb:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mongodb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mongodb:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mongodb:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mongodb:before {
     content: "\e623"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-solr:before, HTML.mda-stratio-web-tpl .mda-icon.icon-solr:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-solr:before, HTML.mda-stratio-web-tpl .mda-icon.icon-solr:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-solr:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-solr:before {
     content: "\e966"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-redis:before, HTML.mda-stratio-web-tpl .mda-icon.icon-redis:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-redis:before, HTML.mda-stratio-web-tpl .mda-icon.icon-redis:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-redis:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-redis:before {
     content: "\e64b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-parquet:before, HTML.mda-stratio-web-tpl .mda-icon.icon-parquet:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-parquet:before, HTML.mda-stratio-web-tpl .mda-icon.icon-parquet:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-parquet:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-parquet:before {
     content: "\e649"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-flume:before, HTML.mda-stratio-web-tpl .mda-icon.icon-flume:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-flume:before, HTML.mda-stratio-web-tpl .mda-icon.icon-flume:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-flume:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-flume:before {
     content: "\e646"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-kafka:before, HTML.mda-stratio-web-tpl .mda-icon.icon-kafka:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-kafka:before, HTML.mda-stratio-web-tpl .mda-icon.icon-kafka:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-kafka:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-kafka:before {
     content: "\e645"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-kafkadirect:before, HTML.mda-stratio-web-tpl .mda-icon.icon-kafkadirect:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-kafkadirect:before, HTML.mda-stratio-web-tpl .mda-icon.icon-kafkadirect:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-kafkadirect:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-kafkadirect:before {
     content: "\e648"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-diamond:before, HTML.mda-stratio-web-tpl .mda-icon.icon-diamond:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-diamond:before, HTML.mda-stratio-web-tpl .mda-icon.icon-diamond:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-diamond:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-diamond:before {
     content: "\e947"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-spool:before, HTML.mda-stratio-web-tpl .mda-icon.icon-spool:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-spool:before, HTML.mda-stratio-web-tpl .mda-icon.icon-spool:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-spool:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-spool:before {
     content: "\e94f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rest:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rest:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rest:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rest:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rest:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rest:before {
     content: "\e951"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-sequence:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sequence:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-sequence:before, HTML.mda-stratio-web-tpl .mda-icon.icon-sequence:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-sequence:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-sequence:before {
     content: "\e950"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-jms:before, HTML.mda-stratio-web-tpl .mda-icon.icon-jms:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-jms:before, HTML.mda-stratio-web-tpl .mda-icon.icon-jms:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-jms:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-jms:before {
     content: "\e948"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-thrift:before, HTML.mda-stratio-web-tpl .mda-icon.icon-thrift:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-thrift:before, HTML.mda-stratio-web-tpl .mda-icon.icon-thrift:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-thrift:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-thrift:before {
     content: "\e954"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-syslog:before, HTML.mda-stratio-web-tpl .mda-icon.icon-syslog:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-syslog:before, HTML.mda-stratio-web-tpl .mda-icon.icon-syslog:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-syslog:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-syslog:before {
     content: "\e955"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hbase:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hbase:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hbase:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hbase:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hbase:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hbase:before {
     content: "\e956"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-druid:before, HTML.mda-stratio-web-tpl .mda-icon.icon-druid:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-druid:before, HTML.mda-stratio-web-tpl .mda-icon.icon-druid:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-druid:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-druid:before {
     content: "\e957"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hive:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hive:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hive:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hive:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hive:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hive:before {
     content: "\e958"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-snmp:before, HTML.mda-stratio-web-tpl .mda-icon.icon-snmp:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-snmp:before, HTML.mda-stratio-web-tpl .mda-icon.icon-snmp:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-snmp:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-snmp:before {
     content: "\e952"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-scribe:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scribe:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-scribe:before, HTML.mda-stratio-web-tpl .mda-icon.icon-scribe:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-scribe:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-scribe:before {
     content: "\e953"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mesos:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mesos:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mesos:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mesos:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mesos:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mesos:before {
     content: "\e95c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-kite:before, HTML.mda-stratio-web-tpl .mda-icon.icon-kite:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-kite:before, HTML.mda-stratio-web-tpl .mda-icon.icon-kite:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-kite:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-kite:before {
     content: "\e959"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-zookeeper:before, HTML.mda-stratio-web-tpl .mda-icon.icon-zookeeper:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-zookeeper:before, HTML.mda-stratio-web-tpl .mda-icon.icon-zookeeper:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-zookeeper:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-zookeeper:before {
     content: "\e95d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-netcat:before, HTML.mda-stratio-web-tpl .mda-icon.icon-netcat:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-netcat:before, HTML.mda-stratio-web-tpl .mda-icon.icon-netcat:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-netcat:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-netcat:before {
     content: "\e94a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-github:before, HTML.mda-stratio-web-tpl .mda-icon.icon-github:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-github:before, HTML.mda-stratio-web-tpl .mda-icon.icon-github:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-github:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-github:before {
     content: "\e920"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-github2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-github2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-github2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-github2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-github2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-github2:before {
     content: "\e967"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-postgres:before, HTML.mda-stratio-web-tpl .mda-icon.icon-postgres:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-postgres:before, HTML.mda-stratio-web-tpl .mda-icon.icon-postgres:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-postgres:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-postgres:before {
     content: "\e9a5"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-postgres-xl:before, HTML.mda-stratio-web-tpl .mda-icon.icon-postgres-xl:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-postgres-xl:before, HTML.mda-stratio-web-tpl .mda-icon.icon-postgres-xl:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-postgres-xl:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-postgres-xl:before {
     content: "\e9df"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-elasticsearch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-elasticsearch:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-elasticsearch:before, HTML.mda-stratio-web-tpl .mda-icon.icon-elasticsearch:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-elasticsearch:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-elasticsearch:before {
     content: "\e624"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hdfs:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hdfs:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hdfs:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hdfs:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hdfs:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hdfs:before {
     content: "\e93e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-codepen:before, HTML.mda-stratio-web-tpl .mda-icon.icon-codepen:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-codepen:before, HTML.mda-stratio-web-tpl .mda-icon.icon-codepen:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-codepen:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-codepen:before {
     content: "\e90f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-ignite:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ignite:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-ignite:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ignite:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-ignite:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-ignite:before {
     content: "\e9e0"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-docker:before, HTML.mda-stratio-web-tpl .mda-icon.icon-docker:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-docker:before, HTML.mda-stratio-web-tpl .mda-icon.icon-docker:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-docker:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-docker:before {
     content: "\e968"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rabbitmq:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rabbitmq:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rabbitmq:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rabbitmq:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rabbitmq:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rabbitmq:before {
     content: "\e636"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cassandra:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cassandra:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cassandra:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cassandra:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cassandra:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cassandra:before {
     content: "\e62f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-avro:before, HTML.mda-stratio-web-tpl .mda-icon.icon-avro:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-avro:before, HTML.mda-stratio-web-tpl .mda-icon.icon-avro:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-avro:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-avro:before {
     content: "\e93d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-modules:before, HTML.mda-stratio-web-tpl .mda-icon.icon-modules:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-modules:before, HTML.mda-stratio-web-tpl .mda-icon.icon-modules:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-modules:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-modules:before {
     content: "\e96d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-credit-card:before, HTML.mda-stratio-web-tpl .mda-icon.icon-credit-card:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-credit-card:before, HTML.mda-stratio-web-tpl .mda-icon.icon-credit-card:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-credit-card:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-credit-card:before {
     content: "\e91a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bag:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bag:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bag:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bag:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bag:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bag:before {
     content: "\e106"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-basket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-basket:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-basket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-basket:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-basket:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-basket:before {
     content: "\e996"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-tag_right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tag_right:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-tag_right:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tag_right:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-tag_right:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-tag_right:before {
     content: "\e08a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-tag_left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tag_left:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-tag_left:before, HTML.mda-stratio-web-tpl .mda-icon.icon-tag_left:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-tag_left:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-tag_left:before {
     content: "\e085"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-transport:before, HTML.mda-stratio-web-tpl .mda-icon.icon-transport:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-transport:before, HTML.mda-stratio-web-tpl .mda-icon.icon-transport:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-transport:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-transport:before {
     content: "\e628"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-speed:before, HTML.mda-stratio-web-tpl .mda-icon.icon-speed:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-speed:before, HTML.mda-stratio-web-tpl .mda-icon.icon-speed:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-speed:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-speed:before {
     content: "\e999"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-dashboard:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dashboard:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-dashboard:before, HTML.mda-stratio-web-tpl .mda-icon.icon-dashboard:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-dashboard:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-dashboard:before {
     content: "\e60b"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-facets:before, HTML.mda-stratio-web-tpl .mda-icon.icon-facets:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-facets:before, HTML.mda-stratio-web-tpl .mda-icon.icon-facets:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-facets:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-facets:before {
     content: "\e99e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hand_thumbup:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hand_thumbup:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hand_thumbup:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hand_thumbup:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hand_thumbup:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hand_thumbup:before {
     content: "\e96f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-heart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-heart:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-heart:before, HTML.mda-stratio-web-tpl .mda-icon.icon-heart:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-heart:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-heart:before {
     content: "\e024"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-star2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-star2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-star2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-star2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-star2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-star2:before {
     content: "\e997"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-star:before, HTML.mda-stratio-web-tpl .mda-icon.icon-star:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-star:before, HTML.mda-stratio-web-tpl .mda-icon.icon-star:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-star:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-star:before {
     content: "\e093"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-linkedin:before, HTML.mda-stratio-web-tpl .mda-icon.icon-linkedin:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-linkedin:before, HTML.mda-stratio-web-tpl .mda-icon.icon-linkedin:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-linkedin:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-linkedin:before {
     content: "\e9a2"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-twitter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-twitter:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-twitter:before, HTML.mda-stratio-web-tpl .mda-icon.icon-twitter:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-twitter:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-twitter:before {
     content: "\e637"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-youtube:before, HTML.mda-stratio-web-tpl .mda-icon.icon-youtube:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-youtube:before, HTML.mda-stratio-web-tpl .mda-icon.icon-youtube:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-youtube:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-youtube:before {
     content: "\e9a3"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-slideshare:before, HTML.mda-stratio-web-tpl .mda-icon.icon-slideshare:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-slideshare:before, HTML.mda-stratio-web-tpl .mda-icon.icon-slideshare:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-slideshare:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-slideshare:before {
     content: "\e9a4"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-command:before, HTML.mda-stratio-web-tpl .mda-icon.icon-command:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-command:before, HTML.mda-stratio-web-tpl .mda-icon.icon-command:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-command:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-command:before {
     content: "\e087"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-alt:before, HTML.mda-stratio-web-tpl .mda-icon.icon-alt:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-alt:before, HTML.mda-stratio-web-tpl .mda-icon.icon-alt:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-alt:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-alt:before {
     content: "\e088"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-home:before, HTML.mda-stratio-web-tpl .mda-icon.icon-home:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-home:before, HTML.mda-stratio-web-tpl .mda-icon.icon-home:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-home:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-home:before {
     content: "\e9a7"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-home2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-home2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-home2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-home2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-home2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-home2:before {
     content: "\e9a7"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-planet:before, HTML.mda-stratio-web-tpl .mda-icon.icon-planet:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-planet:before, HTML.mda-stratio-web-tpl .mda-icon.icon-planet:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-planet:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-planet:before {
     content: "\e9a9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-machine_learning:before, HTML.mda-stratio-web-tpl .mda-icon.icon-machine_learning:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-machine_learning:before, HTML.mda-stratio-web-tpl .mda-icon.icon-machine_learning:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-machine_learning:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-machine_learning:before {
     content: "\e9aa"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-drop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-drop:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-drop:before, HTML.mda-stratio-web-tpl .mda-icon.icon-drop:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-drop:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-drop:before {
     content: "\e063"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-moon:before, HTML.mda-stratio-web-tpl .mda-icon.icon-moon:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-moon:before, HTML.mda-stratio-web-tpl .mda-icon.icon-moon:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-moon:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-moon:before {
     content: "\e061"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-thermometer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-thermometer:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-thermometer:before, HTML.mda-stratio-web-tpl .mda-icon.icon-thermometer:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-thermometer:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-thermometer:before {
     content: "\e062"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-umbrella:before, HTML.mda-stratio-web-tpl .mda-icon.icon-umbrella:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-umbrella:before, HTML.mda-stratio-web-tpl .mda-icon.icon-umbrella:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-umbrella:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-umbrella:before {
     content: "\e060"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-fire:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fire:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-fire:before, HTML.mda-stratio-web-tpl .mda-icon.icon-fire:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-fire:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-fire:before {
     content: "\e983"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-stress:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stress:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-stress:before, HTML.mda-stratio-web-tpl .mda-icon.icon-stress:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-stress:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-stress:before {
     content: "\e94e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-omni:before, HTML.mda-stratio-web-tpl .mda-icon.icon-omni:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-omni:before, HTML.mda-stratio-web-tpl .mda-icon.icon-omni:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-omni:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-omni:before {
     content: "\e9a0"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-deepweb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-deepweb:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-deepweb:before, HTML.mda-stratio-web-tpl .mda-icon.icon-deepweb:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-deepweb:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-deepweb:before {
     content: "\e9a1"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-coffe:before, HTML.mda-stratio-web-tpl .mda-icon.icon-coffe:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-coffe:before, HTML.mda-stratio-web-tpl .mda-icon.icon-coffe:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-coffe:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-coffe:before {
     content: "\e944"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chip2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chip2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chip2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chip2:before {
     content: "\e62a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chip3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip3:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chip3:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip3:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chip3:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chip3:before {
     content: "\e62a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chip1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chip1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chip1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chip1:before {
     content: "\e62d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cpu:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cpu:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cpu:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cpu:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cpu:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cpu:before {
     content: "\e62d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-chip:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-chip:before, HTML.mda-stratio-web-tpl .mda-icon.icon-chip:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-chip:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-chip:before {
     content: "\e62d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-server:before, HTML.mda-stratio-web-tpl .mda-icon.icon-server:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-server:before, HTML.mda-stratio-web-tpl .mda-icon.icon-server:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-server:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-server:before {
     content: "\e974"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cpu2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cpu2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cpu2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cpu2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cpu2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cpu2:before {
     content: "\e627"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-socket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-socket:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-socket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-socket:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-socket:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-socket:before {
     content: "\e644"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-websocket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-websocket:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-websocket:before, HTML.mda-stratio-web-tpl .mda-icon.icon-websocket:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-websocket:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-websocket:before {
     content: "\e650"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-plug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-plug:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-plug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-plug:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-plug:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-plug:before {
     content: "\e97a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pause2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pause2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pause2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pause2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pause2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pause2:before {
     content: "\e970"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-storage:before, HTML.mda-stratio-web-tpl .mda-icon.icon-storage:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-storage:before, HTML.mda-stratio-web-tpl .mda-icon.icon-storage:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-storage:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-storage:before {
     content: "\e607"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-mobile:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mobile:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-mobile:before, HTML.mda-stratio-web-tpl .mda-icon.icon-mobile:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-mobile:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-mobile:before {
     content: "\e978"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-compass:before, HTML.mda-stratio-web-tpl .mda-icon.icon-compass:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-compass:before, HTML.mda-stratio-web-tpl .mda-icon.icon-compass:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-compass:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-compass:before {
     content: "\e60d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rudder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rudder:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rudder:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rudder:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rudder:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rudder:before {
     content: "\e9ac"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-robot:before, HTML.mda-stratio-web-tpl .mda-icon.icon-robot:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-robot:before, HTML.mda-stratio-web-tpl .mda-icon.icon-robot:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-robot:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-robot:before {
     content: "\e9ab"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-smiley:before, HTML.mda-stratio-web-tpl .mda-icon.icon-smiley:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-smiley:before, HTML.mda-stratio-web-tpl .mda-icon.icon-smiley:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-smiley:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-smiley:before {
     content: "\e96e"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pacman:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pacman:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pacman:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pacman:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pacman:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pacman:before {
     content: "\e97c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-astronaut:before, HTML.mda-stratio-web-tpl .mda-icon.icon-astronaut:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-astronaut:before, HTML.mda-stratio-web-tpl .mda-icon.icon-astronaut:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-astronaut:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-astronaut:before {
     content: "\e9b6"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hide:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hide:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hide:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hide:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hide:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hide:before {
     content: "\e99d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-infinite:before, HTML.mda-stratio-web-tpl .mda-icon.icon-infinite:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-infinite:before, HTML.mda-stratio-web-tpl .mda-icon.icon-infinite:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-infinite:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-infinite:before {
     content: "\e992"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-hash:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hash:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-hash:before, HTML.mda-stratio-web-tpl .mda-icon.icon-hash:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-hash:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-hash:before {
     content: "\e921"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-atom:before, HTML.mda-stratio-web-tpl .mda-icon.icon-atom:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-atom:before, HTML.mda-stratio-web-tpl .mda-icon.icon-atom:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-atom:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-atom:before {
     content: "\e993"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-debug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-debug:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-debug:before, HTML.mda-stratio-web-tpl .mda-icon.icon-debug:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-debug:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-debug:before {
     content: "\e9b7"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-loto:before, HTML.mda-stratio-web-tpl .mda-icon.icon-loto:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-loto:before, HTML.mda-stratio-web-tpl .mda-icon.icon-loto:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-loto:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-loto:before {
     content: "\e998"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-location-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-location-2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-location-2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-location-2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-location-2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-location-2:before {
     content: "\e071"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-Interceptor:before, HTML.mda-stratio-web-tpl .mda-icon.icon-Interceptor:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-Interceptor:before, HTML.mda-stratio-web-tpl .mda-icon.icon-Interceptor:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-Interceptor:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-Interceptor:before {
     content: "\e98f"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-briefcase:before, HTML.mda-stratio-web-tpl .mda-icon.icon-briefcase:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-briefcase:before, HTML.mda-stratio-web-tpl .mda-icon.icon-briefcase:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-briefcase:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-briefcase:before {
     content: "\e075"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-puzzle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-puzzle:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-puzzle:before, HTML.mda-stratio-web-tpl .mda-icon.icon-puzzle:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-puzzle:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-puzzle:before {
     content: "\e60a"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-direction:before, HTML.mda-stratio-web-tpl .mda-icon.icon-direction:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-direction:before, HTML.mda-stratio-web-tpl .mda-icon.icon-direction:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-direction:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-direction:before {
     content: "\e621"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-flag:before, HTML.mda-stratio-web-tpl .mda-icon.icon-flag:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-flag:before, HTML.mda-stratio-web-tpl .mda-icon.icon-flag:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-flag:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-flag:before {
     content: "\e108"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-ribbon2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ribbon2:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-ribbon2:before, HTML.mda-stratio-web-tpl .mda-icon.icon-ribbon2:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-ribbon2:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-ribbon2:before {
     content: "\e94d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-cup:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cup:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-cup:before, HTML.mda-stratio-web-tpl .mda-icon.icon-cup:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-cup:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-cup:before {
     content: "\e61d"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-pingpong:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pingpong:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-pingpong:before, HTML.mda-stratio-web-tpl .mda-icon.icon-pingpong:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-pingpong:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-pingpong:before {
     content: "\e985"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-evolution:before, HTML.mda-stratio-web-tpl .mda-icon.icon-evolution:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-evolution:before, HTML.mda-stratio-web-tpl .mda-icon.icon-evolution:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-evolution:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-evolution:before {
     content: "\e975"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-bike:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bike:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-bike:before, HTML.mda-stratio-web-tpl .mda-icon.icon-bike:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-bike:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-bike:before {
     content: "\e9a6"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-car:before, HTML.mda-stratio-web-tpl .mda-icon.icon-car:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-car:before, HTML.mda-stratio-web-tpl .mda-icon.icon-car:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-car:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-car:before {
     content: "\e99c"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-intelligence:before, HTML.mda-stratio-web-tpl .mda-icon.icon-intelligence:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-intelligence:before, HTML.mda-stratio-web-tpl .mda-icon.icon-intelligence:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-intelligence:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-intelligence:before {
     content: "\e979"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-box:before, HTML.mda-stratio-web-tpl .mda-icon.icon-box:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-box:before, HTML.mda-stratio-web-tpl .mda-icon.icon-box:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-box:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-box:before {
     content: "\e079"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-lego:before, HTML.mda-stratio-web-tpl .mda-icon.icon-lego:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-lego:before, HTML.mda-stratio-web-tpl .mda-icon.icon-lego:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-lego:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-lego:before {
     content: "\e941"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-rotate-ccw1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rotate-ccw1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-rotate-ccw1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-rotate-ccw1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-rotate-ccw1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-rotate-ccw1:before {
     content: "\e9c9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-reload21:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload21:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-reload21:before, HTML.mda-stratio-web-tpl .mda-icon.icon-reload21:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-reload21:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-reload21:before {
     content: "\e9c9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-back1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-back1:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-back1:before, HTML.mda-stratio-web-tpl .mda-icon.icon-back1:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-back1:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-back1:before {
     content: "\e9c9"; }
-  HTML#mda-stratio-web-tpl .mda-icon.icon-xdata:before, HTML.mda-stratio-web-tpl .mda-icon.icon-xdata:before {
+  HTML#mda-stratio-web-tpl .mda-icon.icon-xdata:before, HTML.mda-stratio-web-tpl .mda-icon.icon-xdata:before, HTML#mda-stratio-web-tpl .mda-icon-text.icon-xdata:before, HTML.mda-stratio-web-tpl .mda-icon-text.icon-xdata:before {
     content: "\e9ca"; }
+
+HTML#mda-stratio-web-tpl .mda-icon-text:before, HTML.mda-stratio-web-tpl .mda-icon-text:before {
+  vertical-align: middle;
+  font-size: calc(1em + 2px);
+  line-height: unset; }
 
 HTML#mda-stratio-web-tpl BUTTON.mda-button, HTML.mda-stratio-web-tpl BUTTON.mda-button {
   position: relative;
@@ -1854,7 +1859,7 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-color-corporate-300-rgb: 35, 61, 133;
   --mda-color-corporate-200: #0776df;
   --mda-color-corporate-200-rgb: 7, 118, 223;
-  --mda-color-corporate-100: #28Abf8;
+  --mda-color-corporate-100: #28abf8;
   --mda-color-corporate-100-rgb: 40, 171, 248;
   --mda-color-space: #27323d;
   --mda-color-space-rgb: 39, 50, 61;
@@ -2312,11 +2317,11 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   HTML#mda-stratio-web-tpl .mda-color__border--corporate-200, HTML.mda-stratio-web-tpl .mda-color__border--corporate-200 {
     border-color: #0776df; }
   HTML#mda-stratio-web-tpl .mda-color--corporate-100, HTML.mda-stratio-web-tpl .mda-color--corporate-100 {
-    color: #28Abf8; }
+    color: #28abf8; }
   HTML#mda-stratio-web-tpl .mda-color__bg--corporate-100, HTML.mda-stratio-web-tpl .mda-color__bg--corporate-100 {
-    background-color: #28Abf8; }
+    background-color: #28abf8; }
   HTML#mda-stratio-web-tpl .mda-color__border--corporate-100, HTML.mda-stratio-web-tpl .mda-color__border--corporate-100 {
-    border-color: #28Abf8; }
+    border-color: #28abf8; }
   HTML#mda-stratio-web-tpl .mda-color--space, HTML.mda-stratio-web-tpl .mda-color--space {
     color: #27323d; }
   HTML#mda-stratio-web-tpl .mda-color__bg--space, HTML.mda-stratio-web-tpl .mda-color__bg--space {
