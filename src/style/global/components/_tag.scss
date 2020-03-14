@@ -1,0 +1,48 @@
+@import '../exportable/app.mixins';
+
+%mda-tag {
+  SPAN, DIV {
+    &.mda-tag {
+      @include createFlexBox(row, center, normal, nowrap);
+      width: fit-content;
+      min-width: fit-content;
+      box-sizing: border-box;
+      color: var(--mda-tag-text-color);
+      border: var(--mda-component-border);
+      border-color: var(--mda-tag-border-color);
+      border-radius: var(--mda-component-border-radius);
+      background-color: var(--mda-tag-background-color);
+      padding: var(--mda-tag-padding-vertical) var(--mda-tag-padding-horizontal);
+      I.mda-icon {
+        display: inline-flex;
+        align-items: center;
+        color: inherit;
+        margin-left: 8px;
+        cursor: pointer;
+      }
+
+      &.mda-tag--interactive {
+        cursor: pointer;
+        &:hover {
+          color: var(--mda-tag-hover-text-color);
+          border-color: var(--mda-tag-hover-border-color);
+          background-color: var(--mda-tag-hover-background-color);
+        }
+        &:active, &.selected {
+          color: var(--mda-tag-active-text-color);
+          border-color: var(--mda-tag-active-border-color);
+          background-color: var(--mda-tag-active-background-color);
+        }
+        &:disabled, &.disabled {
+          color: var(--mda-tag-disabled-text-color);
+          border-color: var(--mda-tag-disabled-border-color);
+          background-color: var(--mda-tag-disabled-background-color);
+          cursor: var(--mda-component-disabled-cursor);
+          I.mda-icon {
+            cursor: var(--mda-component-disabled-cursor);
+          }
+        }
+      }
+    }
+  }
+}

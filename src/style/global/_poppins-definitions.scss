@@ -1,4 +1,5 @@
 $fontName: Poppins;
+$typesToGenerate: (eot, svg, ttf, woff, woff2);
 $fontWeightsAvailable: (
   light: (
     weight: 300,
@@ -7,7 +8,7 @@ $fontWeightsAvailable: (
     local1: 'Poppins Light',
     local2: Poppins-Light
   ),
-  lightItalic: (
+  light-italic: (
     weight: 300,
     style: italic,
     path: '../../../fonts/poppins/poppins-v8-latin-300italic',
@@ -21,21 +22,21 @@ $fontWeightsAvailable: (
     local1: 'Poppins Regular',
     local2: Poppins-Regular
   ),
-  regularItalic: (
+  regular-italic: (
     weight: normal,
     style: italic,
     path: '../../../fonts/poppins/poppins-v8-latin-italic',
     local1: 'Poppins Italic',
     local2: Poppins-Italic
   ),
-  semiBold: (
+  semi-bold: (
     weight: 600,
     style: normal,
     path: '../../../fonts/poppins/poppins-v8-latin-600',
     local1: 'Poppins SemiBold',
     local2: Poppins-SemiBold
   ),
-  semiBoldItalic: (
+  semi-bold-italic: (
     weight: 600,
     style: italic,
     path: '../../../fonts/poppins/poppins-v8-latin-600italic',
@@ -49,21 +50,21 @@ $fontWeightsAvailable: (
     local1: 'Poppins Bold',
     local2: Poppins-Bold
   ),
-  boldItalic: (
+  bold-italic: (
     weight: bold,
     style: italic,
     path: '../../../fonts/poppins/poppins-v8-latin-700italic',
     local1: 'Poppins Bold Italic',
     local2: Poppins-BoldItalic
   ),
-  extraBold: (
+  extra-bold: (
     weight: 800,
     style: normal,
     path: '../../../fonts/poppins/poppins-v8-latin-800',
     local1: 'Poppins ExtraBold',
     local2: Poppins-ExtraBold
   ),
-  extraBoldItalic: (
+  extra-bold-italic: (
     weight: 800,
     style: italic,
     path: '../../../fonts/poppins/poppins-v8-latin-800italic',

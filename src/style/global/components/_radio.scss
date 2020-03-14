@@ -5,13 +5,10 @@
     $radioCorrectionFactor: 1px;
 
     @include selectionElement(100%, $radioCorrectionFactor) {
-      left: calc((var(--mda-selection-icon-size) / 2) - (var(--mda-radio-internal-checked-size) / 2));
-      bottom: calc(
-        (var(--mda-selection-icon-size) / 2) -
-        (var(--mda-radio-internal-checked-size) / 2) -
-        #{$radioCorrectionFactor} +
-        var(--mda-selection-icon-spacer)
-      );
+      --tempRadio01: calc(var(--mda-selection-icon-size) / 2);
+      --tempRadio02: calc(var(--mda-radio-internal-checked-size) / 2);
+      left: calc(var(--tempRadio01) - var(--tempRadio02));
+      bottom: calc(var(--tempRadio01) - var(--tempRadio02) - #{$radioCorrectionFactor} + var(--mda-selection-icon-spacer));
       width: var(--mda-radio-internal-checked-size);
       max-width: var(--mda-radio-internal-checked-size);
       height: var(--mda-radio-internal-checked-size);

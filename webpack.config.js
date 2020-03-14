@@ -6,9 +6,10 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-    medea: path.resolve(__dirname, 'src/style/templates/medea/medea.scss'),
-    sanitas: path.resolve(__dirname, 'src/style/templates/sanitas/sanitas.scss'),
-    ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss')
+    ey: path.resolve(__dirname, 'src/style/templates/ey/ey.scss'),
+    martina: path.resolve(__dirname, 'src/style/templates/martina/martina.scss'),
+    'space-blue': path.resolve(__dirname, 'src/style/templates/space-blue/space-blue.scss'),
+    'stratio-web': path.resolve(__dirname, 'src/style/templates/stratio-web/stratio-web.scss')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -52,7 +53,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2)$/i,
+        test: /\.(eot|otf|svg|ttf|woff|woff2)$/i,
         loader: 'file-loader?name=fonts/[name].[ext]'
       },
       // {
@@ -71,8 +72,20 @@ module.exports = {
         to: path.resolve(__dirname, 'dist/sass/_mixins.scss')
       },
       {
-        from: path.resolve(__dirname, 'src/style/templates/medea/backroom/exportable/_app.colors.scss'),
-        to: path.resolve(__dirname, 'dist/sass/_colors.scss')
+        from: path.resolve(__dirname, 'src/style/templates/ey/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/ey/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/martina/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/martina/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/space-blue/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/space-blue/_colors.scss')
+      },
+      {
+        from: path.resolve(__dirname, 'src/style/templates/stratio-web/backroom/exportable/_app.colors.scss'),
+        to: path.resolve(__dirname, 'dist/sass/stratio-web/_colors.scss')
       }
     ])
   ]

@@ -2,8 +2,6 @@
 @import './shared/mixins';
 
 %mda-select {
-  --mda-select-filter-width: fit-content;
-
   SELECT.mda-select {
     @include textInputElement() {
       @extend %mda-default-disabled-component;
@@ -12,12 +10,13 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     text-overflow: unset;
+    cursor: pointer;
     &::-ms-expand {
       display: none;
     }
   }
 
-  %mda-select__wrapper {
+  %mda-select--wrapper {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
@@ -53,16 +52,14 @@
 
   SPAN, DIV {
     &.mda-select {
-      @extend %mda-select__wrapper;
+      @extend %mda-select--wrapper;
 
       &.mda-select--filter {
-        @extend %mda-select__wrapper;
+        @extend %mda-select--wrapper;
         &:after {
           right: 0;
         }
         & > SELECT.mda-select {
-          width: var(--mda-select-filter-width);
-          min-width: var(--mda-select-filter-width);
           border: none;
           border-radius: 0;
           background-color: transparent;

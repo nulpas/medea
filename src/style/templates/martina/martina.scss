@@ -1,0 +1,50 @@
+@import '../../global/mixins';
+@import '../../global/fonts/Poppins';
+@import '../../global/fonts/Stratio-Icon';
+@import '../../global/components/components';
+
+@import './backroom/variables/common';
+@import './backroom/components';
+@import './backroom/font-sizes';
+@import './backroom/colors';
+
+HTML {
+  &#mda-martina-tpl, &.mda-martina-tpl {
+    font-size: $fontSizeRoot + px;
+    line-height: $fontLineHeightFactor;
+
+    * {
+      font-family: Poppins, sans-serif;
+      color: $colorSpace110;
+      outline: none;
+    }
+
+    @extend %mda-typography__base;
+
+    @include createFontDefinition($fontSizesText, $fontSizeRoot, $fontLineHeightFactor) {
+      // ###### HEADERS
+      @include createHeadersDefinition($fontSizesHeaders, $fontSizeRoot, $fontLineHeightFactor);
+
+      // ###### DEFAULT WEIGHT AND STYLE
+      .mda--bold {
+        font-weight: bold;
+      }
+      .mda--italic {
+        font-style: italic;
+      }
+
+      // ###### DEFAULT SIZE
+      .mda-font--default {
+        font-size: 1rem;
+        line-height: $fontLineHeightFactor + rem;
+      }
+    }
+
+    @include createColorsDefinition($colorsAvailable);
+    @extend %mda-icon-definition;
+    @extend %mda-global-vars;
+    @extend %mda-components;
+    @extend %mda-components-template;
+  }
+}
+

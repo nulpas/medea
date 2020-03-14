@@ -1,0 +1,195 @@
+@import '../../../../global/components/shared/common';
+@import '../colors';
+@import './sass';
+
+%mda-global-vars {
+  // ###### Color Scheme Definition
+
+  @each $key, $value in $colorsAvailable {
+    --mda-color-#{$key}: #{$value};
+    --mda-color-#{$key}-rgb: #{red($value), green($value), blue($value)};
+  }
+
+  // ###### Component Commons
+  --mda-component-width: fit-content;
+  --mda-component-vertical-spacer: 2px;
+
+  --mda-component-padding-vertical: 9px;
+  --mda-component-padding-horizontal: 10px;
+
+  --mda-component-border: 1px solid;
+  --mda-component-border-radius: 25px;
+
+  // ###### Generic Colors (HEX)
+  --mda-focus-color: var(--mda-color-action);
+  --mda-error-color: var(--mda-color-critical);
+
+  // ###### Component Colors (HEX)
+  --mda-component-border-color: var(--mda-color-space-40);
+  --mda-component-background-color: var(--mda-color-neutral-full);
+  --mda-component-hover-border-color: var(--mda-color-space-70);
+  --mda-component-hover-background-color: var(--mda-color-neutral-full);
+  --mda-component-focus-border-color: var(--mda-color-action);
+  --mda-component-focus-background-color: var(--mda-color-neutral-full);
+  --mda-component-error-border-color: var(--mda-color-critical);
+  --mda-component-error-background-color: var(--mda-color-neutral-full);
+  --mda-component-checked-border-color: var(--mda-color-action);
+  --mda-component-checked-background-color: var(--mda-color-action);
+
+  // ###### Component Colors (RGB Variations)
+  --mda-component-focus-border-color-rgb: var(--mda-color-action-rgb);
+
+  // ###### Component Generic DISABLED and variations
+  --mda-component-disabled-color: var(--mda-color-space-80);
+  --mda-component-disabled-border-color: var(--mda-color-space-40);
+  --mda-component-disabled-background-color: var(--mda-color-space-5);
+  --mda-component-disabled-cursor: not-allowed;
+
+  // ###### Component Generic PLACEHOLDER
+  --mda-component-placeholder-color: var(--mda-color-space-50);
+  --mda-component-placeholder-disabled-color: var(--mda-color-space-50);
+
+  // ###### Component ICON (icons inside components like .mda-input--search)
+  --mda-component-icon-color: var(--mda-color-space-80);
+  --mda-component-icon-disabled-color: var(--mda-color-space-50);
+
+  // ###### ICONS
+  --mda-icon-font-family: '#{$defaultIconFontFamilyMedea}', '#{$defaultIconFontFamilyEgeo}', Symbol, sans-serif;
+  --mda-icon-search: '#{$searchIcon}';
+  --mda-icon-email: '#{$emailIcon}';
+  --mda-icon-user: '#{$userIcon}';
+  --mda-icon-password: '#{$passwordIcon}';
+  --mda-icon-action-clear: '#{$actionClearIcon}';
+  --mda-icon-arrow-bottom: '#{$arrowDownIcon}';
+  --mda-icon-checkbox-checked: '#{$checkboxCheckedIcon}';
+
+  // ###### LABEL
+  --mda-label-display: table-cell;
+  --mda-label-color: var(--mda-color-space-80);
+  --mda-label-focus-color: var(--mda-color-space-110);
+  --mda-label-error-color: var(--mda-color-space-80);
+  --mda-label-disabled-color: var(--mda-color-space-80);
+
+  // ###### REPORT
+  --mda-report-color: var(--mda-color-space-80);
+
+  // ###### Generic SELECTION elements (like radio or checkbox)
+  --mda-selection-option-spacer: 20px;
+  --mda-selection-icon-spacer: 4px;
+  --mda-selection-icon-size: 16px;
+
+  --mda-selection-disabled-tex-color: var(--mda-color-space-50);
+  --mda-selection-checked-disabled-border-color: var(--mda-color-action-40);
+  --mda-selection-checked-disabled-background-color: var(--mda-color-action-40);
+
+  --mda-selection-internal-checked-color: var(--mda-color-neutral-full);
+  --mda-selection-internal-checked-disabled-color: var(--mda-color-neutral-full);
+
+  // ###### RADIO Button
+  --mda-radio-internal-checked-size: 6px;
+
+  // ###### CHECKBOX Button
+  --mda-checkbox-internal-checked-size: 14px;
+  --mda-checkbox-indeterminate-border-color: var(--mda-color-action);
+  --mda-checkbox-indeterminate-background-color: var(--mda-color-neutral-full);
+  --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-action);
+
+  // ###### TEXTAREA
+  --mda-textarea-height: 40px;
+  --mda-textarea-resize: vertical;
+
+  // ###### BUTTON
+  --mda-button-color: var(--mda-color-neutral-full);
+  --mda-button-border-color: var(--mda-color-action);
+  --mda-button-background-color: var(--mda-color-action);
+  --mda-button-hover-color: var(--mda-color-neutral-full);
+  --mda-button-hover-border-color: var(--mda-color-action-120);
+  --mda-button-hover-background-color: var(--mda-color-action-120);
+  --mda-button-active-color: var(--mda-color-neutral-full);
+  --mda-button-active-border-color: var(--mda-color-action-150);
+  --mda-button-active-background-color: var(--mda-color-action-150);
+  --mda-button-disabled-color: var(--mda-color-action-60);
+  --mda-button-disabled-border-color: var(--mda-color-action-10);
+  --mda-button-disabled-background-color: var(--mda-color-action-10);
+  --mda-button-disabled-icon-color: var(--mda-color-neutral-full);
+
+  --mda-button-icon-size: 16px;
+  --mda-button-icon-spacer: 4px;
+
+  // ###### SWITCH
+  --mda-switch-background-color: var(--mda-color-space-30);
+  --mda-switch-color: var(--mda-color-neutral-full);
+  --mda-switch-shadow-color: var(--mda-color-neutral);
+  --mda-switch-shadow-color-rgb: var(--mda-color-neutral-rgb);
+  --mda-switch-checked-background-color: var(--mda-color-action);
+  --mda-switch-disabled-background-color: var(--mda-color-space-10);
+  --mda-switch-disabled-checked-background-color: var(--mda-color-action-40);
+
+  --mda-switch-height: 22px;
+  --mda-switch-border-radio: 25px;
+
+  // ###### TAG
+  --mda-tag-text-color: var(--mda-color-space-110);
+  --mda-tag-border-color: var(--mda-color-space-10);
+  --mda-tag-background-color: var(--mda-color-space-10);
+  --mda-tag-info-text-color: var(--mda-color-action);
+  --mda-tag-info-border-color: var(--mda-color-action-10);
+  --mda-tag-info-background-color: var(--mda-color-action-10);
+  --mda-tag-critical-text-color: var(--mda-color-critical-140);
+  --mda-tag-critical-border-color: var(--mda-color-critical-10);
+  --mda-tag-critical-background-color: var(--mda-color-critical-10);
+  --mda-tag-warning-text-color: var(--mda-color-warning);
+  --mda-tag-warning-border-color: var(--mda-color-warning-10);
+  --mda-tag-warning-background-color: var(--mda-color-warning-10);
+  --mda-tag-success-text-color: var(--mda-color-success);
+  --mda-tag-success-border-color: var(--mda-color-success-10);
+  --mda-tag-success-background-color: var(--mda-color-success-10);
+
+  --mda-tag-hover-text-color: var(--mda-color-action);
+  --mda-tag-hover-border-color: var(--mda-color-action-10);
+  --mda-tag-hover-background-color: var(--mda-color-action-10);
+  --mda-tag-active-text-color: var(--mda-color-neutral-full);
+  --mda-tag-active-border-color: var(--mda-color-action);
+  --mda-tag-active-background-color: var(--mda-color-action);
+  --mda-tag-disabled-text-color: var(--mda-color-space-50);
+  --mda-tag-disabled-border-color: var(--mda-color-space-10);
+  --mda-tag-disabled-background-color: var(--mda-color-space-10);
+
+  --mda-tag-padding-horizontal: 8px;
+  --mda-tag-padding-vertical: 4px;
+
+  // ###### SPINNER
+  --mda-spinner-display: block;
+  --mda-spinner-size: 80px;
+  --mda-spinner-line-width: 3px;
+  --mda-spinner-color: var(--mda-color-action);
+
+  // ###### DROPDOWN
+  --mda-dropdown-position: absolute;
+  --mda-dropdown-width: fit-content;
+  --mda-dropdown-min-width: 150px;
+  --mda-dropdown-left: 0;
+  --mda-dropdown-top: 0;
+
+  --mda-dropdown-border: none;
+  --mda-dropdown-border-color: unset;
+  --mda-dropdown-border-radius: var(--mda-component-border-radius);
+
+  --mda-dropdown-box-shadow: 0 3px 9px 0 rgba(var(--mda-color-neutral-rgb), 0.25);
+
+  --mda-dropdown-padding: 8px 0;
+  --mda-dropdown-margin: 0;
+
+  --mda-dropdown-option-padding: 8px 16px;
+  --mda-dropdown-option-icon-size: 16px;
+  --mda-dropdown-option-icon-spacer: 8px;
+
+  --mda-dropdown-option-selected-text-color: inherit;
+  --mda-dropdown-option-selected-background-color: var(--mda-color-action-10);
+
+  --mda-dropdown-option-icon-right-size: 14px;
+
+  --mda-dropdown-separator-border: var(--mda-component-border);
+  --mda-dropdown-separator-border-color: var(--mda-color-space-20);
+  --mda-dropdown-separator-margin: 4px 0;
+}
