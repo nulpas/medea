@@ -1860,8 +1860,8 @@ HTML#medea-tpl TEXTAREA.mda-textarea:disabled, HTML.medea-tpl TEXTAREA.mda-texta
   resize: none; }
 
 HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
-  --mda-color-st-blue: #37b5e4;
-  --mda-color-st-blue-rgb: 55, 181, 228;
+  --mda-color-st-blue: #28abf8;
+  --mda-color-st-blue-rgb: 40, 171, 248;
   --mda-color-action: #0776DF;
   --mda-color-action-rgb: 7, 118, 223;
   --mda-color-action-150: #043b70;
@@ -2159,14 +2159,10 @@ HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-str
     --mda-button-background-color: var(--mda-color-neutral-full);
     --mda-button-hover-color: var(--mda-color-action-120);
     --mda-button-hover-border-color: var(--mda-color-action-120);
-    --mda-button-hover-background-color: var(--mda-color-neutral-full);
+    --mda-button-hover-background-color: var(--mda-color-space-5);
     --mda-button-active-color: var(--mda-color-action-150);
     --mda-button-active-border-color: var(--mda-color-action-150);
-    --mda-button-active-background-color: var(--mda-color-neutral-full);
-    --mda-button-disabled-color: var(--mda-color-action-60);
-    --mda-button-disabled-border-color: var(--mda-color-action-40);
-    --mda-button-disabled-background-color: var(--mda-color-neutral-full);
-    --mda-button-disabled-icon-color: var(--mda-color-action-60); }
+    --mda-button-active-background-color: var(--mda-color-space-10); }
   HTML#medea-tpl BUTTON.mda-button.mda-button--third, HTML.medea-tpl BUTTON.mda-button.mda-button--third, HTML#mda-stratio-tpl BUTTON.mda-button.mda-button--third, HTML.mda-stratio-tpl BUTTON.mda-button.mda-button--third {
     --mda-button-color: var(--mda-color-space-80);
     --mda-button-border-color: var(--mda-color-space-5);
@@ -2176,11 +2172,7 @@ HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-str
     --mda-button-hover-background-color: var(--mda-color-space-10);
     --mda-button-active-color: var(--mda-color-action-150);
     --mda-button-active-border-color: var(--mda-color-space-5);
-    --mda-button-active-background-color: var(--mda-color-space-5);
-    --mda-button-disabled-color: var(--mda-color-space-40);
-    --mda-button-disabled-border-color: var(--mda-color-space-5);
-    --mda-button-disabled-background-color: var(--mda-color-space-5);
-    --mda-button-disabled-icon-color: var(--mda-color-space-40); }
+    --mda-button-active-background-color: var(--mda-color-space-5); }
   HTML#medea-tpl BUTTON.mda-button.mda-button--critical, HTML.medea-tpl BUTTON.mda-button.mda-button--critical, HTML#mda-stratio-tpl BUTTON.mda-button.mda-button--critical, HTML.mda-stratio-tpl BUTTON.mda-button.mda-button--critical {
     --mda-button-color: var(--mda-color-neutral-full);
     --mda-button-border-color: var(--mda-color-critical);
@@ -2190,11 +2182,7 @@ HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-str
     --mda-button-hover-background-color: var(--mda-color-critical-120);
     --mda-button-active-color: var(--mda-color-neutral-full);
     --mda-button-active-border-color: var(--mda-color-critical-140);
-    --mda-button-active-background-color: var(--mda-color-critical-140);
-    --mda-button-disabled-color: var(--mda-color-space-40);
-    --mda-button-disabled-border-color: var(--mda-color-critical-10);
-    --mda-button-disabled-background-color: var(--mda-color-critical-10);
-    --mda-button-disabled-icon-color: var(--mda-color-space-40); }
+    --mda-button-active-background-color: var(--mda-color-critical-140); }
   HTML#medea-tpl BUTTON.mda-button.mda-button--icon-only, HTML.medea-tpl BUTTON.mda-button.mda-button--icon-only, HTML#mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only, HTML.mda-stratio-tpl BUTTON.mda-button.mda-button--icon-only {
     --mda-component-padding-horizontal: 11px;
     --mda-component-padding-vertical: 9px; }
@@ -2346,11 +2334,11 @@ HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
     font-size: 1rem;
     line-height: 1.4rem; }
   HTML#medea-tpl .mda-color--st-blue, HTML.medea-tpl .mda-color--st-blue, HTML#mda-stratio-tpl .mda-color--st-blue, HTML.mda-stratio-tpl .mda-color--st-blue {
-    color: #37b5e4; }
+    color: #28abf8; }
   HTML#medea-tpl .mda-color__bg--st-blue, HTML.medea-tpl .mda-color__bg--st-blue, HTML#mda-stratio-tpl .mda-color__bg--st-blue, HTML.mda-stratio-tpl .mda-color__bg--st-blue {
-    background-color: #37b5e4; }
+    background-color: #28abf8; }
   HTML#medea-tpl .mda-color__border--st-blue, HTML.medea-tpl .mda-color__border--st-blue, HTML#mda-stratio-tpl .mda-color__border--st-blue, HTML.mda-stratio-tpl .mda-color__border--st-blue {
-    border-color: #37b5e4; }
+    border-color: #28abf8; }
   HTML#medea-tpl .mda-color--action, HTML.medea-tpl .mda-color--action, HTML#mda-stratio-tpl .mda-color--action, HTML.mda-stratio-tpl .mda-color--action {
     color: #0776DF; }
   HTML#medea-tpl .mda-color__bg--action, HTML.medea-tpl .mda-color__bg--action, HTML#mda-stratio-tpl .mda-color__bg--action, HTML.mda-stratio-tpl .mda-color__bg--action {

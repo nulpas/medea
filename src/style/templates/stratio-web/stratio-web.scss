@@ -6,7 +6,7 @@
 @import './backroom/variables/common';
 @import './backroom/components';
 @import './backroom/font-sizes';
-@import './backroom/colors';
+@import '../space-blue/backroom/colors';
 
 HTML {
   &#mda-stratio-web-tpl, &.mda-stratio-web-tpl {
@@ -15,7 +15,7 @@ HTML {
 
     * {
       font-family: Manrope, sans-serif;
-      color: $colorCorporate400;
+      color: $colorSpace110;
       outline: none;
     }
 

@@ -84,7 +84,7 @@ module.exports = {
         to: path.resolve(__dirname, 'dist/sass/space-blue/_colors.scss')
       },
       {
-        from: path.resolve(__dirname, 'src/style/templates/stratio-web/backroom/exportable/_app.colors.scss'),
+        from: path.resolve(__dirname, 'src/style/templates/space-blue/backroom/exportable/_app.colors.scss'),
         to: path.resolve(__dirname, 'dist/sass/stratio-web/_colors.scss')
       }
     ])
