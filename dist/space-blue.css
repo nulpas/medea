@@ -99,7 +99,7 @@ HTML#medea-tpl .mda-icon, HTML.medea-tpl .mda-icon, HTML#mda-stratio-tpl .mda-ic
   font-family: "Stratio Icon", Symbol, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -1069,7 +1069,7 @@ HTML#medea-tpl .mda-icon, HTML.medea-tpl .mda-icon, HTML#mda-stratio-tpl .mda-ic
 
 HTML#medea-tpl .mda-icon-text:before, HTML.medea-tpl .mda-icon-text:before, HTML#mda-stratio-tpl .mda-icon-text:before, HTML.mda-stratio-tpl .mda-icon-text:before {
   vertical-align: middle;
-  font-size: calc(1em + 2px);
+  font-size: 1.142em;
   line-height: unset; }
 
 HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-stratio-tpl BUTTON.mda-button, HTML.mda-stratio-tpl BUTTON.mda-button {

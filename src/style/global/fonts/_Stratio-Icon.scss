@@ -11,7 +11,7 @@ $typesToGenerate: (eot, svg, ttf, woff, woff2);
     font-family: $iconFontFamily, Symbol, sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -33,7 +33,7 @@ $typesToGenerate: (eot, svg, ttf, woff, woff2);
   .mda-icon-text {
     &:before {
       vertical-align: middle;
-      font-size: calc(1em + 2px);
+      font-size: 1.142em;
       line-height: unset;
     }
   }

@@ -121,7 +121,7 @@ HTML#mda-ey-tpl .mda-icon, HTML.mda-ey-tpl .mda-icon, HTML#mda-ey-tpl .mda-icon-
   font-family: "Stratio Icon", Symbol, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -1091,7 +1091,7 @@ HTML#mda-ey-tpl .mda-icon, HTML.mda-ey-tpl .mda-icon, HTML#mda-ey-tpl .mda-icon-
 
 HTML#mda-ey-tpl .mda-icon-text:before, HTML.mda-ey-tpl .mda-icon-text:before {
   vertical-align: middle;
-  font-size: calc(1em + 2px);
+  font-size: 1.142em;
   line-height: unset; }
 
 HTML#mda-ey-tpl BUTTON.mda-button, HTML.mda-ey-tpl BUTTON.mda-button {

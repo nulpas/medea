@@ -8,6 +8,12 @@
   @return $string;
 }
 
+//## Function that calculates viewport percentage for size given in pixels.
+//## PARAMETERS: $pixelSize (size to calculate), $referenceViewport
+@function getRelativeSize($pixelSize, $referenceViewport) {
+  @return ($pixelSize * 100 / $referenceViewport) + vw;
+}
+
 //## Mixin for generate @font-face css rules.
 //## PARAMETERS: $typesToGenerate, font-family, font-weight, font-style, url, local, local
 @mixin createFontFaceRule($types, $name, $weight, $style, $path, $local01: '', $local02: '') {

@@ -1,4 +1,5 @@
 @import '../../../global/mixins';
+@import './variables/sass';
 
 @import './font-sizes';
 
@@ -13,7 +14,7 @@
     &.mda-input {
       @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
       &.mda-input--small {
-        --mda-component-padding-vertical: 5px;
+        --mda-component-padding-vertical: #{getRelativeSize(5, $viewportWidthReferenceInPX)};
       }
     }
   }
@@ -33,8 +34,8 @@
   TEXTAREA.mda-textarea {
     @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
     &.mda-textarea--small {
-      --mda-component-padding-vertical: 5px;
-      --mda-textarea-height: 32px;
+      --mda-component-padding-vertical: #{getRelativeSize(5, $viewportWidthReferenceInPX)};
+      --mda-textarea-height: #{getRelativeSize(32, $viewportWidthReferenceInPX)};
     }
   }
 
@@ -42,7 +43,7 @@
     &.mda-select {
       @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
       &.mda-select--small:not(.mda-select--filter) {
-        --mda-component-padding-vertical: 5px;
+        --mda-component-padding-vertical: #{getRelativeSize(5, $viewportWidthReferenceInPX)};
       }
       &.mda-select--filter {
         --mda-component-width: fit-content;
@@ -56,13 +57,13 @@
 
   BUTTON {
     &.mda-button {
-      font-size: 14px;
-      line-height: 20px;
+      font-size: #{getRelativeSize(14, $viewportWidthReferenceInPX)};
+      line-height: #{getRelativeSize(20, $viewportWidthReferenceInPX)};
 
-      --mda-component-padding-horizontal: 20px;
+      --mda-component-padding-horizontal: #{getRelativeSize(20, $viewportWidthReferenceInPX)};
       --mda-component-border-radius: var(--mda-button-border-radius);
       &.mda-button--small {
-        --mda-component-padding-vertical: 5px;
+        --mda-component-padding-vertical: #{getRelativeSize(5, $viewportWidthReferenceInPX)};
       }
       &.mda-button--secondary, &.mda-button--bob {
         --mda-button-color: var(--mda-color-action);
@@ -98,14 +99,14 @@
         --mda-button-active-background-color: var(--mda-color-critical-140);
       }
       &.mda-button--icon-only {
-        --mda-component-padding-horizontal: 11px;
-        --mda-component-padding-vertical: 9px;
+        --mda-component-padding-horizontal: #{getRelativeSize(11, $viewportWidthReferenceInPX)};
+        --mda-component-padding-vertical: #{getRelativeSize(9, $viewportWidthReferenceInPX)};
         I.mda-icon {
-          margin: 2px 0;
+          margin: #{getRelativeSize(2, $viewportWidthReferenceInPX)} 0;
         }
         &.mda-button--small {
-          --mda-component-padding-horizontal: 7px;
-          --mda-component-padding-vertical: 7px;
+          --mda-component-padding-horizontal: #{getRelativeSize(7, $viewportWidthReferenceInPX)};
+          --mda-component-padding-vertical: #{getRelativeSize(7, $viewportWidthReferenceInPX)};
           I.mda-icon {
             margin: 0;
           }
@@ -119,20 +120,20 @@
       @include defineFontSizeElement(14, $fontSizeRoot, $fontLineHeightFactor);
       I.mda-icon {
         font-size: inherit;
-        line-height: 14px;
+        line-height: #{getRelativeSize(14, $viewportWidthReferenceInPX)};
       }
       &.mda-tag--medium {
         @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
-        --mda-tag-padding-vertical: 4px;
+        --mda-tag-padding-vertical: #{getRelativeSize(4, $viewportWidthReferenceInPX)};
         I.mda-icon {
-          line-height: 12px;
+          line-height: #{getRelativeSize(12, $viewportWidthReferenceInPX)};
         }
       }
       &.mda-tag--small {
         @include defineFontSizeElement(12, $fontSizeRoot, $fontLineHeightFactor);
-        --mda-tag-padding-vertical: 2px;
+        --mda-tag-padding-vertical: #{getRelativeSize(2, $viewportWidthReferenceInPX)};
         I.mda-icon {
-          line-height: 12px;
+          line-height: #{getRelativeSize(12, $viewportWidthReferenceInPX)};
         }
       }
       &.mda-tag--info {
@@ -166,15 +167,15 @@
       --mda-spinner-display: inherit;
     }
     &.mda-spinner--12 {
-      --mda-spinner-size: 12px;
+      --mda-spinner-size: #{getRelativeSize(12, $viewportWidthReferenceInPX)};
       --mda-spinner-line-width: 7px;
     }
     &.mda-spinner--16 {
-      --mda-spinner-size: 16px;
+      --mda-spinner-size: #{getRelativeSize(16, $viewportWidthReferenceInPX)};
       --mda-spinner-line-width: 6px;
     }
     &.mda-spinner--20 {
-      --mda-spinner-size: 20px;
+      --mda-spinner-size: #{getRelativeSize(20, $viewportWidthReferenceInPX)};
       --mda-spinner-line-width: 5px;
     }
     &.mda-spinner--inverse {

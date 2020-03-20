@@ -4,13 +4,14 @@
 @import '../../global/components/components';
 
 @import './backroom/variables/common';
+@import './backroom/variables/sass';
 @import './backroom/components';
 @import './backroom/font-sizes';
 @import '../space-blue/backroom/colors';
 
 HTML {
   &#mda-stratio-web-tpl, &.mda-stratio-web-tpl {
-    font-size: $fontSizeRoot + px;
+    font-size: getRelativeSize($fontSizeRoot, $viewportWidthReferenceInPX);
     line-height: $fontLineHeightFactor;
 
     * {
