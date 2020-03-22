@@ -101,7 +101,7 @@
     $i: index($fonSizeHeaders, $key);
     H#{$i} {
       font-size: $key + rem;
-      line-height: ($key * $fontLineHeightFactor) + rem;
+      line-height: $fontLineHeightFactor;
     }
   }
   @content;

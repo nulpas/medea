@@ -2310,22 +2310,22 @@ HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
     line-height: 1.4; }
   HTML#medea-tpl H1, HTML.medea-tpl H1, HTML#mda-stratio-tpl H1, HTML.mda-stratio-tpl H1 {
     font-size: 2rem;
-    line-height: 2.8rem; }
+    line-height: 1.4; }
   HTML#medea-tpl H2, HTML.medea-tpl H2, HTML#mda-stratio-tpl H2, HTML.mda-stratio-tpl H2 {
     font-size: 1.5rem;
-    line-height: 2.1rem; }
+    line-height: 1.4; }
   HTML#medea-tpl H3, HTML.medea-tpl H3, HTML#mda-stratio-tpl H3, HTML.mda-stratio-tpl H3 {
     font-size: 1.14286rem;
-    line-height: 1.6rem; }
+    line-height: 1.4; }
   HTML#medea-tpl H4, HTML.medea-tpl H4, HTML#mda-stratio-tpl H4, HTML.mda-stratio-tpl H4 {
     font-size: 1rem;
-    line-height: 1.4rem; }
+    line-height: 1.4; }
   HTML#medea-tpl H5, HTML.medea-tpl H5, HTML#mda-stratio-tpl H5, HTML.mda-stratio-tpl H5 {
     font-size: 0.85714rem;
-    line-height: 1.2rem; }
+    line-height: 1.4; }
   HTML#medea-tpl H6, HTML.medea-tpl H6, HTML#mda-stratio-tpl H6, HTML.mda-stratio-tpl H6 {
     font-size: 0.78571rem;
-    line-height: 1.1rem; }
+    line-height: 1.4; }
   HTML#medea-tpl .mda--bold, HTML.medea-tpl .mda--bold, HTML#mda-stratio-tpl .mda--bold, HTML.mda-stratio-tpl .mda--bold {
     font-weight: bold; }
   HTML#medea-tpl .mda--italic, HTML.medea-tpl .mda--italic, HTML#mda-stratio-tpl .mda--italic, HTML.mda-stratio-tpl .mda--italic {

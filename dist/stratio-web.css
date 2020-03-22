@@ -2300,23 +2300,23 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
     font-size: 6.125rem;
     line-height: 1.3; }
   HTML#mda-stratio-web-tpl H1, HTML.mda-stratio-web-tpl H1 {
-    font-size: 3.5rem;
-    line-height: 4.55rem; }
+    font-size: 3rem;
+    line-height: 1.3; }
   HTML#mda-stratio-web-tpl H2, HTML.mda-stratio-web-tpl H2 {
-    font-size: 2.375rem;
-    line-height: 3.0875rem; }
+    font-size: 2rem;
+    line-height: 1.3; }
   HTML#mda-stratio-web-tpl H3, HTML.mda-stratio-web-tpl H3 {
     font-size: 1.75rem;
-    line-height: 2.275rem; }
+    line-height: 1.3; }
   HTML#mda-stratio-web-tpl H4, HTML.mda-stratio-web-tpl H4 {
     font-size: 1.5rem;
-    line-height: 1.95rem; }
+    line-height: 1.3; }
   HTML#mda-stratio-web-tpl H5, HTML.mda-stratio-web-tpl H5 {
     font-size: 1.125rem;
-    line-height: 1.4625rem; }
+    line-height: 1.3; }
   HTML#mda-stratio-web-tpl H6, HTML.mda-stratio-web-tpl H6 {
     font-size: 1rem;
-    line-height: 1.3rem; }
+    line-height: 1.3; }
   HTML#mda-stratio-web-tpl .mda--bold, HTML.mda-stratio-web-tpl .mda--bold {
     font-weight: bold; }
   HTML#mda-stratio-web-tpl .mda-font--default, HTML.mda-stratio-web-tpl .mda-font--default {
