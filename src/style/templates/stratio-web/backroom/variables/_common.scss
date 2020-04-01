@@ -1,6 +1,7 @@
 @import '../../../../global/mixins';
 @import '../../../../global/components/shared/common';
 @import '../../../space-blue/backroom/colors';
+@import '../../../stratio-web/backroom/font-sizes';
 @import './sass';
 
 %mda-global-vars {
@@ -13,13 +14,13 @@
 
   // ###### Component Commons
   --mda-component-width: fit-content;
-  --mda-component-vertical-spacer: #{getRelativeSize(2, $viewportWidthReferenceInPX)};
+  --mda-component-vertical-spacer: #{getRemRelativeSize(2, $fontSizeRoot)};
 
-  --mda-component-padding-vertical: #{getRelativeSize(9, $viewportWidthReferenceInPX)};
-  --mda-component-padding-horizontal: #{getRelativeSize(10, $viewportWidthReferenceInPX)};
+  --mda-component-padding-vertical: #{getRemRelativeSize(9, $fontSizeRoot)};
+  --mda-component-padding-horizontal: #{getRemRelativeSize(10, $fontSizeRoot)};
 
-  --mda-component-border: #{getRelativeSize(1, $viewportWidthReferenceInPX)} solid;
-  --mda-component-border-radius: #{getRelativeSize(4, $viewportWidthReferenceInPX)};
+  --mda-component-border: #{getRemRelativeSize(1, $fontSizeRoot)} solid;
+  --mda-component-border-radius: #{getRemRelativeSize(4, $fontSizeRoot)};
 
   // ###### Generic Colors (HEX)
   --mda-focus-color: var(--mda-color-action);
@@ -75,9 +76,9 @@
   --mda-report-color: var(--mda-color-space-80);
 
   // ###### Generic SELECTION elements (like radio or checkbox)
-  --mda-selection-option-spacer: #{getRelativeSize(20, $viewportWidthReferenceInPX)};
-  --mda-selection-icon-spacer: #{getRelativeSize(4, $viewportWidthReferenceInPX)};
-  --mda-selection-icon-size: #{getRelativeSize(16, $viewportWidthReferenceInPX)};
+  --mda-selection-option-spacer: #{getRemRelativeSize(20, $fontSizeRoot)};
+  --mda-selection-icon-spacer: #{getRemRelativeSize(4, $fontSizeRoot)};
+  --mda-selection-icon-size: #{getRemRelativeSize(16, $fontSizeRoot)};
 
   --mda-selection-disabled-tex-color: var(--mda-color-space-50);
   --mda-selection-checked-disabled-border-color: var(--mda-color-action-40);
@@ -87,20 +88,20 @@
   --mda-selection-internal-checked-disabled-color: var(--mda-color-neutral-full);
 
   // ###### RADIO Button
-  --mda-radio-internal-checked-size: #{getRelativeSize(6, $viewportWidthReferenceInPX)};
+  --mda-radio-internal-checked-size: #{getRemRelativeSize(6, $fontSizeRoot)};
 
   // ###### CHECKBOX Button
-  --mda-checkbox-internal-checked-size: #{getRelativeSize(14, $viewportWidthReferenceInPX)};
+  --mda-checkbox-internal-checked-size: #{getRemRelativeSize(14, $fontSizeRoot)};
   --mda-checkbox-indeterminate-border-color: var(--mda-color-action);
   --mda-checkbox-indeterminate-background-color: var(--mda-color-neutral-full);
   --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-action);
 
   // ###### TEXTAREA
-  --mda-textarea-height: #{getRelativeSize(40, $viewportWidthReferenceInPX)};
+  --mda-textarea-height: #{getRemRelativeSize(40, $fontSizeRoot)};
   --mda-textarea-resize: vertical;
 
   // ###### BUTTON
-  --mda-button-border-radius: #{getRelativeSize(20, $viewportWidthReferenceInPX)};
+  --mda-button-border-radius: #{getRemRelativeSize(20, $fontSizeRoot)};
 
   --mda-button-color: var(--mda-color-neutral-full);
   --mda-button-border-color: var(--mda-color-action);
@@ -116,8 +117,8 @@
   --mda-button-disabled-background-color: var(--mda-color-space-10);
   --mda-button-disabled-icon-color: var(--mda-color-space-30);
 
-  --mda-button-icon-size: #{getRelativeSize(16, $viewportWidthReferenceInPX)};
-  --mda-button-icon-spacer: #{getRelativeSize(16, $viewportWidthReferenceInPX)};
+  --mda-button-icon-size: #{getRemRelativeSize(16, $fontSizeRoot)};
+  --mda-button-icon-spacer: #{getRemRelativeSize(16, $fontSizeRoot)};
 
   // ###### SWITCH
   --mda-switch-background-color: var(--mda-color-space-30);
@@ -128,8 +129,8 @@
   --mda-switch-disabled-background-color: var(--mda-color-space-10);
   --mda-switch-disabled-checked-background-color: var(--mda-color-action-40);
 
-  --mda-switch-height: #{getRelativeSize(22, $viewportWidthReferenceInPX)};
-  --mda-switch-border-radio: #{getRelativeSize(25, $viewportWidthReferenceInPX)};
+  --mda-switch-height: #{getRemRelativeSize(22, $fontSizeRoot)};
+  --mda-switch-border-radio: #{getRemRelativeSize(25, $fontSizeRoot)};
 
   // ###### TAG
   --mda-tag-text-color: var(--mda-color-space-110);
@@ -158,19 +159,19 @@
   --mda-tag-disabled-border-color: var(--mda-color-space-10);
   --mda-tag-disabled-background-color: var(--mda-color-space-10);
 
-  --mda-tag-padding-horizontal: #{getRelativeSize(8, $viewportWidthReferenceInPX)};
-  --mda-tag-padding-vertical: #{getRelativeSize(4, $viewportWidthReferenceInPX)};
+  --mda-tag-padding-horizontal: #{getRemRelativeSize(8, $fontSizeRoot)};
+  --mda-tag-padding-vertical: #{getRemRelativeSize(4, $fontSizeRoot)};
 
   // ###### SPINNER
   --mda-spinner-display: block;
-  --mda-spinner-size: #{getRelativeSize(80, $viewportWidthReferenceInPX)};
-  --mda-spinner-line-width: #{getRelativeSize(3, $viewportWidthReferenceInPX)};
+  --mda-spinner-size: #{getRemRelativeSize(80, $fontSizeRoot)};
+  --mda-spinner-line-width: #{getRemRelativeSize(3, $fontSizeRoot)};
   --mda-spinner-color: var(--mda-color-action);
 
   // ###### DROPDOWN
   --mda-dropdown-position: absolute;
   --mda-dropdown-width: fit-content;
-  --mda-dropdown-min-width: #{getRelativeSize(150, $viewportWidthReferenceInPX)};
+  --mda-dropdown-min-width: #{getRemRelativeSize(150, $fontSizeRoot)};
   --mda-dropdown-left: 0;
   --mda-dropdown-top: 0;
 
@@ -178,21 +179,21 @@
   --mda-dropdown-border-color: unset;
   --mda-dropdown-border-radius: var(--mda-component-border-radius);
 
-  --mda-dropdown-box-shadow: 0 #{getRelativeSize(3, $viewportWidthReferenceInPX)} #{getRelativeSize(9, $viewportWidthReferenceInPX)} 0 rgba(var(--mda-color-neutral-rgb), 0.25);
+  --mda-dropdown-box-shadow: 0 #{getRemRelativeSize(3, $fontSizeRoot)} #{getRemRelativeSize(9, $fontSizeRoot)} 0 rgba(var(--mda-color-neutral-rgb), 0.25);
 
-  --mda-dropdown-padding: #{getRelativeSize(8, $viewportWidthReferenceInPX)} 0;
+  --mda-dropdown-padding: #{getRemRelativeSize(8, $fontSizeRoot)} 0;
   --mda-dropdown-margin: 0;
 
-  --mda-dropdown-option-padding: #{getRelativeSize(8, $viewportWidthReferenceInPX)} #{getRelativeSize(16, $viewportWidthReferenceInPX)};
-  --mda-dropdown-option-icon-size: #{getRelativeSize(16, $viewportWidthReferenceInPX)};
-  --mda-dropdown-option-icon-spacer: #{getRelativeSize(8, $viewportWidthReferenceInPX)};
+  --mda-dropdown-option-padding: #{getRemRelativeSize(8, $fontSizeRoot)} #{getRemRelativeSize(16, $fontSizeRoot)};
+  --mda-dropdown-option-icon-size: #{getRemRelativeSize(16, $fontSizeRoot)};
+  --mda-dropdown-option-icon-spacer: #{getRemRelativeSize(8, $fontSizeRoot)};
 
   --mda-dropdown-option-selected-text-color: inherit;
   --mda-dropdown-option-selected-background-color: var(--mda-color-action-10);
 
-  --mda-dropdown-option-icon-right-size: #{getRelativeSize(14, $viewportWidthReferenceInPX)};
+  --mda-dropdown-option-icon-right-size: #{getRemRelativeSize(14, $fontSizeRoot)};
 
   --mda-dropdown-separator-border: var(--mda-component-border);
   --mda-dropdown-separator-border-color: var(--mda-color-space-20);
-  --mda-dropdown-separator-margin: #{getRelativeSize(4, $viewportWidthReferenceInPX)} 0;
+  --mda-dropdown-separator-margin: #{getRemRelativeSize(4, $fontSizeRoot)} 0;
 }

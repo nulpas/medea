@@ -14,6 +14,12 @@
   @return ($pixelSize * 100 / $referenceViewport) + vw;
 }
 
+//## Function that calculates font size root proportional for size given in pixels.
+//## PARAMETERS: $pixelSize (size to calculate), $fontSizeRoot
+@function getRemRelativeSize($pixelSize, $fontSizeRoot) {
+  @return ($pixelSize / $fontSizeRoot) + rem;
+}
+
 //## Mixin for generate @font-face css rules.
 //## PARAMETERS: $typesToGenerate, font-family, font-weight, font-style, url, local, local
 @mixin createFontFaceRule($types, $name, $weight, $style, $path, $local01: '', $local02: '') {

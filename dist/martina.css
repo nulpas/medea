@@ -1092,7 +1092,8 @@ HTML#mda-martina-tpl .mda-icon, HTML.mda-martina-tpl .mda-icon, HTML#mda-martina
 HTML#mda-martina-tpl .mda-icon-text:before, HTML.mda-martina-tpl .mda-icon-text:before {
   vertical-align: middle;
   font-size: 1.142em;
-  line-height: unset; }
+  line-height: unset;
+  margin-right: 0.35em; }
 
 HTML#mda-martina-tpl BUTTON.mda-button, HTML.mda-martina-tpl BUTTON.mda-button {
   position: relative;

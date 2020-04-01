@@ -1059,7 +1059,8 @@ HTML#mda-stratio-web-tpl .mda-icon, HTML.mda-stratio-web-tpl .mda-icon, HTML#mda
 HTML#mda-stratio-web-tpl .mda-icon-text:before, HTML.mda-stratio-web-tpl .mda-icon-text:before {
   vertical-align: middle;
   font-size: 1.142em;
-  line-height: unset; }
+  line-height: unset;
+  margin-right: 0.35em; }
 
 HTML#mda-stratio-web-tpl BUTTON.mda-button, HTML.mda-stratio-web-tpl BUTTON.mda-button {
   position: relative;
@@ -1970,11 +1971,11 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-color-misc-viking-30: #d6e8f6;
   --mda-color-misc-viking-30-rgb: 214, 232, 246;
   --mda-component-width: fit-content;
-  --mda-component-vertical-spacer: 0.13889vw;
-  --mda-component-padding-vertical: 0.625vw;
-  --mda-component-padding-horizontal: 0.69444vw;
-  --mda-component-border: 0.06944vw solid;
-  --mda-component-border-radius: 0.27778vw;
+  --mda-component-vertical-spacer: 0.125rem;
+  --mda-component-padding-vertical: 0.5625rem;
+  --mda-component-padding-horizontal: 0.625rem;
+  --mda-component-border: 0.0625rem solid;
+  --mda-component-border-radius: 0.25rem;
   --mda-focus-color: var(--mda-color-action);
   --mda-error-color: var(--mda-color-critical);
   --mda-component-border-color: var(--mda-color-space-40);
@@ -2010,22 +2011,22 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-label-error-color: var(--mda-color-space-80);
   --mda-label-disabled-color: var(--mda-color-space-80);
   --mda-report-color: var(--mda-color-space-80);
-  --mda-selection-option-spacer: 1.38889vw;
-  --mda-selection-icon-spacer: 0.27778vw;
-  --mda-selection-icon-size: 1.11111vw;
+  --mda-selection-option-spacer: 1.25rem;
+  --mda-selection-icon-spacer: 0.25rem;
+  --mda-selection-icon-size: 1rem;
   --mda-selection-disabled-tex-color: var(--mda-color-space-50);
   --mda-selection-checked-disabled-border-color: var(--mda-color-action-40);
   --mda-selection-checked-disabled-background-color: var(--mda-color-action-40);
   --mda-selection-internal-checked-color: var(--mda-color-neutral-full);
   --mda-selection-internal-checked-disabled-color: var(--mda-color-neutral-full);
-  --mda-radio-internal-checked-size: 0.41667vw;
-  --mda-checkbox-internal-checked-size: 0.97222vw;
+  --mda-radio-internal-checked-size: 0.375rem;
+  --mda-checkbox-internal-checked-size: 0.875rem;
   --mda-checkbox-indeterminate-border-color: var(--mda-color-action);
   --mda-checkbox-indeterminate-background-color: var(--mda-color-neutral-full);
   --mda-checkbox-internal-indeterminate-background-color: var(--mda-color-action);
-  --mda-textarea-height: 2.77778vw;
+  --mda-textarea-height: 2.5rem;
   --mda-textarea-resize: vertical;
-  --mda-button-border-radius: 1.38889vw;
+  --mda-button-border-radius: 1.25rem;
   --mda-button-color: var(--mda-color-neutral-full);
   --mda-button-border-color: var(--mda-color-action);
   --mda-button-background-color: var(--mda-color-action);
@@ -2039,8 +2040,8 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-button-disabled-border-color: var(--mda-color-space-10);
   --mda-button-disabled-background-color: var(--mda-color-space-10);
   --mda-button-disabled-icon-color: var(--mda-color-space-30);
-  --mda-button-icon-size: 1.11111vw;
-  --mda-button-icon-spacer: 1.11111vw;
+  --mda-button-icon-size: 1rem;
+  --mda-button-icon-spacer: 1rem;
   --mda-switch-background-color: var(--mda-color-space-30);
   --mda-switch-color: var(--mda-color-neutral-full);
   --mda-switch-shadow-color: var(--mda-color-neutral);
@@ -2048,8 +2049,8 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-switch-checked-background-color: var(--mda-color-action);
   --mda-switch-disabled-background-color: var(--mda-color-space-10);
   --mda-switch-disabled-checked-background-color: var(--mda-color-action-40);
-  --mda-switch-height: 1.52778vw;
-  --mda-switch-border-radio: 1.73611vw;
+  --mda-switch-height: 1.375rem;
+  --mda-switch-border-radio: 1.5625rem;
   --mda-tag-text-color: var(--mda-color-space-110);
   --mda-tag-border-color: var(--mda-color-space-10);
   --mda-tag-background-color: var(--mda-color-space-10);
@@ -2074,32 +2075,32 @@ HTML#mda-stratio-web-tpl, HTML.mda-stratio-web-tpl {
   --mda-tag-disabled-text-color: var(--mda-color-space-50);
   --mda-tag-disabled-border-color: var(--mda-color-space-10);
   --mda-tag-disabled-background-color: var(--mda-color-space-10);
-  --mda-tag-padding-horizontal: 0.55556vw;
-  --mda-tag-padding-vertical: 0.27778vw;
+  --mda-tag-padding-horizontal: 0.5rem;
+  --mda-tag-padding-vertical: 0.25rem;
   --mda-spinner-display: block;
-  --mda-spinner-size: 5.55556vw;
-  --mda-spinner-line-width: 0.20833vw;
+  --mda-spinner-size: 5rem;
+  --mda-spinner-line-width: 0.1875rem;
   --mda-spinner-color: var(--mda-color-action);
   --mda-dropdown-position: absolute;
   --mda-dropdown-width: fit-content;
-  --mda-dropdown-min-width: 10.41667vw;
+  --mda-dropdown-min-width: 9.375rem;
   --mda-dropdown-left: 0;
   --mda-dropdown-top: 0;
   --mda-dropdown-border: none;
   --mda-dropdown-border-color: unset;
   --mda-dropdown-border-radius: var(--mda-component-border-radius);
-  --mda-dropdown-box-shadow: 0 0.20833vw 0.625vw 0 rgba(var(--mda-color-neutral-rgb), 0.25);
-  --mda-dropdown-padding: 0.55556vw 0;
+  --mda-dropdown-box-shadow: 0 0.1875rem 0.5625rem 0 rgba(var(--mda-color-neutral-rgb), 0.25);
+  --mda-dropdown-padding: 0.5rem 0;
   --mda-dropdown-margin: 0;
-  --mda-dropdown-option-padding: 0.55556vw 1.11111vw;
-  --mda-dropdown-option-icon-size: 1.11111vw;
-  --mda-dropdown-option-icon-spacer: 0.55556vw;
+  --mda-dropdown-option-padding: 0.5rem 1rem;
+  --mda-dropdown-option-icon-size: 1rem;
+  --mda-dropdown-option-icon-spacer: 0.5rem;
   --mda-dropdown-option-selected-text-color: inherit;
   --mda-dropdown-option-selected-background-color: var(--mda-color-action-10);
-  --mda-dropdown-option-icon-right-size: 0.97222vw;
+  --mda-dropdown-option-icon-right-size: 0.875rem;
   --mda-dropdown-separator-border: var(--mda-component-border);
   --mda-dropdown-separator-border-color: var(--mda-color-space-20);
-  --mda-dropdown-separator-margin: 0.27778vw 0; }
+  --mda-dropdown-separator-margin: 0.25rem 0; }
 
 HTML#mda-stratio-web-tpl LABEL.mda-label, HTML.mda-stratio-web-tpl LABEL.mda-label, HTML#mda-stratio-web-tpl LABEL.mda-label.mda-label--small, HTML.mda-stratio-web-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.75rem;
@@ -2109,7 +2110,7 @@ HTML#mda-stratio-web-tpl INPUT.mda-input, HTML.mda-stratio-web-tpl INPUT.mda-inp
   font-size: 0.875rem;
   line-height: 1.3; }
   HTML#mda-stratio-web-tpl INPUT.mda-input.mda-input--small, HTML.mda-stratio-web-tpl INPUT.mda-input.mda-input--small, HTML#mda-stratio-web-tpl SPAN.mda-input.mda-input--small, HTML.mda-stratio-web-tpl SPAN.mda-input.mda-input--small, HTML#mda-stratio-web-tpl DIV.mda-input.mda-input--small, HTML.mda-stratio-web-tpl DIV.mda-input.mda-input--small {
-    --mda-component-padding-vertical: 0.34722vw; }
+    --mda-component-padding-vertical: 0.3125rem; }
 
 HTML#mda-stratio-web-tpl INPUT[type=radio] + LABEL, HTML.mda-stratio-web-tpl INPUT[type=radio] + LABEL, HTML#mda-stratio-web-tpl INPUT[type=checkbox] + LABEL, HTML.mda-stratio-web-tpl INPUT[type=checkbox] + LABEL {
   font-size: 0.875rem;
@@ -2123,14 +2124,14 @@ HTML#mda-stratio-web-tpl TEXTAREA.mda-textarea, HTML.mda-stratio-web-tpl TEXTARE
   font-size: 0.875rem;
   line-height: 1.3; }
   HTML#mda-stratio-web-tpl TEXTAREA.mda-textarea.mda-textarea--small, HTML.mda-stratio-web-tpl TEXTAREA.mda-textarea.mda-textarea--small {
-    --mda-component-padding-vertical: 0.34722vw;
-    --mda-textarea-height: 2.22222vw; }
+    --mda-component-padding-vertical: 0.3125rem;
+    --mda-textarea-height: 2rem; }
 
 HTML#mda-stratio-web-tpl SELECT.mda-select, HTML.mda-stratio-web-tpl SELECT.mda-select, HTML#mda-stratio-web-tpl SPAN.mda-select, HTML.mda-stratio-web-tpl SPAN.mda-select, HTML#mda-stratio-web-tpl DIV.mda-select, HTML.mda-stratio-web-tpl DIV.mda-select {
   font-size: 0.875rem;
   line-height: 1.3; }
   HTML#mda-stratio-web-tpl SELECT.mda-select.mda-select--small:not(.mda-select--filter), HTML.mda-stratio-web-tpl SELECT.mda-select.mda-select--small:not(.mda-select--filter), HTML#mda-stratio-web-tpl SPAN.mda-select.mda-select--small:not(.mda-select--filter), HTML.mda-stratio-web-tpl SPAN.mda-select.mda-select--small:not(.mda-select--filter), HTML#mda-stratio-web-tpl DIV.mda-select.mda-select--small:not(.mda-select--filter), HTML.mda-stratio-web-tpl DIV.mda-select.mda-select--small:not(.mda-select--filter) {
-    --mda-component-padding-vertical: 0.34722vw; }
+    --mda-component-padding-vertical: 0.3125rem; }
   HTML#mda-stratio-web-tpl SELECT.mda-select.mda-select--filter, HTML.mda-stratio-web-tpl SELECT.mda-select.mda-select--filter, HTML#mda-stratio-web-tpl SPAN.mda-select.mda-select--filter, HTML.mda-stratio-web-tpl SPAN.mda-select.mda-select--filter, HTML#mda-stratio-web-tpl DIV.mda-select.mda-select--filter, HTML.mda-stratio-web-tpl DIV.mda-select.mda-select--filter {
     --mda-component-width: fit-content;
     --mda-component-padding-vertical: 0; }
@@ -2138,12 +2139,12 @@ HTML#mda-stratio-web-tpl SELECT.mda-select, HTML.mda-stratio-web-tpl SELECT.mda-
     color: var(--mda-component-placeholder-color); }
 
 HTML#mda-stratio-web-tpl BUTTON.mda-button, HTML.mda-stratio-web-tpl BUTTON.mda-button {
-  font-size: 0.97222vw;
-  line-height: 1.38889vw;
-  --mda-component-padding-horizontal: 1.38889vw;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --mda-component-padding-horizontal: 1.25rem;
   --mda-component-border-radius: var(--mda-button-border-radius); }
   HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--small, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--small {
-    --mda-component-padding-vertical: 0.34722vw; }
+    --mda-component-padding-vertical: 0.3125rem; }
   HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--secondary, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--secondary, HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--bob, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--bob {
     --mda-button-color: var(--mda-color-action);
     --mda-button-border-color: var(--mda-color-action);
@@ -2175,13 +2176,13 @@ HTML#mda-stratio-web-tpl BUTTON.mda-button, HTML.mda-stratio-web-tpl BUTTON.mda-
     --mda-button-active-border-color: var(--mda-color-critical-140);
     --mda-button-active-background-color: var(--mda-color-critical-140); }
   HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only {
-    --mda-component-padding-horizontal: 0.76389vw;
-    --mda-component-padding-vertical: 0.625vw; }
+    --mda-component-padding-horizontal: 0.6875rem;
+    --mda-component-padding-vertical: 0.5625rem; }
     HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only I.mda-icon {
-      margin: 0.13889vw 0; }
+      margin: 0.125rem 0; }
     HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small {
-      --mda-component-padding-horizontal: 0.48611vw;
-      --mda-component-padding-vertical: 0.48611vw; }
+      --mda-component-padding-horizontal: 0.4375rem;
+      --mda-component-padding-vertical: 0.4375rem; }
       HTML#mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button.mda-button--icon-only.mda-button--small I.mda-icon {
         margin: 0; }
 
@@ -2190,19 +2191,19 @@ HTML#mda-stratio-web-tpl SPAN.mda-tag, HTML.mda-stratio-web-tpl SPAN.mda-tag, HT
   line-height: 1.3; }
   HTML#mda-stratio-web-tpl SPAN.mda-tag I.mda-icon, HTML.mda-stratio-web-tpl SPAN.mda-tag I.mda-icon, HTML#mda-stratio-web-tpl DIV.mda-tag I.mda-icon, HTML.mda-stratio-web-tpl DIV.mda-tag I.mda-icon {
     font-size: inherit;
-    line-height: 0.97222vw; }
+    line-height: 0.875rem; }
   HTML#mda-stratio-web-tpl SPAN.mda-tag.mda-tag--medium, HTML.mda-stratio-web-tpl SPAN.mda-tag.mda-tag--medium, HTML#mda-stratio-web-tpl DIV.mda-tag.mda-tag--medium, HTML.mda-stratio-web-tpl DIV.mda-tag.mda-tag--medium {
     font-size: 0.75rem;
     line-height: 1.3;
-    --mda-tag-padding-vertical: 0.27778vw; }
+    --mda-tag-padding-vertical: 0.25rem; }
     HTML#mda-stratio-web-tpl SPAN.mda-tag.mda-tag--medium I.mda-icon, HTML.mda-stratio-web-tpl SPAN.mda-tag.mda-tag--medium I.mda-icon, HTML#mda-stratio-web-tpl DIV.mda-tag.mda-tag--medium I.mda-icon, HTML.mda-stratio-web-tpl DIV.mda-tag.mda-tag--medium I.mda-icon {
-      line-height: 0.83333vw; }
+      line-height: 0.75rem; }
   HTML#mda-stratio-web-tpl SPAN.mda-tag.mda-tag--small, HTML.mda-stratio-web-tpl SPAN.mda-tag.mda-tag--small, HTML#mda-stratio-web-tpl DIV.mda-tag.mda-tag--small, HTML.mda-stratio-web-tpl DIV.mda-tag.mda-tag--small {
     font-size: 0.75rem;
     line-height: 1.3;
-    --mda-tag-padding-vertical: 0.13889vw; }
+    --mda-tag-padding-vertical: 0.125rem; }
     HTML#mda-stratio-web-tpl SPAN.mda-tag.mda-tag--small I.mda-icon, HTML.mda-stratio-web-tpl SPAN.mda-tag.mda-tag--small I.mda-icon, HTML#mda-stratio-web-tpl DIV.mda-tag.mda-tag--small I.mda-icon, HTML.mda-stratio-web-tpl DIV.mda-tag.mda-tag--small I.mda-icon {
-      line-height: 0.83333vw; }
+      line-height: 0.75rem; }
   HTML#mda-stratio-web-tpl SPAN.mda-tag.mda-tag--info, HTML.mda-stratio-web-tpl SPAN.mda-tag.mda-tag--info, HTML#mda-stratio-web-tpl DIV.mda-tag.mda-tag--info, HTML.mda-stratio-web-tpl DIV.mda-tag.mda-tag--info {
     color: var(--mda-tag-info-text-color);
     border-color: var(--mda-tag-info-border-color);
@@ -2227,15 +2228,15 @@ HTML#mda-stratio-web-tpl .mda-spinner.mda-spinner--inherit, HTML.mda-stratio-web
   --mda-spinner-display: inherit; }
 
 HTML#mda-stratio-web-tpl .mda-spinner.mda-spinner--12, HTML.mda-stratio-web-tpl .mda-spinner.mda-spinner--12 {
-  --mda-spinner-size: 0.83333vw;
+  --mda-spinner-size: 0.75rem;
   --mda-spinner-line-width: 7px; }
 
 HTML#mda-stratio-web-tpl .mda-spinner.mda-spinner--16, HTML.mda-stratio-web-tpl .mda-spinner.mda-spinner--16 {
-  --mda-spinner-size: 1.11111vw;
+  --mda-spinner-size: 1rem;
   --mda-spinner-line-width: 6px; }
 
 HTML#mda-stratio-web-tpl .mda-spinner.mda-spinner--20, HTML.mda-stratio-web-tpl .mda-spinner.mda-spinner--20 {
-  --mda-spinner-size: 1.38889vw;
+  --mda-spinner-size: 1.25rem;
   --mda-spinner-line-width: 5px; }
 
 HTML#mda-stratio-web-tpl .mda-spinner.mda-spinner--inverse, HTML.mda-stratio-web-tpl .mda-spinner.mda-spinner--inverse {

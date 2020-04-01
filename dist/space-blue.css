@@ -1070,7 +1070,8 @@ HTML#medea-tpl .mda-icon, HTML.medea-tpl .mda-icon, HTML#mda-stratio-tpl .mda-ic
 HTML#medea-tpl .mda-icon-text:before, HTML.medea-tpl .mda-icon-text:before, HTML#mda-stratio-tpl .mda-icon-text:before, HTML.mda-stratio-tpl .mda-icon-text:before {
   vertical-align: middle;
   font-size: 1.142em;
-  line-height: unset; }
+  line-height: unset;
+  margin-right: 0.35em; }
 
 HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-stratio-tpl BUTTON.mda-button, HTML.mda-stratio-tpl BUTTON.mda-button {
   position: relative;
