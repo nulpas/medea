@@ -2,51 +2,60 @@
 @font-face {
   font-family: Inter;
   font-style: normal;
+  font-weight: 100;
+  src: local("Inter Thin"), local(Inter-Thin), url(fonts/Inter-Thin.ttf) format("truetype"); }
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
   font-weight: 200;
-  src: url(fonts/inter-v1-latin-200.eot);
-  src: local("Inter ExtraLight"), local(Inter-ExtraLight), url(fonts/inter-v1-latin-200.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-200.svg#Inter) format("svg"), url(fonts/inter-v1-latin-200.ttf) format("truetype"), url(fonts/inter-v1-latin-200.woff) format("woff"), url(fonts/inter-v1-latin-200.woff2) format("woff2"); }
+  src: local("Inter ExtraLight"), local(Inter-ExtraLight), url(fonts/Inter-ExtraLight.ttf) format("truetype"); }
 
 @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: 300;
-  src: url(fonts/inter-v1-latin-300.eot);
-  src: local("Inter Light"), local(Inter-Light), url(fonts/inter-v1-latin-300.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-300.svg#Inter) format("svg"), url(fonts/inter-v1-latin-300.ttf) format("truetype"), url(fonts/inter-v1-latin-300.woff) format("woff"), url(fonts/inter-v1-latin-300.woff2) format("woff2"); }
+  src: local("Inter Light"), local(Inter-Light), url(fonts/Inter-Light.ttf) format("truetype"); }
 
 @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  src: url(fonts/inter-v1-latin-regular.eot);
-  src: local("Inter Regular"), local(Inter-Regular), url(fonts/inter-v1-latin-regular.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-regular.svg#Inter) format("svg"), url(fonts/inter-v1-latin-regular.ttf) format("truetype"), url(fonts/inter-v1-latin-regular.woff) format("woff"), url(fonts/inter-v1-latin-regular.woff2) format("woff2"); }
+  src: local("Inter Regular"), local(Inter-Regular), url(fonts/Inter-Regular.ttf) format("truetype"); }
 
 @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  src: url(fonts/inter-v1-latin-500.eot);
-  src: local("Inter Medium"), local(Inter-Medium), url(fonts/inter-v1-latin-500.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-500.svg#Inter) format("svg"), url(fonts/inter-v1-latin-500.ttf) format("truetype"), url(fonts/inter-v1-latin-500.woff) format("woff"), url(fonts/inter-v1-latin-500.woff2) format("woff2"); }
+  src: local("Inter Medium"), local(Inter-Medium), url(fonts/Inter-Medium.ttf) format("truetype"); }
 
 @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
-  src: url(fonts/inter-v1-latin-600.eot);
-  src: local("Inter SemiBold"), local(Inter-SemiBold), url(fonts/inter-v1-latin-600.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-600.svg#Inter) format("svg"), url(fonts/inter-v1-latin-600.ttf) format("truetype"), url(fonts/inter-v1-latin-600.woff) format("woff"), url(fonts/inter-v1-latin-600.woff2) format("woff2"); }
+  src: local("Inter SemiBold"), local(Inter-SemiBold), url(fonts/Inter-SemiBold.ttf) format("truetype"); }
 
 @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
-  src: url(fonts/inter-v1-latin-700.eot);
-  src: local("Inter Bold"), local(Inter-Bold), url(fonts/inter-v1-latin-700.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-700.svg#Inter) format("svg"), url(fonts/inter-v1-latin-700.ttf) format("truetype"), url(fonts/inter-v1-latin-700.woff) format("woff"), url(fonts/inter-v1-latin-700.woff2) format("woff2"); }
+  src: local("Inter Bold"), local(Inter-Bold), url(fonts/Inter-Bold.ttf) format("truetype"); }
 
 @font-face {
   font-family: Inter;
   font-style: normal;
   font-weight: 800;
-  src: url(fonts/inter-v1-latin-800.eot);
-  src: local("Inter ExtraBold"), local(Inter-ExtraBold), url(fonts/inter-v1-latin-800.eot?#iefix) format("embedded-opentype"), url(fonts/inter-v1-latin-800.svg#Inter) format("svg"), url(fonts/inter-v1-latin-800.ttf) format("truetype"), url(fonts/inter-v1-latin-800.woff) format("woff"), url(fonts/inter-v1-latin-800.woff2) format("woff2"); }
+  src: local("Inter ExtraBold"), local(Inter-ExtraBold), url(fonts/Inter-ExtraBold.ttf) format("truetype"); }
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Inter Black"), local(Inter-Black), url(fonts/Inter-Black.ttf) format("truetype"); }
+
+HTML#mda-stratio-web-tpl .mda-font--thin, HTML.mda-stratio-web-tpl .mda-font--thin {
+  font-weight: 100;
+  font-style: normal; }
 
 HTML#mda-stratio-web-tpl .mda-font--extra-light, HTML.mda-stratio-web-tpl .mda-font--extra-light {
   font-weight: 200;
@@ -74,6 +83,10 @@ HTML#mda-stratio-web-tpl .mda-font--bold, HTML.mda-stratio-web-tpl .mda-font--bo
 
 HTML#mda-stratio-web-tpl .mda-font--extra-bold, HTML.mda-stratio-web-tpl .mda-font--extra-bold {
   font-weight: 800;
+  font-style: normal; }
+
+HTML#mda-stratio-web-tpl .mda-font--black, HTML.mda-stratio-web-tpl .mda-font--black {
+  font-weight: 900;
   font-style: normal; }
 
 /* ###### Stratio Icon Font v.1.26 ###### */
