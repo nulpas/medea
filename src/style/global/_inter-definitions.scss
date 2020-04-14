@@ -1,0 +1,53 @@
+$fontName: Inter;
+$typesToGenerate: (eot, svg, ttf, woff, woff2);
+$fontWeightsAvailable: (
+  extra-light: (
+    weight: 200,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-200',
+    local1: 'Inter ExtraLight',
+    local2: Inter-ExtraLight
+  ),
+  light: (
+    weight: 300,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-300',
+    local1: 'Inter Light',
+    local2: Inter-Light
+  ),
+  regular: (
+    weight: normal,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-regular',
+    local1: 'Inter Regular',
+    local2: Inter-Regular
+  ),
+  medium: (
+    weight: 500,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-500',
+    local1: 'Inter Medium',
+    local2: Inter-Medium
+  ),
+  semi-bold: (
+    weight: 600,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-600',
+    local1: 'Inter SemiBold',
+    local2: Inter-SemiBold
+  ),
+  bold: (
+    weight: bold,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-700',
+    local1: 'Inter Bold',
+    local2: Inter-Bold
+  ),
+  extra-bold: (
+    weight: 800,
+    style: normal,
+    path: '../../../fonts/inter/inter-v1-latin-800',
+    local1: 'Inter ExtraBold',
+    local2: Inter-ExtraBold
+  )
+);

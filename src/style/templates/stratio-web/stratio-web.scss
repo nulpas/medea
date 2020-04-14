@@ -1,5 +1,5 @@
 @import '../../global/mixins';
-@import '../../global/fonts/Manrope';
+@import '../../global/fonts/Inter';
 @import '../../global/fonts/Stratio-Icon';
 @import '../../global/components/components';
 
@@ -16,7 +16,7 @@ HTML {
     line-height: $fontLineHeightFactor;
 
     * {
-      font-family: Manrope, sans-serif;
+      font-family: Inter, sans-serif;
       color: $colorSpace;
       outline: none;
     }
