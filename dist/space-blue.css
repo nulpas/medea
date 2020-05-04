@@ -1578,11 +1578,11 @@ HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-str
     background-color: var(--mda-button-hover-background-color); }
     HTML#medea-tpl BUTTON.mda-button:hover > I.mda-icon, HTML.medea-tpl BUTTON.mda-button:hover > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button:hover > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button:hover > I.mda-icon {
       color: inherit; }
-  HTML#medea-tpl BUTTON.mda-button:active, HTML.medea-tpl BUTTON.mda-button:active, HTML#mda-stratio-tpl BUTTON.mda-button:active, HTML.mda-stratio-tpl BUTTON.mda-button:active {
+  HTML#medea-tpl BUTTON.mda-button:active, HTML.medea-tpl BUTTON.mda-button:active, HTML#mda-stratio-tpl BUTTON.mda-button:active, HTML.mda-stratio-tpl BUTTON.mda-button:active, HTML#medea-tpl BUTTON.mda-button .pressed, HTML.medea-tpl BUTTON.mda-button .pressed, HTML#mda-stratio-tpl BUTTON.mda-button .pressed, HTML.mda-stratio-tpl BUTTON.mda-button .pressed {
     color: var(--mda-button-active-color);
     border-color: var(--mda-button-active-border-color);
     background-color: var(--mda-button-active-background-color); }
-    HTML#medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML.medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon {
+    HTML#medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML.medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML#medea-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML.medea-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button .pressed > I.mda-icon {
       color: inherit; }
   HTML#medea-tpl BUTTON.mda-button:disabled, HTML.medea-tpl BUTTON.mda-button:disabled, HTML#mda-stratio-tpl BUTTON.mda-button:disabled, HTML.mda-stratio-tpl BUTTON.mda-button:disabled, HTML#medea-tpl BUTTON.mda-button.disabled, HTML.medea-tpl BUTTON.mda-button.disabled, HTML#mda-stratio-tpl BUTTON.mda-button.disabled, HTML.mda-stratio-tpl BUTTON.mda-button.disabled {
     color: var(--mda-button-disabled-color);
@@ -2642,15 +2642,15 @@ HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-str
     --mda-button-active-border-color: var(--mda-color-action-150);
     --mda-button-active-background-color: var(--mda-color-space-10); }
   HTML#medea-tpl BUTTON.mda-button.mda-button--third, HTML.medea-tpl BUTTON.mda-button.mda-button--third, HTML#mda-stratio-tpl BUTTON.mda-button.mda-button--third, HTML.mda-stratio-tpl BUTTON.mda-button.mda-button--third {
-    --mda-button-color: var(--mda-color-space-80);
-    --mda-button-border-color: var(--mda-color-space-5);
-    --mda-button-background-color: var(--mda-color-space-5);
+    --mda-button-color: var(--mda-color-space-70);
+    --mda-button-border-color: var(--mda-color-neutral-full);
+    --mda-button-background-color: var(--mda-color-neutral-full);
     --mda-button-hover-color: var(--mda-color-space);
-    --mda-button-hover-border-color: var(--mda-color-space-10);
-    --mda-button-hover-background-color: var(--mda-color-space-10);
-    --mda-button-active-color: var(--mda-color-action-150);
-    --mda-button-active-border-color: var(--mda-color-space-5);
-    --mda-button-active-background-color: var(--mda-color-space-5); }
+    --mda-button-hover-border-color: var(--mda-color-space-5);
+    --mda-button-hover-background-color: var(--mda-color-space-5);
+    --mda-button-active-color: var(--mda-color-space-70);
+    --mda-button-active-border-color: var(--mda-color-space-10);
+    --mda-button-active-background-color: var(--mda-color-space-10); }
   HTML#medea-tpl BUTTON.mda-button.mda-button--critical, HTML.medea-tpl BUTTON.mda-button.mda-button--critical, HTML#mda-stratio-tpl BUTTON.mda-button.mda-button--critical, HTML.mda-stratio-tpl BUTTON.mda-button.mda-button--critical {
     --mda-button-color: var(--mda-color-neutral-full);
     --mda-button-border-color: var(--mda-color-critical);

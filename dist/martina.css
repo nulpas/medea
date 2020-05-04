@@ -1600,11 +1600,11 @@ HTML#mda-martina-tpl BUTTON.mda-button, HTML.mda-martina-tpl BUTTON.mda-button {
     background-color: var(--mda-button-hover-background-color); }
     HTML#mda-martina-tpl BUTTON.mda-button:hover > I.mda-icon, HTML.mda-martina-tpl BUTTON.mda-button:hover > I.mda-icon {
       color: inherit; }
-  HTML#mda-martina-tpl BUTTON.mda-button:active, HTML.mda-martina-tpl BUTTON.mda-button:active {
+  HTML#mda-martina-tpl BUTTON.mda-button:active, HTML.mda-martina-tpl BUTTON.mda-button:active, HTML#mda-martina-tpl BUTTON.mda-button .pressed, HTML.mda-martina-tpl BUTTON.mda-button .pressed {
     color: var(--mda-button-active-color);
     border-color: var(--mda-button-active-border-color);
     background-color: var(--mda-button-active-background-color); }
-    HTML#mda-martina-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-martina-tpl BUTTON.mda-button:active > I.mda-icon {
+    HTML#mda-martina-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-martina-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-martina-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML.mda-martina-tpl BUTTON.mda-button .pressed > I.mda-icon {
       color: inherit; }
   HTML#mda-martina-tpl BUTTON.mda-button:disabled, HTML.mda-martina-tpl BUTTON.mda-button:disabled, HTML#mda-martina-tpl BUTTON.mda-button.disabled, HTML.mda-martina-tpl BUTTON.mda-button.disabled {
     color: var(--mda-button-disabled-color);

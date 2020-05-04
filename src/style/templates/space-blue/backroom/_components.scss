@@ -75,15 +75,15 @@
         --mda-button-active-background-color: var(--mda-color-space-10);
       }
       &.mda-button--third {
-        --mda-button-color: var(--mda-color-space-80);
-        --mda-button-border-color: var(--mda-color-space-5);
-        --mda-button-background-color: var(--mda-color-space-5);
+        --mda-button-color: var(--mda-color-space-70);
+        --mda-button-border-color: var(--mda-color-neutral-full);
+        --mda-button-background-color: var(--mda-color-neutral-full);
         --mda-button-hover-color: var(--mda-color-space);
-        --mda-button-hover-border-color: var(--mda-color-space-10);
-        --mda-button-hover-background-color: var(--mda-color-space-10);
-        --mda-button-active-color: var(--mda-color-action-150);
-        --mda-button-active-border-color: var(--mda-color-space-5);
-        --mda-button-active-background-color: var(--mda-color-space-5);
+        --mda-button-hover-border-color: var(--mda-color-space-5);
+        --mda-button-hover-background-color: var(--mda-color-space-5);
+        --mda-button-active-color: var(--mda-color-space-70);
+        --mda-button-active-border-color: var(--mda-color-space-10);
+        --mda-button-active-background-color: var(--mda-color-space-10);
       }
       &.mda-button--critical {
         --mda-button-color: var(--mda-color-neutral-full);
