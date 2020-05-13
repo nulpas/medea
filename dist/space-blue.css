@@ -1578,11 +1578,11 @@ HTML#medea-tpl BUTTON.mda-button, HTML.medea-tpl BUTTON.mda-button, HTML#mda-str
     background-color: var(--mda-button-hover-background-color); }
     HTML#medea-tpl BUTTON.mda-button:hover > I.mda-icon, HTML.medea-tpl BUTTON.mda-button:hover > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button:hover > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button:hover > I.mda-icon {
       color: inherit; }
-  HTML#medea-tpl BUTTON.mda-button:active, HTML.medea-tpl BUTTON.mda-button:active, HTML#mda-stratio-tpl BUTTON.mda-button:active, HTML.mda-stratio-tpl BUTTON.mda-button:active, HTML#medea-tpl BUTTON.mda-button .pressed, HTML.medea-tpl BUTTON.mda-button .pressed, HTML#mda-stratio-tpl BUTTON.mda-button .pressed, HTML.mda-stratio-tpl BUTTON.mda-button .pressed {
+  HTML#medea-tpl BUTTON.mda-button:active, HTML.medea-tpl BUTTON.mda-button:active, HTML#mda-stratio-tpl BUTTON.mda-button:active, HTML.mda-stratio-tpl BUTTON.mda-button:active, HTML#medea-tpl BUTTON.mda-button.pressed, HTML.medea-tpl BUTTON.mda-button.pressed, HTML#mda-stratio-tpl BUTTON.mda-button.pressed, HTML.mda-stratio-tpl BUTTON.mda-button.pressed {
     color: var(--mda-button-active-color);
     border-color: var(--mda-button-active-border-color);
     background-color: var(--mda-button-active-background-color); }
-    HTML#medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML.medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML#medea-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML.medea-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button .pressed > I.mda-icon {
+    HTML#medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML.medea-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button:active > I.mda-icon, HTML#medea-tpl BUTTON.mda-button.pressed > I.mda-icon, HTML.medea-tpl BUTTON.mda-button.pressed > I.mda-icon, HTML#mda-stratio-tpl BUTTON.mda-button.pressed > I.mda-icon, HTML.mda-stratio-tpl BUTTON.mda-button.pressed > I.mda-icon {
       color: inherit; }
   HTML#medea-tpl BUTTON.mda-button:disabled, HTML.medea-tpl BUTTON.mda-button:disabled, HTML#mda-stratio-tpl BUTTON.mda-button:disabled, HTML.mda-stratio-tpl BUTTON.mda-button:disabled, HTML#medea-tpl BUTTON.mda-button.disabled, HTML.medea-tpl BUTTON.mda-button.disabled, HTML#mda-stratio-tpl BUTTON.mda-button.disabled, HTML.mda-stratio-tpl BUTTON.mda-button.disabled {
     color: var(--mda-button-disabled-color);
@@ -1847,6 +1847,23 @@ HTML#medea-tpl LABEL.mda-label, HTML.medea-tpl LABEL.mda-label, HTML#mda-stratio
     color: var(--mda-label-error-color); }
   HTML#medea-tpl LABEL.mda-label.focus, HTML.medea-tpl LABEL.mda-label.focus, HTML#mda-stratio-tpl LABEL.mda-label.focus, HTML.mda-stratio-tpl LABEL.mda-label.focus {
     color: var(--mda-label-focus-color); }
+
+HTML#medea-tpl .mda-notifications, HTML.medea-tpl .mda-notifications, HTML#mda-stratio-tpl .mda-notifications, HTML.mda-stratio-tpl .mda-notifications {
+  --mda-notifications-default-position: var(--mda-notifications-position);
+  --mda-notifications-default-padding: var(--mda-notifications-padding);
+  --mda-notifications-default-width: var(--mda-notifications-width);
+  --mda-notifications-default-min-width: var(--mda-notifications-min-width);
+  --mda-notifications-default-max-width: var(--mda-notifications-max-width);
+  --mda-notifications-default-top: var(--mda-notifications-top);
+  --mda-notifications-default-left: var(--mda-notifications-left);
+  --mda-notifications-default-border: var(--mda-notifications-border);
+  --mda-notifications-default-border-radius: var(--mda-notifications-border-radius);
+  --mda-notifications-default-box-shadow: var(--mda-notifications-box-shadow);
+  --mda-notifications-default-text-color: var(--mda-notifications-text-color);
+  --mda-notifications-default-border-color: var(--mda-notifications-border-color);
+  --mda-notifications-default-background-color: var(--mda-notifications-background-color);
+  --mda-notifications-default-icon-separation: var(--mda-notifications-icon-separation);
+  --mda-notifications-default-close-control-separation: var(--mda-notifications-close-control-separation); }
 
 HTML#medea-tpl INPUT[type=radio], HTML.medea-tpl INPUT[type=radio], HTML#mda-stratio-tpl INPUT[type=radio], HTML.mda-stratio-tpl INPUT[type=radio] {
   display: none; }
@@ -2587,7 +2604,22 @@ HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
   --mda-dropdown-option-icon-right-size: 14px;
   --mda-dropdown-separator-border: var(--mda-component-border);
   --mda-dropdown-separator-border-color: var(--mda-color-space-20);
-  --mda-dropdown-separator-margin: 4px 0; }
+  --mda-dropdown-separator-margin: 4px 0;
+  --mda-notifications-position: fixed;
+  --mda-notifications-padding: 10px 15px;
+  --mda-notifications-width: fit-content;
+  --mda-notifications-min-width: unset;
+  --mda-notifications-max-width: 50vw;
+  --mda-notifications-top: 0;
+  --mda-notifications-left: 0;
+  --mda-notifications-border: 1px solid;
+  --mda-notifications-border-radius: var(--mda-component-border-radius);
+  --mda-notifications-box-shadow: 0px 3px 9px rgba(17, 17, 17, 0.25);
+  --mda-notifications-text-color: var(--mda-color-space-80);
+  --mda-notifications-border-color: var(--mda-color-neutral-full);
+  --mda-notifications-background-color: var(--mda-color-neutral-full);
+  --mda-notifications-icon-separation: 10px;
+  --mda-notifications-close-control-separation: 50px; }
 
 HTML#medea-tpl LABEL.mda-label, HTML.medea-tpl LABEL.mda-label, HTML#mda-stratio-tpl LABEL.mda-label, HTML.mda-stratio-tpl LABEL.mda-label, HTML#medea-tpl LABEL.mda-label.mda-label--small, HTML.medea-tpl LABEL.mda-label.mda-label--small, HTML#mda-stratio-tpl LABEL.mda-label.mda-label--small, HTML.mda-stratio-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;
@@ -2727,6 +2759,21 @@ HTML#medea-tpl .mda-spinner.mda-spinner--20, HTML.medea-tpl .mda-spinner.mda-spi
 
 HTML#medea-tpl .mda-spinner.mda-spinner--inverse, HTML.medea-tpl .mda-spinner.mda-spinner--inverse, HTML#mda-stratio-tpl .mda-spinner.mda-spinner--inverse, HTML.mda-stratio-tpl .mda-spinner.mda-spinner--inverse {
   --mda-spinner-color: var(--mda-color-neutral-full); }
+
+HTML#medea-tpl .mda-notifications.mda-notifications--success, HTML.medea-tpl .mda-notifications.mda-notifications--success, HTML#mda-stratio-tpl .mda-notifications.mda-notifications--success, HTML.mda-stratio-tpl .mda-notifications.mda-notifications--success {
+  --mda-notifications-text-color: var(--mda-color-neutral-full);
+  --mda-notifications-border-color: var(--mda-color-success);
+  --mda-notifications-background-color: var(--mda-color-success); }
+
+HTML#medea-tpl .mda-notifications.mda-notifications--warning, HTML.medea-tpl .mda-notifications.mda-notifications--warning, HTML#mda-stratio-tpl .mda-notifications.mda-notifications--warning, HTML.mda-stratio-tpl .mda-notifications.mda-notifications--warning {
+  --mda-notifications-text-color: var(--mda-color-neutral-full);
+  --mda-notifications-border-color: var(--mda-color-warning);
+  --mda-notifications-background-color: var(--mda-color-warning); }
+
+HTML#medea-tpl .mda-notifications.mda-notifications--critical, HTML.medea-tpl .mda-notifications.mda-notifications--critical, HTML#mda-stratio-tpl .mda-notifications.mda-notifications--critical, HTML.mda-stratio-tpl .mda-notifications.mda-notifications--critical {
+  --mda-notifications-text-color: var(--mda-color-neutral-full);
+  --mda-notifications-border-color: var(--mda-color-critical);
+  --mda-notifications-background-color: var(--mda-color-critical); }
 
 HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
   font-size: 14px;

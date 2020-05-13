@@ -192,4 +192,24 @@
   --mda-dropdown-separator-border: var(--mda-component-border);
   --mda-dropdown-separator-border-color: var(--mda-color-space-20);
   --mda-dropdown-separator-margin: 4px 0;
+
+  // ###### NOTIFICATIONS
+  --mda-notifications-position: fixed;
+  --mda-notifications-padding: 10px 15px;
+  --mda-notifications-width: fit-content;
+  --mda-notifications-min-width: unset;
+  --mda-notifications-max-width: 50vw;
+  --mda-notifications-top: 0;
+  --mda-notifications-left: 0;
+
+  --mda-notifications-border: 1px solid;
+  --mda-notifications-border-radius: var(--mda-component-border-radius);
+  --mda-notifications-box-shadow: 0px 3px 9px rgba(17, 17, 17, 0.25);
+
+  --mda-notifications-text-color: var(--mda-color-space-80);
+  --mda-notifications-border-color: var(--mda-color-neutral-full);
+  --mda-notifications-background-color: var(--mda-color-neutral-full);
+
+  --mda-notifications-icon-separation: 10px;
+  --mda-notifications-close-control-separation: 50px;
 }

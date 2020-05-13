@@ -1580,11 +1580,11 @@ HTML#mda-stratio-web-tpl BUTTON.mda-button, HTML.mda-stratio-web-tpl BUTTON.mda-
     background-color: var(--mda-button-hover-background-color); }
     HTML#mda-stratio-web-tpl BUTTON.mda-button:hover > I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button:hover > I.mda-icon {
       color: inherit; }
-  HTML#mda-stratio-web-tpl BUTTON.mda-button:active, HTML.mda-stratio-web-tpl BUTTON.mda-button:active, HTML#mda-stratio-web-tpl BUTTON.mda-button .pressed, HTML.mda-stratio-web-tpl BUTTON.mda-button .pressed {
+  HTML#mda-stratio-web-tpl BUTTON.mda-button:active, HTML.mda-stratio-web-tpl BUTTON.mda-button:active, HTML#mda-stratio-web-tpl BUTTON.mda-button.pressed, HTML.mda-stratio-web-tpl BUTTON.mda-button.pressed {
     color: var(--mda-button-active-color);
     border-color: var(--mda-button-active-border-color);
     background-color: var(--mda-button-active-background-color); }
-    HTML#mda-stratio-web-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-stratio-web-tpl BUTTON.mda-button .pressed > I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button .pressed > I.mda-icon {
+    HTML#mda-stratio-web-tpl BUTTON.mda-button:active > I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button:active > I.mda-icon, HTML#mda-stratio-web-tpl BUTTON.mda-button.pressed > I.mda-icon, HTML.mda-stratio-web-tpl BUTTON.mda-button.pressed > I.mda-icon {
       color: inherit; }
   HTML#mda-stratio-web-tpl BUTTON.mda-button:disabled, HTML.mda-stratio-web-tpl BUTTON.mda-button:disabled, HTML#mda-stratio-web-tpl BUTTON.mda-button.disabled, HTML.mda-stratio-web-tpl BUTTON.mda-button.disabled {
     color: var(--mda-button-disabled-color);
@@ -1849,6 +1849,23 @@ HTML#mda-stratio-web-tpl LABEL.mda-label, HTML.mda-stratio-web-tpl LABEL.mda-lab
     color: var(--mda-label-error-color); }
   HTML#mda-stratio-web-tpl LABEL.mda-label.focus, HTML.mda-stratio-web-tpl LABEL.mda-label.focus {
     color: var(--mda-label-focus-color); }
+
+HTML#mda-stratio-web-tpl .mda-notifications, HTML.mda-stratio-web-tpl .mda-notifications {
+  --mda-notifications-default-position: var(--mda-notifications-position);
+  --mda-notifications-default-padding: var(--mda-notifications-padding);
+  --mda-notifications-default-width: var(--mda-notifications-width);
+  --mda-notifications-default-min-width: var(--mda-notifications-min-width);
+  --mda-notifications-default-max-width: var(--mda-notifications-max-width);
+  --mda-notifications-default-top: var(--mda-notifications-top);
+  --mda-notifications-default-left: var(--mda-notifications-left);
+  --mda-notifications-default-border: var(--mda-notifications-border);
+  --mda-notifications-default-border-radius: var(--mda-notifications-border-radius);
+  --mda-notifications-default-box-shadow: var(--mda-notifications-box-shadow);
+  --mda-notifications-default-text-color: var(--mda-notifications-text-color);
+  --mda-notifications-default-border-color: var(--mda-notifications-border-color);
+  --mda-notifications-default-background-color: var(--mda-notifications-background-color);
+  --mda-notifications-default-icon-separation: var(--mda-notifications-icon-separation);
+  --mda-notifications-default-close-control-separation: var(--mda-notifications-close-control-separation); }
 
 HTML#mda-stratio-web-tpl INPUT[type=radio], HTML.mda-stratio-web-tpl INPUT[type=radio] {
   display: none; }

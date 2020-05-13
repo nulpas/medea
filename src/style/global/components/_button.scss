@@ -23,7 +23,7 @@
         color: inherit;
       }
     }
-    &:active, .pressed {
+    &:active, &.pressed {
       color: var(--mda-button-active-color);
       border-color: var(--mda-button-active-border-color);
       background-color: var(--mda-button-active-background-color);

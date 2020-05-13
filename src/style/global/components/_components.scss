@@ -3,6 +3,7 @@
 @import './dropdown';
 @import './input';
 @import './label';
+@import './notifications';
 @import './radio';
 @import './report';
 @import './select';
@@ -17,6 +18,7 @@
   @extend %mda-dropdown;
   @extend %mda-input;
   @extend %mda-label;
+  @extend %mda-notifications;
   @extend %mda-radio;
   @extend %mda-report;
   @extend %mda-select;

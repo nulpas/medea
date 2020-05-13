@@ -180,4 +180,22 @@
       --mda-spinner-color: var(--mda-color-neutral-full);
     }
   }
+
+  .mda-notifications {
+    &.mda-notifications--success {
+      --mda-notifications-text-color: var(--mda-color-neutral-full);
+      --mda-notifications-border-color: var(--mda-color-success);
+      --mda-notifications-background-color: var(--mda-color-success);
+    }
+    &.mda-notifications--warning {
+      --mda-notifications-text-color: var(--mda-color-neutral-full);
+      --mda-notifications-border-color: var(--mda-color-warning);
+      --mda-notifications-background-color: var(--mda-color-warning);
+    }
+    &.mda-notifications--critical {
+      --mda-notifications-text-color: var(--mda-color-neutral-full);
+      --mda-notifications-border-color: var(--mda-color-critical);
+      --mda-notifications-background-color: var(--mda-color-critical);
+    }
+  }
 }
