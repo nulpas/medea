@@ -7,6 +7,7 @@
     --mda-notifications-default-max-width: var(--mda-notifications-max-width);
     --mda-notifications-default-top: var(--mda-notifications-top);
     --mda-notifications-default-left: var(--mda-notifications-left);
+    --mda-notifications-default-z-index: var(--mda-notifications-z-index);
 
     --mda-notifications-default-border: var(--mda-notifications-border);
     --mda-notifications-default-border-radius: var(--mda-notifications-border-radius);
@@ -18,5 +19,26 @@
 
     --mda-notifications-default-icon-separation: var(--mda-notifications-icon-separation);
     --mda-notifications-default-close-control-separation: var(--mda-notifications-close-control-separation);
+    .mda-notifications--message SPAN {
+      * {
+        color: inherit;
+      }
+      A {
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    &.mda-notifications--info {
+      .mda-notifications--message SPAN A {
+        text-decoration: none;
+        color: var(--mda-notifcations-inside-link-color);
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }

@@ -1856,6 +1856,7 @@ HTML#medea-tpl .mda-notifications, HTML.medea-tpl .mda-notifications, HTML#mda-s
   --mda-notifications-default-max-width: var(--mda-notifications-max-width);
   --mda-notifications-default-top: var(--mda-notifications-top);
   --mda-notifications-default-left: var(--mda-notifications-left);
+  --mda-notifications-default-z-index: var(--mda-notifications-z-index);
   --mda-notifications-default-border: var(--mda-notifications-border);
   --mda-notifications-default-border-radius: var(--mda-notifications-border-radius);
   --mda-notifications-default-box-shadow: var(--mda-notifications-box-shadow);
@@ -1864,6 +1865,18 @@ HTML#medea-tpl .mda-notifications, HTML.medea-tpl .mda-notifications, HTML#mda-s
   --mda-notifications-default-background-color: var(--mda-notifications-background-color);
   --mda-notifications-default-icon-separation: var(--mda-notifications-icon-separation);
   --mda-notifications-default-close-control-separation: var(--mda-notifications-close-control-separation); }
+  HTML#medea-tpl .mda-notifications .mda-notifications--message SPAN *, HTML.medea-tpl .mda-notifications .mda-notifications--message SPAN *, HTML#mda-stratio-tpl .mda-notifications .mda-notifications--message SPAN *, HTML.mda-stratio-tpl .mda-notifications .mda-notifications--message SPAN * {
+    color: inherit; }
+  HTML#medea-tpl .mda-notifications .mda-notifications--message SPAN A, HTML.medea-tpl .mda-notifications .mda-notifications--message SPAN A, HTML#mda-stratio-tpl .mda-notifications .mda-notifications--message SPAN A, HTML.mda-stratio-tpl .mda-notifications .mda-notifications--message SPAN A {
+    text-decoration: underline;
+    cursor: pointer; }
+    HTML#medea-tpl .mda-notifications .mda-notifications--message SPAN A:hover, HTML.medea-tpl .mda-notifications .mda-notifications--message SPAN A:hover, HTML#mda-stratio-tpl .mda-notifications .mda-notifications--message SPAN A:hover, HTML.mda-stratio-tpl .mda-notifications .mda-notifications--message SPAN A:hover {
+      text-decoration: none; }
+  HTML#medea-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A, HTML.medea-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A, HTML#mda-stratio-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A, HTML.mda-stratio-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A {
+    text-decoration: none;
+    color: var(--mda-notifcations-inside-link-color); }
+    HTML#medea-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A:hover, HTML.medea-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A:hover, HTML#mda-stratio-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A:hover, HTML.mda-stratio-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A:hover {
+      text-decoration: underline; }
 
 HTML#medea-tpl INPUT[type=radio], HTML.medea-tpl INPUT[type=radio], HTML#mda-stratio-tpl INPUT[type=radio], HTML.mda-stratio-tpl INPUT[type=radio] {
   display: none; }
@@ -2612,6 +2625,7 @@ HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
   --mda-notifications-max-width: 50vw;
   --mda-notifications-top: 0;
   --mda-notifications-left: 0;
+  --mda-notifications-z-index: 1;
   --mda-notifications-border: 1px solid;
   --mda-notifications-border-radius: var(--mda-component-border-radius);
   --mda-notifications-box-shadow: 0px 3px 9px rgba(17, 17, 17, 0.25);
@@ -2619,7 +2633,8 @@ HTML#medea-tpl, HTML.medea-tpl, HTML#mda-stratio-tpl, HTML.mda-stratio-tpl {
   --mda-notifications-border-color: var(--mda-color-neutral-full);
   --mda-notifications-background-color: var(--mda-color-neutral-full);
   --mda-notifications-icon-separation: 10px;
-  --mda-notifications-close-control-separation: 50px; }
+  --mda-notifications-close-control-separation: 50px;
+  --mda-notifcations-inside-link-color: var(--mda-color-action); }
 
 HTML#medea-tpl LABEL.mda-label, HTML.medea-tpl LABEL.mda-label, HTML#mda-stratio-tpl LABEL.mda-label, HTML.mda-stratio-tpl LABEL.mda-label, HTML#medea-tpl LABEL.mda-label.mda-label--small, HTML.medea-tpl LABEL.mda-label.mda-label--small, HTML#mda-stratio-tpl LABEL.mda-label.mda-label--small, HTML.mda-stratio-tpl LABEL.mda-label.mda-label--small {
   font-size: 0.85714rem;

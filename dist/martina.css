@@ -1878,6 +1878,7 @@ HTML#mda-martina-tpl .mda-notifications, HTML.mda-martina-tpl .mda-notifications
   --mda-notifications-default-max-width: var(--mda-notifications-max-width);
   --mda-notifications-default-top: var(--mda-notifications-top);
   --mda-notifications-default-left: var(--mda-notifications-left);
+  --mda-notifications-default-z-index: var(--mda-notifications-z-index);
   --mda-notifications-default-border: var(--mda-notifications-border);
   --mda-notifications-default-border-radius: var(--mda-notifications-border-radius);
   --mda-notifications-default-box-shadow: var(--mda-notifications-box-shadow);
@@ -1886,6 +1887,18 @@ HTML#mda-martina-tpl .mda-notifications, HTML.mda-martina-tpl .mda-notifications
   --mda-notifications-default-background-color: var(--mda-notifications-background-color);
   --mda-notifications-default-icon-separation: var(--mda-notifications-icon-separation);
   --mda-notifications-default-close-control-separation: var(--mda-notifications-close-control-separation); }
+  HTML#mda-martina-tpl .mda-notifications .mda-notifications--message SPAN *, HTML.mda-martina-tpl .mda-notifications .mda-notifications--message SPAN * {
+    color: inherit; }
+  HTML#mda-martina-tpl .mda-notifications .mda-notifications--message SPAN A, HTML.mda-martina-tpl .mda-notifications .mda-notifications--message SPAN A {
+    text-decoration: underline;
+    cursor: pointer; }
+    HTML#mda-martina-tpl .mda-notifications .mda-notifications--message SPAN A:hover, HTML.mda-martina-tpl .mda-notifications .mda-notifications--message SPAN A:hover {
+      text-decoration: none; }
+  HTML#mda-martina-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A, HTML.mda-martina-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A {
+    text-decoration: none;
+    color: var(--mda-notifcations-inside-link-color); }
+    HTML#mda-martina-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A:hover, HTML.mda-martina-tpl .mda-notifications.mda-notifications--info .mda-notifications--message SPAN A:hover {
+      text-decoration: underline; }
 
 HTML#mda-martina-tpl INPUT[type=radio], HTML.mda-martina-tpl INPUT[type=radio] {
   display: none; }

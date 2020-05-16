@@ -201,6 +201,7 @@
   --mda-notifications-max-width: 50vw;
   --mda-notifications-top: 0;
   --mda-notifications-left: 0;
+  --mda-notifications-z-index: 1;
 
   --mda-notifications-border: 1px solid;
   --mda-notifications-border-radius: var(--mda-component-border-radius);
@@ -212,4 +213,6 @@
 
   --mda-notifications-icon-separation: 10px;
   --mda-notifications-close-control-separation: 50px;
+
+  --mda-notifcations-inside-link-color: var(--mda-color-action);
 }
